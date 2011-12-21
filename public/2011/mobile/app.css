@@ -1,0 +1,318 @@
+body {
+  font-family : Monocle-Regular, arial, sans-serif;
+}
+.portrait,  .portrait body  { background: url(map_portrait.jpg) fixed; }
+.landscape, .landscape body { background: url(map_landscape.jpg) fixed; }
+
+.page { background: transparent!important; }
+
+.small_logo {
+  position    : absolute;
+  top         : 20px;
+  left        : 50%;
+  width       : 77px;
+  height      : 53px;
+  margin-left : -38px;
+  background  : url(logo_small.png);
+  background-size : 100%;
+}
+
+body.animating { overflow: hidden; }
+
+#jqt ul { font: 18px Monocle-Regular, arial, sans-serif; }
+
+#jqt ul.numbered li {
+  position  : relative;
+  padding   : 13px 10px 13px 50px;
+  color     : #E14C3F;
+  font-size : 15px;
+}
+
+#jqt ul.edgetoedge.numbered li a { color: #111; display: inline; }
+
+#jqt ul.numbered li span { color: #111; }
+
+#jqt ul.numbered li .bullet {
+  position        : absolute;
+  top             : 12px;
+  left            : 13px;
+  width           : 25px;
+  height          : 25px;
+  background-size : 100%;
+}
+
+#jqt ul.numbered li.step_1 .bullet { background-image: url(1.png); }
+#jqt ul.numbered li.step_2 .bullet { background-image: url(2.png); }
+#jqt ul.numbered li.step_3 .bullet { background-image: url(3.png); }
+
+#jqt ul.edgetoedge li {
+  margin-bottom  : 8px;
+  padding-bottom : 1px;
+  border         : 0;
+  background     : #fff;
+}
+
+#jqt ul.edgetoedge :last-child { margin-bottom: 0; }
+
+#jqt ul.edgetoedge li a {
+  color       : #E14C3F;
+  text-shadow : 0 1px 0 #fff;
+}
+
+#jqt ul.edgetoedge li a.active {
+  background: #eee;
+}
+
+#jqt ul.edgetoedge.schedule li {
+  position  : relative;
+  padding   : 10px 5px 6px 10px;
+  font-size : 14px;
+}
+
+#jqt ul.edgetoedge.schedule .arrow {
+  position   : absolute;
+  top        : 50%;
+  right      : 10px;
+  width      : 13px;
+  height     : 14px;
+  margin-top : -7px;
+  background : url(action_arrow.png);
+  background-size : 100%;
+}
+
+#jqt ul.edgetoedge.schedule li a {
+  padding-bottom : 3px;
+  color          : #555;
+}
+
+#jqt ul.edgetoedge.schedule li .time {
+  display : block;
+  color   : #EB6351;
+}
+
+#jqt .timeslot {
+  padding-bottom : 1px;
+  background     : rgba(235,99,81, 0.9);
+}
+
+#jqt .timeslot h2 {
+  padding : 10px 0 0 0;
+  color   : #fff;
+  font    : 14px Monocle-Regular, arial, sans-serif;
+}
+
+#jqt .timeslot p {
+  margin: 10px 20px 10px 20px;
+}
+
+#jqt .toolbar {
+  background: rgba(0,0,0, 0.7);
+}
+
+#jqt .toolbar > h1 {
+  left        : 70px;
+  right       : 70px;
+  width       : auto;
+  margin-left : 0;
+  font-family : Monocle-Regular, arial, sans-serif;;
+}
+
+#jqt .back {
+  font-family: Monocle-Regular, arial, sans-serif;
+}
+
+p.day {
+  margin      : 10px 0;
+  padding     : 8px;
+  color       : #fff;
+  font        : 14px Monocle-Regular, arial, sans-serif;
+  background  : rgba(0,0,0, 0.7);
+}
+
+
+.highlight {
+  padding     : 6px;
+  color       : #222;
+  font-family : Monocle-Regular, arial, sans-serif;
+  background  : #fff;
+}
+
+#kellog_title {
+  position   : relative;
+  top        : 10px;
+  left       : 10px;
+  width      : 282px;
+  height     : 61px;
+  margin     : 0 0 40px 0;
+  background : url(kellog.png);
+  background-size : 100%;
+}
+
+
+
+/* Splash Page
+ * ---------------------------------------- */
+
+#splash * {
+  position    : absolute;
+  text-indent : -999em;
+}
+
+#splash a {
+  bottom      : 20px;
+  left        : 10px;
+  width       : 170px;
+  height      : 22px;
+  background  : url(get_started.png);
+}
+
+#splash #splash_text {
+  top         : 120px;
+  left        : 10px;
+  width       : 290px;
+  height      : 155px;
+  background  : url(splash_text.png);
+}
+
+
+
+
+/* Navigation Page
+ * ---------------------------------------- */
+
+#main_navigation #main_navigation_links {
+  position   : absolute;
+  top        : 114px;
+  left       : 17px;
+  width      : 286px;
+  height     : 184px;
+  background : url(main_navigation.png);
+  background-size : 100%;
+}
+
+#main_navigation a {
+  position    : absolute;
+  top         : 0;
+  left        : 0;
+  width       : 72px;
+  height      : 72px;
+  text-indent : -999em;
+}
+
+#main_navigation #main_nav_taxi            { left: 107px; }
+#main_navigation #main_nav_hotel_and_venue { left: 211px; }
+#main_navigation #main_nav_schedule        { top : 110px; left: 0; }
+#main_navigation #main_nav_food            { top : 110px; left: 106px }
+#main_navigation #main_nav_sights          { top : 110px; left: 213px; }
+
+
+
+/* Airports Pages
+ * ---------------------------------------- */
+
+.travel_options {
+  position   : relative;
+  top        : 15px;
+  left       : 15px;
+  width      : 295px;
+  height     : 205px;
+  background : url(traveloptions.png);
+  background-size : 100%
+}
+
+.travel_options a {
+  position    : absolute;
+  top         : 107px;
+  left        : 9px;
+  width       : 72px;
+  height      : 72px;
+  text-indent : -999em;
+}
+
+.travel_options a.taxi {
+  left: 118px;
+}
+
+.taxi_info {
+  margin: 10px 0 20px 10px;
+}
+
+.taxi_info a {
+  color           : #E14C3F;
+  text-decoration : none;
+}
+
+
+
+/* Sights and Sounds Pages
+ * ---------------------------------------- */
+
+.sight { -webkit-transform: translate3d(0,0,0); }
+
+.sight .back_to_sights,
+.sight .locate {
+  position    : absolute;
+  bottom      : 30px;
+  left        : 10px;
+  width       : 145px;
+  height      : 31px;
+  text-indent : -999em;
+  background  : url(back_locate.png);
+  background-size : 100%
+}
+
+.landscape .sight .back_to_sights,
+.landscape .sight .locate { bottom: 15px; }
+
+.sight .locate {
+  left                : auto;
+  right               : 10px;
+  background-position : 0 -30px;
+}
+
+.landscape .sight .back_to_sights { left  : 85px; }
+.landscape .sight .locate         { right : 85px; }
+
+.sight .description {
+  position    : absolute;
+  right       : 10px;
+  bottom      : 68px;
+  left        : 10px;
+  padding     : 5px;
+  color       : #222;
+  font-size   : 12px;
+  line-height : 140%;
+  background  : #fff;
+}
+
+.sight .description img {
+  position : absolute;
+  top      : -23px;
+  left     : 0;
+}
+
+#smithsonian.sight .description img { top: -50px; }
+
+.portrait  #jqt #white_house { background : url(white_house.jpg) 50% 0; }
+.landscape #jqt #white_house { background : url(white_house.jpg) 50% 10%; }
+
+.portrait  #jqt #washington_monument { background : url(washington_monument.jpg) 50% 0; }
+.landscape #jqt #washington_monument { background : url(washington_monument.jpg) 50% 20%; }
+
+.portrait  #jqt #union_station { background : url(union_station.jpg) 50% 0; }
+.landscape #jqt #union_station { background : url(union_station.jpg) 50% 100%; }
+
+.portrait  #jqt #smithsonian { background : url(smithsonian.jpg) 50% 0; }
+.landscape #jqt #smithsonian { background : url(smithsonian.jpg) 50% 100%; }
+
+.portrait  #jqt #national_gallery { background : url(national_gallery.jpg) 50% 0; }
+.landscape #jqt #national_gallery { background : url(national_gallery.jpg) 50% 100%; }
+
+.portrait  #jqt #lincoln_memorial { background : url(lincoln_memorial.jpg) 50% 0; }
+.landscape #jqt #lincoln_memorial { background : url(lincoln_memorial.jpg) 50% 100%; }
+
+.portrait  #jqt #fbi_headquarters { background : url(fbi_headquarters.jpg) 50% 0; }
+.landscape #jqt #fbi_headquarters { background : url(fbi_headquarters.jpg) 50% 100%; }
+
+.portrait  #jqt #capitol_building { background : url(capitol_building.jpg) 50% 85%; }
+.landscape #jqt #capitol_building { background : url(capitol_building.jpg) 50% 100%; }

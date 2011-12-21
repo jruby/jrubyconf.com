@@ -1,0 +1,656 @@
+html,body { background: #b0b0b0; }
+a { outline: none; }
+
+#wrapper {
+  position : absolute;
+  top      : 0;
+  right    : 0;
+  bottom   : 0;
+  left     : 0;
+}
+
+#header {
+  position   : absolute;
+  top        : 0;
+  right      : 0;
+  left       : 0;
+  height     : 80px;
+  background : #fff;
+  z-index    : 2;
+}
+
+#header #home_logo {
+  position    : absolute;
+  top         : 0;
+  bottom      : 0;
+  left        : 0;
+  width       : 285px;
+  height      : 80px;
+  text-indent : -999em;
+  background  : url(../images/logo.png) no-repeat 10px 50%;
+}
+
+#header #brought_to_you_by {
+  position   : absolute;
+  right      : 26px;
+  bottom     : 10px;
+  width      : 85px;
+  height     : 39px;
+  background : url(../images/brought_to_you_by.png);
+}
+
+#header #brought_to_you_by a { text-indent: -999em; }
+
+#header #brought_to_you_by #edgecase {
+  display    : block;
+  position   : absolute;
+  top        : 15px;
+  left       : 0;
+  width      : 85px;
+  height     : 25px;
+}
+
+#header #sub_links {
+  position    : absolute;
+  right       : 136px;
+  bottom      : 14px;
+  color       : #999;
+  font-size   : 11px;
+  font-family : Monocle-Regular, arial, sans-serif;
+}
+
+#header #sub_links a {
+  padding         : 0 3px;
+  color           : #EB6351;
+  text-decoration : none;
+}
+
+#footer {
+  position    : absolute;
+  bottom      : 0;
+  right       : 0;
+  left        : 0;
+  height      : 34px;
+  color       : #939598;
+  font        : 11px helvetica, arial, sans-serif;
+  background  : #fff;
+  z-index     : 2;
+}
+
+#footer a {
+  color           : #939598;
+  text-decoration : none;
+}
+
+#footer p {
+  position    : absolute;
+  top         : 0;
+  left        : 20px;
+  line-height : 50px;
+  z-index     : 1;
+}
+
+#footer .logo {
+  position        : relative;
+  display         : block;
+  float           : right;
+  margin-right    : 30px;
+  color           : #EB6351;
+  font-family     : Monocle-Bold, arial, sans-serif;
+  text-decoration : none;
+  z-index         : 2;
+}
+
+body.js #footer .logo { margin-top: 10px; }
+
+#content {
+  overflow   : auto;
+  position   : absolute;
+  top        : 80px;
+  right      : 0;
+  bottom     : 50px;
+  left       : 0;
+}
+
+        #content section { position: relative; }
+body.js #content section {
+  overflow   : auto;
+  position   : absolute;
+  top        : 0;
+  right      : 0;
+  bottom     : 0;
+  left       : 0;
+}
+
+body.js #content section.animating { overflow: hidden; }
+body.js #content section.hidden    { height: 0px; overflow: hidden; }
+
+        #content section .sub_section { position: relative; height: 600px; }
+body.js #content section .sub_section { position: static; height: auto; }
+
+
+#content .sub_nav {
+  position    : absolute;
+  top         : 15px;
+  left        : 23px;
+  font        : 12px Monocle-Regular, arial, sans-serif;
+  z-index     : 2;
+}
+
+#content .sub_nav a {
+  position        : relative;
+  margin-right    : 6px;
+  padding         : 3px 15px 2px 1px;
+  color           : #fff;
+  text-decoration : none;
+  background      : #000;
+  background      : rgba(0,0,0, 0.5)
+}
+
+#content .sub_nav a.active {
+  background : #000;
+}
+
+#main_nav {
+  position : absolute;
+  top      : 15px;
+  right    : 26px;
+  z-index  : 2;
+}
+
+#main_nav a {
+  margin-left     : 6px;
+  padding         : 5px 12px 2px 12px;
+  color           : #fff;
+  font            : 14px Monocle-Regular, arial, sans-serif;
+  text-decoration : none;
+  background      : #c53d2d;
+}
+
+.copy_block {
+  position   : absolute;
+  top        : 80px;
+  left       : 50px;
+  padding    : 13px 13px 4px 13px;
+  background : #fff;
+}
+
+.copy_block h1 {
+  margin-bottom : 6px;
+  border-bottom : 1px solid #A6342A;
+  color         : #A6342A;
+  font          : 11px Monocle-Regular, arial, sans-serif;
+}
+
+.copy_block h2 {
+  margin-bottom : 8px;
+  padding-top   : 7px;
+  color         : #58595B;
+  font          : 16px Monocle-Regular, arial, sans-serif;
+}
+
+.copy_block p,
+.copy_block li {
+  margin        : 0.5em 0;
+  color         : #58595B;
+  font          : 12px helvetica, arial, sans-serif;
+  line-height   : 145%;
+}
+
+.copy_block p a {
+  color: #222;
+}
+
+.intro_heading {
+  position    : absolute;
+  top         : 83px;
+  left        : 50px;
+  color       : #A6342A;
+  font        : 24px Monocle-Regular, arial, sans-serif;
+  line-height : 32px;
+}
+
+.intro_heading span {
+  padding    : 4px 0px;
+  background : #fff;
+}
+
+/* INDEX SECTION
+---------------------------------------------- */
+
+        #index { height: 500px; }
+body.js #index { height: auto; }
+
+#index #tech_and_history {
+  position    : absolute;
+  right       : 105px;
+  bottom      : 38px;
+  width       : 249px;
+  height      : 61px;
+  text-indent : -999em;
+  background  : url(../images/tech_and_history.png);
+}
+
+#index #index_navigation {
+  position   : absolute;
+  top        : 50%;
+  left       : 50%;
+  width      : 430px;
+  height     : 393px;
+  margin     : -215px 0 0 -196px;
+  background : url(../images/divider.png) no-repeat 50% 50%;
+  z-index    : 1;
+}
+
+#index_navigation a {
+  position    : absolute;
+  left        : 0;
+  display     : block;
+  width       : 251px;
+  height      : 217px;
+  text-indent : -999em;
+}
+
+#index_navigation a#index_info_button {
+  top        : 85px;
+  background : url(../images/info_triangle.png);
+}
+
+#index_navigation a#index_talks_button {
+  top        : 85px;
+  right      : 0;
+  left       : auto;
+  background : url(../images/schedule_triangle.png);
+}
+
+#index_navigation a#index_register_button {
+  top        : 50%;
+  left       : 50%;
+  width      : 72px;
+  height     : 72px;
+  margin     : -36px 0 0 -36px;
+  background : url(../images/register_circle.png);
+  z-index    : 1;
+}
+
+/* end Index Section */
+
+
+
+/* REGISTER SECTION
+---------------------------------------------- */
+
+#new_deal_header {
+  position    : absolute;
+  top         : 80px;
+  left        : 50px;
+  width       : 260px;
+  height      : 212px;
+  text-indent :-999em;
+  background  : url(../images/new_deal.png);
+}
+
+#register .copy_block {
+  position : absolute;
+  top      : 80px;
+  left     : 400px;
+  width    : 475px;
+}
+
+#register .copy_block a {
+  position    : absolute;
+  bottom      : -27px;
+  right       : 0;
+  width       : 133px;
+  height      : 27px;
+  text-indent : -999em;
+  background  : url(../images/register_now.png);
+}
+
+#register .copy_block b { color: #C53D2D; }
+
+
+
+/* INFO SECTION
+---------------------------------------------- */
+
+#info_image {
+  position : absolute;
+  top      : 235px;
+  left     : 50px;
+}
+
+#info_text {
+  top   : 80px;
+  left  : 420px;
+  width : 475px;
+}
+
+#info_hotel .copy_block { width : 374px; }
+#info_hotel #expense_information { left: 485px; }
+
+#info_area #about_venue { display: none; width: 320px; }
+
+#about_venue a { color: #A6342A; }
+
+#dc_map {
+  position    : absolute;
+  top         : 80px;
+  left        : 50px;
+  display     : block;
+  border      : 10px solid #fff;
+  width       : 849px;
+  height      : 432px;
+  background  : url(../images/DCmap.png);
+}
+
+#dc_map_intro {
+  position   : absolute;
+  bottom     : 26px;
+  right      : 0;
+  width      : 160px;
+  padding    : 8px 8px 0 8px;
+  background : #C53D2D;
+}
+
+#dc_map_intro p {
+  margin     : 0 0 0.75em 0;
+  color      : #fff;
+  font       : 11px helvetica, arial, sans-serif;
+}
+
+#dc_map .content {
+  position   : absolute;
+  top        : 55px;
+  left       : 0;
+  width      : 400px;
+  padding    : 10px;
+  font       : 12px helvetica, arial, sans-serif;
+  background : #fff;
+}
+
+#dc_map .content h1 {
+  margin-bottom : 5px;
+  color         : #C53D2D;
+}
+
+#dc_map .content p {
+  color      : #333;
+}
+
+#dc_map .link {
+  position    : absolute;
+  top         : 0;
+  left        : 0;
+  width       : 19px;
+  height      : 19px;
+  text-indent : -999em;
+}
+
+#dc_map #map_conference {
+  top    : 45px;
+  left   : 754px;
+  width  : 43px;
+  height : 31px;
+}
+
+#dc_map #map_1 {
+  top  : 45px;
+  left : 800px;
+}
+
+#dc_map #map_2 {
+  top    : 215px;
+  left   : 202px;
+  width  : 46px;
+  height : 22px;
+}
+
+#dc_map #map_3 {
+  top  : 370px;
+  left : 36px;
+}
+
+#dc_map #map_4 {
+  top  : 366px;
+  left : 237px;
+}
+
+#dc_map #map_5 {
+  top  : 383px;
+  left : 395px;
+}
+
+#dc_map #map_6 {
+  top  : 338px;
+  left : 394px;
+}
+
+#dc_map #map_7 {
+  top  : 308px;
+  left : 479px;
+}
+
+#dc_map #map_8 {
+  top  : 243px;
+  left : 610px;
+}
+
+#dc_map #map_9 {
+  top  : 362px;
+  left : 613px;
+}
+
+/* end Info Section */
+
+
+/* Talks Section */
+
+#submit_talks_heading {
+  font-size: 21px;
+  line-height: 28px;
+}
+
+#submit_talk_form {
+  position : absolute;
+  top      : 80px;
+  left     : 490px;
+  width    : 315px;
+}
+
+#submit_talk_form .field { position: relative; margin-bottom: 3px; }
+
+#submit_talk_form .field label { display: block; }
+
+#submit_talk_form .field.inline_label .inline {
+  position : absolute;
+  top      : 8px;
+  left     : 4px;
+}
+
+#submit_talk_form .field.inline_label.entering_text .inline { color: #777; }
+#submit_talk_form .field.inline_label.value_entered .inline { display : none !important; }
+
+#submit_talk_form label {
+  color : #58595B;
+  font  : 10px Monocle-Regular, helvetica, arial, sans-serif;
+}
+
+#submit_talk_form .field input,
+#submit_talk_form .field textarea {
+  outline     : none;
+  -moz-appearance    : none;
+  -webkit-appearance : none;
+  width       : 308px;
+  margin      : 0;
+  border      : 0;
+  padding     : 4px 2px;
+  font        : 12px helvetica, arial, sans-serif;
+  background  : #DEDDDD;
+}
+
+#submit_talk_form .field textarea { height: 10em; }
+
+#submit_talk_form .submit {
+  padding    : 8px 0 4px 0;
+  text-align : right;
+}
+
+#submit_talk_form .submit input {
+  outline    : none;
+  border     : 0;
+  padding    : 5px 14px 3px 14px;
+  color      : #fff;
+  font       : 11px Monocle-Regular, helvetica, arial;
+  background : #484748;
+  -moz-appearance    : none;
+  -webkit-appearance : none;
+}
+
+#schedule .copy_block { width: 500px; padding-top: 6px;}
+
+#day_1 { z-index: 2; }
+
+#day_2 {
+  left: 600px;
+}
+
+#super_long_title { font-size: 11px; }
+
+#whisky {
+  display : none;
+  top     : 380px;
+  z-index : 1;
+}
+
+#whisky.copy_block img {
+  display : block;
+  margin  : 0 auto;
+}
+
+
+.schedule_days .entry {
+  margin-bottom : 5px;
+  font          : 12px Monocle-Regular, helvetica, arial;
+  cursor        : pointer;
+}
+
+.schedule_days .entry .break{
+  margin-bottom : 5px;
+  font          : 12px Monocle-Regular, helvetica, arial;
+  padding-left  : 14px;
+  color         : #000;
+  display       : inline;
+  cursor        : default;
+}
+
+.schedule_days .entry .more {
+  display    : none;
+  position   : relative;
+  top        :-18px;
+  padding    : 10px;
+  background : #EB6351;
+  background : rgba(235,99,81, 0.9);
+}
+
+.schedule_days .entry .time,
+.schedule_days .entry .name { display: inline; }
+
+.schedule_days .entry .time { color: #A7342B; }
+
+.schedule_days .entry .name {
+  padding-left : 14px;
+  color        : #EB6351;
+}
+
+.schedule_days .entry .more .speaker,
+.schedule_days .entry .more .name,
+.schedule_days .entry .more .description p,
+.schedule_days .entry .more .description li {
+  color: #fff !important;
+}
+
+.schedule_days .entry .more .speaker {
+  float: left;
+}
+
+.schedule_days .entry .more .name {
+}
+
+.listing { margin: 80px 20px 20px 50px; }
+
+.listing .speaker {
+  position     : relative;
+  float        : left;
+  width        : 350px;
+  margin       : 0 35px 23px 0;
+  background   : #fff;
+  cursor       : pointer;
+}
+
+.listing .speaker .keynote {
+  position   : absolute;
+  top        : 10px;
+  right      : 10px;
+  padding    : 3px 6px 1px 6px;
+  color      : #fff;
+  background : #333;
+}
+
+.listing .speaker .meta {
+  position     : relative;
+  height       : 60px;
+  padding      : 10px 10px 0 70px;
+  font         : 12px Monocle-Regular, arial, sans-serif;
+  background   : url(../images/disclosure.png) no-repeat 97% 88%;
+}
+
+.listing .speaker .meta img {
+  position : absolute;
+  top      : 10px;
+  left     : 10px;
+}
+
+.listing .speaker h1 { color : #A6342A; }
+
+.listing .speaker p.bio_link { padding-top: 7px; }
+
+.listing .speaker p a {
+  color           : #EB6351;
+  text-decoration : underline;
+}
+
+.listing .speaker .bio {
+  position   : absolute;
+  top        : 70px;
+  padding    : 10px 10px 1px 10px;
+  color      : #fff;
+  background : #EB6351;
+}
+
+.listing .speaker .bio p {
+  margin      : 0 0 1em 0;
+  font        : 11px helvetica, arial, sans-serif;
+  line-height : 125%;
+}
+
+.listing .speaker .bio li {
+  margin      : 0 0 6px 2em;
+  font        : 11px helvetica, arial, sans-serif;
+  line-height : 100%;
+}
+
+.listing .speaker .bio ul {
+  margin      : 0 0 1em 0;
+  font        : 11px helvetica, arial, sans-serif;
+  line-height : 100%;
+}
+
+#flash_message {
+  margin     : 0 0 10px 0;
+  padding    : 6px 0;
+  color      : #fff;
+  font       : 11px helvetica, arial, sans-serif;
+  text-align : center;
+  background : #EB6351;
+}

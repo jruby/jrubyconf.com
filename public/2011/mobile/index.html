@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html class="portrait">
+<head>
+  <title>JRubyConf</title>
+  <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+  <script type="text/javascript"> google.load('jquery', '1.4.2'); </script>
+  <script src="jqtouch/jqtouch.js" type="application/x-javascript" charset="utf-8"></script>
+  <script src="app.js" type="application/x-javascript" charset="utf-8"></script>
+  <!--//*
+   * MyFonts Webfont Build ID 749820, 2011-04-07T12:09:56-0400
+   *
+   * The fonts listed in this notice are subject to the End User License
+   * Agreement(s) entered into by the website owner. All other parties are 
+   * explicitly restricted from using the Licensed Webfonts(s).
+   *
+   * You may obtain a valid license at the URLs below.
+   *
+   * Webfont: Monocle Regular
+   * URL: http://new.myfonts.com/fonts/reserves/monocle/regular/
+   * Foundry: Reserves
+   * Copyright: Copyright 2010 Reserves. http://www.reservesca.com Administration Contact: info@reservesca.com
+   * License: http://www.myfonts.com/viewlicense?1056
+   * Licensed pageviews: 10,000/month
+   * CSS font-family: Monocle-Regular
+   * CSS font-weight: normal
+   *
+   * Webfont: Monocle Bold
+   * URL: http://new.myfonts.com/fonts/reserves/monocle/bold/
+   * Foundry: Reserves
+   * Copyright: Copyright 2010 Reserves. http://www.reservesca.com Administration Contact: info@reservesca.com
+   * License: http://www.myfonts.com/viewlicense?1056
+   * Licensed pageviews: 10,000/month
+   * CSS font-family: Monocle-Bold
+   * CSS font-weight: normal
+   *
+   * Webfont: Monocle Light
+   * URL: http://new.myfonts.com/fonts/reserves/monocle/light/
+   * Foundry: Reserves
+   * Copyright: Copyright 2010 Reserves. http://www.reservesca.com Administration Contact: info@reservesca.com
+   * License: http://www.myfonts.com/viewlicense?1056
+   * Licensed pageviews: 10,000/month
+   * CSS font-family: Monocle-Light
+   * CSS font-weight: normal
+   *
+   * (c) 2011 Bitstream, Inc
+  */
+  --><script type="text/javascript">var myfont_webfont_test = false;
+  var woffEnabled = true;
+  // to place your webfonts in a custom directory, uncomment this and set it to where your webfonts are.
+  //var customPath = "/themes/webfonts";
+  </script><script type="text/javascript" src="MyFontsWebfontsOrderM2847978.js"></script>
+  <style type="text/css" media="screen">@import 'jqtouch/jqtouch.css';</style>
+  <style type="text/css" media="screen">@import 'themes/jqt/theme.css';</style>
+  <style type="text/css" media="screen">@import 'app.css';</style>
+</head>
+<body id="jqt" onload="window.top.scrollTo(0, 1);">
+
+<!-- <div id="splash" class="page"> -->
+<!--   <div class="small_logo"></div> -->
+<!--   <div id="splash_text"> -->
+<!--     For the next 3 days let's kick it! Here you'll find all the when and wheres. Poke around, check it out, and we'll see you soon. -->
+<!--   </div> -->
+<!--   <a href="#main_navigation">Get Started</a> -->
+<!-- </div> -->
+
+<div id="main_navigation" class="page">
+  <div class="small_logo"></div>
+  <div id="main_navigation_links">
+    <a href="#airport"         id="main_nav_airport">Airport</a>
+    <a href="#taxi"            id="main_nav_taxi">Taxi</a>
+    <a href="#hotel_and_venue" id="main_nav_hotel_and_venue">Conference</a>
+    <a href="#schedule"        id="main_nav_schedule">Schedule</a>
+    <a href="#eats_and_drinks" id="main_nav_food">Eats &amp; Drinks</a>
+    <a href="#sights"          id="main_nav_sights">Sights</a>
+  </div>
+</div>
+
+<div id="taxi" class="page">
+  <div class="toolbar">
+    <h1>Taxis</h1>
+    <a class="back" href="#main_navigation">Back</a>
+  </div>
+  <ul class="edgetoedge">
+    <li><a href="tel:2025441212">Yellow Cab Company<br> 202-544-1212</a></li>
+    <li><a href="tel:7035223333">Red Top Cab<br> 703-522-3333</a></li>
+  </ul>
+</div>
+
+<div id="hotel_and_venue" class="page">
+  <div class="toolbar">
+    <h1>Hotel &amp; Venue</h1>
+    <a class="back" href="#main_navigation">Back</a>
+  </div>
+  <div id="kellog_title"></div>
+  <ul class="edgetoedge">
+    <li>
+      <a href="tel:2026516000">
+        Kellog Conference Center<br>
+        202-651-6000
+      </a>
+    </li>
+    <li><a href="http://maps.google.com/maps?q=800+Florida+Ave+N.E.+Washington,+D.C.+20002&hl=en&sll=37.0625,-95.677068&sspn=23.622808,60.029297&t=h&z=15">800 Florida Ave N.E.<br> Washington, D.C. 20002</a></li>
+  </ul>
+</div>
+
+<div id="airport" class="page">
+  <div class="toolbar">
+    <h1>Airports</h1>
+    <a class="back" href="#main_navigation">Back</a>
+  </div>
+  <ul class="edgetoedge">
+    <li><a href="#washington_reagan_national">Washington Reagan (DCA)</a></li>
+    <li><a href="#dulles_international_airport">Dulles International (IAD)</a></li>
+    <li><a href="#baltimore_washington_airport">Baltimore-Washington (BWI)</a></li>
+  </ul>
+</div>
+
+    <div id="washington_reagan_national" class="page">
+      <div class="toolbar">
+        <h1>Washington Reagan National</h1>
+        <a class="back" href="#airport">Back</a>
+      </div>
+      <div class="travel_options">
+        <a href="#washington_reagan_national_metro" class="metro">Metro</a>
+        <a href="#washington_reagan_national_taxi" class="taxi">Taxi</a>
+      </div>
+    </div>
+
+        <div id="washington_reagan_national_metro" class="page">
+          <div class="toolbar">
+            <h1>Washington Reagan National</h1>
+            <a class="back" href="#washington_reagan_national">Back</a>
+          </div>
+          <ul class="edgetoedge numbered">
+            <li class="step_1"><div class="bullet"></div> Take the <span>Blue line</span> from<br> National airport metro station to Metro Center Metro Station.</li>
+            <li class="step_2"><div class="bullet"></div> Next take the <span>Red Line</span> from Metro Center Metro Station to Union Station.</li>
+            <li class="step_3"><div class="bullet"></div> Once arrived at union station <a href="tel:2026512200">call 202-651-2200</a> to request Kellogg's complimentary stuttle pick-up.</li>
+          </ul>
+        </div>
+
+        <div id="washington_reagan_national_taxi" class="page">
+          <div class="toolbar">
+            <h1>Washington Reagan National</h1>
+            <a class="back" href="#washington_reagan_national">Back</a>
+          </div>
+          <p class="taxi_info"><span class="highlight">Expected Fare: $20</span></p>
+          <p class="taxi_info">
+            <span class="highlight">
+              JRubyConf is located at<br>
+              <a href="http://maps.google.com/maps?q=800+Florida+Ave+N.E.+Washington,+D.C.+20002&hl=en&sll=37.0625,-95.677068&sspn=23.622808,60.029297&t=h&z=15">
+                800 Florida Ave N.E.<br>
+                Washington, D.C.
+              </a>
+            </span>
+          </p>
+          <br>
+          <ul class="edgetoedge">
+            <li><a href="tel:2025441212">Yellow Cab Company<br> 202-544-1212</a></li>
+            <li><a href="tel:7035223333">Red Top Cab<br> 703-522-3333</a></li>
+          </ul>
+        </div>
+
+    <div id="dulles_international_airport" class="page">
+      <div class="toolbar">
+        <h1>Dulles International</h1>
+        <a class="back" href="#airport">Back</a>
+      </div>
+          <p class="taxi_info"><span class="highlight">Expected Fare: $60</span></p>
+          <p class="taxi_info">
+            <span class="highlight">
+              JRubyConf is located at<br>
+              <a href="http://maps.google.com/maps?q=800+Florida+Ave+N.E.+Washington,+D.C.+20002&hl=en&sll=37.0625,-95.677068&sspn=23.622808,60.029297&t=h&z=15">
+                800 Florida Ave N.E.<br>
+                Washington, D.C.
+              </a>
+            </span>
+          </p>
+          <ul class="edgetoedge">
+            <li><a href="tel:2025441212">Yellow Cab Company<br> 202-544-1212</a></li>
+            <li><a href="tel:7035223333">Red Top Cab<br> 703-522-3333</a></li>
+          </ul>
+    </div>
+
+
+    <div id="baltimore_washington_airport" class="page">
+      <div class="toolbar">
+        <h1>Baltimore-Washington</h1>
+        <a class="back" href="#airport">Back</a>
+      </div>
+      <div class="travel_options">
+        <a href="#baltimore_washington_airport_metro" class="metro">Metro</a>
+        <a href="#baltimore_washington_airport_taxi" class="taxi">Taxi</a>
+      </div>
+    </div>
+
+        <div id="baltimore_washington_airport_taxi" class="page">
+          <div class="toolbar">
+            <h1>Baltimore-Washington</h1>
+            <a class="back" href="#baltimore_washington_airport">Back</a>
+          </div>
+          <p class="taxi_info"><span class="highlight">Expected Fare: $60</span></p>
+          <p class="taxi_info">
+            <span class="highlight">
+              JRubyConf is located at<br>
+              <a href="http://maps.google.com/maps?q=800+Florida+Ave+N.E.+Washington,+D.C.+20002&hl=en&sll=37.0625,-95.677068&sspn=23.622808,60.029297&t=h&z=15">
+                800 Florida Ave N.E.<br>
+                Washington, D.C.
+              </a>
+            </span>
+          </p>
+          <ul class="edgetoedge">
+            <li><a href="tel:2025441212">Yellow Cab Company<br> 202-544-1212</a></li>
+            <li><a href="tel:7035223333">Red Top Cab<br> 703-522-3333</a></li>
+          </ul>
+        </div>
+
+        <div id="baltimore_washington_airport_metro" class="page">
+          <div class="toolbar">
+            <h1>Baltimore-Washington</h1>
+            <a class="back" href="#baltimore_washington_airport">Back</a>
+          </div>
+          <ul class="edgetoedge numbered">
+            <li class="step_1"><div class="bullet"></div> Take the <span>shuttle</span> from the Baltimore-Washington Airport to the BWI Amtrak Station.</li>
+            <li class="step_2"><div class="bullet"></div> Next take the <span>Amtrack</span> from The BWI Station to Union Station (WAS).</li>
+            <li class="step_3"><div class="bullet"></div> Once arrived at union station <a href="tel:">call 202-651-2200</a> to request Kellogg's complimentary stuttle pick-up.</li>
+          </ul>
+        </div>
+
+
+<div id="sights" class="page">
+  <div class="toolbar">
+    <h1>Sights</h1>
+    <a class="back" href="#splash_page">Back</a>
+  </div>
+  <ul class="edgetoedge" id="sights_navigation">
+    <li><a href="#capitol_building">Capitol Building</a></li>
+    <li><a href="#fbi_headquarters">F.B.I. Headquarters</a></li>
+    <li><a href="#lincoln_memorial">Lincoln Memorial</a></li>
+    <li><a href="#national_gallery">National Gallery of Art</a></li>
+    <li><a href="#smithsonian">Air and Space Museum</a></li>
+    <li><a href="#union_station">Union Station</a></li>
+    <li><a href="#washington_monument">Washington Monument</a></li>
+    <li><a href="#white_house">White House</a></li>
+  </ul>
+</div>
+
+    <div id="white_house" class="sight slideup">
+      <a class="back_to_sights" href="#">Back</a>
+      <a class="locate" href="http://maps.google.com/maps?q=The+White+House&hl=en&sll=38.89768,-77.036519&sspn=0.022311,0.035534&t=h&z=15">Locate</a>
+
+      <div class="description">
+        <img src="white_house.png" alt="White House" height="24">
+        The famous 1600 Pennsylvania Avenue has been the official residence and principal workplace of every President of the United States  since John Adams in 1801. The house was designed by James Hoban and built between 1792 and 1800 of white-painted Aquia sandstone in the Neoclassical style.
+      </div>
+    </div>
+
+    <div id="washington_monument" class="sight slideup">
+      <a class="back_to_sights" href="#sights">Back</a>
+      <a class="locate" href="http://maps.google.com/maps?q=Washington+Monument&hl=en&t=h&z=15">Locate</a>
+
+      <div class="description">
+        <img src="washington_monument.png" alt="Washington Monument" height="23">
+        Built to commemorate the first U.S. president, George Washington, the Washington Monument was designed by Robert Mills in 1848. Made of marble, granite, and bluestone gneiss and standing 555 feet, the monument is both the world's tallest obelisk and stone structure.
+      </div>
+    </div>
+
+    <div id="union_station" class="sight slideup">
+      <a class="back_to_sights" href="#sights">Back</a>
+      <a class="locate" href="http://maps.google.com/maps?q=Union+Station,+Washington+D.C&hl=en&ll=38.896978,-77.006435&spn=0.011156,0.017767&sll=39.975289,-83.003036&sspn=0.010984,0.017767&t=h&z=16">Locate</a>
+
+      <div class="description">
+        <img src="union_station.png" alt="Union Station" height="23">
+        Visited by 32 million people each year. The terminal is served by Amtrak, MARC and VRE commuter railroads, and the Washington Metro transit system of buses and subway trains. Designed in 1901 by architect Daniel Burnham, it was inspired by a number of different architectural icons including the Arch of Constantine.
+      </div>
+    </div>
+
+    <div id="smithsonian" class="sight slideup">
+      <a class="back_to_sights" href="#sights">Back</a>
+      <a class="locate" href="http://maps.google.com/maps?q=Smithsonian+Air+and+Space+Museum&hl=en&ll=38.88791,-77.020994&spn=0.005579,0.008883&sll=38.888461,-77.012572&sspn=0.022314,0.035534&t=h&fll=38.887283,-77.021713&fspn=0.005579,0.008883&z=17">Locate</a>
+
+      <div class="description">
+        <img src="smithsonian.png" alt="Air and Space Museum" height="46">
+        Established in 1976, The National Air &amp; Space Museum (NASM) of the Smithsonian Institution is a center for research into the history and science of aviation/spaceflight, as well as planetary science and terrestrial geology and geophysics. It holds the world's largest collection of historic aircraft and spacecraft.
+      </div>
+    </div>
+
+    <div id="national_gallery" class="sight slideup">
+      <a class="back_to_sights" href="#sights">Back</a>
+      <a class="locate" href="http://maps.google.com/maps?q=National+Gallery+of+Art,+Washington+D.C.,+DC&hl=en&ll=38.891217,-77.024052&spn=0.011157,0.025942&sll=39.975554,-82.981731&sspn=0.087874,0.142136&t=h&z=16">Locate</a>
+
+      <div class="description">
+        <img src="national_gallery.png" alt="National Gallery of Art" height="23">
+        Open to the public and free of charge, the National Gallery is located on the National Mall. The original structure was designed by John Russell Pope and was established in 1937 to house the substantial art collection donated by Andrew W. Mellon for public display for United States citizens.
+      </div>
+    </div>
+
+    <div id="lincoln_memorial" class="sight slideup">
+      <a class="back_to_sights" href="#sights">Back</a>
+      <a class="locate" href="http://maps.google.com/maps?q=Lincoln+Memorial&ll=38.889279,-77.05405&spn=0.011157,0.025942&t=h&z=16">Locate</a>
+
+      <div class="description">
+        <img src="lincoln_memorial.png" alt="Lincoln Memorial" height="24">
+        Located on the National Mall, the Lincoln Memorial was built to honor the 16th President of the United States, Abraham Lincoln. The building is in the form of a Greek Doric temple and contains a large seated sculpture of Abraham Lincoln and inscriptions of The Gettysburg Address and his Second Inaugural Address.
+      </div>
+    </div>
+
+    <div id="fbi_headquarters" class="sight slideup">
+      <a class="back_to_sights" href="#sights">Back</a>
+      <a class="locate" href="http://maps.google.com/maps?q=Federal+Bureau-Investigation&hl=en&ll=38.894707,-77.029116&spn=0.011156,0.025942&t=h&z=16">Locate</a>
+
+      <div class="description">
+        <img src="fbi_headquarters.png" alt="F.B.I. Headquaters" height="23">
+        Also known as The J. Edgar Hoover Building, FBIHeadquarters was constructed from 1967-1975 to contain the now 7,090 employees. Designed in the Bruitalist style by Berswenger, Hoch, Arnold, andAssociates for engineering, and Charles F. Murphyand Associates as an architectural firm.
+      </div>
+    </div>
+
+    <div id="capitol_building" class="sight slideup">
+      <a class="back_to_sights" href="#sights">Back</a>
+      <a class="locate" href="http://maps.google.com/maps?q=Capitol+Building,+Washington+D.C.,+DC&hl=en&ll=38.889738,-77.010888&spn=0.005578,0.012971&sll=37.0625,-95.677068&sspn=46.226656,72.773438&t=h&fll=38.889839,-77.008849&fspn=0.00537,0.008883&z=17">Locate</a>
+
+      <div class="description">
+        <img src="capitol_building.png" alt="Capitol Building" height="23">
+        Sitting atop Capitol Hill, the Capitol Building is the meeting place of the United States Congress, the legislature of the federal government of the U.S. Designed by amateur architect William Thornton in 1793 as part of T. Jefferson's design competition to solicit designs for the Capitol and President's House.
+      </div>
+    </div>
+
+
+<div id="eats_and_drinks" class="page">
+  <div class="toolbar">
+    <h1>Eats &amp; Drinks</h1>
+    <a class="back" href="#main_navigation">Back</a>
+  </div>
+  <ul class="edgetoedge">
+    <li><a href="http://maps.google.com/maps?q=1025+5th+Street+NW,+Washington,+DC+20001+&hl=en&sll=37.0625,-95.677068&sspn=38.41771,61.347656&z=16">Busboys &amp; Poets<br> Food/Bar/CAFE</a></li>
+    <li><a href="http://maps.google.com/maps?q=1835+18th+Street+NW,+Washington,+DC+20009&hl=en&sll=38.902798,-77.018698&sspn=0.009234,0.014977&z=16">Lauriol Plaza<br> Food/Mexican</a></li>
+    <li><a href="http://maps.google.com/maps?q=1602+U+Street+NW,+Washington,+DC+20037&hl=en&sll=38.916882,-77.037141&sspn=0.009233,0.014977&z=16">Local 16<br> Food/Bar</a></li>
+    <li><a href="http://maps.google.com/maps?q=1214+18th+Street+NW,+Washington,+DC+20036&hl=en&sll=38.916882,-77.037147&sspn=0.009233,0.014977&z=16">Public Bar<br> Bar/Lounge</a></li>
+    <li><a href="http://maps.google.com/maps?q=517+8th+Street+SE+Washington,+DC+20003&hl=en&sll=38.906268,-77.041828&sspn=0.009234,0.014977&z=16">Las Placitas<br> Food/Mexican</a></li>
+    <li><a href="http://maps.google.com/maps?q=225+7th+Street+SE+Washington+D.C.,+DC+20003&hl=en&ll=38.88502,-76.99635&spn=0.009237,0.014977&sll=38.882196,-76.995078&sspn=0.009237,0.014977&z=16">Eastern Market<br>Food/Market</a></li>
+    <li><a href="http://maps.google.com/maps?q=417+H+Street+NE,+Washington,+DC+20002&hl=en&sll=37.0625,-95.677068&sspn=38.41771,61.347656&z=16">Sidamo Coffee and Tea<br> CAFE/Food</a></li>
+  </ul>
+</div>
+
+<!-- SCHEDULE -->
+
+<div id="schedule" class="page">
+  <div class="toolbar">
+    <h1>Schedule</h1>
+    <a class="back" href="#main_navigation">Back</a>
+  </div>
+  <p class="day">Wednesday, August 3rd</p>
+  <ul class="edgetoedge schedule">
+    <li>
+      <span class="time">08:00a &ndash; 08:45a</span>
+      Registration
+    </li>
+    <li>
+      <span class="time">08:45a &ndash; 09:00a</span>
+      Welcome
+    </li>
+    <li>
+      <a href="#keynote_jruby_update">
+        <div class="arrow"></div>
+        <span class="time">09:00a &ndash; 09:45a</span>
+        Keynote: JRuby Update
+      </a>
+    </li>
+    <li>
+      <span class="time">09:45A &ndash; 10:00A</span>
+      Break
+    </li>
+    <li>
+      <a href="#a_jruby_tale">
+        <div class="arrow"></div>
+        <span class="time">10:00A &ndash; 10:30A</span>
+        A JRuby Tale
+      </a>
+    </li>
+    <li>
+      <a href="#jruby_and_rails_in_the_jvm">
+        <div class="arrow"></div>
+        <span class="time">10:40A &ndash; 11:10A</span>
+        JRuby and Rails in the JVM
+      </a>
+    </li>
+    <li>
+      <a href="#jruby_at_linkedin">
+        <div class="arrow"></div>
+        <span class="time">11:20A &ndash; 11:50A</span>
+        JRuby at LinkedIn
+      </a>
+    </li>
+    <li>
+      <a href="#lunch_day_1">
+        <div class="arrow"></div>
+        <span class="time">11:50A &ndash; 1:00P</span>
+        Lunch
+      </a>
+    </li>
+    <li>
+      <span class="time">1:00P &ndash; 2:10P</span>
+      Lightning Talks
+    </li>
+    <li>
+      <a href="#why_i_love_torquebox">
+        <div class="arrow"></div>
+        <span class="time">2:20P &ndash; 2:50P</span>
+        Why I Love TorqueBox (And Why You Will Too)
+      </a>
+    </li>
+    <li>
+      <span class="time">2:50P &ndash; 3:20P</span>
+      Break
+    </li>
+    <li>
+      <a href="#semantic_web_and_jruby">
+        <div class="arrow"></div>
+        <span class="time">3:30P &ndash; 4:00P</span>
+        Semantic Web and JRuby
+      </a>
+    </li>
+    <li>
+      <a href="#keynote_your_software_is_alive">
+        <div class="arrow"></div>
+        <span class="time">4:15P &ndash; 5:00P</span>
+        Keynote: Your Software is Alive
+      </a>
+    </li>
+  </ul>
+
+  <p class="day">Thursday, August 4th</p>
+  <ul class="edgetoedge schedule">
+    <li>
+      <a href="#keynote_never_settle">
+        <div class="arrow"></div>
+        <span class="time">9:00A &ndash; 9:45A</span>
+        Keynote: Never Settle
+      </a>
+    </li>
+    <li>
+      <span class="time">9:45A &ndash; 10:00A</span>
+      Break
+    </li>
+    <li>
+      <a href="#eloquent_jruby">
+        <div class="arrow"></div>
+        <span class="time">10:00A &ndash; 10:30A</span>
+        Eloquent JRuby
+      </a>
+    </li>
+    <li>
+      <a href="#building_the_magicwebservice">
+        <div class="arrow"></div>
+        <span class="time">10:40A &ndash; 11:10A</span>
+        Building the MagicWebService
+      </a>
+    </li>
+    <li>
+      <a href="#big_data_and_jruby">
+        <div class="arrow"></div>
+        <span class="time">11:20A &ndash; 11:50A</span>
+        Big Data and JRuby
+      </a>
+    </li>
+    <li>
+      <a href="#lunch_day_2">
+        <div class="arrow"></div>
+        <span class="time">11:50A &ndash; 1:00P</span>
+        Lunch
+      </a>
+    </li>
+    <li>
+      <a href="#trinidad_is_still_my_name">
+        <div class="arrow"></div>
+        <span class="time">1:00P &ndash; 1:30P</span>
+        Trinidad is Still My Name
+      </a>
+    </li>
+    <li>
+      <span class="time">1:40P &ndash; 2:10P</span>
+      TBA
+    </li>
+    <li>
+      <a href="#cross_platform_desktop_apps_with_jruby">
+        <div class="arrow"></div>
+        <span class="time">2:20P &ndash; 2:50P</span>
+        Cross Platform Desktop Apps with JRuby
+      </a>
+    </li>
+    <li>
+      <span class="time">2:50P &ndash; 3:20P</span>
+      Break
+    </li>
+    <li>
+      <a href="#jruby_not_just_for_hard_headed">
+        <div class="arrow"></div>
+        <span class="time">3:30P &ndash; 4:00P</span>
+        JRuby, Not Just for Hard-Headed Pragmatists Anymore
+      </a>
+    </li>
+    <li>
+      <a href="#keynote_abstraction_distractions">
+        <div class="arrow"></div>
+        <span class="time">4:15P &ndash; 5:00P</span>
+        Keynote: Abstraction Distractions
+      </a>
+    </li>
+  </ul>
+</div>
+
+<div id="keynote_jruby_update" class="page">
+  <div class="toolbar">
+    <h1>Schedule</h1>
+    <a class="back" href="#schedule">Back</a>
+  </div>
+  <div class="timeslot">
+    <h2>Keynote: JRuby Update</h2>
+    <p>JRuby's a year older, and a lot's happened this year. We fixed record numbers of bugs and introduced C extensions and 1.9 support in the JRuby 1.6.x series. We've started integrating Java 7's invokedynamic throughout JRuby. And we're seeing new users faster than ever before, coming from both the Ruby and Java worlds. This talk will update you on JRuby development over the past year, and lay out some rough plans for the year to come.</p>
+  </div>
+</div>
+
+<div id="a_jruby_tale" class="page">
+  <div class="toolbar">
+    <h1>Schedule</h1>
+    <a class="back" href="#schedule">Back</a>
+  </div>
+  <div class="timeslot">
+    <h2>A JRuby Tale</h2>
+    <p>Hear the story of a JRuby project approaching its completion date from a Java veteran who turned to Ruby for its power and elegance. Find out why JRuby was chosen for some parts of the project and not for others. What were our greatest pain points? How long did the project take? Why was management willing to take on the risk of a new technology? This talk is geared for the IT team just starting out with JRuby who wants to be better prepared for the journey ahead.</p>
+  </div>
+</div>
+
+<div id="jruby_and_rails_in_the_jvm" class="page">
+  <div class="toolbar">
+    <h1>Schedule</h1>
+    <a class="back" href="#schedule">Back</a>
+  </div>
+  <div class="timeslot">
+    <h2>JRuby and Rails in the JVM</h2>
+    <p>This talk will cover JRuby integration with Java and running Rails in the JVM, concluding with the port of a simple Struts / Hibernate app to Rails. The audience should leave with all the knowledge necessary to port their own applications to Rails.</p>
+  </div>
+</div>
+
+<div id="jruby_at_linkedin" class="page">
+  <div class="toolbar">
+    <h1>Schedule</h1>
+    <a class="back" href="#schedule">Back</a>
+  </div>
+  <div class="timeslot">
+    <h2>JRuby and Rails in the JVM</h2>
+    <p>This talk will cover JRuby integration with Java and running Rails in the JVM, concluding with the port of a simple Struts / Hibernate app to Rails. The audience should leave with all the knowledge necessary to port their own applications to Rails.</p>
+  </div>
+</div>
+
+<div id="lunch_day_1" class="page">
+  <div class="toolbar">
+    <h1>Schedule</h1>
+    <a class="back" href="#schedule">Back</a>
+  </div>
+  <div class="timeslot">
+    <h2>Hot Buffet Lunch</h2>
+    <p>
+      Tossed Salad with Assorted Dressings<br>
+      Freshly Baked Rolls with Soft Butter<br>
+      Boneless Chicken Cacciatore<br>
+      Blackened Pork Loin with Papaya Salsa<br>
+      Roasted Corn and Carrots<br>
+      Garlic Mashed Potatoes<br>
+      Assortment of Specialty Cakes and Pies<br>
+      Fresh Brewed Regular and Decaffeinated Coffee and Iced Tea<br>
+      Assorted Diet and Regular Soft Drinks and Bottled Water
+    </p>
+  </div>
+</div>
+
+<div id="why_i_love_torquebox" class="page">
+  <div class="toolbar">
+    <h1>Schedule</h1>
+    <a class="back" href="#schedule">Back</a>
+  </div>
+  <div class="timeslot">
+    <h2>Why I Love TorqueBox (And Why You Will Too)</h2>
+    <p>This talk will introduce you to TorqueBox and why you should consider it for your next JRuby application. We'll cover TorqueBox features -messaging, scheduled jobs, asynchronous tasks, and services - then show how they can save you time and effort during development and deployment. We'll also show how you can use dependency injection in Ruby to integrate with existing Java components in a way no other JRuby server can.</p>
+  </div>
+</div>
+
+<div id="semantic_web_and_jruby" class="page">
+  <div class="toolbar">
+    <h1>Schedule</h1>
+    <a class="back" href="#schedule">Back</a>
+  </div>
+  <div class="timeslot">
+    <h2>Semantic Web and JRuby</h2>
+    <p>The Semantic Web is changing the way we communicate and share data on the internet and holds the key to exciting new innovations. Come and discover what the Semantic Web is and it's many benefits. We'll learn about some of the technologies that enable the Semantic Web (RDF/ SPARQL) and take a look at using the power of JRuby to access Jena, a prominent Java Open Source Semantic Web Framework, to do some practical examples.</p>
+  </div>
+</div>
+
+<div id="keynote_your_software_is_alive" class="page">
+  <div class="toolbar">
+    <h1>Schedule</h1>
+    <a class="back" href="#schedule">Back</a>
+  </div>
+  <div class="timeslot">
+    <h2>Keynote: Your Software is Alive</h2>
+    <p>As developers, we love order. When systems are orderly, they are easy to understand and maintain. But, if that's the case, shouldn't our systems be neat, symmetric, nice and orderly? After all, we are in control -- we write the code. In this keynote, Michael Feathers will talk about how we need to change our expectations of software design, learning how to guide code's growth rather than trying to dictate it.</p>
+  </div>
+</div>
+
+  <!-- day 2 -->
+
+<div id="keynote_never_settle" class="page">
+  <div class="toolbar">
+    <h1>Schedule</h1>
+    <a class="back" href="#schedule">Back</a>
+  </div>
+  <div class="timeslot">
+    <h2>Keynote: Never Settle</h2>
+    <p>The tools you use, and the way you work, are important. Your ability to do the best work you can is tied to the choices you make on technology, process, and lifestyle. Compromising on these things isn't a tradeoff; its a death blow. This talk is part history, part prescription, and all opinionated. Do that which you love, and success may follow. Do that which you despise, and it surely won't.</p>
+  </div>
+</div>
+
+<div id="keynote_never_settle" class="page">
+  <div class="toolbar">
+    <h1>Schedule</h1>
+    <a class="back" href="#schedule">Back</a>
+  </div>
+  <div class="timeslot">
+    <h2>Keynote: Never Settle</h2>
+    <p>The tools you use, and the way you work, are important. Your ability to do the best work you can is tied to the choices you make on technology, process, and lifestyle. Compromising on these things isn't a tradeoff; its a death blow. This talk is part history, part prescription, and all opinionated. Do that which you love, and success may follow. Do that which you despise, and it surely won't.</p>
+  </div>
+</div>
+
+<div id="eloquent_jruby" class="page">
+  <div class="toolbar">
+    <h1>Schedule</h1>
+    <a class="back" href="#schedule">Back</a>
+  </div>
+  <div class="timeslot">
+    <h2>Eloquent JRuby</h2>
+    <p>JRuby shows that you can mix Java and Ruby together to get something great. But there are lots of Java things -- from coding conventions to static typing -- that don't translate well into Ruby. In this session, we'll talk about writing idiomatic Ruby code, code that will work both on the JVM and in the heads of Rubyists without causing either to catch fire.</p>
+  </div>
+</div>
+
+<div id="building_the_magicwebservice" class="page">
+  <div class="toolbar">
+    <h1>Schedule</h1>
+    <a class="back" href="#schedule">Back</a>
+  </div>
+  <div class="timeslot">
+    <h2>Building the MagicWebService</h2>
+    <p>The NASA ECHO project needed to build a REST API on top of an existing SOAP API with ~200 available operations. They chose JRuby and Rails to build the API. The first implementation of the SOAP request layer using an existing Ruby library suffered from poor performance and code bloat. They solved these problems by creating the MagicWebService. The MagicWebService uses an existing Java library for fast performance and metaprogramming tricks to make a dead simple Ruby API.</p>
+  </div>
+</div>
+
+<div id="big_data_and_jruby" class="page">
+  <div class="toolbar">
+    <h1>Schedule</h1>
+    <a class="back" href="#schedule">Back</a>
+  </div>
+  <div class="timeslot">
+    <h2>Big Data and JRuby</h2>
+    <p>"Big Data" is a hot topic these days, and encountering "Big Data" issues and the complexity around them, is a more common occurrence today than it was even a couple of years ago. Understanding what is meant by "Big Data" and some of the tools around it is something every developer should know a little about. Along these lines, One of the amazing things that we benefit from, as developers who use JRuby, is the existing ecosystem of Java libraries and platforms for manipulating Big Data. The most famous, and probably of the most immediate use to rubyists is Hadoop and the Hadoop ecosystem of projects. This talk will touch on "Big Data" and how we, as developers who use Ruby, may be use JRuby within a variety of Hadoop and Hadoop related projects such as HDFS, MapReduce, HBase, Hive, Zookeeper, etc.</p>
+  </div>
+</div>
+
+<div id="lunch_day_2" class="page">
+  <div class="toolbar">
+    <h1>Schedule</h1>
+    <a class="back" href="#schedule">Back</a>
+  </div>
+  <div class="timeslot">
+    <h2>Hot Lunch Buffet</h2>
+    <p>
+      Tossed Salad with Assorted Dressings<br>
+      Freshly Baked Rolls with Soft Butter<br>
+      Lime Marinated Flank Steak with Cilantro-Tomatoe Relish<br>
+      Cornmeal Fried Catfish<br>
+      Green Beans<br>
+      Rice Pilaf<br>
+      Assortment of Specialty Cakes and Pies<br>
+      Fresh Brewed Regular and Decaffeinated Coffe and Iced Tea<br>
+      Assorted Diet and Regular Soft Drinks and Bottled Water
+    </p>
+  </div>
+</div>
+
+<div id="trinidad_is_still_my_name" class="page">
+  <div class="toolbar">
+    <h1>Schedule</h1>
+    <a class="back" href="#schedule">Back</a>
+  </div>
+  <div class="timeslot">
+    <h2>Trinidad is Still My Name</h2>
+    <p>Trinidad has become the default application server to use with JRuby. It takes the best features of Apache Tomcat and brings them to the Ruby world. In this session we'll talk about its features, about deamons, easy and reliable deployments, extensions and hidden secrets that make this server so special. But we'll also talk about ideas, people and motivations, about why this project was started and why people choose it among other options.</p>
+  </div>
+</div>
+
+<div id="cross_platform_desktop_apps_with_jruby" class="page">
+  <div class="toolbar">
+    <h1>Schedule</h1>
+    <a class="back" href="#schedule">Back</a>
+  </div>
+  <div class="timeslot">
+    <h2>Cross Platform Desktop Apps with JRuby</h2>
+    <p>With modern JRuby tools and Java gui toolkits, we can write desktop apps easily and deploy them using gems. In this talk, we'll discuss how to integrate a Java graphics toolkit into your JRuby project, and show how we've managed hundreds of Java class imports. We'll show how to use Cucumber to run integration tests of the app, and how to use Rubygems to distribute your app across 3 platform.</p>
+  </div>
+</div>
+
+<div id="jruby_not_just_for_hard_headed" class="page">
+  <div class="toolbar">
+    <h1>Schedule</h1>
+    <a class="back" href="#schedule">Back</a>
+  </div>
+  <div class="timeslot">
+    <h2>JRuby, Not Just for Hard-Headed Pragmatists Anymore</h2>
+    <p>JRuby bills itself as the pragmatic Ruby, the go-to implementation when you need to fit into the Java universe or support a ton of platforms. Who knew it was also a tool for having fun exploring the realms of computer science? Want to invent your own programming language? With libraries like BiteScript, you can begin on familiar Ruby ground and concentrate on the language, letting the JVM handle things like object allocation. Want to play with different concurrency models? With JRuby, you can connect to the ones from Clojure or Scala, or even dip into the source code and invent your own. In this talk, we'll discuss how JRuby can be your springboard into the joy of computing.</p>
+  </div>
+</div>
+
+<div id="keynote_abstraction_distractions" class="page">
+  <div class="toolbar">
+    <h1>Schedule</h1>
+    <a class="back" href="#schedule">Back</a>
+  </div>
+  <div class="timeslot">
+    <h2>Keynote: Abstraction Distractions</h2>
+    <p>Computer science is built on a shaky tower of abstractions, but we've been distracted by other things until we believe it is reality. This talk teases apart some of the tangled abstractions that have become so common they are invisible yet impact important decisions. I cover languages, tools, platforms, and burrow all the way down to fundamental concepts. This wide-ranging keynote answers these questions and more:</p>
+    <p>
+      Why does my keyboard look the way it does?<br>
+      Why is the iPad is the most revolutionary device in the last 30 years?<br>
+      Why do some people hate Maven so much?<br>
+      How can I choose technologies with long shelf lives?<br>
+      Is hiding always a good thing?<br>
+      Oh, and some jokes too.
+    </p>
+  </div>
+</div>
+
+<!-- END SCHEDULE -->
+
+</body>
+</html>

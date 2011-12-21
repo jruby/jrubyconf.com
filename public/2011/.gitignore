@@ -1,0 +1,16 @@
+.DS_Store
+log/*.log
+tmp/**/*
+tmp/*
+doc/local/*
+config/database.yml
+config/service_config.yml
+db/*.sqlite3
+coverage
+.zsh_rake_cache
+public/stylesheets/.sass-cache/*
+public/system/**/*
+public/stylesheets/all.css
+public/javascripts/all.js
+tags
+node_modules

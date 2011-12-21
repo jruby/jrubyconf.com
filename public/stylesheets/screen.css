@@ -1,0 +1,56 @@
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;margin:0;padding:0}
+body{line-height:1}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+a{font-size:100%;vertical-align:baseline;background:transparent;margin:0;padding:0}
+
+
+html, body {
+  background: #ece3c1 url(/images/background.png);
+}
+
+#brush_strokes {
+  height     : 221px;
+  margin-top : -20px;
+  background : url(/images/brush_strokes.gif) no-repeat 50% 0;
+}
+
+#content {
+  position    : relative;
+  width       : 829px;
+  height      : 400px;
+  margin      : 10px auto 0 auto;
+  text-indent : -999em;
+  background  : url(/images/content.png) no-repeat;
+}
+
+#register_now {
+  position : absolute;
+  top      : 184px;
+  left     : 361px;
+  width    : 200px;
+  height   : 47px;
+}
+
+#twitter {
+  position    : absolute;
+  top         : 189px;
+  left        : 624px;
+  width       : 111px;
+  height      : 37px;
+}
+
+#edgecase {
+  position    : absolute;
+  top         : 341px;
+  left        : 354px;
+  width       : 177px;
+  height      : 56px;
+}
+
+#engineyard {
+  position    : absolute;
+  top         : 328px;
+  left        : 545px;
+  width       : 60px;
+  height      : 77px;
+}
