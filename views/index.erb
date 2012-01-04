@@ -14,8 +14,11 @@
       <div id="main_navigation">
         <span id="main_nav_date">May 21-23</span>
         <a href="http://www.eventbrite.com/event/2571529514" id="register_now_small">Register Now</a>
-        <a href="#information">Information</a>
-        <a href="#speakers">Speakers</a>
+        <a href="#index" id="home_link">Home</a>
+        <div class="left">
+          <a href="#information">Information</a>
+          <a href="#speakers">Speakers</a>
+        </div>
       </div>
 
       <div id="content">
@@ -51,6 +54,33 @@
             </div>
           </div>
         </div> <!-- /#information -->
+        
+        
+        <div id="speakers" class="scene">
+          <a href="#schedule" id="schedule_link">Schedule</a>
+          <div class="content">
+            <h1 class="heading">Speakers</h1>
+            <div id="speakers_listing">
+              <% 16.times do %>
+                <div class="speaker">
+                  <img src="/images/speakers/adam_mccreajax.png" alt="Adam Logic McCreajax">
+                  <h2 class="name data">Adam Logic McCreajax akjshdakjshd kjahskjdh akjshdkjahsd</h2>
+                  <div class="twitter data"><a href="http://twitter.com/adamlogic" target="_blank">@adamlogic</a></div>
+                  <div class="title data">Logician, EdgeCase</div>
+                </div>
+              <% end %>
+            </div>
+          </div>
+        </div> <!-- /#speakers -->
+
+
+        <div id="schedule" class="scene">
+          <a href="#speakers" id="speakers_link">Speakers</a>
+          <div class="content">
+            <h1 class="heading">Schedule</h1>
+            <p>SCHEDULE HERE</p>
+          </div>
+        </div> <!-- /#speakers -->     
         
         <!-- 
         

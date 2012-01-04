@@ -35,8 +35,7 @@ window.exampleScene = new Scene('#example', function() {
 */
 
 $(function() {
-  window.mainNavController     = new NavigationController();
-  window.speakersNavController = new NavigationController();
+  window.mainNavController = new NavigationController();
   
   $('#speakers .navigation').on('click', 'a', function(e) {
     e.preventDefault();
@@ -138,68 +137,25 @@ $(function() {
       var self = this;
 
       // Elements
-      self.navigation = self.container.find('.navigation');
-
-      // CSS animation states
-      self.navigation.data('animation-visible-css', { opacity: 1.0, top: self.navigation.css('top') })
-                     .data('animation-hidden-css',  { opacity: 0.0, top: '0px' });
-
-      // Animation Events
-      self.bind('inAnimationWillBegin', function(next) {
-            self.navigation.css(self.navigation.data('animation-hidden-css'));
-            if(next) { next(); }
-          })
-          .bind('inAnimationDidFinish',  function(next) {
-            self.container.find('.navigation a:first').click();
-            if(next) { next(); }
-          })
-          .bind('outAnimationWillBegin', function(next) {
-            speakersSectionScene.trigger('outAnimation');
-            scheduleSectionScene.trigger('outAnimation')
-            if(next) { next(); }
-          })
-          .bind('outAnimationDidFinish', function(next) { if(next) { next(); } });
-
-      // Animations
-      self.inAnimation = function() {
-        self.registerForInAnimation([
-          { element      : self.navigation,
-            animateToCSS : self.navigation.data('animation-visible-css')
-          }
-        ]);
-      };
-
-      self.outAnimation = function() {
-        self.registerForOutAnimation([
-          { element      : self.navigation,
-            animateToCSS : self.navigation.data('animation-hidden-css')
-          }
-        ]);
-      };
-    }
-  });
-
-
-  window.speakersSectionScene = new Scene({
-    container  : '#speakers_section',
-    controller : speakersNavController,
-    init       : function() {
-      var self = this;
-
-      // Elements
-      self.heading = self.container.find('.heading');
-      self.content = self.container.find('.content');      
+      self.heading      = self.container.find('.heading');
+      self.listing      = $('#speakers_listing');
+      self.scheduleLink = $('#schedule_link');
 
       // CSS animation states
       self.heading.data('animation-visible-css', { opacity: 1.0, top: self.heading.css('top') })
                   .data('animation-hidden-css',  { opacity: 0.0, top: '0px' });
-      self.content.data('animation-visible-css', { opacity: 1.0, top: self.content.css('top') })
-                  .data('animation-hidden-css',  { opacity: 0.0, top: '0px' });
+                  
+      self.listing.data('animation-visible-css', { opacity: 1.0 })
+                  .data('animation-hidden-css',  { opacity: 0.0 });
+                  
+      self.scheduleLink.data('animation-visible-css', { opacity: 1.0, right: self.scheduleLink.css('right') })
+                       .data('animation-hidden-css',  { opacity: 0.0, right: '-50px' });
 
       // Animation Events
       self.bind('inAnimationWillBegin', function(next) {
             self.heading.css(self.heading.data('animation-hidden-css'));
-            self.content.css(self.content.data('animation-hidden-css'));
+            self.listing.css(self.heading.data('animation-hidden-css'));
+            self.scheduleLink.css(self.scheduleLink.data('animation-hidden-css'));
             if(next) { next(); }
           })
           .bind('inAnimationDidFinish',  function(next) { if(next) { next(); } })
@@ -212,8 +168,13 @@ $(function() {
           { element      : self.heading,
             animateToCSS : self.heading.data('animation-visible-css')
           },
-          { element      : self.content,
-            animateToCSS : self.content.data('animation-visible-css')
+          { element      : self.listing,
+            animateToCSS : self.listing.data('animation-visible-css')
+          },
+          { element      : self.scheduleLink,
+            animateToCSS : self.scheduleLink.data('animation-visible-css'),
+            delay        : 500,
+            duration     : 300
           }
         ]);
       };
@@ -223,8 +184,11 @@ $(function() {
           { element      : self.heading,
             animateToCSS : self.heading.data('animation-hidden-css')
           },
-          { element      : self.content,
-            animateToCSS : self.content.data('animation-hidden-css')
+          { element      : self.listing,
+            animateToCSS : self.listing.data('animation-hidden-css')
+          },
+          { element      : self.scheduleLink,
+            animateToCSS : self.scheduleLink.data('animation-hidden-css')
           }
         ]);
       };
@@ -232,26 +196,22 @@ $(function() {
   });
   
   
-  window.scheduleSectionScene = new Scene({
-    container  : '#schedule_section',
-    controller : speakersNavController,
+  window.scheduleScene = new Scene({
+    container  : '#schedule',
+    controller : mainNavController,
     init       : function() {
       var self = this;
 
       // Elements
       self.heading = self.container.find('.heading');
-      self.content = self.container.find('.content');
 
       // CSS animation states
       self.heading.data('animation-visible-css', { opacity: 1.0, top: self.heading.css('top') })
-                  .data('animation-hidden-css',  { opacity: 0.0, top: '0px' });
-      self.content.data('animation-visible-css', { opacity: 1.0, top: self.content.css('top') })
                   .data('animation-hidden-css',  { opacity: 0.0, top: '0px' });
 
       // Animation Events
       self.bind('inAnimationWillBegin', function(next) {
             self.heading.css(self.heading.data('animation-hidden-css'));
-            self.content.css(self.content.data('animation-hidden-css'));
             if(next) { next(); }
           })
           .bind('inAnimationDidFinish',  function(next) { if(next) { next(); } })
@@ -263,9 +223,6 @@ $(function() {
         self.registerForInAnimation([
           { element      : self.heading,
             animateToCSS : self.heading.data('animation-visible-css')
-          },
-          { element      : self.content,
-            animateToCSS : self.content.data('animation-visible-css')
           }
         ]);
       };
@@ -274,9 +231,6 @@ $(function() {
         self.registerForOutAnimation([
           { element      : self.heading,
             animateToCSS : self.heading.data('animation-hidden-css')
-          },
-          { element      : self.content,
-            animateToCSS : self.content.data('animation-hidden-css')
           }
         ]);
       };
@@ -286,29 +240,9 @@ $(function() {
 
   setTimeout(function() {
     $.history.init(function(hash){
-      var sceneName;
-
-      if(hash) {
-        //Strip off front hash and slashses as well as trailing slash
-        hash = hash.replace(new RegExp("^[#/]+|/$", "g"), "")
-        var scenes = hash.split('/');
-        if(scenes.length > 1) {
-          var sceneName = (hash == '' ? 'index' : hash);
-          window[scenes[0]].find('#'+scenes[1]).show();
-          mainNavController.performSegueTo(window[sceneName + 'Scene']);
-        } else {
-          var sceneName = (hash == '' ? 'index' : hash);
-          mainNavController.performSegueTo(window[sceneName + 'Scene']);
-        }
-        return;
-      } else {
-        sceneName = 'index';
-        mainNavController.performSegueTo(window[sceneName + 'Scene']);
-      }
-
-      $('#container .scene:visible .navigation')
-        .find('a').removeClass('active').end()
-        .find('[href=#' + hash + ']').addClass('active');
+      hash = (hash == '' ? 'index' : hash.replace(new RegExp("^[#/]+|/$", "g"), ''));
+      var target = window[hash + 'Scene'];
+      mainNavController.performSegueTo((target ? target : window['indexScene']));
     }, { unescape: ',/' });
   }, 350);
 });

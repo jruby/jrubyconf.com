@@ -3,15 +3,29 @@ body{line-height:1}
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
 a{font-size:100%;vertical-align:baseline;background:transparent;margin:0;padding:0}
 
+html, body { background: #ece3c1 url(/images/background.gif); }
 
-html, body {
-  background: #ece3c1 url(/images/background.gif);
+body { font: 62.5% 'TradeGothic', helvetica, arial, sans-serif; }
+
+.animating { overflow: hidden; }
+
+.scene {
+  position : absolute;
+  top      : 0;
+  right    : 0;
+  bottom   : 0;
+  left     : 0;
+  display  : none;
 }
 
 #brush_strokes {
-  height     : 221px;
-  margin-top : -20px;
-  background : url(/images/brush_strokes.gif) no-repeat 50% 0;
+  position   : absolute;
+  top        : 0;
+  right      : 0;
+  left       : 0;
+  height     : 194px;
+  background : url(/images/header_brushwork.png) no-repeat 50% 0;
+  z-index    : 1;
 }
 
 #container {
@@ -24,13 +38,19 @@ html, body {
 }
 
 #content {
+  overflow    : auto;
   position    : absolute;
   top         : 0;
   right       : 0;
   bottom      : 70px;
   left        : 0;
   background  : url(/images/content.png) no-repeat;
+  z-index     : 0;
 }
+
+
+/* Footer
+------------------------------------------------- */
 
 #footer {
   position    : absolute;
@@ -38,7 +58,7 @@ html, body {
   bottom      : 0;
   left        : 0;
   height      : 70px;
-  font-size   : 14px;
+  font-size   : 1.4em;
   line-height : 70px;
   background  : #f0e9d3 url(/images/footer_shadow.gif) repeat-x;
 }
@@ -55,16 +75,21 @@ html, body {
   width          : 960px;
   margin-left    :-480px ;
   color          : #fff;
-  font-size      : 24px;
+  font-size      : 2.4em;
   line-height    : 73px;
   text-transform : uppercase;
-  z-index        : 1;
+  z-index        : 2;
   background     : url(/images/conf_logo_white.png) no-repeat 50% 0;
 }
 
-#main_navigation a {
-  color          : #fff;
+#main_navigation a { color: #fff; text-decoration: none; }
+
+#main_navigation .left {
+  width      : 442px;
+  text-align : right;
 }
+
+#main_navigation .left a { margin-right: 32px; }
 
 #register_now_small {
   position    : absolute;
@@ -72,7 +97,7 @@ html, body {
   right       : 0;
   width       : 140px;
   height      : 33px;
-  margin-top  :-16px;
+  margin-top  :-18px;
   text-indent :-999em;
   background  : url(/images/register_button_small.gif);
 }
@@ -82,6 +107,14 @@ html, body {
   left     : 550px;
 }
 
+#home_link {
+  position    : absolute;
+  top         :-5px;
+  left        : 435px;
+  width       : 89px;
+  height      : 83px;
+  text-indent : -999em;
+}
 
 
 /* Index Scene
@@ -94,7 +127,7 @@ html, body {
   width          : 960px;
   height         : 400px;
   margin-left    :-480px;
-  font-size      : 24px;
+  font-size      : 2.4em;
   line-height    : 150%;
   text-transform : uppercase;
   background     : url(/images/conf_logo.png) no-repeat 50% 0;
@@ -139,7 +172,7 @@ html, body {
   top         : 195px;
   left        : 50%;
   width       : 960px;
-  margin-left :-480px;
+  margin-left :-480px;  
 }
 
 #information .column {
@@ -153,69 +186,85 @@ html, body {
 }
 
 #information h1 {
-  font-size      : 24px;
+  font-size      : 2.4em;
   text-transform : uppercase;
 }
 
 #information p {
   margin-bottom : 1em;
-  font-size     : 14px;
+  font-size     : 1.4em;
+  line-height   : 150%;
 }
 
 
-#twitter {
+/* Speakers Scene
+------------------------------------------------- */
+
+#speakers .content {
+  overflow    : hidden;
   position    : absolute;
-  top         : 189px;
-  left        : 624px;
-  width       : 111px;
-  height      : 37px;
+  top         : 195px;
+  left        : 50%;
+  width       : 960px;
+  margin-left :-480px;
 }
 
-#edgecase {
+#speakers .heading {
+  position       : absolute;
+  top            : 25px;
+  left           : 0;
+  color          : #911a1d;
+  font-size      : 24px;
+  text-transform : uppercase;
+}
+
+#schedule_link {
   position    : absolute;
-  top         : 341px;
-  left        : 354px;
-  width       : 177px;
-  height      : 56px;
+  top         : 270px;
+  right       : 0;
+  width       : 47px;
+  height      : 200px;
+  display     : block;
+  text-indent : -999em;
+  background  : url(/images/schedule_button.gif);
 }
 
-#engineyard {
-  position    : absolute;
-  top         : 328px;
-  left        : 545px;
-  width       : 60px;
-  height      : 77px;
+#speakers_listing { padding-top: 80px; }
+
+.speaker {
+  position : relative;
+  float    : left;
+  width    : 140px;
+  height   : 55px;
+  margin   : 0 40px 40px 0;
+  padding  : 0 0 0 60px;
 }
 
-
-.animating { overflow: hidden; }
-
-.scene {
-  position : absolute;
-  top      : 0;
-  right    : 0;
-  bottom   : 0;
-  left     : 0;
-  display  : none;
+.speaker img {
+  position   : absolute;
+  top        : 50%;
+  left       : 0;
+  margin-top :-26px;
 }
 
-.heading {
-  position : absolute;
-  top      : 50px;
-  left     : 25px;
+.speaker .data {
+  overflow      : hidden;
+  margin-bottom : 4px;
+  white-space   : nowrap;
+  text-overflow : ellipsis;
 }
 
-.content {
-  position  : absolute;
-  top       : 100px;
-  left      : 25px;
-  width     : 400px;
-  font-size : 14px;
+.speaker .name {
+  padding        : 1px 0 0 0;
+  font-size      : 1.4em;
+  font-weight    : normal;
+  text-transform : uppercase;
 }
 
-.navigation {
-  position : absolute;
-  top      : 25px;
-  left     : 25px;
-  z-index  : 1;
+.speaker .twitter   { font-size: 1.1em; }
+.speaker .twitter a { color: #e87859; }
+
+.speaker .title {
+  color     : #cc2e2e;
+  font-size : 1.1em;
 }

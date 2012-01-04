@@ -8,3 +8,7 @@ end
 get '/' do
   erb :index
 end
+
+get '/:anything' do
+  redirect '/#' + params[:anything]
+end

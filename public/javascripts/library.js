@@ -98,7 +98,8 @@ var Scene = function(data) {
     };
 
     $.each(elements, function(index, args) {
-      args.element.animate(args.animateToCSS, (args.duration || 500), (args.easing || 'easeInOutExpo'), complete);
+      var delay = args.delay || 0;
+      args.element.delay(delay).animate(args.animateToCSS, (args.duration || 500), (args.easing || 'easeInOutExpo'), complete);
     });
   };
 
