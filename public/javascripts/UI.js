@@ -96,10 +96,14 @@ $(function() {
 
       // Elements
       self.content = self.container.find('.content');
+      window.mainNavigation = $('#main_navigation');
 
       // CSS animation states
       self.content.data('animation-visible-css', { opacity: 1.0 })
                   .data('animation-hidden-css',  { opacity: 0.0 });
+
+      window.mainNavigation.data('animation-visible-css', { opacity: 1.0, top: window.mainNavigation.css('top') })
+                           .data('animation-hidden-css',  { opacity: 0.0, top: '-50px' });
 
       // Animation Events
       self.bind('inAnimationWillBegin', function(next) {
@@ -115,6 +119,10 @@ $(function() {
         self.registerForInAnimation([
           { element      : self.content,
             animateToCSS : self.content.data('animation-visible-css')
+          },
+          { element      : window.mainNavigation,
+            animateToCSS : window.mainNavigation.data('animation-hidden-css'),
+            duration     : 100
           }
         ]);
       };
@@ -123,6 +131,9 @@ $(function() {
         self.registerForOutAnimation([
           { element      : self.content,
             animateToCSS : self.content.data('animation-hidden-css')
+          },
+          { element      : window.mainNavigation,
+            animateToCSS : window.mainNavigation.data('animation-visible-css')
           }
         ]);
       };
