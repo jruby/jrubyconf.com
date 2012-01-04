@@ -54,18 +54,14 @@ $(function() {
       var self = this;
 
       // Elements
-      self.heading = self.container.find('.heading');
       self.content = self.container.find('.content');
 
       // CSS animation states
-      self.heading.data('animation-visible-css', { opacity: 1.0, top: self.heading.css('top') })
-                  .data('animation-hidden-css',  { opacity: 0.0, top: '0px' });
       self.content.data('animation-visible-css', { opacity: 1.0, top: self.content.css('top') })
                   .data('animation-hidden-css',  { opacity: 0.0, top: '0px' });
 
      // Animation Events
       self.bind('inAnimationWillBegin', function(next) {
-            self.heading.css(self.heading.data('animation-hidden-css'));
             self.content.css(self.content.data('animation-hidden-css'));
             if(next) { next(); }
           })
@@ -76,9 +72,6 @@ $(function() {
       // Animations
       self.inAnimation = function() {
         self.registerForInAnimation([
-          { element      : self.heading,
-            animateToCSS : self.heading.data('animation-visible-css'),
-          },
           { element      : self.content,
             animateToCSS : self.content.data('animation-visible-css'),
           }
@@ -87,9 +80,6 @@ $(function() {
 
       self.outAnimation = function() {
         self.registerForOutAnimation([
-          { element      : self.heading,
-            animateToCSS : self.heading.data('animation-hidden-css')
-          },
           { element      : self.content,
             animateToCSS : self.content.data('animation-hidden-css')
           }
