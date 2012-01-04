@@ -5,7 +5,7 @@ a{font-size:100%;vertical-align:baseline;background:transparent;margin:0;padding
 
 
 html, body {
-  background: #ece3c1 url(/images/background.png);
+  background: #ece3c1 url(/images/background.gif);
 }
 
 #brush_strokes {
@@ -14,22 +14,90 @@ html, body {
   background : url(/images/brush_strokes.gif) no-repeat 50% 0;
 }
 
+#container {
+  position   : absolute;
+  top        : 0;
+  right      : 0;
+  bottom     : 0;
+  left       : 0;
+  background : url(/images/header_brushwork.png) no-repeat 50% 0;
+}
+
 #content {
-  position    : relative;
-  width       : 829px;
-  height      : 400px;
-  margin      : 10px auto 0 auto;
-  text-indent : -999em;
+  position    : absolute;
+  top         : 0;
+  right       : 0;
+  bottom      : 70px;
+  left        : 0;
   background  : url(/images/content.png) no-repeat;
 }
 
-#register_now {
-  position : absolute;
-  top      : 184px;
-  left     : 361px;
-  width    : 200px;
-  height   : 47px;
+#footer {
+  position    : absolute;
+  right       : 0;
+  bottom      : 0;
+  left        : 0;
+  height      : 70px;
+  font-size   : 14px;
+  line-height : 70px;
+  background  : #f0e9d3 url(/images/footer_shadow.gif) repeat-x;
 }
+
+#main_navigation {
+  position : absolute;
+  top      : 0;
+  left     : 0;
+  z-index  : 1;
+}
+
+
+/* Index Scene
+----------------------------*/
+
+#index .content {
+  position       : absolute;
+  top            : 230px;
+  left           : 50%;
+  width          : 960px;
+  height         : 400px;
+  margin-left    : -480px;
+  font-size      : 24px;
+  line-height    : 150%;
+  text-transform : uppercase;
+  background     : url(/images/conf_logo.png) no-repeat 50% 0;
+}
+
+#index .left, #index .right {
+  position   : absolute;
+  top        : 95px;
+  width      : 280px;
+}
+
+#index .left {
+  left       : 0;
+  text-align : right;
+}
+
+#index .right { right: 0; }
+
+#index a {
+  color: #000;
+}
+
+#register_now_large {
+  position    : absolute;
+  top         : 350px;
+  left        : 50%;
+  width       : 200px;
+  height      : 47px;
+  margin-left : -100px;
+  text-indent : -999em;
+  background  : url(/images/register_button.gif);
+}
+
+
+
+
 
 #twitter {
   position    : absolute;
@@ -53,4 +121,37 @@ html, body {
   left        : 545px;
   width       : 60px;
   height      : 77px;
+}
+
+
+.animating { overflow: hidden; }
+
+.scene {
+  position : absolute;
+  top      : 0;
+  right    : 0;
+  bottom   : 0;
+  left     : 0;
+  display  : none;
+}
+
+.heading {
+  position : absolute;
+  top      : 50px;
+  left     : 25px;
+}
+
+.content {
+  position  : absolute;
+  top       : 100px;
+  left      : 25px;
+  width     : 400px;
+  font-size : 14px;
+}
+
+.navigation {
+  position : absolute;
+  top      : 25px;
+  left     : 25px;
+  z-index  : 1;
 }
