@@ -43,16 +43,49 @@ html, body {
   background  : #f0e9d3 url(/images/footer_shadow.gif) repeat-x;
 }
 
+
+/* Main Navigation
+------------------------------------------------- */
+
 #main_navigation {
+  position       : absolute;
+  top            : 25px;
+  left           : 50%;
+  height         : 73px;
+  width          : 960px;
+  margin-left    :-480px ;
+  color          : #fff;
+  font-size      : 24px;
+  line-height    : 73px;
+  text-transform : uppercase;
+  z-index        : 1;
+  background     : url(/images/conf_logo_white.png) no-repeat 50% 0;
+}
+
+#main_navigation a {
+  color          : #fff;
+}
+
+#register_now_small {
+  position    : absolute;
+  top         : 50%;
+  right       : 0;
+  width       : 140px;
+  height      : 33px;
+  margin-top  :-16px;
+  text-indent :-999em;
+  background  : url(/images/register_button_small.gif);
+}
+
+#main_nav_date {
   position : absolute;
-  top      : 0;
-  left     : 0;
-  z-index  : 1;
+  left     : 550px;
 }
 
 
+
 /* Index Scene
-----------------------------*/
+------------------------------------------------- */
 
 #index .content {
   position       : absolute;
@@ -60,7 +93,7 @@ html, body {
   left           : 50%;
   width          : 960px;
   height         : 400px;
-  margin-left    : -480px;
+  margin-left    :-480px;
   font-size      : 24px;
   line-height    : 150%;
   text-transform : uppercase;
