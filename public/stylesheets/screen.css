@@ -1,11 +1,38 @@
-html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;margin:0;padding:0}
+/* @license
+ * MyFonts Webfont Build ID 1847809, 2012-01-05T10:00:39-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed /fonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Brown Bold by ShinnType
+ * URL: http://www.myfonts.com/fonts/shinn/brown/bold/
+ * 
+ * Webfont: Brown Regular by ShinnType
+ * URL: http://www.myfonts.com/fonts/shinn/brown/regular/
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=1847809
+ * Licensed pageviews: 20,000
+ * /fonts copyright: Brown is a trademark of Shinn Type Foundry. Brown is published by Shinn Type Foundry. Copyright© 2002 by Nick Shinn.
+ * 
+ * © 2012 Bitstream Inc
+*/  
+ @font-face {font-family: 'BrownBold';src: url('/fonts/1C3201_0_0.eot');src: url('/fonts/1C3201_0_0.eot?#iefix') format('embedded-opentype'),url('/fonts/1C3201_0_0.woff') format('woff'),url('/fonts/1C3201_0_0.ttf') format('truetype');}  
+ @font-face {font-family: 'Brown';src: url('/fonts/1C3201_1_0.eot');src: url('/fonts/1C3201_1_0.eot?#iefix') format('embedded-opentype'),url('/fonts/1C3201_1_0.woff') format('woff'),url('/fonts/1C3201_1_0.ttf') format('truetype');}
+
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;margin:0;padding:0;font-weight:normal;}
 body{line-height:1}
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
 a{font-size:100%;vertical-align:baseline;background:transparent;margin:0;padding:0}
 
-html, body { background: #ece3c1 url(/images/background.gif); }
 
-body { font: 62.5% 'TradeGothic', helvetica, arial, sans-serif; }
+
+
+html, body { background: #ece3c1 url(/images/background.gif); }
+body { font: 62.5% 'Brown', helvetica, arial, sans-serif; }
 
 .animating { overflow: hidden; }
 
@@ -75,8 +102,9 @@ body { font: 62.5% 'TradeGothic', helvetica, arial, sans-serif; }
   width          : 960px;
   margin-left    :-480px ;
   color          : #fff;
-  font-size      : 2.4em;
+  font           : 3.1em 'BrownBold', helvetica, arial;
   line-height    : 73px;
+  letter-spacing : 0.05em;
   text-transform : uppercase;
   z-index        : 2;
   background     : url(/images/conf_logo_white.png) no-repeat 50% 0;
@@ -89,7 +117,7 @@ body { font: 62.5% 'TradeGothic', helvetica, arial, sans-serif; }
   text-align : right;
 }
 
-#main_navigation .left a { margin-right: 32px; }
+#main_navigation .left a { margin-right: 25px; }
 
 #register_now_small {
   position    : absolute;
@@ -117,38 +145,37 @@ body { font: 62.5% 'TradeGothic', helvetica, arial, sans-serif; }
 }
 
 
-/* Index Scene
+/* Intro Scene
 ------------------------------------------------- */
 
-#index .content {
+#intro .content {
   position       : absolute;
   top            : 230px;
   left           : 50%;
   width          : 960px;
   height         : 400px;
   margin-left    :-480px;
-  font-size      : 2.4em;
+  font           : 3.2em 'BrownBold', helvetica, arial, sans-serif;
+  letter-spacing : 0.05em;
   line-height    : 150%;
   text-transform : uppercase;
   background     : url(/images/conf_logo.png) no-repeat 50% 0;
 }
 
-#index .left, #index .right {
+#intro .left, #intro .right {
   position   : absolute;
   top        : 95px;
   width      : 280px;
 }
 
-#index .left {
+#intro .left {
   left       : 0;
   text-align : right;
 }
 
-#index .right { right: 0; }
+#intro .right { right: 0; }
 
-#index a {
-  color: #000;
-}
+#intro a { color: #000; }
 
 #register_now_large {
   position    : absolute;
@@ -169,7 +196,7 @@ body { font: 62.5% 'TradeGothic', helvetica, arial, sans-serif; }
 #information .content {
   overflow    : hidden;
   position    : absolute;
-  top         : 195px;
+  top         : 210px;
   left        : 50%;
   width       : 960px;
   margin-left :-480px;  
@@ -185,10 +212,14 @@ body { font: 62.5% 'TradeGothic', helvetica, arial, sans-serif; }
   margin-right: 0;
 }
 
-#information h1 {
-  font-size      : 2.4em;
+#information h1,
+#information #per_night {
+  font           : 3.2em 'BrownBold', helvetica, arial, sans-serif;
+  letter-spacing : 0.05em;
   text-transform : uppercase;
 }
+
+#information #per_night { color: #af412e; }
 
 #information p {
   margin-bottom : 1em;
@@ -214,7 +245,8 @@ body { font: 62.5% 'TradeGothic', helvetica, arial, sans-serif; }
   top            : 25px;
   left           : 0;
   color          : #911a1d;
-  font-size      : 24px;
+  font           : 3.1em 'BrownBold', helvetica, arial, sans-serif;
+  letter-spacing : 0.05em;
   text-transform : uppercase;
 }
 
@@ -225,7 +257,7 @@ body { font: 62.5% 'TradeGothic', helvetica, arial, sans-serif; }
   width       : 47px;
   height      : 200px;
   display     : block;
-  text-indent : -999em;
+  text-indent :-999em;
   background  : url(/images/schedule_button.gif);
 }
 
@@ -257,7 +289,6 @@ body { font: 62.5% 'TradeGothic', helvetica, arial, sans-serif; }
 .speaker .name {
   padding        : 1px 0 0 0;
   font-size      : 1.4em;
-  font-weight    : normal;
   text-transform : uppercase;
 }
 
@@ -267,4 +298,38 @@ body { font: 62.5% 'TradeGothic', helvetica, arial, sans-serif; }
 .speaker .title {
   color     : #cc2e2e;
   font-size : 1.1em;
+}
+
+
+/* Schedule Scene
+------------------------------------------------- */
+
+#schedule .content {
+  overflow    : hidden;
+  position    : absolute;
+  top         : 195px;
+  left        : 50%;
+  width       : 960px;
+  margin-left :-480px;
+}
+
+#schedule .heading {
+  position       : absolute;
+  top            : 25px;
+  left           : 0;
+  color          : #911a1d;
+  font           : 3.1em 'BrownBold', helvetica, arial, sans-serif;
+  letter-spacing : 0.05em;
+  text-transform : uppercase;
+}
+
+#speakers_link {
+  position    : absolute;
+  top         : 270px;
+  left        : 0;
+  width       : 47px;
+  height      : 200px;
+  display     : block;
+  text-indent :-999em;
+  background  : url(/images/speakers_button.gif);
 }

@@ -22,68 +22,12 @@
       </div>
 
       <div id="content">
-        <div id="index" class="scene">
-          <div class="content">
-            <div class="left">
-              May 21-23 2012<br> Minneapolis, MN
-            </div>
-            <div class="right">
-              <a href="#information">Information</a><br>
-              <a href="#speakers">Speakers</a>
-            </div>
-            <a href="http://www.eventbrite.com/event/2571529514" id="register_now_large">Register Now</a>
-          </div>
-        </div> <!-- /#index -->
-        
-        <div id="information" class="scene">
-          <div class="content">
-            <div class="column">
-              <h1>Area</h1>
-              <p>JRubyConf is only minutes from the National Mall, the heart of Washington DC. This gives attendees easy access to the Smithsonian Museums, the Capitol building, the White House and more. Steps away you will find a Metro stop, offering access to everything Washington DC has to offer. And of course, it is easily accessible to those lucky enough to live near the nation's capital.</p>
-            </div>
-            <div class="column">
-              <h1>Venue</h1>
-              <p>The conference will be hosted at the Kellogg Conference Center. The conference center is on the campus of Gallaudet University. Located in downtown DC the campus is less than two miles from the Nation's Capitol and the start of the National Mall.</p>
-              <p>If you live in the DC area, you are in luck. A short 5-minute walk away you will find the Metro. Hop on the complimentary shuttle or grab a cab and you find yourself at Union Station within minutes.</p>
-            </div>
-            <div class="column last">
-              <h1>Hotel</h1>
-              <p>$195 per Night</p>
-              <p>We have a reserved block of rooms for discounted rate of 195 a night reserved at the conference center.</p>
-              <p>To make your reservation call the Hotel at 202-651-6000 and mention the JRubyConf discount. You can also reserve online through their website and using the group id 19814 and password 37006158.</p>
-            </div>
-          </div>
-        </div> <!-- /#information -->
-        
-        
-        <div id="speakers" class="scene">
-          <a href="#schedule" id="schedule_link">Schedule</a>
-          <div class="content">
-            <h1 class="heading">Speakers</h1>
-            <div id="speakers_listing">
-              <% 16.times do %>
-                <div class="speaker">
-                  <img src="/images/speakers/adam_mccreajax.png" alt="Adam Logic McCreajax">
-                  <h2 class="name data">Adam Logic McCreajax akjshdakjshd kjahskjdh akjshdkjahsd</h2>
-                  <div class="twitter data"><a href="http://twitter.com/adamlogic" target="_blank">@adamlogic</a></div>
-                  <div class="title data">Logician, EdgeCase</div>
-                </div>
-              <% end %>
-            </div>
-          </div>
-        </div> <!-- /#speakers -->
+        <%= erb :intro %>
+        <%= erb :information %>
+        <%= erb :speakers %>
+        <%= erb :schedule %>
 
-
-        <div id="schedule" class="scene">
-          <a href="#speakers" id="speakers_link">Speakers</a>
-          <div class="content">
-            <h1 class="heading">Schedule</h1>
-            <p>SCHEDULE HERE</p>
-          </div>
-        </div> <!-- /#speakers -->     
-        
         <!-- 
-        
         <a href="http://twitter.com/jrubyconf" id="twitter" target="_blank">JrubyConf on Twitter</a>
         <a href="http://edgecase.com" id="edgecase" target="_blank">EdgeCase</a>
         <a href="http://engineyard.com" id="engineyard" target="_blank">EngineYard</a>

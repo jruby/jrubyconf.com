@@ -1,0 +1,10 @@
+<div class="speaker">
+  <img src="/images/speakers/<%= speaker[:avatar] %>" alt="<%= speaker[:name] %>">
+  <h2 class="name data"><%= speaker[:name] %></h2>
+  <% if speaker[:twitter] %>
+    <div class="twitter data"><a href="http://twitter.com/<%= speaker[:twitter] %>" target="_blank">@<%= speaker[:twitter] %></a></div>
+  <% end %>
+  <% if speaker[:title] %>
+    <div class="title data"><%= speaker[:title] %></div>
+  <% end %>
+</div>

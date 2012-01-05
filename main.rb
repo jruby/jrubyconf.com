@@ -1,14 +1,17 @@
 require 'rubygems'
 require 'sinatra'
+require 'partials'
+helpers Sinatra::Partials
 
 not_found do
   redirect '/'
 end
 
 get '/' do
+  require 'speakers'
   erb :index
 end
 
-get '/:anything' do
-  redirect '/#' + params[:anything]
+get '/:hoobajoob' do
+  redirect '/#' + params[:hoobajoob]
 end

@@ -88,8 +88,8 @@ $(function() {
   });
 
 
-  window.indexScene = new Scene({
-    container  : '#index',
+  window.introScene = new Scene({
+    container  : '#intro',
     controller : mainNavController,
     init       : function() {
       var self = this;
@@ -214,15 +214,20 @@ $(function() {
       var self = this;
 
       // Elements
-      self.heading = self.container.find('.heading');
+      self.heading      = self.container.find('.heading');
+      self.speakersLink = $('#speakers_link');
 
       // CSS animation states
       self.heading.data('animation-visible-css', { opacity: 1.0, top: self.heading.css('top') })
                   .data('animation-hidden-css',  { opacity: 0.0, top: '0px' });
+                  
+      self.speakersLink.data('animation-visible-css', { opacity: 1.0, left: self.speakersLink.css('left') })
+                       .data('animation-hidden-css',  { opacity: 0.0, left: '-50px' });
 
       // Animation Events
       self.bind('inAnimationWillBegin', function(next) {
             self.heading.css(self.heading.data('animation-hidden-css'));
+            self.speakersLink.css(self.heading.data('animation-hidden-css'));
             if(next) { next(); }
           })
           .bind('inAnimationDidFinish',  function(next) { if(next) { next(); } })
@@ -234,6 +239,9 @@ $(function() {
         self.registerForInAnimation([
           { element      : self.heading,
             animateToCSS : self.heading.data('animation-visible-css')
+          },
+          { element      : self.speakersLink,
+            animateToCSS : self.speakersLink.data('animation-visible-css')
           }
         ]);
       };
@@ -242,6 +250,9 @@ $(function() {
         self.registerForOutAnimation([
           { element      : self.heading,
             animateToCSS : self.heading.data('animation-hidden-css')
+          },
+          { element      : self.speakersLink,
+            animateToCSS : self.speakersLink.data('animation-hidden-css')
           }
         ]);
       };
@@ -251,9 +262,9 @@ $(function() {
 
   setTimeout(function() {
     $.history.init(function(hash){
-      hash = (hash == '' ? 'index' : hash.replace(new RegExp("^[#/]+|/$", "g"), ''));
+      hash = (hash == '' ? 'intro' : hash.replace(new RegExp("^[#/]+|/$", "g"), ''));
       var target = window[hash + 'Scene'];
-      mainNavController.performSegueTo((target ? target : window['indexScene']));
+      mainNavController.performSegueTo((target ? target : window['introScene']));
     }, { unescape: ',/' });
   }, 350);
 });
