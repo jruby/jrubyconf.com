@@ -249,11 +249,15 @@ $(function() {
 
       // Elements
       self.heading      = self.container.find('.heading');
+      self.content      = self.container.find('.content');
       self.speakersLink = $('#speakers_link');
 
       // CSS animation states
       self.heading.data('animation-visible-css', { opacity: 1.0, top: self.heading.css('top') })
                   .data('animation-hidden-css',  { opacity: 0.0, top: '0px' });
+                  
+      self.content.data('animation-visible-css', { opacity: 1.0, left: self.content.css('left') })
+                  .data('animation-hidden-css',  { opacity: 0.0, left: '-100%' });
 
       self.speakersLink.data('animation-visible-css', { opacity: 1.0, left: self.speakersLink.css('left') })
                        .data('animation-hidden-css',  { opacity: 0.0, left: '-50px' });
@@ -261,6 +265,7 @@ $(function() {
       // Animation Events
       self.bind('inAnimationWillBegin', function(next) {
             self.heading.css(self.heading.data('animation-hidden-css'));
+            self.content.css(self.content.data('animation-hidden-css'));
             self.speakersLink.css(self.speakersLink.data('animation-hidden-css'));
             if(next) { next(); }
           })
@@ -274,6 +279,9 @@ $(function() {
           { element      : self.heading,
             animateToCSS : self.heading.data('animation-visible-css')
           },
+          { element      : self.content,
+            animateToCSS : self.content.data('animation-visible-css')
+          },
           { element      : self.speakersLink,
             animateToCSS : self.speakersLink.data('animation-visible-css')
           }
@@ -284,6 +292,9 @@ $(function() {
         self.registerForOutAnimation([
           { element      : self.heading,
             animateToCSS : self.heading.data('animation-hidden-css')
+          },
+          { element      : self.content,
+            animateToCSS : self.content.data('animation-hidden-css')
           },
           { element      : self.speakersLink,
             animateToCSS : self.speakersLink.data('animation-hidden-css')

@@ -306,40 +306,6 @@ body { font: 62.5% 'Brown', helvetica, arial, sans-serif; }
   font-size : 1.1em;
 }
 
-
-/* Schedule Scene
-------------------------------------------------- */
-
-#schedule .content {
-  overflow    : hidden;
-  position    : absolute;
-  top         : 195px;
-  left        : 50%;
-  width       : 960px;
-  margin-left :-480px;
-}
-
-#schedule .heading {
-  position       : absolute;
-  top            : 25px;
-  left           : 0;
-  color          : #911a1d;
-  font           : 3.1em 'BrownBold', helvetica, arial, sans-serif;
-  letter-spacing : 0.05em;
-  text-transform : uppercase;
-}
-
-#speakers_link {
-  position    : absolute;
-  top         : 270px;
-  left        : 0;
-  width       : 47px;
-  height      : 200px;
-  display     : block;
-  text-indent :-999em;
-  background  : url(/images/speakers_button.gif);
-}
-
 .bio_box {
   display    : none;
   overflow   : hidden;
@@ -393,3 +359,74 @@ body { font: 62.5% 'Brown', helvetica, arial, sans-serif; }
   color           : #fff;
   text-decoration : none;
 }
+
+
+/* Schedule Scene
+------------------------------------------------- */
+
+#schedule .content {
+  overflow    : hidden;
+  position    : absolute;
+  top         : 195px;
+  left        : 50%;
+  width       : 960px;
+  margin-left :-480px;
+  padding-top : 80px;
+}
+
+#schedule .heading {
+  position       : absolute;
+  top            : 25px;
+  left           : 0;
+  color          : #911a1d;
+  font           : 3.1em 'BrownBold', helvetica, arial, sans-serif;
+  letter-spacing : 0.05em;
+  text-transform : uppercase;
+}
+
+#schedule .left {
+  float  : left;
+  width  : 43%;
+}
+
+#schedule .right {
+  float  : right;
+  width  : 43%;
+}
+
+#speakers_link {
+  position    : absolute;
+  top         : 270px;
+  left        : 0;
+  width       : 47px;
+  height      : 200px;
+  display     : block;
+  text-indent :-999em;
+  background  : url(/images/speakers_button.gif);
+}
+
+#schedule h2 {
+  margin-bottom  : 0.5em;
+  font           : 2.4em 'BrownBold', helvetica, arial, sans-serif;
+  text-transform : uppercase;
+}
+
+table {
+  width     : 100%;
+  font-size : 16px;
+}
+
+td {
+  padding-bottom : 10px;
+  text-align     : left;
+  vertical-align : top;
+}
+
+td.time {
+  min-width     : 7.5em;
+  padding-right : 15px;
+  color         : #191919;
+}
+
+td.title { color: #af412e; }
+td.title.not_talk { color: #d6876b; }
