@@ -276,6 +276,7 @@ body { font: 62.5% 'Brown', helvetica, arial, sans-serif; }
   top        : 50%;
   left       : 0;
   margin-top :-26px;
+  cursor     : pointer;
 }
 
 .speaker .data {
@@ -283,12 +284,14 @@ body { font: 62.5% 'Brown', helvetica, arial, sans-serif; }
   margin-bottom : 4px;
   white-space   : nowrap;
   text-overflow : ellipsis;
+  cursor        : pointer;
 }
 
 .speaker .name {
   padding        : 1px 0 0 0;
   font-size      : 1.4em;
   text-transform : uppercase;
+  background     : url(/images/black_arrow.png) no-repeat 100% 50%;
 }
 
 .speaker .twitter   { font-size: 1.1em; }
@@ -337,7 +340,7 @@ body { font: 62.5% 'Brown', helvetica, arial, sans-serif; }
   display    : none;
   overflow   : hidden;
   position   : absolute;
-  top        : 0;
+  top        : 80px;
   left       : 0;
   width      : 444px;
   padding    : 13px;
@@ -350,6 +353,17 @@ body { font: 62.5% 'Brown', helvetica, arial, sans-serif; }
   overflow : hidden;
   float    : left;
   width    : 106px;
+}
+
+.bio_box .close {
+  position    : absolute;
+  bottom      : 0;
+  left        : 0;
+  width       : 40px;
+  height      : 45px;
+  text-indent : -999em;
+  cursor      : pointer;
+  background  : url(/images/white_arrow.png) no-repeat 15px 15px;
 }
 
 .bio_box .name {

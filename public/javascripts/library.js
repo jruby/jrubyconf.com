@@ -37,8 +37,8 @@ $.extend($.easing,{
 });
 
 
-var NavigationController = function() { };
-NavigationController.prototype.performSegueTo = function(targetScene) {
+var ScenesController = function() { };
+ScenesController.prototype.performSegueTo = function(targetScene) {
   var self = this;
 
   if(self.currentScene) {
@@ -55,7 +55,7 @@ NavigationController.prototype.performSegueTo = function(targetScene) {
   }
 };
 
-MicroEvent.mixin(NavigationController);
+MicroEvent.mixin(ScenesController);
 
 
 var Scene = function(data) {
@@ -99,7 +99,17 @@ var Scene = function(data) {
 
     $.each(elements, function(index, args) {
       var delay = args.delay || 0;
-      args.element.delay(delay).animate(args.animateToCSS, (args.duration || 500), (args.easing || 'easeInOutExpo'), complete);
+      if(args.element.length > 1) {
+        setTimeout(function() {
+          var eachDelay = 0;
+          args.element.each(function(index, elm) {
+            eachDelay += (args.eachDelay || 0);
+            $(elm).delay(eachDelay).animate(args.animateToCSS, (args.duration || 500), (args.easing || 'easeInOutExpo'), complete);
+          });
+        }, delay);
+      } else {
+        args.element.delay(delay).animate(args.animateToCSS, (args.duration || 500), (args.easing || 'easeInOutExpo'), complete); 
+      }
     });
   };
 

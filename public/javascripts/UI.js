@@ -1,41 +1,47 @@
-/* EXAMPLE SCENE:
-window.exampleScene = new Scene('#example', function() {
-  var self = this;
+/*
+window.exampleScene = new Scene({
+  container  : '#example',
+  controller : exampleController,
+  init       : function() {
+    var self = this;
 
-  // Elements
-  self.element = self.container.find('.element');
+    // Elements
+    self.content = self.container.find('.content');
 
-  // CSS animation states
-  self.element.data('animation-visible-css', { })
-              .data('animation-hidden-css',  { });
+    // CSS animation states
+    self.content.data('animation-visible-css', { opacity: 1.0, top: self.content.css('top') })
+                .data('animation-hidden-css',  { opacity: 0.0, top: '0px' });
 
-  // Animation Events
-  self.bind('inAnimationWillBegin',  function(next) { if(next) { next(); } })
-      .bind('inAnimationDidFinish',  function(next) { if(next) { next(); } })
-      .bind('outAnimationWillBegin', function(next) { if(next) { next(); } })
-      .bind('outAnimationDidFinish', function(next) { if(next) { next(); } });
+   // Animation Events
+    self.bind('inAnimationWillBegin',  function(next) { if(next) { next(); } })
+        .bind('inAnimationDidFinish',  function(next) { if(next) { next(); } })
+        .bind('outAnimationWillBegin', function(next) { if(next) { next(); } })
+        .bind('outAnimationDidFinish', function(next) { if(next) { next(); } });
 
-  // Animations
-  self.inAnimation = function() {
-    self.registerForInAnimation([
-      { element : self.element,
-        css     : self.element.data('animation-visible-css');
-      }
-    ]);
-  };
+    // Animations
+    self.inAnimation = function() {
+      self.registerForInAnimation([
+        { element      : self.content,
+          animateToCSS : self.content.data('animation-visible-css'),
+        }
+      ]);
+    };
 
-  self.outAnimation = function() {
-    self.registerForOutAnimation([
-      { element : self.element,
-        css     : self.element.data('animation-hidden-css');
-      }
-    ]);
-  };
+    self.outAnimation = function() {
+      self.registerForOutAnimation([
+        { element      : self.content,
+          animateToCSS : self.content.data('animation-hidden-css')
+        }
+      ]);
+    };
+  }
 });
 */
 
+
+
 $(function() {
-  window.mainNavController = new NavigationController();
+  window.sceneController = new ScenesController();
   
   $('#speakers .navigation').on('click', 'a', function(e) {
     e.preventDefault();
@@ -48,7 +54,7 @@ $(function() {
 
   window.informationScene = new Scene({
     container  : '#information',
-    controller : mainNavController,
+    controller : sceneController,
     init       : function() {
       var self = this;
 
@@ -90,7 +96,7 @@ $(function() {
 
   window.introScene = new Scene({
     container  : '#intro',
-    controller : mainNavController,
+    controller : sceneController,
     init       : function() {
       var self = this;
 
@@ -143,17 +149,17 @@ $(function() {
 
   window.speakersScene = new Scene({
     container  : '#speakers',
-    controller : mainNavController,
+    controller : sceneController,
     init       : function() {
       var self = this;
 
       // Elements
       self.heading      = self.container.find('.heading');
-      self.listing      = $('#speakers_listing');
+      self.listing      = $('#speakers_listing .speaker');
       self.scheduleLink = $('#schedule_link');
       self.speakers     = self.container.find('.speaker');
       self.bioBox       = {};
-      var body          = $('body');
+      self.closeButtons = self.container.find('.bio_box .close');
 
       // CSS animation states
       self.heading.data('animation-visible-css', { opacity: 1.0, top: self.heading.css('top') })
@@ -165,8 +171,14 @@ $(function() {
       self.scheduleLink.data('animation-visible-css', { opacity: 1.0, right: self.scheduleLink.css('right') })
                        .data('animation-hidden-css',  { opacity: 0.0, right: '-50px' });
                        
-      self.bioBox.animationVisibleCSS = { opacity: 1.0, top: '0px' };
+      self.bioBox.animationVisibleCSS = { opacity: 1.0, top: '80px' };
       self.bioBox.animationHiddenCSS  = { opacity: 0.0, top: '-200px' };
+      self.bioBox.hideAll             = function(hollaback) {
+        $('.bio_box:visible').animate(self.bioBox.animationHiddenCSS, 250, 'easeInOutExpo', function() {
+          $(this).hide();
+          if(hollaback) { hollaback(); }
+        });
+      }
 
       // Animation Events
       self.bind('inAnimationWillBegin', function(next) {
@@ -180,20 +192,28 @@ $(function() {
           .bind('outAnimationDidFinish', function(next) { if(next) { next(); } });
 
       // Animations
-      body.on('click', function(e) {
+      $('body').on('click', function(e) {
         var target = $(e.target);
         var targetIsSpeakerOrBio = (!!target.closest('.speaker').length) || (!!target.closest('.bio_box').length);
         if(targetIsSpeakerOrBio) { return; }
-        $('.bio_box:visible').animate(self.bioBox.animationHiddenCSS, 250, 'easeInOutExpo', function() {
-          $(this).hide();
-        });
+        self.bioBox.hideAll();
       });
+
+      self.closeButtons.on('click', function(e) { self.bioBox.hideAll(); });
       
       self.speakers.on('click', 'img, .name, .title', function(e) {
-        var targetID = '#' + $(this).closest('.speaker').attr('id') + '_bio';
-        $(targetID).css(self.bioBox.animationHiddenCSS)
-                   .show()
-                   .animate(self.bioBox.animationVisibleCSS, 250, 'easeInOutExpo');
+        var targetID  = '#' + $(this).closest('.speaker').attr('id') + '_bio';
+        var animateIn = function() {
+          $(targetID).css(self.bioBox.animationHiddenCSS)
+                     .show()
+                     .animate(self.bioBox.animationVisibleCSS, 250, 'easeInOutExpo'); 
+        };
+
+        if($('.bio_box:visible').length) {
+          self.bioBox.hideAll(animateIn);
+        } else {
+          animateIn();
+        }
       });
 
       self.inAnimation = function() {
@@ -202,11 +222,13 @@ $(function() {
             animateToCSS : self.heading.data('animation-visible-css')
           },
           { element      : self.listing,
-            animateToCSS : self.listing.data('animation-visible-css')
+            animateToCSS : self.listing.data('animation-visible-css'),
+            delay        : 300,
+            animateEach  : true,
+            eachDelay    : 50
           },
           { element      : self.scheduleLink,
             animateToCSS : self.scheduleLink.data('animation-visible-css'),
-            delay        : 500,
             duration     : 300
           }
         ]);
@@ -231,7 +253,7 @@ $(function() {
   
   window.scheduleScene = new Scene({
     container  : '#schedule',
-    controller : mainNavController,
+    controller : sceneController,
     init       : function() {
       var self = this;
 
@@ -249,7 +271,7 @@ $(function() {
       // Animation Events
       self.bind('inAnimationWillBegin', function(next) {
             self.heading.css(self.heading.data('animation-hidden-css'));
-            self.speakersLink.css(self.heading.data('animation-hidden-css'));
+            self.speakersLink.css(self.speakersLink.data('animation-hidden-css'));
             if(next) { next(); }
           })
           .bind('inAnimationDidFinish',  function(next) { if(next) { next(); } })
@@ -286,7 +308,7 @@ $(function() {
     $.history.init(function(hash){
       hash = (hash == '' ? 'intro' : hash.replace(new RegExp("^[#/]+|/$", "g"), ''));
       var target = window[hash + 'Scene'];
-      mainNavController.performSegueTo((target ? target : window['introScene']));
+      sceneController.performSegueTo((target ? target : window['introScene']));
     }, { unescape: ',/' });
   }, 350);
 });
