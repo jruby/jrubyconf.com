@@ -75,6 +75,65 @@ body { font: 62.5% 'Brown', helvetica, arial, sans-serif; }
   z-index     : 0;
 }
 
+.info_box {
+  display    : none;
+  overflow   : hidden;
+  position   : absolute;
+  top        : 80px;
+  left       : 0;
+  width      : 444px;
+  min-height : 140px;
+  padding    : 13px;
+  color      : #fff;
+  background : #8e171e;
+  z-index    : 1;
+}
+
+.info_box .left {
+  overflow : hidden;
+  float    : left;
+  width    : 106px;
+}
+
+.info_box .close {
+  position    : absolute;
+  bottom      : 0;
+  left        : 0;
+  width       : 40px;
+  height      : 45px;
+  text-indent : -999em;
+  cursor      : pointer;
+  background  : url(/images/white_arrow.png) no-repeat 15px 15px;
+}
+
+.info_box .name {
+  margin-bottom  : 20px;
+  font           : 2.4em 'BrownBold', helvetica, arial, sans-serif;
+  text-transform : uppercase;
+}
+
+.info_box .twitter { margin-bottom: 20px; }
+
+.info_box .twitter,
+.info_box .title {
+  font-size: 1.4em
+}
+
+.info_box .bio {
+  margin-left : 130px;
+  font-size   : 1.4em;
+  line-height : 130%;
+}
+
+.info_box h2 {
+  font-size: 1.2em !important;
+}
+
+.info_box a {
+  color           : #fff;
+  text-decoration : none;
+}
+
 
 /* Footer
 ------------------------------------------------- */
@@ -261,7 +320,6 @@ body { font: 62.5% 'Brown', helvetica, arial, sans-serif; }
 }
 
 #speakers_listing { 
-  overflow    : hidden;
   position    : relative;
   padding-top : 80px;
 }
@@ -306,60 +364,6 @@ body { font: 62.5% 'Brown', helvetica, arial, sans-serif; }
   font-size : 1.1em;
 }
 
-.bio_box {
-  display    : none;
-  overflow   : hidden;
-  position   : absolute;
-  top        : 80px;
-  left       : 0;
-  width      : 444px;
-  padding    : 13px;
-  color      : #fff;
-  background : #8e171e;
-  z-index    : 1;
-}
-
-.bio_box .left {
-  overflow : hidden;
-  float    : left;
-  width    : 106px;
-}
-
-.bio_box .close {
-  position    : absolute;
-  bottom      : 0;
-  left        : 0;
-  width       : 40px;
-  height      : 45px;
-  text-indent : -999em;
-  cursor      : pointer;
-  background  : url(/images/white_arrow.png) no-repeat 15px 15px;
-}
-
-.bio_box .name {
-  margin-bottom  : 20px;
-  font           : 2.4em 'BrownBold', helvetica, arial, sans-serif;
-  text-transform : uppercase;
-}
-
-.bio_box .twitter { margin-bottom: 20px; }
-
-.bio_box .twitter,
-.bio_box .title {
-  font-size: 1.4em
-}
-
-.bio_box .bio {
-  margin-left : 130px;
-  font-size   : 1.4em;
-  line-height : 130%;
-}
-
-.bio_box a {
-  color           : #fff;
-  text-decoration : none;
-}
-
 
 /* Schedule Scene
 ------------------------------------------------- */
@@ -384,12 +388,12 @@ body { font: 62.5% 'Brown', helvetica, arial, sans-serif; }
   text-transform : uppercase;
 }
 
-#schedule .left {
+#schedule .left_day {
   float  : left;
   width  : 43%;
 }
 
-#schedule .right {
+#schedule .right_day {
   float  : right;
   width  : 43%;
 }

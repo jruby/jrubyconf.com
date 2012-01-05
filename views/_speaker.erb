@@ -1,28 +1,30 @@
-<div class="speaker" id="<%= speaker[:id] %>">
-  <img src="/images/speakers/<%= speaker[:avatar] %>" alt="<%= speaker[:name] %>">
-  <h2 class="name data"><%= speaker[:name] %></h2>
-  <% if speaker[:twitter] %>
-    <div class="twitter data"><a href="http://twitter.com/<%= speaker[:twitter] %>" target="_blank">@<%= speaker[:twitter] %></a></div>
+<% data = speaker[1] %>
+
+<div class="speaker" id="<%= speaker[0] %>">
+  <img src="/images/speakers/<%= data[:avatar] %>" alt="<%= data[:name] %>">
+  <h2 class="name data"><%= data[:name] %></h2>
+  <% if data[:twitter] %>
+    <div class="twitter data"><a href="http://twitter.com/<%= data[:twitter] %>" target="_blank">@<%= data[:twitter] %></a></div>
   <% end %>
-  <% if speaker[:title] %>
-    <div class="title data"><%= speaker[:title] %></div>
+  <% if data[:title] %>
+    <div class="title data"><%= data[:title] %></div>
   <% end %>
 </div>
 
-<div class="bio_box" id="<%= "#{speaker[:id]}_bio" %>">
+<div class="info_box" id="<%= "#{speaker[0]}_bio" %>">
   <div class="close">close</div>
   <div class="left">
-    <div class="name"><%= speaker[:name] %></div>
+    <div class="name"><%= data[:name] %></div>
 
-    <% if speaker[:twitter] %>
-      <div class="twitter"><a href="http://twitter.com/<%= speaker[:twitter] %>" target="_blank">@<%= speaker[:twitter] %></a></div>
+    <% if data[:twitter] %>
+      <div class="twitter"><a href="http://twitter.com/<%= data[:twitter] %>" target="_blank">@<%= data[:twitter] %></a></div>
     <% end %>
 
-    <% if speaker[:title] %>
-      <div class="title"><%= speaker[:title] %></div>
+    <% if data[:title] %>
+      <div class="title"><%= data[:title] %></div>
     <% end %>
   </div>
   <div class="bio">
-    <%= speaker[:bio] %>
+    <%= data[:bio] %>
   </div>
 </div>

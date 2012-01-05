@@ -157,8 +157,8 @@ $(function() {
       self.content      = self.container.find('.content');
       self.scheduleLink = $('#schedule_link');
       self.speakers     = self.container.find('.speaker');
-      self.bioBox       = {};
-      self.closeButtons = self.container.find('.bio_box .close');
+      self.infoBox      = {};
+      self.closeButtons = self.container.find('.info_box .close');
 
       // CSS animation states
       self.content.data('animation-visible-css', { opacity: 1.0, left: self.content.css('left') })
@@ -170,14 +170,14 @@ $(function() {
       self.scheduleLink.data('animation-visible-css', { opacity: 1.0, right: self.scheduleLink.css('right') })
                        .data('animation-hidden-css',  { opacity: 0.0, right: '-50px' });
                        
-      self.bioBox.animationVisibleCSS = { opacity: 1.0, top: '80px' };
-      self.bioBox.animationHiddenCSS  = { opacity: 0.0, top: '-200px' };
-      self.bioBox.hideAll             = function(hollaback) {
-        $('.bio_box:visible').animate(self.bioBox.animationHiddenCSS, 250, 'easeInOutExpo', function() {
+      self.infoBox.animationVisibleCSS = { opacity: 1.0, top: '80px' };
+      self.infoBox.animationHiddenCSS  = { opacity: 0.0, top: '-200px' };
+      self.infoBox.hideAll             = function(hollaback) {
+        $('.info_box:visible').animate(self.infoBox.animationHiddenCSS, 250, 'easeInOutExpo', function() {
           $(this).hide();
           if(hollaback) { hollaback(); }
         });
-      }
+      };
 
       // Animation Events
       self.bind('inAnimationWillBegin', function(next) {
@@ -190,25 +190,25 @@ $(function() {
           .bind('outAnimationDidFinish', function(next) { if(next) { next(); } });
 
       // Animations
-      $('body').on('click', function(e) {
+      self.container.on('click', function(e) {
         var target = $(e.target);
-        var targetIsSpeakerOrBio = (!!target.closest('.speaker').length) || (!!target.closest('.bio_box').length);
+        var targetIsSpeakerOrBio = (!!target.closest('.speaker').length) || (!!target.closest('.info_box').length);
         if(targetIsSpeakerOrBio) { return; }
-        self.bioBox.hideAll();
+        self.infoBox.hideAll();
       });
 
-      self.closeButtons.on('click', function(e) { self.bioBox.hideAll(); });
+      self.closeButtons.on('click', function(e) { self.infoBox.hideAll(); });
       
       self.speakers.on('click', 'img, .name, .title', function(e) {
         var targetID  = '#' + $(this).closest('.speaker').attr('id') + '_bio';
         var animateIn = function() {
-          $(targetID).css(self.bioBox.animationHiddenCSS)
+          $(targetID).css(self.infoBox.animationHiddenCSS)
                      .show()
-                     .animate(self.bioBox.animationVisibleCSS, 250, 'easeInOutExpo'); 
+                     .animate(self.infoBox.animationVisibleCSS, 250, 'easeInOutExpo'); 
         };
 
-        if($('.bio_box:visible').length) {
-          self.bioBox.hideAll(animateIn);
+        if($('.info_box:visible').length) {
+          self.infoBox.hideAll(animateIn);
         } else {
           animateIn();
         }
@@ -250,6 +250,9 @@ $(function() {
       // Elements
       self.heading      = self.container.find('.heading');
       self.content      = self.container.find('.content');
+      self.events       = self.container.find('tr');
+      self.infoBox      = {};
+      self.closeButtons = self.container.find('.info_box .close');
       self.speakersLink = $('#speakers_link');
 
       // CSS animation states
@@ -262,6 +265,14 @@ $(function() {
       self.speakersLink.data('animation-visible-css', { opacity: 1.0, left: self.speakersLink.css('left') })
                        .data('animation-hidden-css',  { opacity: 0.0, left: '-50px' });
 
+      self.infoBox.animationVisibleCSS = { opacity: 1.0, top: '80px' };
+      self.infoBox.animationHiddenCSS  = { opacity: 0.0, top: '-200px' };
+      self.infoBox.hideAll             = function(hollaback) {
+       $('.info_box:visible').animate(self.infoBox.animationHiddenCSS, 250, 'easeInOutExpo', function() {
+         $(this).hide();
+         if(hollaback) { hollaback(); }
+       });
+      };
       // Animation Events
       self.bind('inAnimationWillBegin', function(next) {
             self.heading.css(self.heading.data('animation-hidden-css'));
@@ -274,6 +285,30 @@ $(function() {
           .bind('outAnimationDidFinish', function(next) { if(next) { next(); } });
 
       // Animations
+      self.container.on('click', function(e) {
+        var target = $(e.target);
+        var targetIsEventOrBio = (!!target.closest('tr').length) || (!!target.closest('.info_box').length);
+        if(targetIsEventOrBio) { return; }
+        self.infoBox.hideAll();
+      });
+
+      self.closeButtons.on('click', function(e) { self.infoBox.hideAll(); });
+      
+      self.events.on('click', function(e) {
+        var targetID  = '#' + $(this).attr('data-id');
+        var animateIn = function() {
+          $(targetID).css(self.infoBox.animationHiddenCSS)
+                     .show()
+                     .animate(self.infoBox.animationVisibleCSS, 250, 'easeInOutExpo'); 
+        };
+
+        if($('.info_box:visible').length) {
+          self.infoBox.hideAll(animateIn);
+        } else {
+          animateIn();
+        }
+      });
+
       self.inAnimation = function() {
         self.registerForInAnimation([
           { element      : self.heading,

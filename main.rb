@@ -8,7 +8,7 @@ not_found do
 end
 
 get '/' do
-  require 'speakers'
+  require 'data'
   erb :index
 end
 
