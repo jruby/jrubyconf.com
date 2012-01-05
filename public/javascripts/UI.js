@@ -151,6 +151,9 @@ $(function() {
       self.heading      = self.container.find('.heading');
       self.listing      = $('#speakers_listing');
       self.scheduleLink = $('#schedule_link');
+      self.speakers     = self.container.find('.speaker');
+      self.bioBox       = {};
+      var body          = $('body');
 
       // CSS animation states
       self.heading.data('animation-visible-css', { opacity: 1.0, top: self.heading.css('top') })
@@ -161,6 +164,9 @@ $(function() {
                   
       self.scheduleLink.data('animation-visible-css', { opacity: 1.0, right: self.scheduleLink.css('right') })
                        .data('animation-hidden-css',  { opacity: 0.0, right: '-50px' });
+                       
+      self.bioBox.animationVisibleCSS = { opacity: 1.0, top: '0px' };
+      self.bioBox.animationHiddenCSS  = { opacity: 0.0, top: '-200px' };
 
       // Animation Events
       self.bind('inAnimationWillBegin', function(next) {
@@ -174,6 +180,22 @@ $(function() {
           .bind('outAnimationDidFinish', function(next) { if(next) { next(); } });
 
       // Animations
+      body.on('click', function(e) {
+        var target = $(e.target);
+        var targetIsSpeakerOrBio = (!!target.closest('.speaker').length) || (!!target.closest('.bio_box').length);
+        if(targetIsSpeakerOrBio) { return; }
+        $('.bio_box:visible').animate(self.bioBox.animationHiddenCSS, 250, 'easeInOutExpo', function() {
+          $(this).hide();
+        });
+      });
+      
+      self.speakers.on('click', 'img, .name, .title', function(e) {
+        var targetID = '#' + $(this).closest('.speaker').attr('id') + '_bio';
+        $(targetID).css(self.bioBox.animationHiddenCSS)
+                   .show()
+                   .animate(self.bioBox.animationVisibleCSS, 250, 'easeInOutExpo');
+      });
+
       self.inAnimation = function() {
         self.registerForInAnimation([
           { element      : self.heading,
@@ -220,7 +242,7 @@ $(function() {
       // CSS animation states
       self.heading.data('animation-visible-css', { opacity: 1.0, top: self.heading.css('top') })
                   .data('animation-hidden-css',  { opacity: 0.0, top: '0px' });
-                  
+
       self.speakersLink.data('animation-visible-css', { opacity: 1.0, left: self.speakersLink.css('left') })
                        .data('animation-hidden-css',  { opacity: 0.0, left: '-50px' });
 

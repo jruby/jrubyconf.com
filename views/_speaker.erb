@@ -1,4 +1,4 @@
-<div class="speaker">
+<div class="speaker" id="<%= speaker[:id] %>">
   <img src="/images/speakers/<%= speaker[:avatar] %>" alt="<%= speaker[:name] %>">
   <h2 class="name data"><%= speaker[:name] %></h2>
   <% if speaker[:twitter] %>
@@ -7,4 +7,21 @@
   <% if speaker[:title] %>
     <div class="title data"><%= speaker[:title] %></div>
   <% end %>
+</div>
+
+<div class="bio_box" id="<%= "#{speaker[:id]}_bio" %>">
+  <div class="left">
+    <div class="name"><%= speaker[:name] %></div>
+
+    <% if speaker[:twitter] %>
+      <div class="twitter"><a href="http://twitter.com/<%= speaker[:twitter] %>" target="_blank">@<%= speaker[:twitter] %></a></div>
+    <% end %>
+
+    <% if speaker[:title] %>
+      <div class="title"><%= speaker[:title] %></div>
+    <% end %>
+  </div>
+  <div class="bio">
+    <%= speaker[:bio] %>
+  </div>
 </div>

@@ -27,7 +27,7 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 body{line-height:1}
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
 a{font-size:100%;vertical-align:baseline;background:transparent;margin:0;padding:0}
-
+.clear { clear: both; }
 
 
 
@@ -232,7 +232,6 @@ body { font: 62.5% 'Brown', helvetica, arial, sans-serif; }
 ------------------------------------------------- */
 
 #speakers .content {
-  overflow    : hidden;
   position    : absolute;
   top         : 195px;
   left        : 50%;
@@ -332,4 +331,47 @@ body { font: 62.5% 'Brown', helvetica, arial, sans-serif; }
   display     : block;
   text-indent :-999em;
   background  : url(/images/speakers_button.gif);
+}
+
+.bio_box {
+  display    : none;
+  overflow   : hidden;
+  position   : absolute;
+  top        : 0;
+  left       : 0;
+  width      : 444px;
+  padding    : 13px;
+  color      : #fff;
+  background : #8e171e;
+  z-index    : 1;
+}
+
+.bio_box .left {
+  overflow : hidden;
+  float    : left;
+  width    : 106px;
+}
+
+.bio_box .name {
+  margin-bottom  : 20px;
+  font           : 2.4em 'BrownBold', helvetica, arial, sans-serif;
+  text-transform : uppercase;
+}
+
+.bio_box .twitter { margin-bottom: 20px; }
+
+.bio_box .twitter,
+.bio_box .title {
+  font-size: 1.4em
+}
+
+.bio_box .bio {
+  margin-left : 130px;
+  font-size   : 1.4em;
+  line-height : 130%;
+}
+
+.bio_box a {
+  color           : #fff;
+  text-decoration : none;
 }
