@@ -260,7 +260,11 @@ body { font: 62.5% 'Brown', helvetica, arial, sans-serif; }
   background  : url(/images/schedule_button.gif);
 }
 
-#speakers_listing { padding-top: 80px; }
+#speakers_listing { 
+  overflow    : hidden;
+  position    : relative;
+  padding-top : 80px;
+}
 
 .speaker {
   position : relative;
