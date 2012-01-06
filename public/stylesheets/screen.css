@@ -144,6 +144,7 @@ body { font: 62.5% 'Brown', helvetica, arial, sans-serif; }
   bottom      : 0;
   left        : 0;
   height      : 70px;
+  padding     : 0 0 0 10px;
   font-size   : 1.4em;
   line-height : 70px;
   background  : #f0e9d3 url(/images/footer_shadow.gif) repeat-x;

@@ -42,7 +42,7 @@ window.exampleScene = new Scene({
 
 $(function() {
   window.sceneController = new ScenesController();
-  
+
   $('#speakers .navigation').on('click', 'a', function(e) {
     e.preventDefault();
     var sceneName = $(this).attr('href')
@@ -163,13 +163,13 @@ $(function() {
       // CSS animation states
       self.content.data('animation-visible-css', { opacity: 1.0, left: self.content.css('left') })
                   .data('animation-hidden-css',  { opacity: 0.0, left: '100%' });
-                  
+
       self.speakers.data('animation-visible-css', { opacity: 1.0 })
                   .data('animation-hidden-css',  { opacity: 0.0 });
-                  
+
       self.scheduleLink.data('animation-visible-css', { opacity: 1.0, right: self.scheduleLink.css('right') })
                        .data('animation-hidden-css',  { opacity: 0.0, right: '-50px' });
-                       
+
       self.infoBox.animationVisibleCSS = { opacity: 1.0, top: '80px' };
       self.infoBox.animationHiddenCSS  = { opacity: 0.0, top: '-200px' };
       self.infoBox.hideAll             = function(hollaback) {
@@ -198,7 +198,7 @@ $(function() {
       });
 
       self.closeButtons.on('click', function(e) { self.infoBox.hideAll(); });
-      
+
       self.speakers.on('click', 'img, .name, .title', function(e) {
         var targetID  = '#' + $(this).closest('.speaker').attr('id') + '_bio';
         var animateIn = function() {
@@ -239,8 +239,8 @@ $(function() {
       };
     }
   });
-  
-  
+
+
   window.scheduleScene = new Scene({
     container  : '#schedule',
     controller : sceneController,
@@ -258,7 +258,7 @@ $(function() {
       // CSS animation states
       self.heading.data('animation-visible-css', { opacity: 1.0, top: self.heading.css('top') })
                   .data('animation-hidden-css',  { opacity: 0.0, top: '0px' });
-                  
+
       self.content.data('animation-visible-css', { opacity: 1.0, left: self.content.css('left') })
                   .data('animation-hidden-css',  { opacity: 0.0, left: '-100%' });
 
@@ -293,7 +293,7 @@ $(function() {
       });
 
       self.closeButtons.on('click', function(e) { self.infoBox.hideAll(); });
-      
+
       self.events.on('click', function(e) {
         var targetID  = '#' + $(this).attr('data-id');
         var animateIn = function() {
