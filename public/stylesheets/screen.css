@@ -391,12 +391,13 @@ body { font: 62.5% 'Brown', helvetica, arial, sans-serif; }
 
 #schedule .left_day {
   float  : left;
-  width  : 43%;
+  width  : 30%;
+  margin-right: 25px;
 }
 
 #schedule .right_day {
-  float  : right;
-  width  : 43%;
+  float  : left;
+  width  : 30%;
 }
 
 #speakers_link {
@@ -435,3 +436,9 @@ td.time {
 
 td.title { color: #af412e; cursor: pointer; }
 td.title.not_talk { color: #d6876b; }
+
+/*
+ * Local Variables:
+ * copyright-limit: 1
+ * End:
+ */
