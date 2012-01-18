@@ -1,0 +1,18 @@
+source:      ./_news
+destination: ./public
+
+permalink:   /news/:year/:month/:title	
+title:       JRubyConf news
+subtitle:    JRubyConf updates
+url:         http://www.jrubyconf.com/news/
+paginate:    10
+markdown:    kramdown
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+schedule_url: https://www.google.com/calendar/feeds/gpcro626qa3vs9rhoumpdh248o%40group.calendar.google.com/private-fdbe16ce02947060b0a2dcb2029c240e/basic?max-results=50
