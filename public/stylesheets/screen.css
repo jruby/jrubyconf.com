@@ -1,56 +1,437 @@
-html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;margin:0;padding:0}
+/* @license
+ * MyFonts Webfont Build ID 1847809, 2012-01-05T10:00:39-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed /fonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Brown Bold by ShinnType
+ * URL: http://www.myfonts.com/fonts/shinn/brown/bold/
+ * 
+ * Webfont: Brown Regular by ShinnType
+ * URL: http://www.myfonts.com/fonts/shinn/brown/regular/
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=1847809
+ * Licensed pageviews: 20,000
+ * /fonts copyright: Brown is a trademark of Shinn Type Foundry. Brown is published by Shinn Type Foundry. Copyright© 2002 by Nick Shinn.
+ * 
+ * © 2012 Bitstream Inc
+*/  
+ @font-face {font-family: 'BrownBold';src: url('/fonts/1C3201_0_0.eot');src: url('/fonts/1C3201_0_0.eot?#iefix') format('embedded-opentype'),url('/fonts/1C3201_0_0.woff') format('woff'),url('/fonts/1C3201_0_0.ttf') format('truetype');}  
+ @font-face {font-family: 'Brown';src: url('/fonts/1C3201_1_0.eot');src: url('/fonts/1C3201_1_0.eot?#iefix') format('embedded-opentype'),url('/fonts/1C3201_1_0.woff') format('woff'),url('/fonts/1C3201_1_0.ttf') format('truetype');}
+
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;margin:0;padding:0;font-weight:normal;}
 body{line-height:1}
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
 a{font-size:100%;vertical-align:baseline;background:transparent;margin:0;padding:0}
+.clear { clear: both; }
 
 
-html, body {
-  background: #ece3c1 url(/images/background.png);
+
+html, body { background: #ece3c1 url(/images/background.gif); }
+body { font: 62.5% 'Brown', helvetica, arial, sans-serif; }
+
+.animating { overflow: hidden; }
+
+.scene {
+  position : absolute;
+  top      : 0;
+  right    : 0;
+  bottom   : 0;
+  left     : 0;
+  display  : none;
 }
 
 #brush_strokes {
-  height     : 221px;
-  margin-top : -20px;
-  background : url(/images/brush_strokes.gif) no-repeat 50% 0;
+  position   : absolute;
+  top        : 0;
+  right      : 0;
+  left       : 0;
+  height     : 194px;
+  background : url(/images/header_brushwork.png) no-repeat 50% 0;
+  z-index    : 1;
+}
+
+#container {
+  position   : absolute;
+  top        : 0;
+  right      : 0;
+  bottom     : 0;
+  left       : 0;
+  background : url(/images/header_brushwork.png) no-repeat 50% 0;
 }
 
 #content {
-  position    : relative;
-  width       : 829px;
-  height      : 400px;
-  margin      : 10px auto 0 auto;
-  text-indent : -999em;
+  overflow    : auto;
+  position    : absolute;
+  top         : 0;
+  right       : 0;
+  bottom      : 70px;
+  left        : 0;
   background  : url(/images/content.png) no-repeat;
+  z-index     : 0;
 }
 
-#register_now {
+.info_box {
+  display    : none;
+  overflow   : hidden;
+  position   : absolute;
+  top        : 80px;
+  left       : 0;
+  width      : 444px;
+  min-height : 140px;
+  padding    : 13px;
+  color      : #fff;
+  background : #8e171e;
+  z-index    : 1;
+}
+
+.info_box .left {
+  overflow : hidden;
+  float    : left;
+  width    : 106px;
+}
+
+.info_box .close {
+  position    : absolute;
+  bottom      : 0;
+  left        : 0;
+  width       : 40px;
+  height      : 45px;
+  text-indent : -999em;
+  cursor      : pointer;
+  background  : url(/images/white_arrow.png) no-repeat 15px 15px;
+}
+
+.info_box .name {
+  margin-bottom  : 20px;
+  font           : 2.4em 'BrownBold', helvetica, arial, sans-serif;
+  text-transform : uppercase;
+}
+
+.info_box .twitter { margin-bottom: 20px; }
+
+.info_box .twitter,
+.info_box .title {
+  font-size: 1.4em
+}
+
+.info_box .bio {
+  margin-left : 130px;
+  font-size   : 1.4em;
+  line-height : 130%;
+}
+
+.info_box h2 {
+  font-size: 1.2em !important;
+}
+
+.info_box a {
+  color           : #fff;
+  text-decoration : none;
+}
+
+
+/* Footer
+------------------------------------------------- */
+
+#footer {
+  position    : absolute;
+  right       : 0;
+  bottom      : 0;
+  left        : 0;
+  height      : 70px;
+  padding     : 0 0 0 10px;
+  font-size   : 1.4em;
+  line-height : 70px;
+  background  : #f0e9d3 url(/images/footer_shadow.gif) repeat-x;
+}
+
+
+/* Main Navigation
+------------------------------------------------- */
+
+#main_navigation {
+  position       : absolute;
+  top            : 25px;
+  left           : 50%;
+  height         : 73px;
+  width          : 960px;
+  margin-left    :-480px ;
+  color          : #fff;
+  font           : 3.1em 'BrownBold', helvetica, arial;
+  line-height    : 73px;
+  letter-spacing : 0.05em;
+  text-transform : uppercase;
+  z-index        : 2;
+  background     : url(/images/conf_logo_white.png) no-repeat 50% 0;
+}
+
+#main_navigation a { color: #fff; text-decoration: none; }
+
+#main_navigation .left {
+  width      : 442px;
+  text-align : right;
+}
+
+#main_navigation .left a { margin-right: 25px; }
+
+#register_now_small {
+  position    : absolute;
+  top         : 50%;
+  right       : 0;
+  width       : 140px;
+  height      : 33px;
+  margin-top  :-18px;
+  text-indent :-999em;
+  background  : url(/images/register_button_small.gif);
+}
+
+#main_nav_date {
   position : absolute;
-  top      : 184px;
-  left     : 361px;
-  width    : 200px;
-  height   : 47px;
+  left     : 550px;
 }
 
-#twitter {
+#home_link {
   position    : absolute;
-  top         : 189px;
-  left        : 624px;
-  width       : 111px;
-  height      : 37px;
+  top         :-5px;
+  left        : 435px;
+  width       : 89px;
+  height      : 83px;
+  text-indent : -999em;
 }
 
-#edgecase {
-  position    : absolute;
-  top         : 341px;
-  left        : 354px;
-  width       : 177px;
-  height      : 56px;
+
+/* Intro Scene
+------------------------------------------------- */
+
+#intro .content {
+  position       : absolute;
+  top            : 230px;
+  left           : 50%;
+  width          : 960px;
+  height         : 400px;
+  margin-left    :-480px;
+  font           : 3.2em 'BrownBold', helvetica, arial, sans-serif;
+  letter-spacing : 0.05em;
+  line-height    : 150%;
+  text-transform : uppercase;
+  background     : url(/images/conf_logo.png) no-repeat 50% 0;
 }
 
-#engineyard {
-  position    : absolute;
-  top         : 328px;
-  left        : 545px;
-  width       : 60px;
-  height      : 77px;
+#intro .left, #intro .right {
+  position   : absolute;
+  top        : 95px;
+  width      : 280px;
 }
+
+#intro .left {
+  left       : 0;
+  text-align : right;
+}
+
+#intro .right { right: 0; }
+
+#intro a { color: #000; }
+
+#register_now_large {
+  position    : absolute;
+  top         : 350px;
+  left        : 50%;
+  width       : 200px;
+  height      : 47px;
+  margin-left : -100px;
+  text-indent : -999em;
+  background  : url(/images/register_button.gif);
+}
+
+
+
+/* Information Scene
+------------------------------------------------- */
+
+#information .content {
+  overflow    : hidden;
+  position    : absolute;
+  top         : 210px;
+  left        : 50%;
+  width       : 960px;
+  margin-left :-480px;  
+}
+
+#information .column {
+  float        : left;
+  width        : 300px;
+  margin-right : 25px;
+}
+
+#information .column.last {
+  margin-right: 0;
+}
+
+#information h1,
+#information #per_night {
+  font           : 3.2em 'BrownBold', helvetica, arial, sans-serif;
+  letter-spacing : 0.05em;
+  text-transform : uppercase;
+}
+
+#information #per_night { color: #af412e; }
+
+#information p {
+  margin-bottom : 1em;
+  font-size     : 1.4em;
+  line-height   : 150%;
+}
+
+
+/* Speakers Scene
+------------------------------------------------- */
+
+#speakers .content {
+  position    : absolute;
+  top         : 195px;
+  left        : 50%;
+  width       : 960px;
+  margin-left :-480px;
+}
+
+#speakers .heading {
+  position       : absolute;
+  top            : 25px;
+  left           : 0;
+  color          : #911a1d;
+  font           : 3.1em 'BrownBold', helvetica, arial, sans-serif;
+  letter-spacing : 0.05em;
+  text-transform : uppercase;
+}
+
+#schedule_link {
+  position    : absolute;
+  top         : 270px;
+  right       : 0;
+  width       : 47px;
+  height      : 200px;
+  display     : block;
+  text-indent :-999em;
+  background  : url(/images/schedule_button.gif);
+}
+
+#speakers_listing { 
+  position    : relative;
+  padding-top : 80px;
+}
+
+.speaker {
+  position : relative;
+  float    : left;
+  width    : 140px;
+  height   : 55px;
+  margin   : 0 40px 40px 0;
+  padding  : 0 0 0 60px;
+}
+
+.speaker img {
+  position   : absolute;
+  top        : 50%;
+  left       : 0;
+  margin-top :-26px;
+  cursor     : pointer;
+}
+
+.speaker .data {
+  overflow      : hidden;
+  margin-bottom : 4px;
+  white-space   : nowrap;
+  text-overflow : ellipsis;
+  cursor        : pointer;
+}
+
+.speaker .name {
+  padding        : 1px 0 0 0;
+  font-size      : 1.4em;
+  text-transform : uppercase;
+  background     : url(/images/black_arrow.png) no-repeat 100% 50%;
+}
+
+.speaker .twitter   { font-size: 1.1em; }
+.speaker .twitter a { color: #e87859; }
+
+.speaker .title {
+  color     : #cc2e2e;
+  font-size : 1.1em;
+}
+
+
+/* Schedule Scene
+------------------------------------------------- */
+
+#schedule .content {
+  overflow    : hidden;
+  position    : absolute;
+  top         : 195px;
+  left        : 50%;
+  width       : 960px;
+  margin-left :-480px;
+  padding-top : 80px;
+}
+
+#schedule .heading {
+  position       : absolute;
+  top            : 25px;
+  left           : 0;
+  color          : #911a1d;
+  font           : 3.1em 'BrownBold', helvetica, arial, sans-serif;
+  letter-spacing : 0.05em;
+  text-transform : uppercase;
+}
+
+#schedule .left_day {
+  float  : left;
+  width  : 43%;
+}
+
+#schedule .right_day {
+  float  : right;
+  width  : 43%;
+}
+
+#speakers_link {
+  position    : absolute;
+  top         : 270px;
+  left        : 0;
+  width       : 47px;
+  height      : 200px;
+  display     : block;
+  text-indent :-999em;
+  background  : url(/images/speakers_button.gif);
+}
+
+#schedule h2 {
+  margin-bottom  : 0.5em;
+  font           : 2.4em 'BrownBold', helvetica, arial, sans-serif;
+  text-transform : uppercase;
+}
+
+table {
+  width     : 100%;
+  font-size : 16px;
+}
+
+td {
+  padding-bottom : 10px;
+  text-align     : left;
+  vertical-align : top;
+}
+
+td.time {
+  min-width     : 7.5em;
+  padding-right : 15px;
+  color         : #191919;
+}
+
+td.title { color: #af412e; }
+td.title.not_talk { color: #d6876b; }

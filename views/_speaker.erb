@@ -1,0 +1,30 @@
+<% data = speaker[1] %>
+
+<div class="speaker" id="<%= speaker[0] %>">
+  <img src="/images/speakers/<%= data[:avatar] %>" alt="<%= data[:name] %>">
+  <h2 class="name data"><%= data[:name] %></h2>
+  <% if data[:twitter] %>
+    <div class="twitter data"><a href="http://twitter.com/<%= data[:twitter] %>" target="_blank">@<%= data[:twitter] %></a></div>
+  <% end %>
+  <% if data[:title] %>
+    <div class="title data"><%= data[:title] %></div>
+  <% end %>
+</div>
+
+<div class="info_box" id="<%= "#{speaker[0]}_bio" %>">
+  <div class="close">close</div>
+  <div class="left">
+    <div class="name"><%= data[:name] %></div>
+
+    <% if data[:twitter] %>
+      <div class="twitter"><a href="http://twitter.com/<%= data[:twitter] %>" target="_blank">@<%= data[:twitter] %></a></div>
+    <% end %>
+
+    <% if data[:title] %>
+      <div class="title"><%= data[:title] %></div>
+    <% end %>
+  </div>
+  <div class="bio">
+    <%= data[:bio] %>
+  </div>
+</div>
