@@ -6,6 +6,10 @@ require 'rake/clean'
 
 CLEAN << 'schedule.rb'
 
+task :server do
+  sh 'rackup'
+end
+
 file 'schedule.rb' do |t|
   require 'erb'
   erb = ERB.new(File.read('schedule.rb.erb'))
