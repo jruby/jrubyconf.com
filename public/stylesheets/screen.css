@@ -433,5 +433,5 @@ td.time {
   color         : #191919;
 }
 
-td.title { color: #af412e; }
+td.title { color: #af412e; cursor: pointer; }
 td.title.not_talk { color: #d6876b; }
