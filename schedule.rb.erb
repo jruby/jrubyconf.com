@@ -2,35 +2,15 @@ MONDAY    = []
 TUESDAY   = []
 WEDNESDAY = []
 
-2.times do
-  MONDAY << {
-    :time        => '08:00a - 08:45a',
-    :title       => 'Why I love TorqueBox (Why You Will Too)',
-    :description => 'Lorem ipsum',
-    :speaker_id  => 'jrubyconf',
-    :talk        => true
-  }
-end
-
-12.times do
-  TUESDAY << {
-    :time        => '08:00a - 08:45a',
-    :title       => 'Why I love TorqueBox (Why You Will Too)',
-    :description => 'Lorem ipsum',
-    :speaker_id  => 'jrubyconf',
-    :talk        => true
-  }
-end
-
-12.times do
-  WEDNESDAY << {
-    :time        => '08:00a - 08:45a',
-    :title       => 'Why I love TorqueBox (Why You Will Too)',
-    :description => 'Lorem ipsum',
-    :speaker_id  => 'jrubyconf',
-    :talk        => true
-  }
-end
+<% schedule_entries.sort_by {|e| e['Start'] }.each do |entry| %>
+<%= entry['Day'].upcase %> << {
+  :time        => "<%= entry['StartTime'] %> - <%= entry['EndTime'] %>",
+  :title       => <%= entry['Title'].inspect %>,
+  :description => '',
+  :speaker_id  => 'jrubyconf',
+  :talk        => true
+}
+<% end %>
 
 # Local Variables:
 # mode: ruby
