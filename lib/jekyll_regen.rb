@@ -33,7 +33,7 @@ module JRubyConf
       t = Time.now.strftime("%Y-%m-%d %H:%M:%S")
       puts "[#{t}] regeneration: #{args.size} files changed"
       site.process
-      Dir["#{destination}"].each do |f|
+      Dir["#{destination}/**/*"].each do |f|
         FileUtils.cp_r f, f.sub(File.basename(destination), 'public'), :force => true, :verbose => true, :preserve => true
       end
     end

@@ -13,4 +13,11 @@ end
 set :run, false
 set :public_folder, './public'
 set :views, './views'
+
+require 'dot_html_rewriter'
+use DotHtmlRewriter
 run Sinatra::Application
+
+# Local Variables:
+# mode: ruby
+# End:
