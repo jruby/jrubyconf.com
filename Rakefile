@@ -35,6 +35,9 @@ end
 desc "Generate the news posts using Jekyll"
 task :generate do
   ruby "-S bundle exec jekyll"
+  FileList['_site/**/*'].each do |f|
+    cp f, f.sub('_site', 'public')
+  end
 end
 
 desc "Runs all pre-deployment tasks"

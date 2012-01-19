@@ -1,5 +1,5 @@
 source:      ./_news
-destination: ./public
+destination: ./_site
 
 permalink:   /news/:year/:month/:title	
 title:       JRubyConf news
