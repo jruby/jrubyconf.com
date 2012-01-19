@@ -21,14 +21,16 @@ file 'schedule.xml' do |t|
   require 'open-uri'
   require 'yaml'
   url = YAML.load(File.read('_config.yml'))['schedule_url']
-  File.open("schedule.xml", "w") {|f| f.puts(open(url) {|f| Nokogiri::XML(f) }) }
+  open(url) {|xml| File.open("schedule.xml", "w") {|f| f.puts(Nokogiri::XML(xml)) } }
 end
 
 task :schedule => ['schedule.xml', 'schedule.rb'] do
+  if Rake.application.options.trace
+    schedule_entries.sort_by {|e| e['Start'] }.each {|e| p e }
+  end
 end
 
 # END of rake tasks; helper methods below here
-
 module ScheduleData
   def schedule_xml
     @doc ||= begin
@@ -40,11 +42,12 @@ module ScheduleData
   def schedule_entries
     @entries ||= [].tap do |entries|
       schedule_xml.xpath('/atom:feed/atom:entry', {'atom' => 'http://www.w3.org/2005/Atom'}).each do |e|
-        summary = e.xpath('atom:summary', {'atom' => 'http://www.w3.org/2005/Atom'}).first
-        fragment = Nokogiri::HTML.fragment(summary.content)
+        content = e.xpath('atom:content', {'atom' => 'http://www.w3.org/2005/Atom'}).first
+        fragment = Nokogiri::HTML.fragment(content.content)
         nbsp = "\302\240\n"
         nbsp.force_encoding 'UTF-8'
-        entry = YAML::load(fragment.children.select {|c| c.text? }.map {|t| t.text.sub(nbsp, ' ') }.join("\n"))
+        entry_text = fragment.children.select {|c| c.text? }.map {|t| t.text.sub(nbsp, ' ').sub('Event Description: ', '') }.join("\n")
+        entry = YAML::load(entry_text)
         entry['Title'] = e.xpath('atom:title', {'atom' => 'http://www.w3.org/2005/Atom'}).first.content
         schedule_entry_times(entry)
         entries << entry

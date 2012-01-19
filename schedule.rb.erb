@@ -3,12 +3,13 @@ TUESDAY   = []
 WEDNESDAY = []
 
 <% schedule_entries.sort_by {|e| e['Start'] }.each do |entry| %>
+<% next if entry['Show'] == false %>
 <%= entry['Day'].upcase %> << {
   :time        => "<%= entry['StartTime'] %> - <%= entry['EndTime'] %>",
   :title       => <%= entry['Title'].inspect %>,
-  :description => '',
-  :speaker_id  => 'jrubyconf',
-  :talk        => true
+  :description => <%= (entry['Description'] || '').inspect %>,
+  :speaker_id  => <%= (entry['Speaker'] || 'jrubyconf').inspect %>,
+  :talk        => <%= (entry.has_key?('Talk') ? entry['Talk'] : true).inspect %>
 }
 <% end %>
 
