@@ -1,2 +1,5 @@
-/schedule.rb
+/lib/schedule.rb
 /schedule.xml
+/_site
+/public/atom.xml
+/public/news

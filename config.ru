@@ -1,12 +1,16 @@
-$:.unshift(File.dirname(__FILE__)).uniq!
+$:.unshift(File.expand_path('../lib', __FILE__)).uniq!
 
 require 'main'
 
 if development?
   require 'sinatra/reloader'
-  also_reload 'data.rb'
-  also_reload 'schedule.rb'
+  require 'jekyll_regen'
+  also_reload 'lib/data.rb'
+  also_reload 'lib/schedule.rb'
   use Rack::ShowExceptions
 end
 
+set :run, false
+set :public_folder, './public'
+set :views, './views'
 run Sinatra::Application

@@ -18,4 +18,11 @@ SPEAKERS["jrubyconf#{i}".to_sym] = {
 }
 end
 
-require 'schedule'
+MONDAY    = []
+TUESDAY   = []
+WEDNESDAY = []
+
+begin
+  require 'schedule'
+rescue LoadError
+end
