@@ -293,7 +293,7 @@ body { font: 62.5% 'Brown', helvetica, arial, sans-serif; }
 
 #speakers .content {
   position    : absolute;
-  top         : 195px;
+  top         : 175px;
   left        : 50%;
   width       : 960px;
   margin-left :-480px;
@@ -372,7 +372,7 @@ body { font: 62.5% 'Brown', helvetica, arial, sans-serif; }
 #schedule .content {
   overflow    : hidden;
   position    : absolute;
-  top         : 195px;
+  top         : 175px;
   left        : 50%;
   width       : 960px;
   margin-left :-480px;
