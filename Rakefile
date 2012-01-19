@@ -6,6 +6,7 @@ end
 require 'rake/clean'
 CLEAN << 'schedule.rb' << 'schedule.xml'
 
+desc "Runs a development server"
 task :server do
   sh 'rackup'
 end
@@ -24,11 +25,20 @@ file 'schedule.xml' do |t|
   open(url) {|xml| File.open("schedule.xml", "w") {|f| f.puts(Nokogiri::XML(xml)) } }
 end
 
+desc "Builds the schedule from GCal"
 task :schedule => ['schedule.xml', 'schedule.rb'] do
   if Rake.application.options.trace
     schedule_entries.sort_by {|e| e['Start'] }.each {|e| p e }
   end
 end
+
+desc "Generate the news posts using Jekyll"
+task :generate do
+  ruby "-S bundle exec jekyll"
+end
+
+desc "Runs all pre-deployment tasks"
+task :deploy => [:schedule, :generate]
 
 # END of rake tasks; helper methods below here
 module ScheduleData
