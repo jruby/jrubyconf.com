@@ -7,7 +7,7 @@
       <table cellspacing="0" cellpadding="0" border="0">
         <% MONDAY.each do |event| %>
           <% crazy_id = "monday_#{event[:speaker_id]}_#{event[:time].gsub(' ', '').gsub(':','')}"%>
-          <tr data-id="<%= crazy_id %>">
+          <tr class="schedule_row" data-id="<%= crazy_id %>">
             <td class="time"><%= event[:time] %></td>
             <td class="title"><%= event[:title] %></td>
           </tr>
@@ -36,7 +36,7 @@
       <table cellspacing="0" cellpadding="0" border="0">
         <% TUESDAY.each do |event| %>
           <% crazy_id = "tuesday_#{event[:speaker_id]}_#{event[:time].gsub(' ', '').gsub(':','')}"%>
-          <tr data-id="<%= crazy_id %>">
+          <tr class="schedule_row" data-id="<%= crazy_id %>">
             <td class="time"><%= event[:time] %></td>
             <td class="title"><%= event[:title] %></td>
           </tr>
@@ -65,7 +65,7 @@
       <table cellspacing="0" cellpadding="0" border="0">
           <% WEDNESDAY.each do |event| %>
             <% crazy_id = "wednesday_#{event[:speaker_id]}_#{event[:time].gsub(' ', '').gsub(':','')}"%>
-            <tr data-id="<%= crazy_id %>">
+            <tr class="schedule_row" data-id="<%= crazy_id %>">
               <td class="time"><%= event[:time] %></td>
               <td class="title"><%= event[:title] %></td>
             </tr>

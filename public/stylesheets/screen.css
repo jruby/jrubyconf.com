@@ -422,6 +422,10 @@ table {
   font-size : 16px;
 }
 
+.schedule_row {
+    cursor: pointer;
+}
+
 td {
   padding-bottom : 10px;
   text-align     : left;
@@ -429,12 +433,12 @@ td {
 }
 
 td.time {
-  min-width     : 7.5em;
+  min-width     : 9em;
   padding-right : 15px;
   color         : #191919;
 }
 
-td.title { color: #af412e; cursor: pointer; }
+td.title { color: #af412e; }
 td.title.not_talk { color: #d6876b; }
 
 /*
