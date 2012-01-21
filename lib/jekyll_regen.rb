@@ -2,10 +2,29 @@
 require 'jekyll'
 
 module JRubyConf
+  module JekyllData
+    def copy_generated_files(generated, destination)
+      files = Dir["#{generated}/**/*"].to_a
+      root  = generated.sub %r{[^/]+$}, destination
+
+      files.each do |f|
+        begin
+          copy = f.sub /^#{generated}/, root
+
+          if File.directory?(f)
+            FileUtils.mkdir_p copy, :verbose => true
+          else
+            FileUtils.cp_r f, copy, :verbose => true
+          end
+        rescue
+          puts $!, *$!.backtrace
+        end
+      end
+    end
+  end
+
   module JekyllRunner
-    options = Jekyll.configuration({})
-    source      = options['source']
-    destination = options['destination']
+    extend JekyllData
 
     # Files to watch
     def self.globs(source)
@@ -17,27 +36,31 @@ module JRubyConf
       end
     end
 
-    # Create the Site
-    @@site = Jekyll::Site.new(options)
+    def self.main
+      options = Jekyll.configuration({})
+      source      = options['source']
+      destination = options['destination']
 
-    # Watch for updates
-    require 'directory_watcher'
+      # Create the Site
+      @@site = Jekyll::Site.new(options)
 
-    puts "Auto-regenerating enabled: #{source} -> #{destination}"
+      # Watch for updates
+      require 'directory_watcher'
 
-    @@dw = DirectoryWatcher.new(source)
-    @@dw.interval = 1
-    @@dw.glob = globs(source)
+      puts "Auto-regenerating enabled: #{source} -> #{destination}"
 
-    @@dw.add_observer do |*args|
-      t = Time.now.strftime("%Y-%m-%d %H:%M:%S")
-      puts "[#{t}] regeneration: #{args.size} files changed"
-      site.process
-      Dir["#{destination}/**/*"].each do |f|
-        FileUtils.cp_r f, f.sub(File.basename(destination), 'public'), :force => true, :verbose => true, :preserve => true
+      @@dw = DirectoryWatcher.new(source)
+      @@dw.interval = 1
+      @@dw.glob = globs(source)
+
+      @@dw.add_observer do |*args|
+        t = Time.now.strftime("%Y-%m-%d %H:%M:%S")
+        puts "[#{t}] regeneration: #{args.size} files changed"
+        @@site.process
+        copy_generated_files(destination, 'public')
       end
-    end
 
-    @@dw.start
+      @@dw.start
+    end
   end
 end

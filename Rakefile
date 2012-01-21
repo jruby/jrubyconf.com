@@ -26,12 +26,13 @@ task :schedule => ['schedule.xml', 'lib/schedule.rb'] do
   end
 end
 
+require 'jekyll_regen'
+include JRubyConf::JekyllData
+
 desc "Generate the news posts using Jekyll"
 task :generate do
   ruby "-S bundle exec jekyll"
-  FileList['_site/**/*'].each do |f|
-    cp_r f, f.sub('_site', 'public')
-  end
+  copy_generated_files('_site', 'public')
 end
 
 desc "Runs a development server"

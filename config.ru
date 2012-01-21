@@ -5,6 +5,7 @@ require 'main'
 if development?
   require 'sinatra/reloader'
   require 'jekyll_regen'
+  JRubyConf::JekyllRunner.main
   also_reload 'lib/data.rb'
   also_reload 'lib/schedule.rb'
   use Rack::ShowExceptions
