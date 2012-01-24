@@ -2,8 +2,8 @@ source:      ./_news
 destination: ./_site
 
 permalink:   /news/:year/:month/:title	
-title:       JRubyConf news
-subtitle:    JRubyConf updates
+title:       JRubyConf News
+subtitle:    JRubyConf Updates
 url:         http://www.jrubyconf.com/news/
 paginate:    10
 markdown:    kramdown
@@ -16,3 +16,6 @@ kramdown:
   use_coderay: false
 
 schedule_url: https://www.google.com/calendar/feeds/gpcro626qa3vs9rhoumpdh248o%40group.calendar.google.com/private-fdbe16ce02947060b0a2dcb2029c240e/basic?max-results=50
+
+team_email: jrubyconf@engineyard.com
+domain: www.jrubyconf.com
