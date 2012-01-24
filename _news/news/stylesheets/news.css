@@ -1,0 +1,84 @@
+/*
+ * Styles specifically for the static news portion of the site.
+ */
+
+#news {
+    /* font: 100% 'Brown', helvetica, arial, sans-serif; */
+    overflow: hidden;
+    position: absolute;
+    top: 210px;
+    left: 50%;
+    width: 960px;
+    margin-left: -480px;
+}
+
+#news .left-column {
+    float: left;
+    width: 600px;
+    margin-right: 25px;
+}
+
+#news .right-column {
+    float: left;
+    width: 300px;
+    margin-right: 0;
+}
+
+#news h1 {
+    font: 3.2em 'BrownBold', helvetica, arial, sans-serif;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-bottom: 0.5em;
+}
+
+#news h2 {
+    font: 2.5em 'BrownBold', helvetica, arial, sans-serif;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-bottom: 0.5em;
+}
+
+#news h3 {
+    font: 2.2em 'BrownBold', helvetica, arial, sans-serif;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-bottom: 0.5em;
+}
+
+#news p {
+    font-size: 1.4em;
+    margin: 0.5em 0;
+}
+
+#news a {
+    color: #000000;
+}
+
+#news .date {
+    font-size: 50%;
+    padding-left: 10px;
+}
+
+#twitter {
+}
+
+#twitter ul {
+    list-style: none;
+}
+
+#twitter li {
+  margin-bottom: 1.25em;
+}
+
+#twitter span {
+    font-size: 1.4em;
+    display: block;
+}
+
+#twitter_badge img {
+    float: left;
+}
+
+#twitter_badge .follow {
+    padding-left: 40px;
+}

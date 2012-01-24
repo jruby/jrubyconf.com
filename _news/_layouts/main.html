@@ -1,11 +1,13 @@
+---
+---
 <!DOCTYPE html>
 <html>
   <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="/javascripts/microevent.js"></script>
-    <script src="/javascripts/library.js"></script>
-    <script src="/javascripts/UI.js"></script>
+    <script src="/news/javascripts/twitter.js"></script>
     <link rel="stylesheet" media="all" href="/stylesheets/screen.css">
+    <link rel="stylesheet" media="all" href="/news/stylesheets/news.css">
+    <link rel="alternate" type="application/atom+xml" title="JRubyConf Updates" href="/atom.xml">
   </head>
   <body>
     <div id="container">
@@ -22,11 +24,27 @@
       </div>
 
       <div id="content">
-        {{ content }}
+        <div id="news">
+          <div class="left-column">
+            {{ content }}
+          </div>
+          <div class="right-column">
+            <div id="twitter_badge">
+              <img src="/news/images/redbird.png">
+              <h2 class="follow"><a href="http://twitter.com/jrubyconf" title="Follow @JRubyConf on Twitter">@JRubyConf</a></h2>
+            </div>
+            <div id="twitter">
+              <ul id="twitter_update_list"></ul>
+            </div>
+            <script type="text/javascript" src="http://api.twitter.com/1/statuses/user_timeline.json?screen_name=jrubyconf&amp;callback=twitterCallback2&amp;count=10&amp;include_rts=1&amp;exclude_replies=1"></script>
+          </div>
+        </div>
       </div>
 
       <div id="footer">
-        &copy; Copyright 2012 EngineYard
+        <div class="item">Presented by</div>
+        <div class="item"><a href="http://www.engineyard.com/"><img src="/images/ey.png" alt="Engine Yard"/></a></div>
+        <div class="item"><a href="http://www.edgecase.com/"><img src="/images/edgecase.png" alt="EdgeCase"/></a></div>
       </div>
 
     </div> <!-- /#container -->
