@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sponsors requested for JRubyConf 2012
+title: Sponsors for JRubyConf 2012
 ---
 
 
