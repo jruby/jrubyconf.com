@@ -150,6 +150,18 @@ body { font: 62.5% 'Brown', helvetica, arial, sans-serif; }
   background  : #f0e9d3 url(/images/footer_shadow.gif) repeat-x;
 }
 
+#footer .item {
+  height      : 70px;
+  line-height : 70px;
+  padding: 0 5px;
+  float: left;
+}
+
+#footer .item img {
+  vertical-align: middle;
+}
+
+#footer a { color: #000; }
 
 /* Main Navigation
 ------------------------------------------------- */
