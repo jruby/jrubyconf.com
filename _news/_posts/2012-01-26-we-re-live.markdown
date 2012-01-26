@@ -15,7 +15,7 @@ and the [conference schedule][schedule] (Tuesday & Wednesday the 22nd
 
 This year’s JRubyConf will take place in Minneapolis, Minnesota, home
 to some of JRuby’s main contributors and biggest cheerleaders, at the
-Guthrie Theatre on the banks of the mighty Mississippi.
+Guthrie Theater on the banks of the mighty Mississippi.
 
 Want to support our cause? We're currently looking for sponsors for
 everything from snacks to after-parties, so check out our [prospectus][]
