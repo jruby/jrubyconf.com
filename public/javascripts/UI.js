@@ -53,6 +53,7 @@ $(function() {
   });
 
   window.informationScene = new Scene({
+    mapIframe  : '#map-iframe',
     container  : '#information',
     controller : sceneController,
     init       : function() {
@@ -70,7 +71,11 @@ $(function() {
             self.content.css(self.content.data('animation-hidden-css'));
             if(next) { next(); }
           })
-          .bind('inAnimationDidFinish',  function(next) { if(next) { next(); } })
+          .bind('inAnimationDidFinish',  function(next) {
+		  // Refresh the map iframe, it seems to get off-center
+		  $(self.mapIframe).attr('src', $(self.mapIframe).attr('src'));
+		  if(next) { next(); }
+		})
           .bind('outAnimationWillBegin', function(next) { if(next) { next(); } })
           .bind('outAnimationDidFinish', function(next) { if(next) { next(); } });
 
@@ -204,7 +209,7 @@ $(function() {
         var animateIn = function() {
           $(targetID).css(self.infoBox.animationHiddenCSS)
                      .show()
-                     .animate(self.infoBox.animationVisibleCSS, 250, 'easeInOutExpo'); 
+                     .animate(self.infoBox.animationVisibleCSS, 250, 'easeInOutExpo');
         };
 
         if($('.info_box:visible').length) {
@@ -299,7 +304,7 @@ $(function() {
         var animateIn = function() {
           $(targetID).css(self.infoBox.animationHiddenCSS)
                      .show()
-                     .animate(self.infoBox.animationVisibleCSS, 250, 'easeInOutExpo'); 
+                     .animate(self.infoBox.animationVisibleCSS, 250, 'easeInOutExpo');
         };
 
         if($('.info_box:visible').length) {
