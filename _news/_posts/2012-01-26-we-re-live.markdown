@@ -2,7 +2,7 @@
 layout: post
 title: And We're Live!
 ---
-Welcome to the official site of the 2012 JRuby Conference! We’ll be
+Welcome to the official site of the 2012 JRuby Conference! We'll be
 using this platform as a way to keep you up to date with conference
 developments and details as they unfold. This will be the fourth
 annual JRubyConf and definitely the biggest and best yet! Join us in
