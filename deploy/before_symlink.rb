@@ -1,3 +1,2 @@
-Dir.chdir(release_path) do
-  run 'rake deploy'
-end
+run 'rake deploy'
+raise "rake deploy failed; blog not generated" unless $?.success?
