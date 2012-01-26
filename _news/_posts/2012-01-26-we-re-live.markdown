@@ -1,0 +1,31 @@
+---
+layout: post
+title: And We're Live!
+---
+Welcome to the official site of the 2012 JRuby Conference! We’ll be
+using this platform as a way to keep you up to date with conference
+developments and details as they unfold. This will be the fourth
+annual JRubyConf and definitely the biggest and best yet! Join us in
+talking about and celebrating the union of the Java and Ruby
+communities. Follow this blog to find out more about sponsorships,
+speakers, after-events and a soon-to-follow call-for-proposals. This
+year’s JRubyConf will take place in Minneapolis, Minnesota, home to
+some of JRuby’s main contributors and biggest cheerleaders, at the
+Guthrie Theatre on the banks of the mighty Mississippi.
+
+Want to support our cause? We're currently looking for sponsors for
+everything from snacks to after-parties, so check out our [prospectus][]
+for more information, or email us at [events@engineyard.com][events] if you have
+other cool ideas. We'd love to see your participation.
+
+Want to join us? [Buy your tickets now][register] and start preparing
+yourself for the third week of May. Stay tuned for more information about
+Workshop Day (Monday the 21st) and the [conference schedule][schedule]
+(Tuesday & Wednesday the 22nd & 23rd).
+
+Can't wait to see you all there!
+
+[prospectus]: /jrubyconf2012-sponsor.pdf
+[events]: mailto:events@engineyard.com?subject=JRubyConf%202012
+[register]: http://www.eventbrite.com/event/2571529514
+[schedule]: /#schedule
