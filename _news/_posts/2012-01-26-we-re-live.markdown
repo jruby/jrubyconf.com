@@ -19,13 +19,13 @@ Guthrie Theater on the banks of the mighty Mississippi.
 
 Want to support our cause? We're currently looking for sponsors for
 everything from snacks to after-parties, so check out our [prospectus][]
-for more information, or email us at [events@engineyard.com][events] if you have
+for more information, or email us at [jrubyconf@engineyard.com][email] if you have
 other cool ideas. We'd love to see your participation.
 
 Want to join us? [Buy your tickets now][register]. Can't wait to see
 you all there!
 
 [prospectus]: /jrubyconf2012-sponsor.pdf
-[events]: mailto:events@engineyard.com?subject=JRubyConf%202012
+[email]: mailto:jrubyconf@engineyard.com?subject=JRubyConf%202012
 [register]: http://www.eventbrite.com/event/2571529514
 [schedule]: /#schedule
