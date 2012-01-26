@@ -291,7 +291,7 @@ body { font: 62.5% 'Brown', helvetica, arial, sans-serif; }
   text-transform : uppercase;
 }
 
-#information #per_night { color: #af412e; }
+#information #per_night, #information #per_night a { color: #af412e; }
 
 #information p {
   margin-bottom : 1em;
