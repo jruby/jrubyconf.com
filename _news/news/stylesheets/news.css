@@ -81,3 +81,8 @@
 #twitter_badge .follow {
     padding-left: 40px;
 }
+
+.badge {
+    float: right;
+    padding-left: 5px;
+}
