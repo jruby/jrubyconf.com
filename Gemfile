@@ -2,6 +2,8 @@ source :rubygems
 
 gem 'sinatra'
 gem 'sinatra-contrib'
+gem 'tzinfo'
+gem 'activesupport'
 gem 'rake'
 gem 'jekyll'
 gem 'kramdown'

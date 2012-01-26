@@ -1,9 +1,12 @@
 require 'nokogiri'
 require 'open-uri'
 require 'yaml'
+require 'active_support/core_ext/time/zones'
 
 module JRubyConf
   module ScheduleData
+    ZONE = 'America/Chicago'
+
     def write_schedule_rb(name)
       File.open(name, "w") do |f|
         schedule_entries.sort_by {|e| e['Start'] }.each do |entry|
@@ -61,9 +64,9 @@ CODE
       fix_hours_minutes(time_start, zone)
       time_end = times.sub(/\d{1,2}:?\d{0,2}[ap]m to (\d)/, '\1').sub(/.*to /, '').sub(/ [A-Z]{3}$/, '')
       fix_hours_minutes(time_end, zone)
-      entry['Start'] = Time.strptime time_start, time_format
+      entry['Start'] = Time.strptime(time_start, time_format).in_time_zone(ZONE)
       entry['StartTime'] = entry['Start'].strftime('%l:%M%P')
-      entry['End'] = Time.strptime time_end, time_format
+      entry['End'] = Time.strptime(time_end, time_format).in_time_zone(ZONE)
       entry['EndTime'] = entry['End'].strftime('%l:%M%P')
       entry['Day'] = entry['Start'].strftime('%A')
     rescue
