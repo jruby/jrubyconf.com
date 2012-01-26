@@ -13,8 +13,8 @@ stay tuned for more information about Workshop Day (Monday the 21st)
 and the [conference schedule][schedule] (Tuesday & Wednesday the 22nd
 & 23rd).
 
-This year’s JRubyConf will take place in Minneapolis, Minnesota, home
-to some of JRuby’s main contributors and biggest cheerleaders, at the
+This year's JRubyConf will take place in Minneapolis, Minnesota, home
+to some of JRuby's main contributors and biggest cheerleaders, at the
 Guthrie Theater on the banks of the mighty Mississippi.
 
 Want to support our cause? We're currently looking for sponsors for
