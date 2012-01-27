@@ -53,7 +53,6 @@ $(function() {
   });
 
   window.informationScene = new Scene({
-    mapIframe  : '#map-iframe',
     container  : '#information',
     controller : sceneController,
     init       : function() {
@@ -72,8 +71,9 @@ $(function() {
             if(next) { next(); }
           })
           .bind('inAnimationDidFinish',  function(next) {
-		  // Refresh the map iframe, it seems to get off-center
-		  $(self.mapIframe).attr('src', $(self.mapIframe).attr('src'));
+		  // Refresh the map iframe by replacing it with a clone
+		  var iframeHtml = $('#map-container').html();
+		  $('#map-iframe').replaceWith(iframeHtml);
 		  if(next) { next(); }
 		})
           .bind('outAnimationWillBegin', function(next) { if(next) { next(); } })
