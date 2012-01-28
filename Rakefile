@@ -41,4 +41,11 @@ task :server do
 end
 
 desc "Runs all pre-deployment tasks"
-task :deploy => [:schedule, :generate]
+task :deploy_hook => [:schedule, :generate]
+
+desc "Deploys the site using the engineyard gem"
+task :deploy do
+  Bundler.with_clean_env do
+    sh "ey deploy -e jruby_ci"
+  end
+end

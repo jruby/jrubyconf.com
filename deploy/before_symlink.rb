@@ -1,2 +1,2 @@
-run 'rake deploy'
-raise "rake deploy failed; blog not generated" unless $?.success?
+run 'rake deploy_hook'
+raise "rake deploy_hook failed; blog not generated" unless $?.success?
