@@ -32,7 +32,7 @@ a {font-size:100%;vertical-align:baseline;background:transparent;margin:0;paddin
 
 html, body { background: #ece3c1 url(/images/background.gif); }
 body { font: 62.5% 'Brown', helvetica, arial, sans-serif; }
-em { font-family: 'BrownBold'; }
+em { font-family: 'BrownBold'; font-style: normal; }
 
 .animating { overflow: hidden; }
 
