@@ -166,7 +166,7 @@ $(function() {
       self.closeButtons = self.container.find('.info_box .close');
 
       // CSS animation states
-      self.content.data('animation-visible-css', { opacity: 1.0, left: self.content.css('left') })
+      self.content.data('animation-visible-css', { opacity: 1.0, left: '50%' })
                   .data('animation-hidden-css',  { opacity: 0.0, left: '100%' });
 
       self.speakers.data('animation-visible-css', { opacity: 1.0 })
@@ -264,7 +264,7 @@ $(function() {
       self.heading.data('animation-visible-css', { opacity: 1.0, top: self.heading.css('top') })
                   .data('animation-hidden-css',  { opacity: 0.0, top: '0px' });
 
-      self.content.data('animation-visible-css', { opacity: 1.0, left: self.content.css('left') })
+      self.content.data('animation-visible-css', { opacity: 1.0, left: '50%' })
                   .data('animation-hidden-css',  { opacity: 0.0, left: '-100%' });
 
       self.speakersLink.data('animation-visible-css', { opacity: 1.0, left: self.speakersLink.css('left') })
