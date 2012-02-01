@@ -37,7 +37,9 @@ end
 
 desc "Runs a development server"
 task :server do
-  sh 'rackup'
+  rackup_cmd = %w(rackup)
+  rackup_cmd += %w(-s trinidad) if defined?(JRUBY_VERSION)
+  sh *rackup_cmd
 end
 
 desc "Runs all pre-deployment tasks"

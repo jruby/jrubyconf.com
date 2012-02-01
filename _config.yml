@@ -1,7 +1,7 @@
 source:      ./_news
 destination: ./_site
 
-permalink:   /news/:year/:month/:title	
+permalink:   "/news/:year/:month/:title"
 title:       JRubyConf News
 subtitle:    JRubyConf Updates
 url:         http://www.jrubyconf.com/news/
