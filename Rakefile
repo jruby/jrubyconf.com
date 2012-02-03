@@ -51,3 +51,15 @@ task :deploy do
     sh "ey deploy -e jruby_ci"
   end
 end
+
+task :environment do
+  require "environment"
+end
+
+namespace :db do
+  desc "Create/migrate the database to the latest version."
+  task :migrate => :environment do
+    ActiveRecord::Migrator.migrate("db/migrate")
+  end
+end
+

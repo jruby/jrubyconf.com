@@ -1,5 +1,6 @@
 $:.unshift(File.expand_path('../lib', __FILE__)).uniq!
 
+require 'environment'
 require 'main'
 
 if development?
@@ -15,8 +16,8 @@ set :run, false
 set :public_folder, './public'
 set :views, './views'
 
-require 'dot_html_rewriter'
 use DotHtmlRewriter
+use DbConnectionManagement
 run Sinatra::Application
 
 # Local Variables:

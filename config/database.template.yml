@@ -1,0 +1,20 @@
+development:
+  adapter: sqlite3
+  database: db/development.sqlite3
+  pool: 5
+  timeout: 5000
+
+test:
+  adapter: sqlite3
+  database: db/test.sqlite3
+  pool: 5
+  timeout: 5000
+
+production:
+  adapter: postgresql
+  host: localhost
+  port: 4242
+  database: jrubyconf_production
+  pool: 5
+  timeout: 5000
+  username: jrubyconf

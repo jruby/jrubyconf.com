@@ -4,10 +4,23 @@ gem 'sinatra'
 gem 'sinatra-contrib'
 gem 'tzinfo'
 gem 'activesupport'
+gem 'activerecord'
+
 gem 'rake'
 gem 'jekyll'
 gem 'kramdown'
 gem 'coderay'
+gem 'nokogiri'
+
 gem 'jruby-openssl', :platform => 'jruby'
 gem 'trinidad', :platform => 'jruby'
-gem 'nokogiri'
+
+group :production do
+  gem 'pg', :platforms => :ruby
+  gem 'activerecord-jdbcpostgresql-adapter', :platforms => :jruby
+end
+
+group :test, :development do
+  gem 'sqlite3', :platforms => :ruby
+  gem 'activerecord-jdbcsqlite3-adapter', :platforms => :jruby
+end
