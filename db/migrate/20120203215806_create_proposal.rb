@@ -1,4 +1,4 @@
-class Proposal < ActiveRecord::Migration
+class CreateProposal < ActiveRecord::Migration
   def change
     create_table :proposals do |t|
       t.string :title

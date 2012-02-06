@@ -1,4 +1,5 @@
 require 'main'
+require 'middleware'
 
 if development?
   require 'sinatra/reloader'

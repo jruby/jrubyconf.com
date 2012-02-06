@@ -1,5 +1,6 @@
 $:.unshift(File.expand_path('..', __FILE__)).uniq!
 require 'environment'
+require 'models'
 require 'partials'
 
 helpers Sinatra::Partials
