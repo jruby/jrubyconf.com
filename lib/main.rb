@@ -1,4 +1,7 @@
+$:.unshift(File.expand_path('..', __FILE__)).uniq!
+require 'environment'
 require 'partials'
+
 helpers Sinatra::Partials
 
 ['/', '/index.html'].each do |r|

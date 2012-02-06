@@ -23,4 +23,9 @@ end
 group :test, :development do
   gem 'sqlite3', :platforms => :ruby
   gem 'activerecord-jdbcsqlite3-adapter', :platforms => :jruby
+  gem 'cucumber'
+  gem 'rspec'
+  gem 'cucumber-sinatra'
+  gem 'capybara'
+  gem 'capybara-webkit'
 end

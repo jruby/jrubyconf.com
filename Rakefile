@@ -56,6 +56,19 @@ task :environment do
   require "environment"
 end
 
+desc "Run the Cucumber features."
+require 'cucumber/rake/task'
+Cucumber::Rake::Task.new(:cucumber => :test_env) do |t|
+  t.libs = [File.expand_path('../lib', __FILE__)]
+end
+
+task :test_env do
+  ENV['RACK_ENV'] = 'test'
+  rm_f YAML.load_file("config/database.yml")['test']['database']
+end
+
+task :default => :cucumber
+
 namespace :db do
   desc "Create/migrate the database to the latest version."
   task :migrate => :environment do
