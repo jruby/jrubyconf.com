@@ -58,7 +58,7 @@ end
 
 desc "Run the Cucumber features."
 require 'cucumber/rake/task'
-Cucumber::Rake::Task.new(:cucumber => [:test_env, "db:migrate"]) do |t|
+Cucumber::Rake::Task.new(:cucumber => [:test_env, "db:migrate", :deploy_hook]) do |t|
   t.libs = [File.expand_path('../lib', __FILE__)]
 end
 
