@@ -34,6 +34,10 @@ class Sinatra::ApplicationWorld
   include Capybara::DSL
   include RSpec::Expectations
   include RSpec::Matchers
+
+  def main_nav_offscreen
+    page.evaluate_script('$("#main_navigation").css("top")') =~ /^-\d+px/
+  end
 end
 
 World do

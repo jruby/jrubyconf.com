@@ -20,6 +20,11 @@ Given /^(?:|I )am on (.+)$/ do |page_name|
   visit path_to(page_name)
 end
 
+Given /^the "([^\"]*)" element is visible$/ do |label|
+  element = find(label)
+  wait_until { element.visible? } rescue nil
+end
+
 When /^(?:|I )go to (.+)$/ do |page_name|
   visit path_to(page_name)
 end
