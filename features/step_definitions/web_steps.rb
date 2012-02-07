@@ -146,6 +146,28 @@ Then /^(?:|I )should not see \/([^\/]*)\/(?: within "([^\"]*)")?$/ do |regexp, s
   end
 end
 
+Then /^the "([^\"]*)" element(?: within "([^\"]*)")? should be visible$/ do |label, selector|
+  with_scope(selector) do
+    element = find(label)
+    if element.respond_to? :should
+      element.should be_visible
+    else
+      assert element.visible?
+    end
+  end
+end
+
+Then /^the "([^\"]*)" element(?: within "([^\"]*)")? should not be visible$/ do |label, selector|
+  with_scope(selector) do
+    element = find(label)
+    if element.respond_to? :should
+      element.should_not be_visible
+    else
+      assert !element.visible?
+    end
+  end
+end
+
 Then /^the "([^\"]*)" field(?: within "([^\"]*)")? should contain "([^\"]*)"$/ do |field, selector, value|
   with_scope(selector) do
     field = find_field(field)

@@ -4,8 +4,13 @@ ENV['RACK_ENV'] = 'test'
 
 require File.join(File.dirname(__FILE__), '..', '..', 'lib/main.rb')
 
+set :environment, :test
+set :public_folder, File.expand_path("../../../public", __FILE__)
+set :views, File.expand_path("../../../views", __FILE__)
+
 require 'capybara'
 require 'capybara/cucumber'
+require 'capybara/webkit'
 require 'rspec'
 
 Capybara.app = Sinatra::Application
