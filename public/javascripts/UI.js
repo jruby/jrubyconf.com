@@ -71,9 +71,6 @@ $(function() {
             if(next) { next(); }
           })
           .bind('inAnimationDidFinish',  function(next) {
-		  // Refresh the map iframe by replacing it with a clone
-		  var iframeHtml = $('#map-container').html();
-		  $('#map-iframe').replaceWith(iframeHtml);
 		  if(next) { next(); }
 		})
           .bind('outAnimationWillBegin', function(next) { if(next) { next(); } })
