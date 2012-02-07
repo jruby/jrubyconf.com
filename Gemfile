@@ -28,4 +28,5 @@ group :test, :development do
   gem 'cucumber-sinatra'
   gem 'capybara'
   gem 'capybara-webkit'
+  gem 'launchy'
 end
