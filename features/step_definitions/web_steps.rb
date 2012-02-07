@@ -149,6 +149,7 @@ end
 Then /^the "([^\"]*)" element(?: within "([^\"]*)")? should be visible$/ do |label, selector|
   with_scope(selector) do
     element = find(label)
+    wait_until { element.visible? } rescue nil
     if element.respond_to? :should
       element.should be_visible
     else
@@ -160,6 +161,7 @@ end
 Then /^the "([^\"]*)" element(?: within "([^\"]*)")? should not be visible$/ do |label, selector|
   with_scope(selector) do
     element = find(label)
+    wait_until { !element.visible? } rescue nil
     if element.respond_to? :should
       element.should_not be_visible
     else

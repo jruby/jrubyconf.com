@@ -10,3 +10,13 @@ Feature: Main conference pages
     And the "#information" element should not be visible
     And the "#speakers" element should not be visible
     And the "#schedule" element should not be visible
+
+  @javascript
+  Scenario: Information
+    Given I am on the home page
+    Then the "#intro" element should be visible
+    When I follow "Information" within "#content"
+    Then the "#information" element should be visible
+    And the "#intro" element should not be visible
+    And the "#speakers" element should not be visible
+    And the "#schedule" element should not be visible

@@ -13,8 +13,22 @@ require 'capybara/cucumber'
 require 'capybara/webkit'
 require 'rspec'
 
-Capybara.app = Sinatra::Application
-Capybara.javascript_driver = :webkit
+Capybara.configure do |config|
+  config.default_wait_time = 5
+  config.app = Sinatra::Application
+  config.automatic_reload = false
+  config.javascript_driver = :webkit
+
+  Capybara.register_driver :webkit_cmd_debug do |app|
+    browser = Capybara::Driver::Webkit::Browser.new
+    def browser.command(name, *args)
+      $stdout.print "WK: #{name}#{args.inspect} => "
+      super.tap {|result| $stdout.puts result.inspect }
+    end
+    Capybara::Driver::Webkit.new(app, :browser => browser)
+  end
+  # config.javascript_driver = :webkit_cmd_debug
+end
 
 class Sinatra::ApplicationWorld
   include Capybara::DSL
@@ -24,4 +38,8 @@ end
 
 World do
   Sinatra::ApplicationWorld.new
+end
+
+Before('@javascript') do
+  page.reset!
 end
