@@ -11,6 +11,7 @@ Feature: Main conference pages
     And the "#speakers" element should not be visible
     And the "#schedule" element should not be visible
     And the main navigation bar should be offscreen
+    And there should be a register link
 
   @javascript
   Scenario: Information
@@ -22,6 +23,7 @@ Feature: Main conference pages
     And the "#speakers" element should not be visible
     And the "#schedule" element should not be visible
     And the main navigation bar should be onscreen
+    And there should be a register link
 
   @javascript
   Scenario: Speakers
@@ -33,6 +35,7 @@ Feature: Main conference pages
     And the "#information" element should not be visible
     And the "#schedule" element should not be visible
     And the main navigation bar should be onscreen
+    And there should be a register link
 
   @javascript
   Scenario: Schedule
@@ -46,3 +49,4 @@ Feature: Main conference pages
     And the "#information" element should not be visible
     And the "#speakers" element should not be visible
     And the main navigation bar should be onscreen
+    And there should be a register link
