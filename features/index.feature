@@ -50,3 +50,14 @@ Feature: Main conference pages
     And the "#speakers" element should not be visible
     And the main navigation bar should be onscreen
     And there should be a register link
+
+  @javascript
+  Scenario: Redirect Anchors
+    When I go to /speakers
+    Then the "#speakers" element should be visible
+
+    When I go to /schedule
+    Then the "#schedule" element should be visible
+
+    When I go to /information
+    Then the "#information" element should be visible
