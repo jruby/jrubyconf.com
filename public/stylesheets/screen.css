@@ -148,6 +148,8 @@ em { font-family: 'BrownBold'; font-style: normal; }
   font-size   : 1.4em;
   line-height : 70px;
   background  : #f0e9d3 url(/images/footer_shadow.gif) repeat-x;
+  overflow    : auto;
+  overflow-y  : hidden;
 }
 
 #footer .item {
@@ -159,6 +161,16 @@ em { font-family: 'BrownBold'; font-style: normal; }
 
 #footer .item img {
   vertical-align: middle;
+}
+
+#footer .right {
+  float: right;
+}
+
+#footer #your_logo_here {
+  height: 30px;
+  line-height: 30px;
+  font-size: 1.5em;
 }
 
 /* Main Navigation
@@ -461,12 +473,12 @@ td.title.not_talk { color: #d6876b; }
   -moz-border-radius:3px;
   -webkit-border-radius:3px;
   border-radius:3px;
-  border:1px solid #991b1d;
+  border:0;
   display:inline-block;
   color:#ffffff;
   font-family: 'BrownBold';
   letter-spacing:0;
-  padding:6px 24px;
+  padding:6px 24px 4px 24px;
   text-align:center;
   text-decoration:none;
   text-transform:uppercase;
