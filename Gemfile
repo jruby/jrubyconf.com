@@ -5,6 +5,7 @@ gem 'sinatra-contrib'
 gem 'tzinfo'
 gem 'activesupport'
 gem 'activerecord'
+gem 'mysql2', :platform => :ruby
 
 gem 'rake'
 gem 'jekyll'
