@@ -31,21 +31,15 @@ class DotHtmlRewriter
 
   def call(env)
     result = catch(:halt) do
-      env["PATH_INFO"] += "index.html" if env["PATH_INFO"] =~ /\/$/
-
       result = @app.call(env)
       halt result if result[0] != 404
 
-      location = "/"
-
       if env["PATH_INFO"] =~ %r{/[^./]+$}
-        env["PATH_INFO"] += ".html"
-        result = @app.call(env)
-        halt result if result[0] != 404
-        location = env["PATH_INFO"].sub(/.html$/, '/')
+        dup.redirect_to(env, env["PATH_INFO"] + "/")
       end
 
-      dup.redirect_to(env, location)
+      env["PATH_INFO"] += "index.html" if env["PATH_INFO"] =~ /\/$/
+      @app.call(env)
     end
 
     if result.respond_to?(:finish)
