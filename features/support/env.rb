@@ -2,7 +2,8 @@
 
 ENV['RACK_ENV'] = 'test'
 
-require File.join(File.dirname(__FILE__), '..', '..', 'lib/main.rb')
+$:.unshift File.expand_path('../../../lib', __FILE__)
+require 'main'
 
 set :environment, :test
 set :public_folder, File.expand_path("../../../public", __FILE__)
