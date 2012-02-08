@@ -73,6 +73,12 @@ begin
       t.cucumber_opts = %w(--tags @wip)
     end
 
+    desc "Run the stable Cucumber features."
+    Cucumber::Rake::Task.new(:stable => "cucumber:prereqs") do |t|
+      t.libs = libs
+      t.cucumber_opts = %w(--tags ~@wip)
+    end
+
     desc "Run the Cucumber features."
     Cucumber::Rake::Task.new(:all => "cucumber:prereqs") do |t|
       t.libs = libs
