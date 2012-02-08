@@ -48,7 +48,7 @@ task :deploy_hook => [:schedule, :generate]
 desc "Deploys the site using the engineyard gem"
 task :deploy do
   Bundler.with_clean_env do
-    sh "ey deploy --environment=jruby_ci --app=jrubyconf --migrate"
+    sh "ey deploy --environment=jruby_ci --app=jrubyconf --ref=master --migrate"
   end
 end
 
