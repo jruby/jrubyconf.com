@@ -61,24 +61,28 @@ task :test_env do
   rm_f YAML.load_file("config/database.yml")['test']['database']
 end
 
-namespace :cucumber do
-  require 'cucumber/rake/task'
-  task :prereqs => [:test_env, "db:migrate", :deploy_hook]
-  libs = [File.expand_path('../lib', __FILE__)]
+begin
+  namespace :cucumber do
+    require 'cucumber/rake/task'
+    task :prereqs => [:test_env, "db:migrate", :deploy_hook]
+    libs = [File.expand_path('../lib', __FILE__)]
 
-  desc "Run the @wip features."
-  Cucumber::Rake::Task.new(:wip => "cucumber:prereqs") do |t|
-    t.libs = libs
-    t.cucumber_opts = %w(--tags @wip)
-  end
+    desc "Run the @wip features."
+    Cucumber::Rake::Task.new(:wip => "cucumber:prereqs") do |t|
+      t.libs = libs
+      t.cucumber_opts = %w(--tags @wip)
+    end
 
-  desc "Run the Cucumber features."
-  Cucumber::Rake::Task.new(:all => "cucumber:prereqs") do |t|
-    t.libs = libs
+    desc "Run the Cucumber features."
+    Cucumber::Rake::Task.new(:all => "cucumber:prereqs") do |t|
+      t.libs = libs
+    end
   end
+  task :cucumber => "cucumber:all"
+  task :default => "cucumber:all"
+rescue LoadError
+  warn "Cucumber not installed; skipping cucumber tasks"
 end
-task :cucumber => "cucumber:all"
-task :default => "cucumber:all"
 
 namespace :db do
   desc "Create/migrate the database to the latest version."
@@ -86,4 +90,3 @@ namespace :db do
     ActiveRecord::Migrator.migrate("db/migrate")
   end
 end
-
