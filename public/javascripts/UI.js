@@ -170,7 +170,7 @@ $(function() {
                   .data('animation-hidden-css',  { opacity: 0.0 });
 
       self.scheduleLink.data('animation-visible-css', { opacity: 1.0, right: self.scheduleLink.css('right') })
-                       .data('animation-hidden-css',  { opacity: 0.0, right: '-50px' });
+                       .data('animation-hidden-css',  { opacity: 0.0, right: '-150px' });
 
       self.infoBox.animationVisibleCSS = { opacity: 1.0, top: '80px' };
       self.infoBox.animationHiddenCSS  = { opacity: 0.0, top: '-200px' };
@@ -265,7 +265,7 @@ $(function() {
                   .data('animation-hidden-css',  { opacity: 0.0, left: '-100%' });
 
       self.speakersLink.data('animation-visible-css', { opacity: 1.0, left: self.speakersLink.css('left') })
-                       .data('animation-hidden-css',  { opacity: 0.0, left: '-50px' });
+                       .data('animation-hidden-css',  { opacity: 0.0, left: '-150px' });
 
       self.infoBox.animationVisibleCSS = { opacity: 1.0, top: '80px' };
       self.infoBox.animationHiddenCSS  = { opacity: 0.0, top: '-200px' };
