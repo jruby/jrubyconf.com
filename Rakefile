@@ -37,7 +37,7 @@ end
 
 desc "Runs a development server"
 task :server do
-  rackup_cmd = %w(-S bundle exec rackup -Ilib)
+  rackup_cmd = %w(-S bundle exec rackup)
   rackup_cmd += %w(-s trinidad) if defined?(JRUBY_VERSION)
   ruby *rackup_cmd
 end
