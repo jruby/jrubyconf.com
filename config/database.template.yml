@@ -11,9 +11,8 @@ test:
   timeout: 5000
 
 production:
-  adapter: postgresql
+  adapter: <%= defined?(JRUBY_VERSION) ? 'mysql' : 'mysql2' %>
   host: localhost
-  port: 4242
   database: jrubyconf_production
   pool: 5
   timeout: 5000

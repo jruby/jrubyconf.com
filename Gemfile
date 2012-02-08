@@ -5,7 +5,6 @@ gem 'sinatra-contrib'
 gem 'tzinfo'
 gem 'activesupport'
 gem 'activerecord'
-gem 'mysql2', :platform => :ruby
 
 gem 'rake'
 gem 'jekyll'
@@ -17,8 +16,8 @@ gem 'jruby-openssl', :platform => 'jruby'
 gem 'trinidad', :platform => 'jruby'
 
 group :production do
-  gem 'pg', :platforms => :ruby
-  gem 'activerecord-jdbcpostgresql-adapter', :platforms => :jruby
+  gem 'mysql2', :platform => :ruby
+  gem 'activerecord-jdbcmysql-adapter', :platforms => :jruby
 end
 
 group :test, :development do
