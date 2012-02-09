@@ -43,15 +43,6 @@ window.exampleScene = new Scene({
 $(function() {
   window.sceneController = new ScenesController();
 
-  $('#speakers .navigation').on('click', 'a', function(e) {
-    e.preventDefault();
-    var sceneName = $(this).attr('href')
-                           .replace('_section', 'SectionScene')
-                           .replace('#', '');
-
-    speakersNavController.performSegueTo(window[sceneName]);
-  });
-
   window.informationScene = new Scene({
     container  : '#information',
     controller : sceneController,
