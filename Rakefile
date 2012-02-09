@@ -70,7 +70,7 @@ begin
     desc "Run the @wip features."
     Cucumber::Rake::Task.new(:wip => "cucumber:prereqs") do |t|
       t.libs = libs
-      t.cucumber_opts = %w(--tags @wip)
+      t.cucumber_opts = %w(--wip --tags @wip)
     end
 
     desc "Run the stable Cucumber features."
