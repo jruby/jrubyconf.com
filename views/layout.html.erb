@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>JRubyConf 2012&mdash;May 21-23&mdash;Minneapolis, MN</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <% if development? || test? %><script src="/javascripts/jquery-1.7.1.js"></script><% else %><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script><% end %>
     <script src="/javascripts/microevent.js"></script>
     <script src="/javascripts/library.js"></script>
     <script src="/javascripts/UI.js"></script>
