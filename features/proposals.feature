@@ -3,14 +3,14 @@ Feature: Proposal form
   I want to submit a proposal
   In order to obtain a speaking slot
 
-  @wip 
+  @javascript
   Scenario: Proposal Link
     Given I am on the home page
     And the "#intro" element is visible
     When I follow "Speakers" within "#content"
     And the "#speakers" element is visible
     And I follow "Submit a Proposal"
-    Then I should be on /#proposals
+    Then the "#proposals" element should be visible
 
   @wip
   Scenario: Create Proposal Form
