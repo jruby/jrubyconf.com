@@ -528,6 +528,33 @@ td.title.not_talk { color: #d6876b; }
   font-size   : 2.5em;
 }
 
+
+#static .content {
+  position       : absolute;
+  top            : 230px;
+  left           : 50%;
+  width          : 960px;
+  height         : 400px;
+  margin-left    :-480px;
+  font           : 2.8em 'Brown', helvetica, arial, sans-serif;
+  letter-spacing : 0.05em;
+}
+
+#static .content h1 {
+  font           : 1.2em 'BrownBold', helvetica, arial, sans-serif;
+  text-transform : uppercase;
+}
+
+#static #edit_link {
+  font   : 1em 'Brown', helvetica, arial, sans-serif;
+  border : 2px inset;
+  width  : 100%;
+}
+
+#static .content p {
+  margin-bottom: 24px;
+}
+
 /* Misc: buttons, rotations */
 
 .red-button {

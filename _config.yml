@@ -17,7 +17,7 @@ kramdown:
 
 schedule_url: https://www.google.com/calendar/feeds/gpcro626qa3vs9rhoumpdh248o%40group.calendar.google.com/private-fdbe16ce02947060b0a2dcb2029c240e/basic?max-results=50
 static_maps_url: http://maps.google.com/maps/api/staticmap?center=44.97805,-93.255172&size=300x300&zoom=16&markers=color:blue%7Clabel:G%7C44.978004,-93.255554&markers=color:blue%7Clabel:A%7C44.976574,-93.254997&sensor=false
-
+submission_deadline: March 31
 
 team_email: jrubyconf@engineyard.com
 domain: www.jrubyconf.com

@@ -12,7 +12,6 @@ Feature: Proposal form
     And I follow "Submit a Proposal"
     Then the "#proposals" element should be visible
 
-  @wip
   Scenario: Create Proposal Form
     Given I am on /#proposals
     When I fill in the following:
@@ -22,9 +21,8 @@ Feature: Proposal form
       | abstract       | Blah blah blah   |
     And I press "Submit"
     Then I should see "Thank you"
-    And I should see "edit link"
+    And I should see "edit"
 
-  @wip
   Scenario: Create Proposal Form Static
     Given I am on /proposals/new
     When I fill in the following:
@@ -34,4 +32,4 @@ Feature: Proposal form
       | abstract       | Blah blah blah   |
     And I press "Submit"
     Then I should see "Thank you"
-    And I should see "edit link"
+    And I should see "edit"

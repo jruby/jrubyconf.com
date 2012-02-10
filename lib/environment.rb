@@ -10,3 +10,8 @@ ActiveRecord::Base.establish_connection(DB_SETTINGS)
 # Register .html.erb templates
 require 'tilt'
 Tilt.register Tilt::ERBTemplate, 'html.erb'
+
+module AppConfig
+  CONFIG = YAML.load(File.read(File.expand_path('../../_config.yml', __FILE__)))
+  SUBMISSION_DEADLINE = CONFIG['submission_deadline']
+end
