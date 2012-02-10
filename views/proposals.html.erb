@@ -1,0 +1,9 @@
+<div id="proposals" class="scene">
+  <a href="#speakers" id="speakers_link" class="red-button rotate-left">
+    <div class="white-arrow arrow-left"></div>Speakers<div class="white-arrow arrow-right"></div>
+  </a>
+  <div class="content">
+    <h1 class="heading">Proposals</h1>
+    <%= partial :form, :locals => { :proposal => Proposal.new } %>
+  </div>
+</div> <!-- /#proposals -->

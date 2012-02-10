@@ -3,7 +3,7 @@
  *
  * The MIT License
  *
- * Copyright (c) 2006-2009 Taku Sano (Mikage Sawatari)
+ * Copyright (c) 2006-2009, 2012 Taku Sano (Mikage Sawatari)
  * Copyright (c) 2010 Takayuki Miwa
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -55,8 +55,54 @@ ScenesController.prototype.performSegueTo = function(targetScene) {
   }
 };
 
+/* microevents */
+
+var MicroEvent  = function(){};
+MicroEvent.prototype  = {
+  bind  : function(event, fct){
+    this._events = this._events || {};
+    this._events[event] = this._events[event] || [];
+    this._events[event].push(fct);
+    return this;
+  },
+  unbind  : function(event, fct){
+    this._events = this._events || {};
+    if (event in this._events === false) return this;
+    this._events[event].splice($.inArray(fct, this._events[event]), 1);
+    return this;
+  },
+  trigger : function(event /* , args... */){
+    this._events = this._events || {};
+    if (event in this._events === false) return this;
+    for (var i = 0; i < this._events[event].length; i++){
+      this._events[event][i].apply(this, Array.prototype.slice.call(arguments, 1));
+    }
+    return this;
+  }
+};
+
+/**
+ * mixin will delegate all MicroEvent.js function in the destination object
+ *
+ * - require('MicroEvent').mixin(Foobar) will make Foobar able to use MicroEvent
+ *
+ * @param {Object} the object which will support MicroEvent
+*/
+MicroEvent.mixin  = function(destObject){
+  var props = ['bind', 'unbind', 'trigger'];
+  for(var i = 0; i < props.length; i ++){
+    destObject.prototype[props[i]]  = MicroEvent.prototype[props[i]];
+  }
+};
+
+// export in common js
+if( typeof module !== "undefined" && ('exports' in module)){
+  module.exports  = MicroEvent;
+}
+
 MicroEvent.mixin(ScenesController);
 
+/* Scene */
 
 var Scene = function(data) {
   var self = this;
@@ -108,7 +154,7 @@ var Scene = function(data) {
           });
         }, delay);
       } else {
-        args.element.delay(delay).animate(args.animateToCSS, (args.duration || 500), (args.easing || 'easeInOutExpo'), complete); 
+        args.element.delay(delay).animate(args.animateToCSS, (args.duration || 500), (args.easing || 'easeInOutExpo'), complete);
       }
     });
   };
@@ -123,3 +169,16 @@ var Scene = function(data) {
 };
 
 MicroEvent.mixin(Scene);
+
+/*
+ * In-Field Label jQuery Plugin
+ * http://fuelyourcoding.com/scripts/infield.html
+ *
+ * Copyright (c) 2009 Doug Neiner
+ * Dual licensed under the MIT and GPL licenses.
+ * Uses the same license as jQuery, see:
+ * http://docs.jquery.com/License
+ *
+ * @version 0.1
+ */
+(function($){$.InFieldLabels=function(b,c,d){var f=this;f.$label=$(b);f.label=b;f.$field=$(c);f.field=c;f.$label.data("InFieldLabels",f);f.showing=true;f.init=function(){f.options=$.extend({},$.InFieldLabels.defaultOptions,d);if(f.$field.val()!=""){f.$label.hide();f.showing=false};f.$field.focus(function(){f.fadeOnFocus()}).blur(function(){f.checkForEmpty(true)}).bind('keydown.infieldlabel',function(e){f.hideOnChange(e)}).change(function(e){f.checkForEmpty()}).bind('onPropertyChange',function(){f.checkForEmpty()})};f.fadeOnFocus=function(){if(f.showing){f.setOpacity(f.options.fadeOpacity)}};f.setOpacity=function(a){f.$label.stop().animate({opacity:a},f.options.fadeDuration);f.showing=(a>0.0)};f.checkForEmpty=function(a){if(f.$field.val()==""){f.prepForShow();f.setOpacity(a?1.0:f.options.fadeOpacity)}else{f.setOpacity(0.0)}};f.prepForShow=function(e){if(!f.showing){f.$label.css({opacity:0.0}).show();f.$field.bind('keydown.infieldlabel',function(e){f.hideOnChange(e)})}};f.hideOnChange=function(e){if((e.keyCode==16)||(e.keyCode==9))return;if(f.showing){f.$label.hide();f.showing=false};f.$field.unbind('keydown.infieldlabel')};f.init()};$.InFieldLabels.defaultOptions={fadeOpacity:0.5,fadeDuration:300};$.fn.inFieldLabels=function(c){return this.each(function(){var a=$(this).attr('for');if(!a)return;var b=$("input#"+a+"[type='text'],"+"input#"+a+"[type='password'],"+"textarea#"+a);if(b.length==0)return;(new $.InFieldLabels(this,b[0],c))})}})(jQuery);

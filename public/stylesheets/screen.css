@@ -457,7 +457,68 @@ td.title { color: #af412e; }
 td.title.not_talk { color: #d6876b; }
 
 
-#proposal_link {
+/* Proposals Scene
+------------------------------------------------- */
+
+#proposals .content {
+  position    : absolute;
+  top         : 210px;
+  left        : 50%;
+  width       : 960px;
+  margin-left :-480px;  
+}
+
+#proposals h1 {
+  font           : 3.2em 'BrownBold', helvetica, arial, sans-serif;
+  letter-spacing : 0.05em;
+  text-transform : uppercase;
+}
+
+#proposals h2 {
+  font           : 2.6em 'BrownBold', helvetica, arial, sans-serif;
+  letter-spacing : 0.05em;
+}
+
+#proposals h2 span {
+  font  : 0.7em 'Brown', helvetica, arial, sans-serif;
+  margin: 0 20px;
+}
+
+#proposals .content div {
+  position: relative;
+  margin: 6px 6px 6px 0px;
+}
+
+#proposals label {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  font : 2.5em 'Brown', helvetica, arial, sans-serif;
+  color: #888;
+}
+
+#proposals input {
+  font   : 2.5em 'Brown', helvetica, arial, sans-serif;
+  border : 2px inset;
+  width   : 400px;
+}
+
+#proposals input#title {
+  width   : 812px;
+}
+
+#proposals textarea {
+  font    : 1.5em 'Brown', helvetica, arial, sans-serif;
+  border  : 2px inset;
+  height  : 100px;
+  width   : 812px;
+}
+
+#proposals .red-button {
+  width: 200px;
+}
+
+#proposals_link {
   position    : absolute;
   bottom      : 0px;
   left        : 50%;
@@ -467,6 +528,8 @@ td.title.not_talk { color: #d6876b; }
   margin-left : -174px;
   font-size   : 2.5em;
 }
+
+/* Misc: buttons, rotations */
 
 .red-button {
   background-color:#991b1d;
