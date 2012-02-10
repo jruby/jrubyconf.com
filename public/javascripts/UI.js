@@ -164,9 +164,14 @@ $(function() {
       self.scheduleLink.data('animation-visible-css', { opacity: 1.0, right: self.scheduleLink.css('right') })
                        .data('animation-hidden-css',  { opacity: 0.0, right: '-150px' });
 
-      self.proposalsLink.data('animation-visible-css', { opacity: 1.0, bottom: self.proposalsLink.css('bottom') })
-                       .data('animation-hidden-css',  { opacity: 0.0, bottom: '-50px' });
-
+      // need to calculate proposals link dynamically based on viewport
+      self.setupProposalsLink = function() {
+        self.proposalsLink.css('top', "" + ($(window).height() - 70 - 57) + "px");
+        self.proposalsLink.data('animation-visible-css', { opacity: 1.0, top: self.proposalsLink.css('top') })
+                          .data('animation-hidden-css',  { opacity: 0.0, top: "" + $(window).height() + "px" });
+      };
+      self.setupProposalsLink();
+      $(window).resize(self.setupProposalsLink);
 
       self.infoBox.animationVisibleCSS = { opacity: 1.0, top: '80px' };
       self.infoBox.animationHiddenCSS  = { opacity: 0.0, top: '-200px' };
@@ -365,7 +370,7 @@ $(function() {
       // Animation Events
       self.bind('inAnimationWillBegin', function(next) {
             self.content.css(self.content.data('animation-hidden-css'));
-            self.speakersLink.css(self.scheduleLink.data('animation-hidden-css'));
+            self.speakersLink.css(self.speakersLink.data('animation-hidden-css'));
             if(next) { next(); }
           })
           .bind('inAnimationDidFinish',  function(next) { if(next) { next(); } })

@@ -520,7 +520,6 @@ td.title.not_talk { color: #d6876b; }
 
 #proposals_link {
   position    : absolute;
-  bottom      : 0px;
   left        : 50%;
   height      : 47px;
   line-height : 47px;
