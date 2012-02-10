@@ -503,6 +503,10 @@ td.title.not_talk { color: #d6876b; }
   width   : 400px;
 }
 
+#proposals input[type='submit'] {
+  border: 0;
+}
+
 #proposals input#title {
   width   : 812px;
 }
