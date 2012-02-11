@@ -500,10 +500,16 @@ td.title.not_talk { color: #d6876b; }
 #proposals input {
   font   : 2.5em 'Brown', helvetica, arial, sans-serif;
   border : 2px inset;
-  width   : 400px;
+  width   : 500px;
+}
+
+#proposals label.error {
+  color: #991b1d;
+  background-color: #fff;
 }
 
 #proposals input[type='submit'] {
+  font   : 2.5em 'BrownBold', helvetica, arial, sans-serif;
   border: 0;
 }
 
