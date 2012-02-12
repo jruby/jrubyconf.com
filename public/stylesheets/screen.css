@@ -486,7 +486,7 @@ td.title.not_talk { color: #d6876b; }
 
 #proposals .content div {
   position: relative;
-  margin: 6px 6px 6px 0px;
+  margin: 6px 0px;
 }
 
 #proposals label {
@@ -503,7 +503,16 @@ td.title.not_talk { color: #d6876b; }
   width   : 500px;
 }
 
+#proposals div.error {
+    position: absolute;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+}
+
 #proposals label.error {
+  font : 1.8em 'Brown', helvetica, arial, sans-serif;
   color: #991b1d;
   background-color: #fff;
 }
