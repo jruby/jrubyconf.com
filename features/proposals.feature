@@ -22,7 +22,7 @@ Feature: Proposal form
       | title          | All About JRuby  |
       | abstract       | Blah blah blah   |
     And I press "Submit"
-    Then I should see "Thank you"
+    Then I should see "Thank you, Nick"
     And I should see "edit"
 
   Scenario: Create Proposal Form Static
@@ -33,7 +33,7 @@ Feature: Proposal form
       | title          | All About JRuby  |
       | abstract       | Blah blah blah   |
     And I press "Submit"
-    Then I should see "Thank you"
+    Then I should see "Thank you, Nick"
     And I should see "edit"
 
   @javascript
@@ -46,3 +46,29 @@ Feature: Proposal form
     And I should see "know who you are"
     And I should see "need to be able to contact you"
     And I should see "need a few more details than that"
+
+  Scenario: Edit Proposal
+    Given I am on /proposals/new
+    When I fill in the following:
+      | name          | Nick             |
+      | email          | nick@example.com |
+      | title          | All About JRuby  |
+      | abstract       | Blah blah blah   |
+    And I press "Submit"
+    And I follow "edit your proposal"
+    Then the "#proposals" element should be visible
+
+  @javascript
+  Scenario: Create and Resubmit Proposal Form
+    Given I am on /proposals
+    When the "#proposals" element is visible
+    And I fill in the following:
+      | name           | Nick             |
+      | email          | nick@example.com |
+      | title          | All About JRuby  |
+      | abstract       | Blah blah blah   |
+    And I press "Submit"
+    And I go back
+    And the "#proposals" element is visible
+    And I press "Submit"
+    Then I should see "proposal was already created"

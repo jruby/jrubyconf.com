@@ -25,6 +25,10 @@ Given /^the "([^\"]*)" element is visible$/ do |label|
   wait_until { element.visible? } rescue nil
 end
 
+When /^(?:|I )go back$/ do
+  page.evaluate_script('window.history.back()')
+end
+
 When /^(?:|I )go to (.+)$/ do |page_name|
   visit path_to(page_name)
 end

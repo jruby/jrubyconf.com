@@ -47,5 +47,33 @@ get '/proposals/new' do
 end
 
 post '/proposals/save' do
-  erb :thank_you, :locals => { :proposal => Proposal.new }
+  status = 200
+
+  if params['id'] && !params['id'].empty? # existing proposal
+    proposal = Proposal.find params['id']
+    status = 404 unless proposal.key == params['key']
+  else
+    proposal = Proposal.new
+    status = 201
+    status = 409 if Proposal.exists?(:key => params['key'])
+  end
+
+  if status < 400
+    %w(name email twitter bio title abstract notes key).each do |attr|
+      proposal[attr] = params[attr]
+    end
+    proposal.save!
+  end
+
+  status status
+  erb :proposal_saved, :locals => { :proposal => proposal, :status => status }
+end
+
+get '/proposals/edit/:key' do |key|
+  halt :not_found unless key.length > 0
+
+  proposal = Proposal.where(:key => key).first
+  halt :not_found unless proposal
+
+  erb :proposals_form, :locals => { :proposal => proposal }
 end
