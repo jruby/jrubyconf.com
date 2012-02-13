@@ -51,7 +51,7 @@ $(function() {
 	      onkeyup: function() {
 	      },
 	      showErrors: function(errorMap) {
-		  var result = this.defaultShowErrors();
+		  this.defaultShowErrors();
 		  for (var key in errorMap) {
 		      $('#' + key + '+label.error').each(
 			  function(idx, elem) {
@@ -63,8 +63,8 @@ $(function() {
 					     });
 			  });
 		  }
-		  $('span.error').each(function(i, elem) { $(elem).show(); });
-		  return result;
+		  $('label.error:visible').length == 0 ? $('span.error').hide() : $('span.error').show();
+		  return;
 	      }
 	  });
   });
