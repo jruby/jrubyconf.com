@@ -16,6 +16,8 @@ require 'middleware'
 set :run, false
 set :public_folder, './public'
 set :views, './views'
+set :logging, true
+set :dump_errors, true
 
 use DotHtmlRewriter
 use DbConnectionManagement

@@ -15,6 +15,13 @@ not_found do
   erb :not_found
 end
 
+error ::Exception do
+  response.status = 500
+  content_type 'text/html'
+  erb :server_error
+end
+
+
 ['/', '/index.html'].each do |r|
   get r do
     require 'data'
