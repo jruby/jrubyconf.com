@@ -1,0 +1,17 @@
+<%= proposal.name %> submitted a talk.
+
+Email: <%= proposal.email %>
+Twitter: <%= proposal.twitter %>
+Bio:
+<%= proposal.bio %>
+
+Title: <%= proposal.title %>
+Abstract:
+<%= proposal.abstract %>
+
+Notes:
+<%= proposal.notes %>
+
+The current version of the proposal is viewable at:
+
+<%= proposal_url(proposal.key) %>

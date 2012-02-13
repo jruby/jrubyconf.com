@@ -12,6 +12,8 @@ gem 'kramdown'
 gem 'coderay'
 gem 'nokogiri'
 
+gem 'mail'
+
 gem 'jruby-openssl', :platform => 'jruby'
 gem 'trinidad', :platform => 'jruby'
 

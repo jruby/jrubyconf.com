@@ -1,24 +1,14 @@
 require 'environment'
 require 'models'
+require 'helpers'
 require 'partials'
 
 helpers do
   include Sinatra::Partials
   include Rack::Utils
-  include AppConfig
+  include App::Config
+  include App::Helpers
   alias_method :h, :escape_html
-
-  def use_ui?
-    request.env['PATH_INFO'] == '/' # only on the index page
-  end
-
-  def proposal_uri(key)
-    "/proposals/edit/#{key}"
-  end
-
-  def proposal_url(key)
-    request.base_url + proposal_uri(key)
-  end
 end
 
 not_found do
@@ -63,6 +53,7 @@ post '/proposals/save' do
       proposal[attr] = params[attr]
     end
     proposal.save!
+    deliver_proposal_emails(proposal) if status == 201 # only on create, not edit
   end
 
   status status

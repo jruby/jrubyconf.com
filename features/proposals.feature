@@ -80,3 +80,40 @@ Feature: Proposal form
     And I manually override the "input#key" hidden field to "constantkey"
     And I press "Submit"
     Then I should see "proposal was already created"
+
+  Scenario: Create Proposal Sends Mail to Submitter
+    Given I am on /proposals/new
+    When I fill in the following:
+      | name           | Nick             |
+      | email          | nick@example.com |
+      | title          | Please send mail |
+      | abstract       | Yadda yadda      |
+    And I press "Submit"
+    Then I should see "Thank you, Nick"
+    And mail should be delivered to "nick@example.com"
+    And mail should have subject "Your JRubyConf proposal: Please send mail"
+    And mail should have body "Thank you for submitting your talk"
+
+  Scenario: Create Proposal Sends Mail to Admin
+    Given I am on /proposals/new
+    When I fill in the following:
+      | name           | Nick             |
+      | email          | nick@example.com |
+      | title          | Please send mail |
+      | abstract       | Yadda yadda      |
+    And I press "Submit"
+    Then mail should be delivered to "admin@example.com"
+    And mail should have subject "JRubyConf proposal from Nick"
+    And mail should have body "Nick submitted a talk."
+
+  Scenario: Editing a Proposal Does Not Send Email
+    Given an existing proposal:
+      | name           | Nick             |
+      | email          | nick@ejemplo.com |
+      | title          | No mail please   |
+      | abstract       | Foo bar baz      |
+      | key            | thekey           |
+    When I go to /proposals/edit/thekey
+    And I fill in "name" with "Flannery"
+    And I press "Submit"
+    Then no mail should be delivered

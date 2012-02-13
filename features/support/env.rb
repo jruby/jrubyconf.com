@@ -31,10 +31,19 @@ Capybara.configure do |config|
   # config.javascript_driver = :webkit_cmd_debug
 end
 
+# Mail test setup
+Mail.defaults do
+  delivery_method :test
+end
+
+App::Config::CONFIG['email_from']  = 'test@example.com'
+App::Config::CONFIG['email_admin'] = 'admin@example.com'
+
 class Sinatra::ApplicationWorld
   include Capybara::DSL
   include RSpec::Expectations
   include RSpec::Matchers
+  include Mail::Matchers
 
   def main_nav_offscreen
     page.evaluate_script('$("#main_navigation").css("top")') =~ /^-\d+px/
@@ -43,6 +52,10 @@ end
 
 World do
   Sinatra::ApplicationWorld.new
+end
+
+Before do
+  Mail::TestMailer.deliveries.clear
 end
 
 Before('@javascript') do
