@@ -12,7 +12,7 @@ module App
     CONFIG_FILE = File.expand_path('../../_config.yml', __FILE__)
     LOCAL_CONFIG_FILE = File.expand_path('../../_config.local.yml', __FILE__)
     CONFIG = YAML.load_file(CONFIG_FILE)
-    CONFIG.update!(YAML.load_file(LOCAL_CONFIG_FILE)) if File.exist?(LOCAL_CONFIG_FILE)
+    CONFIG.merge!(YAML.load_file(LOCAL_CONFIG_FILE)) if File.exist?(LOCAL_CONFIG_FILE)
     SUBMISSION_DEADLINE = CONFIG['submission_deadline']
 
     module_function
