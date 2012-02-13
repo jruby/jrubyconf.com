@@ -67,8 +67,16 @@ Feature: Proposal form
       | email          | nick@example.com |
       | title          | All About JRuby  |
       | abstract       | Blah blah blah   |
+    And I manually override the "input#key" hidden field to "constantkey"
     And I press "Submit"
-    And I go back
+    Then I should see "Thank you, Nick"
+    When I go back
     And the "#proposals" element is visible
+    And I fill in the following:
+      | name           | Nick             |
+      | email          | nick@example.com |
+      | title          | All About JRuby  |
+      | abstract       | Blah blah blah   |
+    And I manually override the "input#key" hidden field to "constantkey"
     And I press "Submit"
     Then I should see "proposal was already created"
