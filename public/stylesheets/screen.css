@@ -517,6 +517,12 @@ td.title.not_talk { color: #d6876b; }
   background-color: #fff;
 }
 
+#proposals span.error {
+  font : 1.8em 'Brown', helvetica, arial, sans-serif;
+  color: #991b1d;
+  margin-left: 6px;
+}
+
 #proposals input[type='submit'] {
   font   : 2.5em 'BrownBold', helvetica, arial, sans-serif;
   border: 0;

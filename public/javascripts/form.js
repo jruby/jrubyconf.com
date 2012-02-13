@@ -63,6 +63,7 @@ $(function() {
 					     });
 			  });
 		  }
+		  $('span.error').each(function(i, elem) { $(elem).show(); });
 		  return result;
 	      }
 	  });

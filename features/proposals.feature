@@ -42,6 +42,7 @@ Feature: Proposal form
     When the "#proposals" element is visible
     And I press "Submit"
     Then the "#proposals" element should be visible
+    And I should see "Oops"
     And I should see "know who you are"
     And I should see "need to be able to contact you"
     And I should see "need a few more details than that"
