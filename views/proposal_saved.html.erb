@@ -9,12 +9,10 @@
     </p>
     <% else %>
     <p>
-      Save the link below. If you want to
+      Save or bookmark <a href="<%= proposal_uri proposal.key %>">this edit link</a>. If you want to
       <a href="<%= proposal_uri proposal.key %>">edit your proposal</a>,
       you can do so up until the submission deadline of <%= SUBMISSION_DEADLINE %>.
     </p>
-
-    <p><input id="edit_link" type="text" value="<%= proposal_url proposal.key %>"/></p>
     <% end # status == 200 %>
     <% end # status < 400 %>
 

@@ -6,3 +6,4 @@
 /tmp/restart.txt
 /config/database.yml
 /db/*.sqlite3
+/mails/nicksieger@gmail.com

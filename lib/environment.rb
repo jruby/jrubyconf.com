@@ -74,4 +74,8 @@ if App::Config.smtp_host
                            :authentication => :plain,
                            :enable_starttls_auto => true
   end
+elsif development?
+  Mail.defaults do
+    delivery_method :file
+  end
 end
