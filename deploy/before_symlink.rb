@@ -1,2 +1,15 @@
 run 'rake deploy_hook'
 raise "rake deploy_hook failed; blog not generated" unless $?.success?
+
+if File.exist?(File.join(shared_path, 'config', 'smtp.yml'))
+  require 'yaml'
+  smtp_config = YAML.load_file(File.join(shared_path, 'config', 'smtp.yml'))
+  domain = node['engineyard']['environment']['apps'].first['vhosts'].first['domain_name'] rescue "_"
+  # Set the production site flag only for the app with the jrubyconf.com domain
+  if domain == 'www.jrubyconf.com'
+    smtp_config = smtp_config.merge :production_site => true
+  end
+  File.open(File.join(current_path, "_config.local.yml"), "w") do |f|
+    f << YAML::dump(smtp_config)
+  end
+end
