@@ -5,7 +5,7 @@
       Nobody's perfect! Some bad code slipped into production. Sorry about that.
     </p>
     <!-- <%= h env['sinatra.error'].to_s %> -->
-    <!-- <%= h env['sinatra.error'].backtrace[0..5].join("\n") %> -->
+    <!-- <%= env['sinatra.error'].backtrace[0..10].join("\n").gsub(/--+/, '_') %> -->
     <p>
       Maybe you want to go
       <a href="/" class="red-button">
