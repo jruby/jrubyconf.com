@@ -1,6 +1,6 @@
 $(function() {
       $("label").inFieldLabels();
-      var labelTop = parseFloat($($('label[for="name"]')[0]).css('top'));
+      var labelTop = parseFloat($('label[for="name"]').css('top'));
       $('#proposal-form').validate(
 	  {
 	      focusCleanup: true,
