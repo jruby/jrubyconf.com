@@ -41,6 +41,10 @@ module App
       smtp_settings['host']
     end
 
+    def smtp_port
+      smtp_settings['port']
+    end
+
     def smtp_domain
       smtp_settings['domain']
     end
