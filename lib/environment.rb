@@ -22,11 +22,19 @@ module App
     SUBMISSION_DEADLINE = CONFIG['submission_deadline']
 
     def mail_from
-      CONFIG['email_from']
+      if production_site?
+        CONFIG['email_from']
+      end
     end
 
     def mail_admin
-      CONFIG['email_admin']
+      if production_site?
+        CONFIG['email_admin']
+      end
+    end
+
+    def production_site?
+      CONFIG['production_site']
     end
   end
 end

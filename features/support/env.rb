@@ -36,6 +36,7 @@ Mail.defaults do
   delivery_method :test
 end
 
+App::Config::CONFIG['production_site'] = true # pretend we are production
 App::Config::CONFIG['email_from']  = 'test@example.com'
 App::Config::CONFIG['email_admin'] = 'admin@example.com'
 

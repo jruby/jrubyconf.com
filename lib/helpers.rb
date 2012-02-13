@@ -1,7 +1,7 @@
 module App::Helpers
   def deliver_proposal_emails(proposal)
     submitter_body = erb(:submitter_email, :locals => { :proposal => proposal })
-    from_address = mail_from
+    from_address = mail_from || proposal.email
     Mail.deliver do
       from    from_address
       to      proposal.email
@@ -10,7 +10,7 @@ module App::Helpers
     end
 
     admin_body = erb(:admin_email, :locals => { :proposal => proposal })
-    admin_address = mail_admin
+    admin_address = mail_admin || proposal.email
     Mail.deliver do
       from    from_address
       to      admin_address
