@@ -22,3 +22,18 @@ email_from: jrubyconf@engineyard.com
 email_admin: jrubyconf@engineyard.com
 team_email: jrubyconf@engineyard.com
 domain: www.jrubyconf.com
+
+# smtp:
+#   # Gmail
+#   host:     smtp.gmail.com
+#   port:     587
+#   domain:   gmail.com
+#   username:
+#   password:
+# 
+#   # SendGrid
+#   host:     smtp.sendgrid.net
+#   port:     587
+#   domain:   yourdomain.com
+#   username: yourusername@domain.com
+#   password:
