@@ -107,6 +107,8 @@ $(function() {
       // Animation Events
       self.bind('inAnimationWillBegin', function(next) {
             self.content.css(self.content.data('animation-hidden-css'));
+	    var w = $('.bottom-buttons').width();
+	    $('.bottom-buttons').css({width: ""+w+"px", marginLeft: "-"+(w/2)+"px", left:"50%"});
             if(next) { next(); }
           })
           .bind('inAnimationDidFinish',  function(next) { if(next) { next(); } })

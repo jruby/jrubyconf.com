@@ -255,17 +255,11 @@ em { font-family: 'BrownBold'; font-style: normal; }
 
 #intro .right { right: 0; }
 
-#register_now_large {
+div.bottom-buttons {
   position    : absolute;
   top         : 350px;
-  left        : 50%;
-  width       : 200px;
-  height      : 47px;
-  line-height : 47px;
-  margin-left : -124px;
-  font-size   : 0.9em;
+  height      : 60px;
 }
-
 
 /* Information Scene
 ------------------------------------------------- */
