@@ -3,6 +3,16 @@ require 'jekyll'
 
 module JRubyConf
   module JekyllData
+    def process_site
+      Dir.chdir(File.expand_path('../..', __FILE__)) do
+        if ! File.exist?('_news/_includes/footer.html') ||
+            File.mtime('views/footer.html.erb') > File.mtime('_news/_includes/footer.html')
+          FileUtils.cp 'views/footer.html.erb', '_news/_includes/footer.html', :verbose => true
+        end
+      end
+      JekyllRunner.site.process
+    end
+
     def copy_generated_files(generated, destination)
       files = Dir["#{generated}/**/*"].to_a
       root  = generated.sub %r{[^/]+$}, destination
@@ -36,31 +46,38 @@ module JRubyConf
       end
     end
 
+    def self.options
+      @options ||= Jekyll.configuration({})
+    end
+
+    def self.source
+      @source = options['source']
+    end
+
+    def self.destination
+      @destination = options['destination']
+    end
+
+    def self.site
+      @site ||= Jekyll::Site.new(options)
+    end
+
     def self.main
-      options = Jekyll.configuration({})
-      source      = options['source']
-      destination = options['destination']
-
-      # Create the Site
-      @@site = Jekyll::Site.new(options)
-
-      # Watch for updates
-      require 'directory_watcher'
-
       puts "Auto-regenerating enabled: #{source} -> #{destination}"
 
-      @@dw = DirectoryWatcher.new(source)
-      @@dw.interval = 1
-      @@dw.glob = globs(source)
+      require 'directory_watcher'
+      @dw = DirectoryWatcher.new(source)
+      @dw.interval = 1
+      @dw.glob = globs(source)
 
-      @@dw.add_observer do |*args|
+      @dw.add_observer do |*args|
         t = Time.now.strftime("%Y-%m-%d %H:%M:%S")
         puts "[#{t}] regeneration: #{args.size} files changed"
-        @@site.process
+        process_site
         copy_generated_files(destination, 'public')
       end
 
-      @@dw.start
+      @dw.start
     end
   end
 end

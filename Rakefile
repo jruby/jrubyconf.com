@@ -31,7 +31,7 @@ include JRubyConf::JekyllData
 
 desc "Generate the news posts using Jekyll"
 task :generate do
-  ruby "-S bundle exec jekyll"
+  process_site
   copy_generated_files('_site', 'public')
 end
 
