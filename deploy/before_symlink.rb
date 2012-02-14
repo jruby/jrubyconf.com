@@ -1,7 +1,4 @@
 on_app_servers_and_utilities do
-  run 'rake deploy_hook'
-  raise "rake deploy_hook failed; blog not generated" unless $?.success?
-
   if File.exist?(File.join(shared_path, 'config', 'smtp.yml'))
     require 'yaml'
     smtp_config = YAML.load_file(File.join(shared_path, 'config', 'smtp.yml'))
@@ -21,4 +18,7 @@ on_app_servers_and_utilities do
       f << YAML::dump(smtp_config)
     end
   end
+
+  run 'rake deploy_hook'
+  raise "rake deploy_hook failed; blog not generated" unless $?.success?
 end
