@@ -3,7 +3,7 @@ Feature: Main conference pages
   I want to browse the conference website
   In order to register and participate in the conference
 
-  @javascript
+  @javascript @smoke
   Scenario: Intro
     Given I am on the home page
     Then the "#intro" element should be visible
@@ -13,7 +13,7 @@ Feature: Main conference pages
     And the main navigation bar should be offscreen
     And there should be a register link
 
-  @javascript
+  @javascript @smoke
   Scenario: Information
     Given I am on the home page
     And the "#intro" element is visible
@@ -25,7 +25,7 @@ Feature: Main conference pages
     And the main navigation bar should be onscreen
     And there should be a register link
 
-  @javascript
+  @javascript @smoke
   Scenario: Speakers
     Given I am on the home page
     And the "#intro" element is visible
@@ -37,7 +37,7 @@ Feature: Main conference pages
     And the main navigation bar should be onscreen
     And there should be a register link
 
-  @javascript
+  @javascript @smoke
   Scenario: Schedule
     Given I am on the home page
     And the "#intro" element is visible
@@ -51,7 +51,7 @@ Feature: Main conference pages
     And the main navigation bar should be onscreen
     And there should be a register link
 
-  @javascript
+  @javascript @smoke
   Scenario: Redirect Anchors
     When I go to /speakers
     Then the "#speakers" element should be visible

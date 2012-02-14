@@ -2,22 +2,51 @@
 
 ENV['RACK_ENV'] = 'test'
 
-$:.unshift File.expand_path('../../../lib', __FILE__)
-require 'main'
-
-set :environment, :test
-set :public_folder, File.expand_path("../../../public", __FILE__)
-set :views, File.expand_path("../../../views", __FILE__)
+require 'sinatra'
+require 'mail'
 
 require 'capybara'
 require 'capybara/cucumber'
 require 'capybara/webkit'
 require 'rspec'
 
+module App
+  class TestApp
+    # Test application setup
+    def self.setup_test_config
+      # Mail test setup
+      Mail.defaults do
+        delivery_method :test
+      end
+
+      App::Config::CONFIG['production_site'] = true # pretend we are production
+      App::Config::CONFIG['email_from']  = 'test@example.com'
+      App::Config::CONFIG['email_admin'] = 'admin@example.com'
+
+      set :logging, false
+      set :dump_errors, false
+    end
+
+    def self.new
+      app, options = Rack::Builder.parse_file File.expand_path('../../../config.ru', __FILE__)
+      self.setup_test_config
+      app
+    end
+  end
+end
+
 Capybara.configure do |config|
   config.default_wait_time = 5
-  config.app = Sinatra::Application
-  config.automatic_reload = false
+
+  if ENV['STAGING']
+    config.run_server = false
+    config.app_host = ENV["STAGING"]
+    config.default_driver = :webkit
+  else
+    config.app = App::TestApp.new
+    config.automatic_reload = false
+  end
+
   config.javascript_driver = :webkit
 
   Capybara.register_driver :webkit_cmd_debug do |app|
@@ -30,15 +59,6 @@ Capybara.configure do |config|
   end
   # config.javascript_driver = :webkit_cmd_debug
 end
-
-# Mail test setup
-Mail.defaults do
-  delivery_method :test
-end
-
-App::Config::CONFIG['production_site'] = true # pretend we are production
-App::Config::CONFIG['email_from']  = 'test@example.com'
-App::Config::CONFIG['email_admin'] = 'admin@example.com'
 
 class Sinatra::ApplicationWorld
   include Capybara::DSL

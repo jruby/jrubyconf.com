@@ -45,6 +45,12 @@ When /^(?:|I )follow "([^\"]*)"(?: within "([^\"]*)")?$/ do |link, selector|
   end
 end
 
+When /^(?:|I )follow the first link(?: within "([^\"]*)")?$/ do |selector|
+  with_scope(selector) do
+    click_link("a")
+  end
+end
+
 When /^(?:|I )fill in "([^\"]*)" with "([^\"]*)"(?: within "([^\"]*)")?$/ do |field, value, selector|
   with_scope(selector) do
     fill_in(field, :with => value)
