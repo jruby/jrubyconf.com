@@ -491,8 +491,12 @@ td.title.not_talk { color: #d6876b; }
   color: #888;
 }
 
-#proposals label.non-inline {
+#proposals p, #proposals label.non-inline {
   font-size: 1.5em;
+}
+
+#proposals p {
+  margin: 8px 0px;
 }
 
 #proposals input[type="text"] {

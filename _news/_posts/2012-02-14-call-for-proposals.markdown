@@ -11,6 +11,9 @@ suits the mix of people that will be at JRubyConf, let us hear about
 it! We're looking forward to a great event and can't wait to see your
 proposals.
 
+We'll leave the call for proposals open until March 31 at Midnight
+US Central Daylight Time.
+
 If you haven't gotten your ticket yet, [go ahead and get
 registered][register]. If we accept your proposal and you already
 bought a ticket, [let us know][email] and we'll refund the ticket
