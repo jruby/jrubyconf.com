@@ -39,6 +39,7 @@ Capybara.configure do |config|
   config.default_wait_time = 5
 
   if ENV['STAGING']
+    config.default_wait_time = 20 # higher due to synchronous mail sending
     config.run_server = false
     config.app_host = ENV["STAGING"]
     config.default_driver = :webkit
