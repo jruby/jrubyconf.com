@@ -117,3 +117,15 @@ Feature: Proposal form
     And I fill in "name" with "Flannery"
     And I press "Submit"
     Then no mail should be delivered
+
+  Scenario: Withdrawing a Proposal
+    Given an existing proposal:
+      | name           | Nick             |
+      | email          | nick@ejemplo.com |
+      | title          | Please withdraw  |
+      | abstract       | Foo bar baz      |
+      | key            | withdrawme       |
+    When I go to /proposals/edit/withdrawme
+    And I check "withdraw"
+    And I press "Submit"
+    Then the proposal should be withdrawn

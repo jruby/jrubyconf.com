@@ -3,9 +3,14 @@ When /^I manually override the "([^"]*)" hidden field to "([^"]*)"$/ do |selecto
 end
 
 Given /^an existing proposal:$/ do |table|
-  proposal = Proposal.new
+  @proposal = Proposal.new
   table.raw.each do |name,value|
-    proposal.send("#{name}=", value)
+    @proposal.send("#{name}=", value)
   end
-  proposal.save!
+  @proposal.save!
+end
+
+Then /the proposal should be withdrawn/ do
+  @proposal.reload
+  @proposal.withdraw?.should be_true
 end

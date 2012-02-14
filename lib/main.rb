@@ -56,7 +56,7 @@ post '/proposals/save' do
   end
 
   if status < 400
-    %w(name email twitter bio title abstract notes key).each do |attr|
+    Proposal::EXPOSED_ATTRIBUTES.each do |attr|
       proposal[attr] = params[attr]
     end
     proposal.save!

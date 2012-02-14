@@ -2,41 +2,46 @@
 <form id="proposal-form" action="/proposals/save" method="POST">
   <h2>You<span>Represent!</span></h2>
   <div>
-    <label for="name">Name</label>
+    <label class="inline" for="name">Name</label>
     <input id="name" type="text" name="name" value="<%= h proposal.name %>"/>
   </div>
 
   <div>
-    <label for="email">Email</label>
+    <label class="inline" for="email">Email</label>
     <input id="email" type="text" name="email" value="<%= h proposal.email %>"/>
   </div>
 
   <div>
-    <label for="twitter">Twitter @handle</label>
+    <label class="inline" for="twitter">Twitter @handle</label>
     <input id="twitter" type="text" name="twitter" value="<%= h proposal.twitter %>"/>
   </div>
 
   <div>
-    <label for="bio">Bio<br/>(brevity is the soul of wit)</label>
+    <label class="inline" for="bio">Bio<br/>(brevity is the soul of wit)</label>
     <textarea id="bio" name="bio"><%= h proposal.bio %></textarea>
   </div>
 
-  <h2>Your Talk<span>All talks will be 30 minutes long. How will you entertain us?</span></h2>
+  <h2>Your Talk<span>All talks will be 30 minutes long. How will you use that time?</span></h2>
 
   <div>
-    <label for="title">Title</label>
+    <label class="inline" for="title">Title</label>
     <input id="title" type="text" name="title" value="<%= h proposal.title %>"/>
   </div>
 
   <div>
-    <label for="abstract">Abstract<br/>(as long as it needs to be but no longer)</label>
+    <label class="inline" for="abstract">Abstract<br/>(as long as it needs to be but no longer)</label>
     <textarea id="abstract" name="abstract"><%= h proposal.abstract %></textarea>
   </div>
 
   <div>
-    <label for="notes">Anything else we should know?<br/>(extra speakers, A/V, make-up, color of the shirt you'll be wearing, etc.)</label>
+    <label class="inline" for="notes">Anything else we should know?<br/>(extra speakers, A/V, make-up, color of the shirt you'll be wearing, etc.)</label>
     <textarea id="notes" name="notes"><%= h proposal.notes %></textarea>
   </div>
+
+  <% if proposal.persisted? %><div>
+    <input id="withdraw" type="checkbox" name="withdraw" value="true" <% if proposal.withdraw? %>checked="checked"<% end %> />
+    <label class="non-inline" for="withdraw">Withdraw my proposal. (Note: this does not delete the proposal. You can un-withdraw it later.)</label>
+  </div><% end %>
 
   <div>
     <input id="id" type="hidden" name="id" value="<%= proposal.id %>"/>

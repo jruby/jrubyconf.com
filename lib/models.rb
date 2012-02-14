@@ -1,6 +1,8 @@
 require 'openssl'
 
 class Proposal < ActiveRecord::Base
+  EXPOSED_ATTRIBUTES = %w(name email twitter bio title abstract notes key withdraw)
+
   before_save :check_twitter_at
 
   def key
