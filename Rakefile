@@ -74,7 +74,7 @@ begin
     end
 
     desc "Run the @smoke features. Use STAGING=url for staging server."
-    Cucumber::Rake::Task.new(:smoke => "cucumber:prereqs") do |t|
+    Cucumber::Rake::Task.new(:smoke) do |t|
       t.libs = libs
       t.cucumber_opts = %w(--tags @smoke)
     end
