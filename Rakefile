@@ -43,7 +43,7 @@ task :server do
 end
 
 desc "Runs all pre-deployment tasks"
-task :deploy_hook => [:schedule, :generate]
+task :deploy_hook => [:schedule, :generate, :mail_connectivity]
 
 desc "Deploys the site using the engineyard gem"
 task :deploy do
@@ -100,5 +100,16 @@ namespace :db do
   desc "Create/migrate the database to the latest version."
   task :migrate => :environment do
     ActiveRecord::Migrator.migrate("db/migrate")
+  end
+end
+
+task :mail_connectivity => :environment do
+  require 'net/smtp'
+  include App::Config
+  smtp = Net::SMTP.new(smtp_host, smtp_port)
+  smtp.enable_starttls_auto
+  smtp.start(smtp_domain, smtp_username, smtp_password, 'plain') do |smtp_obj|
+    print "=+= Checking SMTP config: "
+    smtp_obj.instance_eval { p @capabilities }
   end
 end

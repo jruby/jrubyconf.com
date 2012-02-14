@@ -8,3 +8,4 @@
 /db/*.sqlite3
 /mails/*
 /_news/_includes/footer.html
+/_config.local.yml
