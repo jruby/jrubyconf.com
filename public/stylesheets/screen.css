@@ -258,7 +258,7 @@ em { font-family: 'BrownBold'; font-style: normal; }
 div.bottom-buttons {
   position    : absolute;
   top         : 350px;
-  height      : 60px;
+  width       : 100%;
 }
 
 /* Information Scene
