@@ -56,6 +56,10 @@ module App
     def smtp_password
       smtp_settings['password']
     end
+
+    def deploy_revision
+      CONFIG['deploy_revision']
+    end
   end
 end
 

@@ -11,6 +11,7 @@ on_app_servers_and_utilities do
       domain = node['engineyard']['environment']['instances'].first['public_hostname'] rescue "_"
     end
     smtp_config['smtp']['domain'] = domain
+    smtp_config['deploy_revision'] = revision
 
     local_config = File.join(release_path, "_config.local.yml")
     puts "=+= Writing file: #{local_config} for domain #{domain}"

@@ -30,4 +30,12 @@ module App::Helpers
   def proposal_url(key)
     request.base_url + proposal_uri(key)
   end
+
+  def asset_with_revision(asset)
+    if deploy_revision
+      asset.dup << '?' << deploy_revision
+    else
+      asset
+    end
+  end
 end

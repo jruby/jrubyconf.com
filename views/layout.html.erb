@@ -6,10 +6,10 @@
     <script src="/javascripts/jquery.validate.js"></script><% else %>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js"></script><% end %>
-    <% if use_ui? %><script src="/javascripts/UI.js"></script>
-    <% end %><script src="/javascripts/library.js"></script>
+    <% if use_ui? %><script src="<%= asset_with_revision('/javascripts/UI.js') %>"></script>
+    <% end %><script src="<%= asset_with_revision('/javascripts/library.js') %>"></script>
     <link rel="shortcut icon" href="/favicon.ico">
-    <link rel="stylesheet" media="all" href="/stylesheets/screen.css">
+    <link rel="stylesheet" media="all" href="<%= asset_with_revision('/stylesheets/screen.css') %>">
     <link rel="alternate" type="application/atom+xml" title="Atom" href="/atom.xml">
     <% unless development? || test? %><script type="text/javascript">
       var _gaq = _gaq || [];
