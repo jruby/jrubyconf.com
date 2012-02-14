@@ -3,8 +3,10 @@ layout: main
 title: News
 ---
 {% for post in site.posts %}
+<div id="post{{ post.url | replace: '/news', '' | replace:'/','-'}}" class="post">
 <h1><a href="{{ post.url }}">{{ post.title }}</a><br/><span class="date">{{ post.date | date: "%A, %B %d %Y" }}</span></h1>
 <div class="body">
   {{ post.content }}
+</div>
 </div>
 {% endfor %}
