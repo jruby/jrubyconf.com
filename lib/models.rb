@@ -9,7 +9,7 @@ class Proposal < ActiveRecord::Base
 
   private
   def check_twitter_at
-    self['twitter'] = self['twitter'].sub(/^@/,'')
+    self['twitter'] = self['twitter'] && self['twitter'].sub(/^@/,'')
   end
 
   def generate_key
