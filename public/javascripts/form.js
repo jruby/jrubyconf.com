@@ -57,6 +57,7 @@ $(function() {
 			  function(idx, elem) {
 			      var errorLabel = $(elem);
 			      var input = $(elem.previousSibling);
+			      errorLabel.addClass('inline');
 			      errorLabel.css({
 						 top: "" + (labelTop + input.height() - errorLabel.height()) + "px",
 						 left: "" + (input.width() - errorLabel.width()) + "px"
