@@ -75,3 +75,7 @@ get '/proposals/edit/:key' do |key|
 
   erb :proposals_form, :locals => { :proposal => proposal }
 end
+
+get '/speakers/info' do
+  erb :speaker_info
+end

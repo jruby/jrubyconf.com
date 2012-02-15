@@ -23,6 +23,8 @@ email_admin: jrubyconf@engineyard.com
 team_email: jrubyconf@engineyard.com
 domain: www.jrubyconf.com
 
+jotform: https://secure.jotform.net/form/20455554269
+
 # smtp:
 #   # Gmail
 #   host:     smtp.gmail.com

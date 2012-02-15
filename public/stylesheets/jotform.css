@@ -1,0 +1,64 @@
+/* custom properties */
+p {}
+
+@font-face {}
+@font-face {font-family: 'BrownBold';src: url('http://www.jrubyconf.com/fonts/1C3201_0_0.eot');src: url('http://www.jrubyconf.com/fonts/1C3201_0_0.eot?#iefix') format('embedded-opentype'),url('http://www.jrubyconf.com/fonts/1C3201_0_0.woff') format('woff'),url('http://www.jrubyconf.com/fonts/1C3201_0_0.ttf') format('truetype');}  
+@font-face {font-family: 'Brown';src: url('http://www.jrubyconf.com/fonts/1C3201_1_0.eot');src: url('http://www.jrubyconf.com/fonts/1C3201_1_0.eot?#iefix') format('embedded-opentype'),url('http://www.jrubyconf.com/fonts/1C3201_1_0.woff') format('woff'),url('http://www.jrubyconf.com/fonts/1C3201_1_0.ttf') format('truetype');}
+
+h2 {
+  text-transform:uppercase;
+  font           : 2.6em 'BrownBold', helvetica, arial, sans-serif;
+  letter-spacing : 0.05em;
+}
+
+p, label {
+  font : 2.5em 'Brown', helvetica, arial, sans-serif;
+}
+
+.form-sub-label {
+  font-size: 0.9em;
+}
+
+input[type="text"], input[type="email"], input[type='file'] {
+  background-color: white;
+  font   : 2.5em 'Brown', helvetica, arial, sans-serif;
+  border : 2px inset;
+  width   : 500px;
+}
+
+button, input[type='submit'] {
+  font   : 2.5em 'BrownBold', helvetica, arial, sans-serif;
+  width: 200px;
+  background-color:#991b1d;
+  -moz-border-radius:3px;
+  -webkit-border-radius:3px;
+  border-radius:3px;
+  border:0;
+  display:inline-block;
+  color:#ffffff;
+  font-family: 'BrownBold';
+  letter-spacing:0;
+  padding:6px 24px 4px 24px;
+  text-align:center;
+  text-decoration:none;
+  text-transform:uppercase;
+  text-shadow:1px 1px 0px #000000;
+  vertical-align:middle;
+}
+
+button:active, input[type='submit']:active {
+  position:relative;
+  top:1px;
+}
+
+textarea {
+  font    : 1.5em 'Brown', helvetica, arial, sans-serif;
+  border  : 2px inset;
+  height  : 100px;
+  width   : 812px;
+}
+
+.form-header-group {
+    background: none;
+    border-bottom: 0px;
+}
