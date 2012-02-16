@@ -125,6 +125,11 @@ em { font-family: 'BrownBold'; font-style: normal; }
   line-height : 130%;
 }
 
+.info_box p {
+  text-align: justify;
+  margin-bottom: 8px;
+}
+
 .info_box h2 {
   font-size: 1.2em !important;
 }
