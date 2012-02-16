@@ -4,19 +4,20 @@
   </a>
   <div class="content">
     <h1 class="heading">Schedule</h1>
-    <div class="left_day">
-      <h2>Monday</h2>
+    <% %w(Monday Tuesday Wednesday).each do |day| %>
+    <div class="<%= day == "Wednesday" ? 'left_day' : 'right_day' %>">
+      <h2><%= day %></h2>
       <table cellspacing="0" cellpadding="0" border="0">
-        <% MONDAY.each do |event| %>
-          <% crazy_id = "monday_#{event[:speaker_id]}_#{event[:time].gsub(' ', '').gsub(':','')}"%>
+        <% Object.const_get(day.upcase).each do |event| %>
+          <% crazy_id = "#{day.downcase}_#{event[:speaker_id]}_#{event[:time].gsub(' ', '').gsub(':','')}"%>
           <tr class="schedule_row" data-id="<%= crazy_id %>">
             <td class="time"><%= event[:time] %></td>
             <td class="title"><%= event[:title] %></td>
           </tr>
         <% end %>
       </table>
-      <% MONDAY.each do |event| %>
-        <% crazy_id = "monday_#{event[:speaker_id]}_#{event[:time].gsub(' ', '').gsub(':','')}"%>
+      <% Object.const_get(day.upcase).each do |event| %>
+        <% crazy_id = "#{day.downcase}_#{event[:speaker_id]}_#{event[:time].gsub(' ', '').gsub(':','')}"%>
         <div class="info_box" id="<%= crazy_id %>">
           <div class="close">close</div>
           <div class="left">
@@ -32,63 +33,6 @@
         </div>
       <% end %>
     </div>
-
-    <div class="left_day">
-      <h2>Tuesday</h2>
-      <table cellspacing="0" cellpadding="0" border="0">
-        <% TUESDAY.each do |event| %>
-          <% crazy_id = "tuesday_#{event[:speaker_id]}_#{event[:time].gsub(' ', '').gsub(':','')}"%>
-          <tr class="schedule_row" data-id="<%= crazy_id %>">
-            <td class="time"><%= event[:time] %></td>
-            <td class="title"><%= event[:title] %></td>
-          </tr>
-        <% end %>
-      </table>
-      <% TUESDAY.each do |event| %>
-        <% crazy_id = "tuesday_#{event[:speaker_id]}_#{event[:time].gsub(' ', '').gsub(':','')}"%>
-        <div class="info_box" id="<%= crazy_id %>">
-          <div class="close">close</div>
-          <div class="left">
-            <div class="name data"><%= SPEAKERS[event[:speaker_id].to_sym][:name]%></div>
-            <div class="twitter data"><%= event[:time] %></div>
-          </div>
-          <div class="right">
-            <div class="bio">
-              <h2><%= event[:title] %></h2>
-              <%= event[:description] %>
-            </div>
-          </div>
-        </div>
-      <% end %>
-    </div>
-
-    <div class="right_day">
-      <h2>Wednesday</h2>
-      <table cellspacing="0" cellpadding="0" border="0">
-          <% WEDNESDAY.each do |event| %>
-            <% crazy_id = "wednesday_#{event[:speaker_id]}_#{event[:time].gsub(' ', '').gsub(':','')}"%>
-            <tr class="schedule_row" data-id="<%= crazy_id %>">
-              <td class="time"><%= event[:time] %></td>
-              <td class="title"><%= event[:title] %></td>
-            </tr>
-          <% end %>
-        </table>
-        <% WEDNESDAY.each do |event| %>
-          <% crazy_id = "wednesday_#{event[:speaker_id]}_#{event[:time].gsub(' ', '').gsub(':','')}"%>
-          <div class="info_box" id="<%= crazy_id %>">
-            <div class="close">close</div>
-            <div class="left">
-              <div class="name data"><%= SPEAKERS[event[:speaker_id].to_sym][:name]%></div>
-              <div class="twitter data"><%= event[:time] %></div>
-            </div>
-            <div class="right">
-              <div class="bio">
-                <h2><%= event[:title] %></h2>
-                <%= event[:description] %>
-              </div>
-            </div>
-          </div>
-        <% end %>
-    </div>
+    <% end %>
   </div>
 </div> <!-- /#schedule -->
