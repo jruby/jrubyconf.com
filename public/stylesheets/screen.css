@@ -92,7 +92,7 @@ em { font-family: 'BrownBold'; font-style: normal; }
 .info_box .left {
   overflow : hidden;
   float    : left;
-  width    : 106px;
+  width    : 126px;
 }
 
 .info_box .close {
@@ -120,13 +120,19 @@ em { font-family: 'BrownBold'; font-style: normal; }
 }
 
 .info_box .bio {
-  margin-left : 130px;
+  margin-left : 150px;
   font-size   : 1.4em;
   line-height : 130%;
 }
 
+.info_box .avatar {
+    float: left;
+    padding: 3px;
+    margin: 0px 6px 6px 0px;
+    background-color: white;
+}
+
 .info_box p {
-  text-align: justify;
   margin-bottom: 8px;
 }
 

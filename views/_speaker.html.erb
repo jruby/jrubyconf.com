@@ -14,8 +14,6 @@
 <div class="info_box" id="<%= "#{speaker[0]}_bio" %>">
   <div class="close">close</div>
   <div class="left">
-    <div class="avatar"><img src="/images/speakers/<%= data[:avatar] %>" alt="<%= data[:name] %>"></div>
-
     <div class="name"><%= data[:name] %></div>
 
     <% if data[:twitter] %>
@@ -27,6 +25,7 @@
     <% end %>
   </div>
   <div class="bio">
+    <div class="avatar"><img src="/images/speakers/<%= data[:avatar] %>" alt="<%= data[:name] %>"></div>
     <%= data[:bio] %>
   </div>
 </div>
