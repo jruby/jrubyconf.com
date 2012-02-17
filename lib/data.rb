@@ -2,6 +2,20 @@
 SPEAKERS  = {}
 
 CONFIRMED_SPEAKERS = {
+  :enebo => {
+    :name => "Thomas Enebo",
+    :avatar => "enebo.png",
+    :bio => "<p>Thomas Enebo is the co-lead of the JRuby project and an employee of Engine Yard. He has been a practitioner of Java since the heady days of the HotJava browser, and he has been happily using Ruby since 2001. Thomas has spoken at numerous Java and Ruby conferences, co-authored \"Using JRuby\", and was awarded the \"Rock Star\" award at JavaOne. When Thomas is not working he enjoys biking, anime, and drinking a decent IPA.</p>",
+    :twitter => "tom_enebo"
+  },
+
+  :headius => {
+    :name => "Charles Nutter",
+    :bio => "<p>Charles Oliver Nutter has been programming most of his life, as a Java developer for the past decade and as a JRuby developer for over four years. He co-leads the JRuby project, an effort to bring the beauty of Ruby and the power of the JVM together. Charles believes in open source and open standards and hopes his efforts on JRuby and other languages will ensure the JVM remains the preferred open-source managed runtime for many years to come. Charles blogs at blog.headius.com and tweets as headius on Twitter.</p>",
+    :avatar => "cnutter.jpg",
+    :twitter => "headius"
+  },
+
   :carinmeier => {
     :name => "Carin Meier",
     :avatar => "carin_meier.jpg",
@@ -9,13 +23,6 @@ CONFIRMED_SPEAKERS = {
 
 <p>She lives in Cincinnati, OH with her husband and two young children. When left to daydream, she thinks of the dynamics of flocks of birds, what the Giant Squids might really be doing down there in the deep, and maybe opening a first-rate cheese shop one day.</p>",
     :twitter => "carinmeier"
-  },
-
-  :enebo => {
-    :name => "Thomas Enebo",
-    :avatar => "enebo.png",
-    :bio => "<p>Thomas Enebo is the co-lead of the JRuby project and an employee of Engine Yard. He has been a practitioner of Java since the heady days of the HotJava browser, and he has been happily using Ruby since 2001. Thomas has spoken at numerous Java and Ruby conferences, co-authored \"Using JRuby\", and was awarded the \"Rock Star\" award at JavaOne. When Thomas is not working he enjoys biking, anime, and drinking a decent IPA.</p>",
-    :twitter => "tom_enebo"
   },
 
   :rthomas => {
