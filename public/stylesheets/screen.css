@@ -189,6 +189,10 @@ em { font-family: 'BrownBold'; font-style: normal; }
   font-size: 1.5em;
 }
 
+#footer a {
+  text-decoration: none;
+}
+
 /* Main Navigation
 ------------------------------------------------- */
 
