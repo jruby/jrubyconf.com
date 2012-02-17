@@ -30,7 +30,7 @@ SPEAKERS = {
   }
 }
 
-FUTURE_SPEAKERS = {
+TBA_SPEAKERS = {
   :carinmeier => {
     :name => "Carin Meier",
     :avatar => "carin_meier.jpg",
@@ -64,13 +64,10 @@ FUTURE_SPEAKERS = {
 }
 
 if development?
-  SPEAKERS.merge!(FUTURE_SPEAKERS)
-  SPEAKER_COUNT = SPEAKERS.keys.length
-else
-  SPEAKER_COUNT = 0
+  SPEAKERS.merge!(TBA_SPEAKERS)
 end
 
-(0...(12-SPEAKER_COUNT)).map {|x| x == 0 ? '' : x.to_s }.each do |i|
+(0...(12-SPEAKERS.keys.length)).map {|x| x == 0 ? '' : x.to_s }.each do |i|
 SPEAKERS["jrubyconf#{i}".to_sym] = {
   :name     => 'JRubyConf',
   :title    => 'Coming Soon',
