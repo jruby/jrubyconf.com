@@ -132,6 +132,10 @@ em { font-family: 'BrownBold'; font-style: normal; }
     background-color: white;
 }
 
+.avatar img {
+  width: 128px;
+}
+
 .info_box p {
   margin-bottom: 8px;
 }
@@ -143,6 +147,7 @@ em { font-family: 'BrownBold'; font-style: normal; }
 .info_box a {
   color           : #fff;
   text-decoration : none;
+  font-family: 'BrownBold';
 }
 
 
@@ -356,6 +361,7 @@ div.bottom-buttons {
 }
 
 .speaker img {
+  width      : 50px;
   position   : absolute;
   top        : 50%;
   left       : 0;

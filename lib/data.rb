@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 SPEAKERS  = {}
 
 CONFIRMED_SPEAKERS = {
@@ -15,6 +16,41 @@ CONFIRMED_SPEAKERS = {
     :avatar => "enebo.png",
     :bio => "<p>Thomas Enebo is the co-lead of the JRuby project and an employee of Engine Yard. He has been a practitioner of Java since the heady days of the HotJava browser, and he has been happily using Ruby since 2001. Thomas has spoken at numerous Java and Ruby conferences, co-authored \"Using JRuby\", and was awarded the \"Rock Star\" award at JavaOne. When Thomas is not working he enjoys biking, anime, and drinking a decent IPA.</p>",
     :twitter => "tom_enebo"
+  },
+
+  :rthomas => {
+    :name => "Randall Thomas",
+    :bio => "<p>Randall Thomas is a classically trained musician that took one too many calculus classes along the way and got sucked into the sciences. Being both blessed and cursed with a strange form of technology ADD, he’s worked in various industries with numerous startups covering everything from robotics, to low level telecommunications & networking to applied computing for stock trading systems.</p><p>Randall is an internationally renowned speaker on practical data mining techniques and the business of startups.</p><p>When not glued to a computer Randall is likely lost in book or on a running trail wondering if he will get to the end of either.</p>",
+    :avatar => "rthomas.jpg",
+    :twitter => "daksis"
+  },
+
+  :tsaleh => {
+    :name => "Tammer Saleh",
+    :bio => "<p>Tammer Saleh is a long time Rubyist, leader, and published author.</p><p>As VP Engineering at Engine Yard, Tammer ran the development team and the flagship Cloud product. He authored the acclaimed book, Rails AntiPatterns with Chad Pytel. He’s also the author of the Shoulda testing framework, and the fantastic Airbrake service.</p><p>Tammer has given classroom training in Ruby, Rails, JRuby, and Test Driven Development, and has spoken at various Ruby and Rails conferences around the world.</p><p>Previous lives include C/C++ AI programming, and UNIX administration for Citysearch.com and Caltech’s Earthquake Detection Net work.</p>",
+    :avatar => "tsaleh.jpg",
+    :twitter => "tsaleh"
+  },
+
+  :ultrasaurus => {
+    :name => "Sarah Allen",
+    :bio => "<p>By day Sarah Allen is CEO of <a href=\"http://www.blazingcloud.net/\">Blazing Cloud</a>, a San Francisco consulting firm that creates innovative mobile products for hire, both web and native iOS/Android. By night, Sarah writes code for Mightyverse, which aspires to be a revenue generating product to help people communicate across languages and cultures. She's also working to change the face of software development with RailsBridge, and often teaches outreach workshops and kids. She created Pie, a open source language for kids to develop web adventure games.</p><p>Before her adventures in Ruby and mobile, Sarah has a history of developing leading-edge products, such as After Effects, Shockwave, Flash video, and OpenLaszlo. Sarah was named one of the top 25 women of the web by SF WoW (San Francisco Women of the Web) in 1998.</p><p>Sarah blogs at <a href=\"http://www.ultrasaurus.com/\">www.ultrasaurus.com</a>.</p>",
+    :avatar => "sarah_allen.jpg",
+    :twitter => "ultrasaurus"
+  },
+
+  :j3 => {
+    :name => "Jeff Casimir",
+    :bio => "<p>Jeff Casimir travels the world preaching the good word of Ruby for his company, <a href=\"http://www.jumpstartlab.com/\">Jumpstart Lab</a>. He interacts with hundreds of developers and dozens of teams each year, pushing his research into best practices and new ideas.</p>",
+    :avatar => "jeff_casimir.jpg",
+    :twitter => "j3"
+  },
+
+  :yokolet => {
+    :name => "Yoko Harada",
+    :bio => "<p>Yoko is a dedicated programmer, blogger and, maybe, a nerd. She likes to code, read sources and learn new languages. Currently, Yoko is a committer of JRuby and Nokogiri project. When her API, RedBridge was merged to JRuby, she became a JRuby committer along with it in 2009. She became a Nokogiri committer in 2010 to help pure Java Nokogiri implementation to finish. Because JRuby and XML are Yoko’s favorite technologies, it was a good fit. Before that, Yoko was a server side Java evangelist in Japan, and wrote three books about Java Servlet. After she had more than three years of blank in 2005-8, she’s back to programming. Now, she enjoys days of happy coding.</p>",
+    :avatar => "yokolet.jpg",
+    :twitter => "yokolet"
   }
 }
 
