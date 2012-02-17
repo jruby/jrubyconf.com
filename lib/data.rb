@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
-SPEAKERS  = {}
 
-CONFIRMED_SPEAKERS = {
+SPEAKERS = {
   :enebo => {
     :name => "Thomas Enebo",
     :avatar => "enebo.png",
@@ -16,6 +15,22 @@ CONFIRMED_SPEAKERS = {
     :twitter => "headius"
   },
 
+  :j3 => {
+    :name => "Jeff Casimir",
+    :bio => "<p>Jeff Casimir travels the world preaching the good word of Ruby for his company, <a href=\"http://www.jumpstartlab.com/\">Jumpstart Lab</a>. He interacts with hundreds of developers and dozens of teams each year, pushing his research into best practices and new ideas.</p>",
+    :avatar => "jeff_casimir.jpg",
+    :twitter => "j3"
+  },
+
+  :yokolet => {
+    :name => "Yoko Harada",
+    :bio => "<p>Yoko is a dedicated programmer, blogger and, maybe, a nerd. She likes to code, read sources and learn new languages. Currently, Yoko is a committer of JRuby and Nokogiri project. When her API, RedBridge was merged to JRuby, she became a JRuby committer along with it in 2009. She became a Nokogiri committer in 2010 to help pure Java Nokogiri implementation to finish. Because JRuby and XML are Yoko’s favorite technologies, it was a good fit. Before that, Yoko was a server side Java evangelist in Japan, and wrote three books about Java Servlet. After she had more than three years of blank in 2005-8, she’s back to programming. Now, she enjoys days of happy coding.</p>",
+    :avatar => "yokolet.jpg",
+    :twitter => "yokolet"
+  }
+}
+
+FUTURE_SPEAKERS = {
   :carinmeier => {
     :name => "Carin Meier",
     :avatar => "carin_meier.jpg",
@@ -46,24 +61,11 @@ CONFIRMED_SPEAKERS = {
     :twitter => "ultrasaurus"
   },
 
-  :j3 => {
-    :name => "Jeff Casimir",
-    :bio => "<p>Jeff Casimir travels the world preaching the good word of Ruby for his company, <a href=\"http://www.jumpstartlab.com/\">Jumpstart Lab</a>. He interacts with hundreds of developers and dozens of teams each year, pushing his research into best practices and new ideas.</p>",
-    :avatar => "jeff_casimir.jpg",
-    :twitter => "j3"
-  },
-
-  :yokolet => {
-    :name => "Yoko Harada",
-    :bio => "<p>Yoko is a dedicated programmer, blogger and, maybe, a nerd. She likes to code, read sources and learn new languages. Currently, Yoko is a committer of JRuby and Nokogiri project. When her API, RedBridge was merged to JRuby, she became a JRuby committer along with it in 2009. She became a Nokogiri committer in 2010 to help pure Java Nokogiri implementation to finish. Because JRuby and XML are Yoko’s favorite technologies, it was a good fit. Before that, Yoko was a server side Java evangelist in Japan, and wrote three books about Java Servlet. After she had more than three years of blank in 2005-8, she’s back to programming. Now, she enjoys days of happy coding.</p>",
-    :avatar => "yokolet.jpg",
-    :twitter => "yokolet"
-  }
 }
 
 if development?
-  SPEAKERS.merge!(CONFIRMED_SPEAKERS)
-  SPEAKER_COUNT = CONFIRMED_SPEAKERS.keys.length
+  SPEAKERS.merge!(FUTURE_SPEAKERS)
+  SPEAKER_COUNT = SPEAKERS.keys.length
 else
   SPEAKER_COUNT = 0
 end
