@@ -1,5 +1,6 @@
 source:      ./_news
 destination: ./_site
+plugins:     ./_news/_plugins
 
 permalink:   "/news/:year/:month/:title"
 title:       JRubyConf News
