@@ -61,6 +61,13 @@ TBA_SPEAKERS = {
     :twitter => "ultrasaurus"
   },
 
+  :jremsikjr => {
+    :name => "Jim Remsik",
+    :title => "Big Tiger",
+    :bio => "<p>Jim Remsik is a world-renowned hugger, conference organizer, community instigator, and speaker. He's been around the world from London to the Bay. He's a principal at Bendyworks a software consultancy in Madison, WI. Jim answers to \"Tiger, Big Tiger, yo Tiger.\" But, what you should really know is he has been on Ripley's Believe it or Not, Raced Stock Cars Backwards and was ineffectively targeted by a serial killer in his youth. His talks draw on his wide range of life experiences and relate them back to how we can all become better people.</p>",
+    :avatar => "big_tiger.jpg",
+    :twitter => "jremsikjr"
+  }
 }
 
 if development?
