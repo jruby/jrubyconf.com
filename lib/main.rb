@@ -30,9 +30,7 @@ end
 end
 
 get %r{^/([a-z]+)/?$} do |scene|
-  # From javascripts/UI.js, look for "new Scene" "container" property
-  scenes = %w(information intro speakers schedule proposals)
-  if scenes.include?(scene)
+  if Scenes.include?(scene)
     redirect '/#' + scene
   else
     404

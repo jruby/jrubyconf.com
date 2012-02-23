@@ -1,5 +1,8 @@
 module App
   module Config
+    # From javascripts/UI.js, look for "new Scene" "container" property
+    Scenes = %w(information intro speakers schedule proposals sponsors)
+
     CONFIG_FILE = File.expand_path('../../_config.yml', __FILE__)
     LOCAL_CONFIG_FILE = File.expand_path('../../_config.local.yml', __FILE__)
     CONFIG = YAML.load_file(CONFIG_FILE)
