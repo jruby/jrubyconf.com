@@ -171,7 +171,7 @@ em { font-family: 'BrownBold'; font-style: normal; }
 #footer .item {
   height      : 70px;
   line-height : 70px;
-  padding: 0 5px;
+  margin: 0 5px;
   float: left;
 }
 
@@ -183,7 +183,7 @@ em { font-family: 'BrownBold'; font-style: normal; }
   float: right;
 }
 
-#footer #your_logo_here {
+#your_logo_here {
   height: 30px;
   line-height: 30px;
   font-size: 1.5em;
@@ -576,6 +576,62 @@ td.title.not_talk { color: #d6876b; }
   font-size   : 2.5em;
 }
 
+/* Sponsors */
+
+#sponsors .content {
+  position    : absolute;
+  top         : 210px;
+  left        : 50%;
+  width       : 960px;
+  margin-left :-480px;  
+  font-size: 1.4em;
+}
+
+#sponsors h2 {
+  font   : 1.5em 'BrownBold', helvetica, arial, sans-serif;
+}
+
+#sponsors h3 {
+  font   : 1.2em 'BrownBold', helvetica, arial, sans-serif;
+  text-align: center;
+}
+
+#sponsors .level {
+  display: none;
+  float: left;
+  height: 120px;
+  line-height: 120px;
+  margin: 12px;
+}
+
+#sponsors .sponsor {
+  float: left;
+  padding-right: 24px;
+}
+
+#sponsors .sponsor img {
+  vertical-align: middle;
+}
+
+#sponsors .levels {
+  margin: 0 30px;
+}
+
+#sponsors .sponsor-button {
+  width: 100%;
+  margin: 16px 40%;
+}
+
+#sponsors .arc {
+  position: absolute;
+  line-height: 120px;
+}
+
+#sponsors .arc img {
+  vertical-align: middle;
+}
+
+/* Static */
 
 #static .content {
   position       : absolute;

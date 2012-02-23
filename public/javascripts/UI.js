@@ -409,6 +409,147 @@ $(function() {
     }
   });
 
+  window.sponsorsScene = new Scene({
+      container  : '#sponsors',
+      controller : sceneController,
+      init       : function() {
+	  var self = this;
+
+	  self.content = self.container.find('.content');
+	  self.footer = $('#footer');
+
+	  self.content.data('animation-visible-css', { opacity: 1.0 })
+              .data('animation-hidden-css',  { opacity: 0.0 });
+	  self.footer.data('animation-visible-css', { opacity: 1.0 })
+              .data('animation-hidden-css',  { opacity: 0.0 });
+
+	  // set up sponsor levels
+	  var levels = $('#sponsors .level').map(
+	      function() {
+		  return $.makeArray(this.classList);
+	      }).map(
+	      function() {
+		  return (this=="level") ? null : this;
+	      });
+
+	  self.footerElements = [];
+	  self.sceneElements = [];
+	  self.transitionElements = [];
+
+	  levels.each(
+	      function() {
+		  var numElems = 0, levelDiv = self.content.find('.' + this);
+		  levelDiv.append(self.footer.find('.' + this).each(
+		      function() {
+			  self.footerElements.push(this);
+		      }
+		  ).clone().each(
+		      function() {
+			  self.sceneElements.push(this);
+			  $(this).clone().each(
+			      function() {
+				  $(this).removeClass().addClass('arc');
+				  self.transitionElements.push(this);
+				  self.container.append($(this).hide());
+			      }
+			  );
+			  numElems += 1;
+		      }
+		  ));
+		  if (numElems > 0) {
+		      levelDiv.show();
+		  }
+	      });
+
+	  // Animation Events
+	  self.bind('inAnimationWillBegin', function(next) {
+			self.content.css(self.content.data('animation-hidden-css'));
+			if(next) { next(); }
+		    })
+              .bind('inAnimationDidFinish',  function(next) {
+			$(self.transitionElements).hide();
+			if(next) { next(); } })
+              .bind('outAnimationWillBegin', function(next) { if(next) { next(); } })
+              .bind('outAnimationDidFinish', function(next) {
+			$(self.transitionElements).hide();
+			if(next) { next(); } });
+
+	  // Animations
+	  self.inAnimation = function() {
+	      var elements = [];
+	      var delay = 0;
+	      $(self.transitionElements).each(
+	      	  function(idx) {
+	      	      var startOffset = $(self.footerElements[idx]).offset(),
+	      		  endOffset = $(self.sceneElements[idx]).offset();
+	      	      $(this).css({left: startOffset.left, top: startOffset.top}).show();
+		      var direction = Math.random() > 0.5 ? 1 : -1;
+	      	      var bezier = new $.path.bezier({
+	      						 start: {x:startOffset.left, y:startOffset.top, angle: 40 * direction, length: 0.3},
+	      						 end:   {x:endOffset.left, y:endOffset.top, angle: -40 * direction, length: 0.2}
+	      					 });
+		      elements.push({
+					element: $(self.footerElements[idx]),
+					animateToCSS: {opacity: 0},
+					delay: delay
+				    });
+	      	      elements.push({
+	      				element: $(this),
+	      				animateToCSS: {path: bezier},
+					delay: delay
+	      			    });
+		      delay += 200;
+	      	  }
+	      );
+	      elements.push({
+		  element      : self.content,
+		  animateToCSS : self.content.data('animation-visible-css'),
+		  delay        : delay
+	      });
+	      elements.push({
+		  element : self.footer,
+		  animateToCSS : self.content.data('animation-hidden-css'),
+		  delay : delay
+	      });
+              self.registerForInAnimation(elements);
+	  };
+
+	  self.outAnimation = function() {
+	      var elements = [
+		  { element      : self.content,
+		    animateToCSS : self.content.data('animation-hidden-css'),
+		    duration: 100
+		  },
+		  { element : self.footer,
+		    animateToCSS : self.content.data('animation-visible-css')
+		  }
+	      ];
+	      $(self.transitionElements).each(
+	      	  function(idx) {
+	      	      var startOffset = $(self.sceneElements[idx]).offset(),
+	      		  endOffset = $(self.footerElements[idx]).offset();
+	      	      $(this).css({left: startOffset.left, top: startOffset.top}).show();
+		      var direction = Math.random() > 0.5 ? 1 : -1;
+	      	      var bezier = new $.path.bezier({
+	      						 start: {x:startOffset.left, y:startOffset.top, angle: -40*direction, length: 0.2},
+	      						 end:   {x:endOffset.left, y:endOffset.top, angle: 40*direction, length: 0.3}
+	      					 });
+		      elements.push({
+					element: $(self.footerElements[idx]),
+					animateToCSS: {opacity: 1}
+				    });
+	      	      elements.push({
+	      				element: $(this),
+	      				animateToCSS: {path: bezier}
+	      			    });
+	      	  }
+	      );
+              self.registerForOutAnimation(elements);
+	  };
+	  self.content.css(self.content.data('animation-hidden-css'));
+    }
+  });
+
   setTimeout(function() {
     $.history.init(function(hash){
       hash = (hash == '' ? 'intro' : hash.replace(new RegExp("^[#/]+|/$", "g"), ''));
