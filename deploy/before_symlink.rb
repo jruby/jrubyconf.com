@@ -5,7 +5,7 @@ on_app_servers_and_utilities do
 
     domain = node['engineyard']['environment']['apps'].first['vhosts'].first['domain_name'] rescue "_"
     # Set the production site flag only for the app with the jrubyconf.com domain
-    if domain == 'www.jrubyconf.com'
+    if domain =~ /jrubyconf.com/
       smtp_config = smtp_config.merge "production_site" => true
     else
       domain = node['engineyard']['environment']['instances'].first['public_hostname'] rescue "_"
