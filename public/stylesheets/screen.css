@@ -586,6 +586,11 @@ td.title.not_talk { color: #d6876b; }
   font-size: 1.4em;
 }
 
+#sponsors h1 {
+  font   : 1.8em 'BrownBold', helvetica, arial, sans-serif;
+  text-transform : uppercase;
+}
+
 #sponsors h2 {
   font   : 1.5em 'BrownBold', helvetica, arial, sans-serif;
 }
@@ -618,7 +623,13 @@ td.title.not_talk { color: #d6876b; }
 
 #sponsors .sponsor-button {
   width: 100%;
-  margin: 16px 40%;
+  margin: 16px 0;
+}
+
+#sponsors .sponsor-button div {
+  width: 50%;
+  text-align: center;
+  margin: 0px auto;
 }
 
 #sponsors .arc {
