@@ -27,10 +27,19 @@ SPEAKERS = {
     :bio => "<p>Yoko is a dedicated programmer, blogger and, maybe, a nerd. She likes to code, read sources and learn new languages. Currently, Yoko is a committer of JRuby and Nokogiri project. When her API, RedBridge was merged to JRuby, she became a JRuby committer along with it in 2009. She became a Nokogiri committer in 2010 to help pure Java Nokogiri implementation to finish. Because JRuby and XML are Yoko’s favorite technologies, it was a good fit. Before that, Yoko was a server side Java evangelist in Japan, and wrote three books about Java Servlet. After she had more than three years of blank in 2005-8, she’s back to programming. Now, she enjoys days of happy coding.</p>",
     :avatar => "yokolet.jpg",
     :twitter => "yokolet"
-  }
-}
+  },
 
-TBA_SPEAKERS = {
+  :venkat_s => {
+    :name => "Venkat Subramaniam",
+    :bio => "<p>Dr. Venkat Subramaniam is an award-winning author, founder of Agile Developer, Inc., and an adjunct faculty at the University of Houston.</p>
+
+<p>He has trained and mentored thousands of software developers in the US, Canada, Europe, and Asia, and is a regularly-invited speaker at several international conferences. Venkat helps his clients effectively apply and succeed with agile practices on their software projects.</p>
+
+<p>Venkat is the author of \".NET Gotchas,\" the coauthor of 2007 Jolt Productivity Award winning \"Practices of an Agile Developer,\" the author of \"Programming Groovy: Dynamic Productivity for the Java Developer\" and \"Programming Scala: Tackle Multi-Core Complexity on the Java Virtual Machine\" (Pragmatic Bookshelf). His latest book is \"Programming Concurrency on the JVM: Mastering synchronization, STM, and Actors\".</p>",
+    :avatar => "venkat.jpg",
+    :twitter => "venkat_s"
+  },
+
   :carinmeier => {
     :name => "Carin Meier",
     :avatar => "carin_meier.jpg",
@@ -38,8 +47,10 @@ TBA_SPEAKERS = {
 
 <p>She lives in Cincinnati, OH with her husband and two young children. When left to daydream, she thinks of the dynamics of flocks of birds, what the Giant Squids might really be doing down there in the deep, and maybe opening a first-rate cheese shop one day.</p>",
     :twitter => "carinmeier"
-  },
+  }
+}
 
+TBA_SPEAKERS = {
   :rthomas => {
     :name => "Randall Thomas",
     :bio => "<p>Randall Thomas is a classically trained musician that took one too many calculus classes along the way and got sucked into the sciences. Being both blessed and cursed with a strange form of technology ADD, he’s worked in various industries with numerous startups covering everything from robotics, to low level telecommunications & networking to applied computing for stock trading systems.</p><p>Randall is an internationally renowned speaker on practical data mining techniques and the business of startups.</p><p>When not glued to a computer Randall is likely lost in book or on a running trail wondering if he will get to the end of either.</p>",

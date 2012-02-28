@@ -374,9 +374,8 @@ div.bottom-buttons {
 }
 
 .speaker .data {
-  overflow      : hidden;
+  overflow-y    : hidden;
   margin-bottom : 4px;
-  white-space   : nowrap;
   text-overflow : ellipsis;
   cursor        : pointer;
 }
@@ -385,7 +384,7 @@ div.bottom-buttons {
   padding        : 1px 0 0 0;
   font-size      : 1.4em;
   text-transform : uppercase;
-  background     : url(/images/black_arrow.png) no-repeat 100% 50%;
+  background     : url(/images/black_arrow.png) no-repeat 100% 0;
 }
 
 .speaker .twitter   { font-size: 1.1em; }
