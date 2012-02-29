@@ -623,14 +623,7 @@ td.title.not_talk { color: #d6876b; }
 }
 
 #sponsors .sponsor-button {
-  width: 100%;
-  margin: 16px 0;
-}
-
-#sponsors .sponsor-button div {
-  width: 50%;
-  text-align: center;
-  margin: 0px auto;
+  float: right;
 }
 
 #sponsors .arc {
@@ -640,6 +633,16 @@ td.title.not_talk { color: #d6876b; }
 
 #sponsors .arc img {
   vertical-align: middle;
+}
+
+#prospectus_link {
+  position    : absolute;
+  top         : 350px;
+  left        : -175px;
+  width       : 350px;
+  height      : 47px;
+  line-height : 47px;
+  font-size   : 2.5em;
 }
 
 /* Static */

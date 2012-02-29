@@ -417,11 +417,14 @@ $(function() {
 
 	  self.content = self.container.find('.content');
 	  self.footer = $('#footer');
+	  self.prospectusLink = $('#prospectus_link');
 
 	  self.content.data('animation-visible-css', { opacity: 1.0 })
               .data('animation-hidden-css',  { opacity: 0.0 });
 	  self.footer.data('animation-visible-css', { opacity: 1.0 })
               .data('animation-hidden-css',  { opacity: 0.0 });
+	  self.prospectusLink.data('animation-visible-css', { opacity: 1.0, left: self.prospectusLink.css('left') })
+              .data('animation-hidden-css',  { opacity: 0.0, left: '-225px' });
 
 	  // set up sponsor levels
 	  var levels = $('#sponsors .level').map(
@@ -464,6 +467,7 @@ $(function() {
 	  // Animation Events
 	  self.bind('inAnimationWillBegin', function(next) {
 			self.content.css(self.content.data('animation-hidden-css'));
+			self.prospectusLink.css(self.prospectusLink.data('animation-hidden-css'));
 			if(next) { next(); }
 		    })
               .bind('inAnimationDidFinish',  function(next) {
@@ -476,7 +480,11 @@ $(function() {
 
 	  // Animations
 	  self.inAnimation = function() {
-	      var elements = [];
+	      var elements = [
+		  { element      : self.prospectusLink,
+		    animateToCSS : self.prospectusLink.data('animation-visible-css')
+		  }
+	      ];
 	      var delay = 0;
 	      $(self.transitionElements).each(
 	      	  function(idx) {
@@ -522,6 +530,9 @@ $(function() {
 		  },
 		  { element : self.footer,
 		    animateToCSS : self.content.data('animation-visible-css')
+		  },
+		  { element      : self.prospectusLink,
+		    animateToCSS : self.prospectusLink.data('animation-hidden-css')
 		  }
 	      ];
 	      $(self.transitionElements).each(
