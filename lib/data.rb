@@ -47,10 +47,8 @@ SPEAKERS = {
 
 <p>She lives in Cincinnati, OH with her husband and two young children. When left to daydream, she thinks of the dynamics of flocks of birds, what the Giant Squids might really be doing down there in the deep, and maybe opening a first-rate cheese shop one day.</p>",
     :twitter => "carinmeier"
-  }
-}
+  },
 
-TBA_SPEAKERS = {
   :rthomas => {
     :name => "Randall Thomas",
     :bio => "<p>Randall Thomas is a classically trained musician that took one too many calculus classes along the way and got sucked into the sciences. Being both blessed and cursed with a strange form of technology ADD, he’s worked in various industries with numerous startups covering everything from robotics, to low level telecommunications & networking to applied computing for stock trading systems.</p><p>Randall is an internationally renowned speaker on practical data mining techniques and the business of startups.</p><p>When not glued to a computer Randall is likely lost in book or on a running trail wondering if he will get to the end of either.</p>",
@@ -63,8 +61,10 @@ TBA_SPEAKERS = {
     :bio => "<p>Tammer Saleh is a long time Rubyist, leader, and published author.</p><p>As VP Engineering at Engine Yard, Tammer ran the development team and the flagship Cloud product. He authored the acclaimed book, Rails AntiPatterns with Chad Pytel. He’s also the author of the Shoulda testing framework, and the fantastic Airbrake service.</p><p>Tammer has given classroom training in Ruby, Rails, JRuby, and Test Driven Development, and has spoken at various Ruby and Rails conferences around the world.</p><p>Previous lives include C/C++ AI programming, and UNIX administration for Citysearch.com and Caltech’s Earthquake Detection Net work.</p>",
     :avatar => "tsaleh.jpg",
     :twitter => "tsaleh"
-  },
+  }
+}
 
+TBA_SPEAKERS = {
   :ultrasaurus => {
     :name => "Sarah Allen",
     :bio => "<p>By day Sarah Allen is CEO of <a href=\"http://www.blazingcloud.net/\">Blazing Cloud</a>, a San Francisco consulting firm that creates innovative mobile products for hire, both web and native iOS/Android. By night, Sarah writes code for Mightyverse, which aspires to be a revenue generating product to help people communicate across languages and cultures. She's also working to change the face of software development with RailsBridge, and often teaches outreach workshops and kids. She created Pie, a open source language for kids to develop web adventure games.</p><p>Before her adventures in Ruby and mobile, Sarah has a history of developing leading-edge products, such as After Effects, Shockwave, Flash video, and OpenLaszlo. Sarah was named one of the top 25 women of the web by SF WoW (San Francisco Women of the Web) in 1998.</p><p>Sarah blogs at <a href=\"http://www.ultrasaurus.com/\">www.ultrasaurus.com</a>.</p>",
