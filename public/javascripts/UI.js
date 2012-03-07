@@ -461,6 +461,7 @@ $(function() {
 	  self.bind('inAnimationWillBegin', function(next) {
 			self.content.css(self.content.data('animation-hidden-css'));
 			self.prospectusLink.css(self.prospectusLink.data('animation-hidden-css'));
+			$('#content').css('overflow', 'inherit');
 			if(next) { next(); }
 		    })
               .bind('inAnimationDidFinish',  function(next) {
@@ -469,6 +470,7 @@ $(function() {
               .bind('outAnimationWillBegin', function(next) { if(next) { next(); } })
               .bind('outAnimationDidFinish', function(next) {
 			$(self.transitionElements).hide();
+			$('#content').css('overflow', 'auto');
 			if(next) { next(); } });
 
 	  // Animations
