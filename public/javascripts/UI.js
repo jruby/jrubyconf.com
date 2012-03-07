@@ -107,13 +107,6 @@ $(function() {
       // Animation Events
       self.bind('inAnimationWillBegin', function(next) {
             self.content.css(self.content.data('animation-hidden-css'));
-	    $('.bottom-buttons .red-button').each(
-		function(idx, elem) {
-		    var self = $(elem);
-		    var w = self.width() + parseFloat(self.css('padding-left')) + parseFloat(self.css('padding-right'));
-		    var parent = self.parent().width();
-		    self.css({margin: "10px "+((parent-w)/2)+"px"});
-		});
             if(next) { next(); }
           })
           .bind('inAnimationDidFinish',  function(next) { if(next) { next(); } })
