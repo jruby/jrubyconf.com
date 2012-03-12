@@ -4,6 +4,7 @@
 
 #news {
     /* font: 100% 'Brown', helvetica, arial, sans-serif; */
+    font-size: 1.4em;
     overflow: hidden;
     position: absolute;
     top: 210px;
@@ -25,33 +26,37 @@
 }
 
 #news h1 {
-    font: 3.2em 'BrownBold', helvetica, arial, sans-serif;
-    letter-spacing: 0.05em;
+    font: 2.3em 'BrownBold', helvetica, arial, sans-serif;
     text-transform: uppercase;
     margin-bottom: 0.5em;
 }
 
 #news h2 {
-    font: 2.5em 'BrownBold', helvetica, arial, sans-serif;
-    letter-spacing: 0.05em;
+    font: 2.0em 'BrownBold', helvetica, arial, sans-serif;
     text-transform: uppercase;
     margin-bottom: 0.5em;
 }
 
 #news h3 {
-    font: 2.2em 'BrownBold', helvetica, arial, sans-serif;
-    letter-spacing: 0.05em;
+    font: 1.8em 'BrownBold', helvetica, arial, sans-serif;
     text-transform: uppercase;
     margin-bottom: 0.5em;
 }
 
-#news p {
-    font-size: 1.4em;
+#news strong {
+    font-family: 'BrownBold', helvetica, arial, sans-serif;
+}
+
+#news .left-column p, #news .left-column ol, #news .left-column ul {
     margin: 0.5em 0;
 }
 
+#news .left-column ol, #news .left-column ul {
+    padding-left: 20px;
+}
+
 #news .date {
-    font-size: 50%;
+    font-size: 0.5em;
 }
 
 #news .post {
@@ -70,7 +75,6 @@
 }
 
 #twitter span {
-    font-size: 1.4em;
     display: block;
 }
 
