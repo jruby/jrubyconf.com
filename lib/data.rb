@@ -78,6 +78,22 @@ TBA_SPEAKERS = {
     :bio => "<p>Jim Remsik is a world-renowned hugger, conference organizer, community instigator, and speaker. He's been around the world from London to the Bay. He's a principal at Bendyworks a software consultancy in Madison, WI. Jim answers to \"Tiger, Big Tiger, yo Tiger.\" But, what you should really know is he has been on Ripley's Believe it or Not, Raced Stock Cars Backwards and was ineffectively targeted by a serial killer in his youth. His talks draw on his wide range of life experiences and relate them back to how we can all become better people.</p>",
     :avatar => "big_tiger.jpg",
     :twitter => "jremsikjr"
+  },
+
+  :nylons => {
+    :name => "Nancy Lyons",
+    :bio => "<p>Nancy Lyons works at the intersection of technology, community, and people. She empowers and motivates teams of technologists and creatives as the President and CEO of <a href=\"http://www.clockwork.net/\">Clockwork Active Media</a>.</p>
+<p>Together with Meghan they’re the <a href=\"https://www.geekgirlsguide.com/\">Geek Girls Guide</a>, a duo dedicated to demystifying technology for audiences everywhere through extensive public speaking, writing, and online dialogue.</p>",
+    :avatar => "nancy_lyons.jpg",
+    :twitter => "nylons"
+  },
+
+  :irishgirl => {
+    :name => "Meghan Wilker",
+    :bio => "<p>Meghan Wilker specializes in using strategy, technology, and process to bring people and products together. As VP, Managing Director at <a href=\"http://www.clockwork.net/\">Clockwork Active Media</a> she drives projects to produce engaging digital solutions.</p>
+<p>Together with Nancy they’re the <a href=\"https://www.geekgirlsguide.com/\">Geek Girls Guide</a>, a duo dedicated to demystifying technology for audiences everywhere through extensive public speaking, writing, and online dialogue.</p>",
+    :avatar => "meghan_wilker.jpg",
+    :twitter => "irishgirl"
   }
 }
 
@@ -85,14 +101,16 @@ if development?
   SPEAKERS.merge!(TBA_SPEAKERS)
 end
 
-(0...(12-SPEAKERS.keys.length)).map {|x| x == 0 ? '' : x.to_s }.each do |i|
-SPEAKERS["jrubyconf#{i}".to_sym] = {
+SPEAKERS[:jrubyconf] = {
   :name     => 'JRubyConf',
   :title    => 'Coming Soon',
   :avatar   => 'default.png',
   :bio      => "<p>Full speaker list and schedule coming soon. Schedule is subject to change.</p>",
   :twitter  => 'jrubyconf'
 }
+
+(0...((12-SPEAKERS.keys.length) % 4)).each do |i|
+  SPEAKERS["jrubyconf#{i+1}".to_sym] = SPEAKERS[:jrubyconf]
 end
 
 MONDAY    = []
