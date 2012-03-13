@@ -10,7 +10,7 @@ computers and technology to make things that do whatever you want, and
 we're so happy that [Ron Evans](https://twitter.com/deadprogram) is
 teaching it at JRubyConf this year.
 
-[**Register now for KidsCodeCamp!**](http://kidscodecampmn.eventbrite.com/)
+[**Register now for KidsCodeCamp!**][kccmn]
 
 Here is how it works:
 
@@ -37,10 +37,14 @@ wherever.
 * When: Sunday May 20, 9am - 4pm
   * Morning session: 9 am - 12 pm
   * Afternoon session: 1 pm - 4 pm
-* Location: Guthrie theater 8th floor classrooms, downtown Minneapolis
+* Location: Guthrie Theater 8th floor classrooms, Downtown Minneapolis
+* Volunteers with programming experience needed too! Ideally 1 adult
+  volunteer for 2-3 kids.
+* Register: [kidscodecampmn.eventbrite.com][kccmn]
 
 *Open Source means that the actual programing code used to make the
 software is available for anyone to look at and modify themselves.
 How cool is that!
 
+[kccmn]: http://kidscodecampmn.eventbrite.com/
 [contact]: mailto:jrubyconf@engineyard.com?subject=KidsCodeCamp
