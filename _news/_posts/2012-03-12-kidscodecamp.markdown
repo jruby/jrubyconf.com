@@ -38,7 +38,9 @@ wherever.
   * Morning session: 9 am - 12 pm
   * Afternoon session: 1 pm - 4 pm
 * Location: Guthrie Theater 8th floor classrooms, Downtown Minneapolis
-* Volunteers with programming experience needed too! Ideally 1 adult
+* Kids: 4th grade and up, familiarity with computer and keyboard and some
+  basic typing skills.
+* Volunteers: Adults with programming experience needed too! Ideally 1
   volunteer for 2-3 kids.
 * Register: [kidscodecampmn.eventbrite.com][kccmn]
 
