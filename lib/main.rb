@@ -30,8 +30,9 @@ end
 end
 
 get %r{^/([a-z]+)/?$} do |scene|
-  if Scenes.include?(scene)
-    redirect '/#' + scene
+  path = RootMappings[scene]
+  if path
+    redirect path
   else
     404
   end

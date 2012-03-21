@@ -1,7 +1,12 @@
 module App
   module Config
+    RootMappings = {
+      "kidscodecamp" => "/news/2012/03/kidscodecamp"
+    }
+
     # From javascripts/UI.js, look for "new Scene" "container" property
     Scenes = %w(information intro speakers schedule proposals sponsors)
+    Scenes.each {|s| RootMappings[s] = "/##{s}"}
 
     CONFIG_FILE = File.expand_path('../../_config.yml', __FILE__)
     LOCAL_CONFIG_FILE = File.expand_path('../../_config.local.yml', __FILE__)
