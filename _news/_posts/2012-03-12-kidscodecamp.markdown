@@ -2,6 +2,8 @@
 layout: post
 title: KidsCodeCamp at JRubyConf!
 ---
+![kidscodecamp](/news/images/kidscodecamp.png)
+
 Did you ever want to make a video game, program a robot, or create a
 web site? Now you can!
 
