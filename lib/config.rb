@@ -1,7 +1,8 @@
 module App
   module Config
     RootMappings = {
-      "kidscodecamp" => "/news/2012/03/kidscodecamp"
+      "kidscodecamp" => "/news/2012/03/kidscodecamp",
+      "railsbridge" => "/news/2012/03/railsbridge"
     }
 
     # From javascripts/UI.js, look for "new Scene" "container" property
