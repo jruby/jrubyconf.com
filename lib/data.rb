@@ -19,7 +19,13 @@ SPEAKERS = {
     :name => "Jeff Casimir",
     :bio => "<p>Jeff Casimir travels the world preaching the good word of Ruby for his company, <a href=\"http://www.jumpstartlab.com/\">Jumpstart Lab</a>. He interacts with hundreds of developers and dozens of teams each year, pushing his research into best practices and new ideas.</p>",
     :avatar => "jeff_casimir.jpg",
-    :twitter => "j3"
+    :twitter => "j3",
+    :talk => {
+      :title => "Adventures on the Golden Path",
+      :description => "<p>Rails 1.0 was about proving we could build the same functionality as the other web frameworks, but doing it faster. Rails 2.0 was about pushing the vanguard forward, setting new trends for how the web should be built. Rails 3.0 paid down technical debt and laid the foundation for our future. Now what?</p>
+
+<p>Rails has always guided developers down the \"golden path\" of best practices. Let's look at potholes needing filling, ways we can straighten the dangerous corners, and figure out where this road might be heading.</p>"
+    }
   },
 
   :yokolet => {
