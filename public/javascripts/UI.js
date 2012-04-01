@@ -152,7 +152,6 @@ $(function() {
       self.speakers     = self.container.find('.speaker');
       self.infoBox      = {};
       self.closeButtons = self.container.find('.info_box .close');
-      self.proposalsLink = $('#proposals_link');
 
       // CSS animation states
       self.content.data('animation-visible-css', { opacity: 1.0, left: '50%' })
@@ -163,15 +162,6 @@ $(function() {
 
       self.scheduleLink.data('animation-visible-css', { opacity: 1.0, right: self.scheduleLink.css('right') })
                        .data('animation-hidden-css',  { opacity: 0.0, right: '-150px' });
-
-      // need to calculate proposals link dynamically based on viewport
-      self.setupProposalsLink = function() {
-        self.proposalsLink.css('top', "" + ($(window).height() - 70 - 57) + "px");
-        self.proposalsLink.data('animation-visible-css', { opacity: 1.0, top: self.proposalsLink.css('top') })
-                          .data('animation-hidden-css',  { opacity: 0.0, top: "" + $(window).height() + "px" });
-      };
-      self.setupProposalsLink();
-      $(window).resize(self.setupProposalsLink);
 
       self.infoBox.animationVisibleCSS = { opacity: 1.0, top: '80px' };
       self.infoBox.animationHiddenCSS  = { opacity: 0.0, top: '-200px' };
@@ -186,7 +176,6 @@ $(function() {
       self.bind('inAnimationWillBegin', function(next) {
             self.content.css(self.content.data('animation-hidden-css'));
             self.scheduleLink.css(self.scheduleLink.data('animation-hidden-css'));
-            self.proposalsLink.css(self.proposalsLink.data('animation-hidden-css'));
             if(next) { next(); }
           })
           .bind('inAnimationDidFinish',  function(next) { if(next) { next(); } })
@@ -227,11 +216,6 @@ $(function() {
             animateToCSS : self.scheduleLink.data('animation-visible-css'),
             duration     : 300,
             delay        : 400
-          },
-          { element      : self.proposalsLink,
-            animateToCSS : self.proposalsLink.data('animation-visible-css'),
-            duration     : 300,
-            delay        : 400
           }
         ]);
       };
@@ -243,9 +227,6 @@ $(function() {
           },
           { element      : self.scheduleLink,
             animateToCSS : self.scheduleLink.data('animation-hidden-css')
-          },
-          { element      : self.proposalsLink,
-            animateToCSS : self.proposalsLink.data('animation-hidden-css')
           }
         ]);
       };
@@ -340,57 +321,6 @@ $(function() {
           { element      : self.heading,
             animateToCSS : self.heading.data('animation-hidden-css')
           },
-          { element      : self.content,
-            animateToCSS : self.content.data('animation-hidden-css')
-          },
-          { element      : self.speakersLink,
-            animateToCSS : self.speakersLink.data('animation-hidden-css')
-          }
-        ]);
-      };
-    }
-  });
-
-  window.proposalsScene = new Scene({
-    container  : '#proposals',
-    controller : sceneController,
-    init       : function() {
-      var self = this;
-
-      self.content      = self.container.find('.content');
-      self.speakersLink = $('#speakers_link');
-
-      // CSS animation states
-      self.content.data('animation-visible-css', { opacity: 1.0, top: self.content.css('top') })
-                  .data('animation-hidden-css',  { opacity: 0.0, top: '0px' });
-
-      self.speakersLink.data('animation-visible-css', { opacity: 1.0, left: self.speakersLink.css('left') })
-                       .data('animation-hidden-css',  { opacity: 0.0, left: '-150px' });
-
-      // Animation Events
-      self.bind('inAnimationWillBegin', function(next) {
-            self.content.css(self.content.data('animation-hidden-css'));
-            self.speakersLink.css(self.speakersLink.data('animation-hidden-css'));
-            if(next) { next(); }
-          })
-          .bind('inAnimationDidFinish',  function(next) { if(next) { next(); } })
-          .bind('outAnimationWillBegin', function(next) { if(next) { next(); } })
-          .bind('outAnimationDidFinish', function(next) { if(next) { next(); } });
-
-      // Animations
-      self.inAnimation = function() {
-        self.registerForInAnimation([
-          { element      : self.content,
-            animateToCSS : self.content.data('animation-visible-css')
-          },
-          { element      : self.speakersLink,
-            animateToCSS : self.speakersLink.data('animation-visible-css')
-          }
-        ]);
-      };
-
-      self.outAnimation = function() {
-        self.registerForOutAnimation([
           { element      : self.content,
             animateToCSS : self.content.data('animation-hidden-css')
           },

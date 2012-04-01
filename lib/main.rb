@@ -39,31 +39,27 @@ get %r{^/([a-z]+)/?$} do |scene|
 end
 
 get '/proposals/new' do
-  erb :proposals_form, :locals => { :proposal => Proposal.new }
+  erb :proposals_closed
 end
 
 post '/proposals/save' do
-  status = 200
-
   if params['id'] && !params['id'].empty? # existing proposal
+    status = 200
     proposal = Proposal.find params['id']
     status = 404 unless proposal.key == params['key']
-  else
-    proposal = Proposal.new
-    status = 201
-    status = 409 if Proposal.exists?(:key => params['key'])
-  end
 
-  if status < 400
-    Proposal::EXPOSED_ATTRIBUTES.each do |attr|
-      proposal[attr] = params[attr]
+    if status < 400
+      Proposal::EXPOSED_ATTRIBUTES.each do |attr|
+        proposal[attr] = params[attr]
+      end
+      proposal.save!
     end
-    proposal.save!
-    deliver_proposal_emails(proposal) if status == 201 # only on create, not edit
-  end
 
-  status status
-  erb :proposal_saved, :locals => { :proposal => proposal, :status => status }
+    status status
+    erb :proposal_saved, :locals => { :proposal => proposal, :status => status }
+  else
+    erb :proposals_closed
+  end
 end
 
 get '/proposals/edit/:key' do |key|

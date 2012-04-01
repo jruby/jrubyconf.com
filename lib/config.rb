@@ -6,7 +6,7 @@ module App
     }
 
     # From javascripts/UI.js, look for "new Scene" "container" property
-    Scenes = %w(information intro speakers schedule proposals sponsors)
+    Scenes = %w(information intro speakers schedule sponsors)
     Scenes.each {|s| RootMappings[s] = "/##{s}"}
 
     CONFIG_FILE = File.expand_path('../../_config.yml', __FILE__)
