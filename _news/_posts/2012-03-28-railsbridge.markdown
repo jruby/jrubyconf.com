@@ -4,29 +4,32 @@ title: RailsBridge is coming to JRubyConf!
 ---
 <img src="/news/images/railsbridge.png" width="200" alt="RailsBridge"/>
 
-We're pleased to announce a very special [RailsBridge workshop][rbwk]
-at JRubyConf! For those who don't know, a RailsBridge workshop is a
-two-day outreach event targeted at women who want to learn to program.
-We're also delighted to welcome [Sarah Allen][] to Minneapolis to lead
-the workshop. We will be taking you through every step in the process
-of deploying a Ruby on Rails application. Men are invited as guests of
-women attending. We are also looking for volunteers with programming
-experience!
+## Free RailsBridge Community Workshop
 
-[**Register now for the workshop!**][register]
+We're pleased to announce a very special [RailsBridge workshop][rbwk] at
+JRubyConf! For those who don't know, a RailsBridge workshop is a free, two-day
+outreach event targeted at women who want to learn to program. We're also
+delighted to welcome [Sarah Allen][] to Minneapolis to lead the workshop. We
+will be taking you through every step in the process of deploying a Ruby on
+Rails application. Men are invited as guests of women attending. We are also
+looking for volunteers with programming experience!
+
+[**Register now for the workshop, it's free!**][register]
 
 This program was started about three years ago by Sarah Allen and
 Sarah Mei, as part of a greater mission to create more female Ruby
 developers in San Francisco (and beyond). To find out more about
 RailsBridge workshops, visit [workshops.railsbridge.org][rbwk].
 
+Did we mention that the cost of the workshop is free? [Go get registered!][register]
+
 ## RailsBridge @ JRubyConf
 
+* [Registration is FREE!][register]
 * When: Sunday - Monday, May 20 - 21
   * Installfest: Sunday May 20, 2 pm - 5 pm
   * Workshop: Monday May 21, 9 am - 4 pm
 * Location: Guthrie Theater 8th floor classrooms, Downtown Minneapolis
-* [Please register!][register]
 
 On Installfest day, students will only need to stay long enough to
 work their way through the installation instructions (typically 1 - 2
