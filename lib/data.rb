@@ -52,7 +52,12 @@ SPEAKERS = {
     :bio => "<p>Carin is a software developer at EdgeCase. She started off as a professional ballet dancer, studied Physics in college, and has been developing software for both the enterprise and entrepreneur for the past 15 years. She comes from a solid Java background, but has discovered a passion for the simplicity, power, and elegance of Ruby and Clojure. She brings fun, enthusiasm, and hot tea to all her software projects and especially enjoys participating in the Open Source community.</p>
 
 <p>She lives in Cincinnati, OH with her husband and two young children. When left to daydream, she thinks of the dynamics of flocks of birds, what the Giant Squids might really be doing down there in the deep, and maybe opening a first-rate cheese shop one day.</p>",
-    :twitter => "carinmeier"
+    :twitter => "carinmeier",
+    :talk => {
+      :title => "Double Rainbow testing with JRuby and rspec-given",
+      :description => "<p>Bring happiness to your Java project and to your developers by introducing JRuby and rspec-given.</p>
+<p>JRuby testing is a easy, low stress, and fun way to expose your team to the blessings of a dynamic language with seamless Java interoperability. The rspec-given gem lets you write concise tests with a syntax that brings clarity and joy to the testing process. We will explore some practical examples of incorporating both JRuby and rspec-given into a sample project and experience the double rainbow.</p>"
+    }
   },
 
   :rthomas => {
@@ -81,7 +86,11 @@ SPEAKERS = {
     :title => "Big Tiger",
     :bio => "<p>Jim Remsik is a world-renowned hugger, conference organizer, community instigator, and speaker. He's been around the world from London to the Bay. He's a principal at Bendyworks a software consultancy in Madison, WI. Jim answers to \"Tiger, Big Tiger, yo Tiger.\" But, what you should really know is he has been on Ripley's Believe it or Not, Raced Stock Cars Backwards and was ineffectively targeted by a serial killer in his youth. His talks draw on his wide range of life experiences and relate them back to how we can all become better people.</p>",
     :avatar => "big_tiger.jpg",
-    :twitter => "jremsikjr"
+    :twitter => "jremsikjr",
+    :talk => {
+      :title => "Open (Source) Wounds",
+      :description => "<p>This talk will seek to raise recognition in our community to the fact that there are real people behind Open Source Software. We'll analyze the black box retrieved from the wreckage of well-known community disagreements. Suggest how to move the conversation forward as well as discuss tools and techniques for diffusing potentially explosive situations.</p>"
+    }
   },
 
   :nylons => {
@@ -107,28 +116,58 @@ SPEAKERS = {
     :bio => "<p>Meghan Wilker specializes in using strategy, technology, and process to bring people and products together. As VP, Managing Director at <a href=\"http://www.clockwork.net/\">Clockwork Active Media</a> she drives projects to produce engaging digital solutions.</p>
 <p>Together with Nancy they’re the <a href=\"https://www.geekgirlsguide.com/\">Geek Girls Guide</a>, a duo dedicated to demystifying technology for audiences everywhere through extensive public speaking, writing, and online dialogue.</p>",
     :avatar => "meghan_wilker.jpg",
-    :twitter => "irishgirl"
+    :twitter => "irishgirl",
+    :talk => {
+      :title => SPEAKERS[:nylons][:talk][:title],
+      :description => SPEAKERS[:nylons][:talk][:description]
+    }
+  },
+
+  :codefinger => {
+    :name => "Joe Kutner",
+    :bio => "<p>Joe is a professional software consultant at Arcturo, where he builds Ruby and Rails applications for clients of all sizes.
+He also contributes to several JRuby projects including TorqueBox and Trinidad.</p>
+
+<p>Joe is the author of the soon to be released <a href=\"http://pragprog.com/book/jkdepj\">\"Deploying JRuby Web Applications\" from the Pragmatic Bookshelf</a></p>",
+    :avatar => 'default.png',
+    :twitter => "codefinger",
+    :talk => {
+      :title => "Deploying JRuby Web Applications",
+      :description => "<p>This talk will help you bridge the gap between enjoying JRuby, and using it in the real world. JRuby can simplify your deployment architecture, while making your application more reliable, scalable, and easier to manage. You'll quickly see the benefits, but it will require a new technology stack.</p>
+
+<p>There are three deployment strategies that can be used with any Rack-based JRuby application, and this talk will provide an overview of each of them.  We'll also discuss the technologies that make them possible, and when it's appropriate to use each strategy. You'll learn how the Warbler gem can be used to create an web application archive file. Then we'll discuss how the light-weight Trinidad web server can be used to create a flexible, modular deployment that still feels friendly and familiar. Finally, you'll learn how to power an application with TorqueBox, an all-in-one environment that includes built-in support for messaging, scheduling and daemons.</p>"
+    }
+  },
+
+  :xshay => {
+    :name => "Xavier Shay",
+    :bio => "<p>Xavier recently emigrated from Australia to San Francisco to work with the analytics team at Square. Prior, he worked on large Ruby projects at The Conversation and ClearGrain, and presented a world tour of a training course titled \"Your Database Is Your Friend\". He has been working with Ruby for half a decade, and has published and contributed to over 80 open source projects according to GitHub.</p>",
+    :avatar => 'xshay.png',
+    :twitter => 'xshay'
+  },
+
+  :bascule => {
+    :name => "Tony Arcieri",
+    :bio => "<p>LivingSocial Architecture Team member. Concurrent/Distributed Object Oriented Programming afficionado. JVM fan. Beer enthusiast. Karaoke fiend.</p>",
+    :avatar => 'default.png',
+    :twitter => 'bascule'
+  },
+
+  :ronge => {
+    :name => "Andreas Ronge",
+    :bio => "<p>Andreas Ronge is the author of the Neo4j JRuby binding Neo4j.rb. When he does not work on this open source project or consult in projects using Neo4j.rb he practices the piano, currently the Brahms Piano Quartet in C minor. He is employed as a consultant at Jayway in Sweden since 2001.</p>",
+    :avatar => 'ronge.png',
+    :twitter => 'ronge'
+  },
+
+  :david_wood => {
+    :name => "David Wood",
+    :bio => "<p>CTO of Jun Group. Social video distributor for the Fortune 500.</p>",
+    :avatar => 'default.png',
+    :talk => {
+    },
   }
 }
-
-TBA_SPEAKERS = {
-}
-
-if development?
-  SPEAKERS.merge!(TBA_SPEAKERS)
-end
-
-SPEAKERS[:jrubyconf] = {
-  :name     => 'JRubyConf',
-  :title    => 'Coming Soon',
-  :avatar   => 'default.png',
-  :bio      => "<p>Full speaker list and schedule coming soon. Schedule is subject to change.</p>",
-  :twitter  => 'jrubyconf'
-}
-
-(0...((12-SPEAKERS.keys.length) % 4)).each do |i|
-  SPEAKERS["jrubyconf#{i+1}".to_sym] = SPEAKERS[:jrubyconf]
-end
 
 MONDAY    = []
 TUESDAY   = []
