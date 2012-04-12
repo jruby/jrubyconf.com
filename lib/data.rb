@@ -43,7 +43,11 @@ SPEAKERS = {
 
 <p>Venkat is the author of \".NET Gotchas,\" the coauthor of 2007 Jolt Productivity Award winning \"Practices of an Agile Developer,\" the author of \"Programming Groovy: Dynamic Productivity for the Java Developer\" and \"Programming Scala: Tackle Multi-Core Complexity on the Java Virtual Machine\" (Pragmatic Bookshelf). His latest book is \"Programming Concurrency on the JVM: Mastering synchronization, STM, and Actors\".</p>",
     :avatar => "venkat.jpg",
-    :twitter => "venkat_s"
+    :twitter => "venkat_s",
+    :talk => {
+      :title => "It could be heaven or it could be hell: Pleasure and peril of being a polyglot programmer",
+      :description => "<p>With so many languages on the Java platform, there are real benefits to learning and using them. However, these languages bring along some challenges as well. Attend this keynote to learn, from a world renowned polyglot programmer and author of books on multiple languages, the pleasures and perils of being a polyglot programmer.</p>"
+    }
   },
 
   :carinmeier => {
@@ -116,11 +120,7 @@ SPEAKERS = {
     :bio => "<p>Meghan Wilker specializes in using strategy, technology, and process to bring people and products together. As VP, Managing Director at <a href=\"http://www.clockwork.net/\">Clockwork Active Media</a> she drives projects to produce engaging digital solutions.</p>
 <p>Together with Nancy they’re the <a href=\"https://www.geekgirlsguide.com/\">Geek Girls Guide</a>, a duo dedicated to demystifying technology for audiences everywhere through extensive public speaking, writing, and online dialogue.</p>",
     :avatar => "meghan_wilker.jpg",
-    :twitter => "irishgirl",
-    :talk => {
-      :title => SPEAKERS[:nylons][:talk][:title],
-      :description => SPEAKERS[:nylons][:talk][:description]
-    }
+    :twitter => "irishgirl"
   },
 
   :codefinger => {
@@ -143,21 +143,37 @@ He also contributes to several JRuby projects including TorqueBox and Trinidad.<
     :name => "Xavier Shay",
     :bio => "<p>Xavier recently emigrated from Australia to San Francisco to work with the analytics team at Square. Prior, he worked on large Ruby projects at The Conversation and ClearGrain, and presented a world tour of a training course titled \"Your Database Is Your Friend\". He has been working with Ruby for half a decade, and has published and contributed to over 80 open source projects according to GitHub.</p>",
     :avatar => 'xshay.png',
-    :twitter => 'xshay'
+    :twitter => 'xshay',
+    :talk => {
+      :title => "JRuby at Square",
+      :description => "<p>An experience report! Follow the journey of JRuby at Square, from humble beginnings to becoming the accepted standard for deploying Ruby applications. Along the way we'll discover the ups and downs of many packaging and deployment options, Java integration, mutual SSL authentication, real threads, cross-ruby compatibility, and a few surprises thrown in for good measure.</p>"
+    }
   },
 
   :bascule => {
     :name => "Tony Arcieri",
     :bio => "<p>LivingSocial Architecture Team member. Concurrent/Distributed Object Oriented Programming afficionado. JVM fan. Beer enthusiast. Karaoke fiend.</p>",
     :avatar => 'default.png',
-    :twitter => 'bascule'
+    :twitter => 'bascule',
+    :talk => {
+      :title => "Concurrent Programming with Celluloid",
+      :description => "<p>Threads versus events: which should you choose? How about both? In this talk you'll learn about the Celluloid concurrency framework, which combines OOP and the Actor Model to give you concurrent Ruby objects. You'll also learn about how Celluloid lets you combine blocking I/O and asynchronous evented I/O, offering you all the benefits of EventMachine without the restrictions of a single event loop. The talk will also provide a brief introduction to DCell, a distributed extension to Celluloid.</p>"
+    }
   },
 
   :ronge => {
     :name => "Andreas Ronge",
     :bio => "<p>Andreas Ronge is the author of the Neo4j JRuby binding Neo4j.rb. When he does not work on this open source project or consult in projects using Neo4j.rb he practices the piano, currently the Brahms Piano Quartet in C minor. He is employed as a consultant at Jayway in Sweden since 2001.</p>",
     :avatar => 'ronge.png',
-    :twitter => 'ronge'
+    :twitter => 'ronge',
+    :talk => {
+      :title => "Neo4j.rb and the Revival of a New Type of Object Database",
+      :description => "<p>The object database never became a huge success despite some real benefits like no impedance mismatch, no need for a complex or leaky ORM layer and great performance (e.g. no slow JOIN operations). A graph database has similar advantages but not the same disadvantages since it avoids coupling the database with a programming language. Instead, it uses the simple language of a graph (node, relationship and properties) for interaction with the database.</p>
+
+<p>There are many problems which, really, only a graph database can solve properly. We'll show you the real world challenge, transposing from whiteboard to graph database using Neo4j running in Rails.</p>
+
+<p>If your database cause you trouble because you need to persist or query data with many relationships between entities or if you're just curious why we believe graph databases are the next big thing then this talk is for you.</p>"
+    }
   },
 
   :david_wood => {
@@ -165,9 +181,21 @@ He also contributes to several JRuby projects including TorqueBox and Trinidad.<
     :bio => "<p>CTO of Jun Group. Social video distributor for the Fortune 500.</p>",
     :avatar => 'default.png',
     :talk => {
+      :title => "JRuby for Performance",
+      :description => "<p>Jun Group is the leader in social video distribution for Fortune 500 brands. This means fielding thousands of requests per second from the largest Facebook games, websites and mobile applications. The industry demands real-time reporting in this data-rich milieu, and our tightly-integrated partners demand zero-downtime solutions. The company's explosive growth made getting there a breakneck race for the technology team, from MRI Rails prototype to Cloud-based infrastructure.</p>
+
+<p>Our team attended JRubyConf in 2011, and afterwards we chose to use JRuby in our fight to reach web scale, not only to boost performance but to escape to the Java platform and language ecosystem (and leverage cheap Amazon Elastic Beanstalk JVMs)</p>.
+
+<p>This is the \"performance\" talk I wish I had seen. We explain both the architectural and operational work involved in our move and how it enabled us to hit our time-to-scalability, reliability, and feature targets. Along the way we can discourse on the surprising opportunities that spring from multi-lingual, JVM-based development and the crucial benefits of regaining \"working\" multithreading, for instance as they relate to our sub-second clustered monitoring and self-tuning capacities, or our data storage and caching strategies.</p>
+
+<p>In the end, it worked; we were able to scale an \"unscalable\" classic MRI Rails application quickly and cheaply, without a ground-up rewrite. The result was massive success for the business (see http://blog.jungroup.com/ for more).</p>"
     },
   }
 }
+
+# Copy data for two-speaker talks
+SPEAKERS[:irishgirl][:talk] = { :title => SPEAKERS[:nylons][:talk][:title], :description => SPEAKERS[:nylons][:talk][:description] }
+
 
 MONDAY    = []
 TUESDAY   = []
