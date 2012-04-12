@@ -64,7 +64,7 @@ SPEAKERS = {
 
   :tsaleh => {
     :name => "Tammer Saleh",
-    :bio => "<p>Tammer Saleh is a long time Rubyist, leader, and published author.</p><p>As VP Engineering at Engine Yard, Tammer ran the development team and the flagship Cloud product. He authored the acclaimed book, Rails AntiPatterns with Chad Pytel. He’s also the author of the Shoulda testing framework, and the fantastic Airbrake service.</p><p>Tammer has given classroom training in Ruby, Rails, JRuby, and Test Driven Development, and has spoken at various Ruby and Rails conferences around the world.</p><p>Previous lives include C/C++ AI programming, and UNIX administration for Citysearch.com and Caltech’s Earthquake Detection Net work.</p>",
+    :bio => "<p>Tammer Saleh is a long time Rubyist, leader, and published author.</p><p>As the happily former VP Engineering at Engine Yard, Tammer ran the development team and the flagship Cloud product. He authored the acclaimed book, Rails AntiPatterns with Chad Pytel. He’s also the author of the Shoulda testing framework, and the fantastic Airbrake service.</p><p>Tammer has given classroom training in Ruby, Rails, JRuby, and Test Driven Development, and has spoken at various Ruby and Rails conferences around the world.</p><p>Previous lives include C/C++ AI programming, and UNIX administration for Citysearch.com and Caltech’s Earthquake Detection Net work.</p>",
     :avatar => "tsaleh.jpg",
     :twitter => "tsaleh"
   },
@@ -89,7 +89,17 @@ SPEAKERS = {
     :bio => "<p>Nancy Lyons works at the intersection of technology, community, and people. She empowers and motivates teams of technologists and creatives as the President and CEO of <a href=\"http://www.clockwork.net/\">Clockwork Active Media</a>.</p>
 <p>Together with Meghan they’re the <a href=\"https://www.geekgirlsguide.com/\">Geek Girls Guide</a>, a duo dedicated to demystifying technology for audiences everywhere through extensive public speaking, writing, and online dialogue.</p>",
     :avatar => "nancy_lyons.jpg",
-    :twitter => "nylons"
+    :twitter => "nylons",
+    :talk => {
+      :title => "Dawn of the Devs",
+      :description => "<p>The interactive industry has a little PR problem: half the world sees us as reclusive loners sitting in dark rooms, and the other half sees us as app-happy adult kids riding through offices on scooters. However inaccurate this is, we have to change it. Future projects are riding on it, our industry is depending on it, and end users need it.</p>
+
+<p>The web is about people. And the quality of our work on the web directly correlates to how well we work with people. We have a responsibility to make projects better and to create end products that are actually--in practice--the best solutions for our clients' problems. We have to learn to talk about what we do and how we do it, we have to teach clients how to think intelligently about the possibilities and realities of interactive products, and we have to ask our team members to do the same.</p>
+
+<p>A lot of this starts with a good process. A good process serves every team member. Most importantly, it facilitates productive communication and collaboration, a critical requirement for good work. But to be good, a process needs team-wide participation. It only benefits everyone if everyone takes part, and projects go smoother only when the full team is involved. Everyone who works on interactive teams should care about and demand good process.</p>
+
+<p>Drawing on our new book, Interactive Project Management: Pixels, People, and Process, we'll discuss the framework the Geek Girls Guide developed to establish a high standard, industry-wide way of approaching digital projects. We'll outline how to collaborate well no matter what role you play on the team, give a high-level overview of an interactive process that works with any type of interactive product, and articulate the kind of thinking that's required for successful, effective results.</p>"
+    }
   },
 
   :irishgirl => {
