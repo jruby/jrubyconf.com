@@ -5,7 +5,10 @@ SPEAKERS = {
     :name => "Thomas Enebo",
     :avatar => "enebo.png",
     :bio => "<p>Thomas Enebo is the co-lead of the JRuby project and an employee of Engine Yard. He has been a practitioner of Java since the heady days of the HotJava browser, and he has been happily using Ruby since 2001. Thomas has spoken at numerous Java and Ruby conferences, co-authored \"Using JRuby\", and was awarded the \"Rock Star\" award at JavaOne. When Thomas is not working he enjoys biking, anime, and drinking a decent IPA.</p>",
-    :twitter => "tom_enebo"
+    :twitter => "tom_enebo",
+    :talk => {
+      :description => "Surely something JRuby-ish."
+    }
   },
 
   :headius => {
@@ -32,7 +35,10 @@ SPEAKERS = {
     :name => "Yoko Harada",
     :bio => "<p>Yoko is a dedicated programmer, blogger and, maybe, a nerd. She likes to code, read sources and learn new languages. Currently, Yoko is a committer of JRuby and Nokogiri project. When her API, RedBridge was merged to JRuby, she became a JRuby committer along with it in 2009. She became a Nokogiri committer in 2010 to help pure Java Nokogiri implementation to finish. Because JRuby and XML are Yoko’s favorite technologies, it was a good fit. Before that, Yoko was a server side Java evangelist in Japan, and wrote three books about Java Servlet. After she had more than three years of blank in 2005-8, she’s back to programming. Now, she enjoys days of happy coding.</p>",
     :avatar => "yokolet.jpg",
-    :twitter => "yokolet"
+    :twitter => "yokolet",
+    :talk => {
+      :description => "Awaiting talk description."
+    }
   },
 
   :venkat_s => {
@@ -68,7 +74,10 @@ SPEAKERS = {
     :name => "Randall Thomas",
     :bio => "<p>Randall Thomas is a classically trained musician that took one too many calculus classes along the way and got sucked into the sciences. Being both blessed and cursed with a strange form of technology ADD, he’s worked in various industries with numerous startups covering everything from robotics, to low level telecommunications & networking to applied computing for stock trading systems.</p><p>Randall is an internationally renowned speaker on practical data mining techniques and the business of startups.</p><p>When not glued to a computer Randall is likely lost in book or on a running trail wondering if he will get to the end of either.</p>",
     :avatar => "rthomas.jpg",
-    :twitter => "daksis"
+    :twitter => "daksis",
+    :talk => {
+      :description => "See the dynamic duo of Tam-Randall (as I affectionately now call them) dodge and dazzle with the fury of labs full of bolts of thunder."
+    }
   },
 
   :tsaleh => {
@@ -82,7 +91,10 @@ SPEAKERS = {
     :name => "Sarah Allen",
     :bio => "<p>By day Sarah Allen is CEO of <a href=\"http://www.blazingcloud.net/\">Blazing Cloud</a>, a San Francisco consulting firm that creates innovative mobile products for hire, both web and native iOS/Android. By night, Sarah writes code for Mightyverse, which aspires to be a revenue generating product to help people communicate across languages and cultures. She's also working to change the face of software development with RailsBridge, and often teaches outreach workshops and kids. She created Pie, a open source language for kids to develop web adventure games.</p><p>Before her adventures in Ruby and mobile, Sarah has a history of developing leading-edge products, such as After Effects, Shockwave, Flash video, and OpenLaszlo. Sarah was named one of the top 25 women of the web by SF WoW (San Francisco Women of the Web) in 1998.</p><p>Sarah blogs at <a href=\"http://www.ultrasaurus.com/\">www.ultrasaurus.com</a>.</p>",
     :avatar => "sarah_allen.jpg",
-    :twitter => "ultrasaurus"
+    :twitter => "ultrasaurus",
+    :talk => {
+      :description => "Awaiting talk description."
+    }
   },
 
   :jremsikjr => {
@@ -194,6 +206,8 @@ He also contributes to several JRuby projects including TorqueBox and Trinidad.<
 }
 
 # Copy data for two-speaker talks
+SPEAKERS[:headius][:talk] = { :title => SPEAKERS[:enebo][:talk][:title], :description => SPEAKERS[:enebo][:talk][:description] }
+SPEAKERS[:tsaleh][:talk] = { :title => SPEAKERS[:rthomas][:talk][:title], :description => SPEAKERS[:rthomas][:talk][:description] }
 SPEAKERS[:irishgirl][:talk] = { :title => SPEAKERS[:nylons][:talk][:title], :description => SPEAKERS[:nylons][:talk][:description] }
 
 

@@ -77,12 +77,13 @@ em { font-family: 'BrownBold'; font-style: normal; }
 
 .info_box {
   display    : none;
-  overflow   : hidden;
+  overflow   : auto;
   position   : absolute;
   top        : 80px;
   left       : 0;
   width      : 444px;
   min-height : 140px;
+  max-height : 440px;
   padding    : 13px;
   color      : #fff;
   background : #8e171e;

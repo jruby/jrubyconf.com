@@ -11,12 +11,21 @@ module JRubyConf
       File.open(name, "w") do |f|
         schedule_entries.sort_by {|e| e['Start'] }.each do |entry|
           next if entry['Show'] == false
+
+          speakers = entry['Speaker'] || 'jrubyconf'
+          speaker_id = (speakers.respond_to?(:first) ? speakers.first : speakers).to_sym
+          speaker_title, speaker_desc = "", ""
+          if speaker_id != :jrubyconf
+            speaker_title = "SPEAKERS[#{speaker_id.inspect}][:talk][:title] || "
+            speaker_desc = "SPEAKERS[#{speaker_id.inspect}][:talk][:description] || "
+          end
+
           f.puts <<-CODE
 #{entry['Day'].upcase} << {
   :time        => "#{entry['StartTime']} - #{entry['EndTime']}",
-  :title       => #{entry['Title'].inspect},
-  :description => #{(entry['Description'] || '').inspect},
-  :speaker_id  => #{(entry['Speaker'] || 'jrubyconf').inspect},
+  :title       => #{speaker_title}#{entry['Title'].inspect},
+  :description => #{speaker_desc}#{(entry['Description'] || '').inspect},
+  :speaker_id  => #{speakers.inspect},
   :talk        => #{(entry.has_key?('Talk') ? entry['Talk'] : true).inspect}
 }
 
