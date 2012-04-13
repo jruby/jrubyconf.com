@@ -22,11 +22,11 @@ module JRubyConf
 
           f.puts <<-CODE
 #{entry['Day'].upcase} << {
-  :time        => "#{entry['StartTime']} - #{entry['EndTime']}",
-  :title       => #{speaker_title}#{entry['Title'].inspect},
-  :description => #{speaker_desc}#{(entry['Description'] || '').inspect},
-  :speaker_id  => #{speakers.inspect},
-  :talk        => #{(entry.has_key?('Talk') ? entry['Talk'] : true).inspect}
+  time:        "#{entry['StartTime']} - #{entry['EndTime']}",
+  title:       #{speaker_title}#{entry['Title'].inspect},
+  description: #{speaker_desc}#{(entry['Description'] || '').inspect},
+  speaker_id:  #{speakers.inspect},
+  talk:        #{(entry.has_key?('Talk') ? entry['Talk'] : true).inspect}
 }
 
 CODE
