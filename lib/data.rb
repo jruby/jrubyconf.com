@@ -56,6 +56,15 @@ SPEAKERS = {
     }
   },
 
+  ntschutta: {
+    name: "Nathaniel Schutta",
+    bio: "<p>Nathaniel T. Schutta is a senior software engineer focussed on making usable applications. A proponent of polyglot programming, Nate has written two books on Ajax and speaks regularly at various worldwide conferences, No Fluff Just Stuff symposia, universities, and Java user groups. In addition to his day job, Nate is an adjunct professor at the University of Minnesota where he teaches students to embrace dynamic languages.</p>",
+    avatar: "nate.jpg",
+    twitter: "ntschutta",
+    talk: {
+    }
+  },
+
   carinmeier: {
     name: "Carin Meier",
     avatar: "carin_meier.jpg",
