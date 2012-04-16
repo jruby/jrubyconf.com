@@ -199,8 +199,11 @@ He also contributes to several JRuby projects including TorqueBox and Trinidad.<
 
   david_wood: {
     name: "David Wood",
-    bio: "<p>CTO of Jun Group. Social video distributor for the Fortune 500.</p>",
-    avatar: 'default.png',
+    title: "CTO, Jun Group",
+    bio: "<p>David's technical management experience spans entertainment, media, and finance. Prior to joining Jun Group, David brought technology leadership and hands-on strategic and architectural direction to Gucci, TheStreet.com, and, most recently, Scripps Networks (Food Network, HGTV, DIY, Fine Living, and Great American Country).</p>
+
+<p>At Jun Group, David and his team built the most advanced, flexible, and powerful social video network ever developed. As Chief Technology Officer, David is responsible for creating and maintaining the technology that delivers millions of opt-in video views across multiple devices, operating systems, and providers.</p>",
+    avatar: 'david_wood.png',
     talk: {
       title: "JRuby for Performance",
       description: "<p>Jun Group is the leader in social video distribution for Fortune 500 brands. This means fielding thousands of requests per second from the largest Facebook games, websites and mobile applications. The industry demands real-time reporting in this data-rich milieu, and our tightly-integrated partners demand zero-downtime solutions. The company's explosive growth made getting there a breakneck race for the technology team, from MRI Rails prototype to Cloud-based infrastructure.</p>
