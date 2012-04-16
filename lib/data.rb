@@ -37,7 +37,8 @@ SPEAKERS = {
     avatar: "yokolet.jpg",
     twitter: "yokolet",
     talk: {
-      description: "Awaiting talk description."
+      title: "Pure Java Nokogiri? It's Just Awesome.",
+      description: "<p>A month before the JRubyConf 2011, pure Java Nokogiri made the first release. Since then, pure Java Nokogiri has caught people's attention. It is faster than FFI version, no struggle to install, no worry about a dependency, etc. Prior to the JRubyConf 2012, pure Java Nokogiri made the second release. The latest version had a Java integration feature as well as many bug fixings. Doesn't it sound awesome? Not just that. It is already a <a href=\"http://yehudakatz.com/2012/04/13/tokaido-my-hopes-and-dreams/\">Tokaido</a>-nized. It can be integrated with JVM languages. It is a well-used JRuby extension. It made performance improvement. Why don't you create something like this? I'll dig into how pure Java Nokogiri made that.</p>"
     }
   },
 
