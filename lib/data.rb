@@ -151,8 +151,8 @@ SPEAKERS = {
     bio: "<p>Joe is a professional software consultant at Arcturo, where he builds Ruby and Rails applications for clients of all sizes.
 He also contributes to several JRuby projects including TorqueBox and Trinidad.</p>
 
-<p>Joe is the author of the soon to be released <a href=\"http://pragprog.com/book/jkdepj\">\"Deploying JRuby Web Applications\" from the Pragmatic Bookshelf</a></p>",
-    avatar: 'default.png',
+<p>Joe is the author of the soon to be released <a href=\"http://pragprog.com/book/jkdepj\">\"Deploying with JRuby\" from the Pragmatic Bookshelf</a></p>",
+    avatar: 'kutner.png',
     twitter: "codefinger",
     talk: {
       title: "Deploying JRuby Web Applications",
@@ -176,7 +176,7 @@ He also contributes to several JRuby projects including TorqueBox and Trinidad.<
   bascule: {
     name: "Tony Arcieri",
     bio: "<p>LivingSocial Architecture Team member. Concurrent/Distributed Object Oriented Programming afficionado. JVM fan. Beer enthusiast. Karaoke fiend.</p>",
-    avatar: 'default.png',
+    avatar: 'bascule.jpg',
     twitter: 'bascule',
     talk: {
       title: "Concurrent Programming with Celluloid",
