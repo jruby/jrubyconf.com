@@ -103,7 +103,8 @@ SPEAKERS = {
     avatar: "sarah_allen.jpg",
     twitter: "ultrasaurus",
     talk: {
-      description: "Awaiting talk description."
+      title: "Agile Business Development",
+      description: "<p>Test-driven development is mom-and-apple-pie to Rubyists, but knowing that a product will work goes well beyond bug-free code. How do you catch a design flaw early when all your tests are green?  We'll look at some techniques for vetting your go-to-market strategy and other things you should be doing *before* you start writing code.</p>"
     }
   },
 
