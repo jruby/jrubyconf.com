@@ -33,7 +33,7 @@ SPEAKERS = {
 
   yokolet: {
     name: "Yoko Harada",
-    bio: "<p>Yoko is a dedicated programmer, blogger and, maybe, a nerd. She likes to code, read sources and learn new languages. Currently, Yoko is a committer of JRuby and Nokogiri project. When her API, RedBridge was merged to JRuby, she became a JRuby committer along with it in 2009. She became a Nokogiri committer in 2010 to help pure Java Nokogiri implementation to finish. Because JRuby and XML are Yoko’s favorite technologies, it was a good fit. Before that, Yoko was a server side Java evangelist in Japan, and wrote three books about Java Servlet. After she had more than three years of blank in 2005-8, she’s back to programming. Now, she enjoys days of happy coding.</p>",
+    bio: "<p>Yoko is a dedicated programmer, blogger and, maybe, a nerd. She likes to code, read sources and learn new languages. Currently, Yoko is a committer of JRuby and Nokogiri project. When her API, RedBridge was merged to JRuby, she became a JRuby committer along with it in 2009. She became a Nokogiri committer in 2010 to help pure Java Nokogiri implementation to finish. Because JRuby and XML are Yoko's favorite technologies, it was a good fit. Before that, Yoko was a server side Java evangelist in Japan, and wrote three books about Java Servlet. After she had more than three years of blank in 2005-8, she's back to programming. Now, she enjoys days of happy coding.</p>",
     avatar: "yokolet.jpg",
     twitter: "yokolet",
     talk: {
@@ -82,7 +82,7 @@ SPEAKERS = {
 
   rthomas: {
     name: "Randall Thomas",
-    bio: "<p>Randall Thomas is a classically trained musician that took one too many calculus classes along the way and got sucked into the sciences. Being both blessed and cursed with a strange form of technology ADD, he’s worked in various industries with numerous startups covering everything from robotics, to low level telecommunications & networking to applied computing for stock trading systems.</p><p>Randall is an internationally renowned speaker on practical data mining techniques and the business of startups.</p><p>When not glued to a computer Randall is likely lost in book or on a running trail wondering if he will get to the end of either.</p>",
+    bio: "<p>Randall Thomas is a classically trained musician that took one too many calculus classes along the way and got sucked into the sciences. Being both blessed and cursed with a strange form of technology ADD, he's worked in various industries with numerous startups covering everything from robotics, to low level telecommunications & networking to applied computing for stock trading systems.</p><p>Randall is an internationally renowned speaker on practical data mining techniques and the business of startups.</p><p>When not glued to a computer Randall is likely lost in book or on a running trail wondering if he will get to the end of either.</p>",
     avatar: "rthomas.jpg",
     twitter: "daksis",
     talk: {
@@ -92,7 +92,7 @@ SPEAKERS = {
 
   tsaleh: {
     name: "Tammer Saleh",
-    bio: "<p>Tammer Saleh is a long time Rubyist, leader, and published author.</p><p>As the happily former VP Engineering at Engine Yard, Tammer ran the development team and the flagship Cloud product. He authored the acclaimed book, Rails AntiPatterns with Chad Pytel. He’s also the author of the Shoulda testing framework, and the fantastic Airbrake service.</p><p>Tammer has given classroom training in Ruby, Rails, JRuby, and Test Driven Development, and has spoken at various Ruby and Rails conferences around the world.</p><p>Previous lives include C/C++ AI programming, and UNIX administration for Citysearch.com and Caltech’s Earthquake Detection Net work.</p>",
+    bio: "<p>Tammer Saleh is a long time Rubyist, leader, and published author.</p><p>As the happily former VP Engineering at Engine Yard, Tammer ran the development team and the flagship Cloud product. He authored the acclaimed book, Rails AntiPatterns with Chad Pytel. He's also the author of the Shoulda testing framework, and the fantastic Airbrake service.</p><p>Tammer has given classroom training in Ruby, Rails, JRuby, and Test Driven Development, and has spoken at various Ruby and Rails conferences around the world.</p><p>Previous lives include C/C++ AI programming, and UNIX administration for Citysearch.com and Caltech's Earthquake Detection Net work.</p>",
     avatar: "tsaleh.jpg",
     twitter: "tsaleh"
   },
@@ -123,7 +123,7 @@ SPEAKERS = {
   nylons: {
     name: "Nancy Lyons",
     bio: "<p>Nancy Lyons works at the intersection of technology, community, and people. She empowers and motivates teams of technologists and creatives as the President and CEO of <a href=\"http://www.clockwork.net/\">Clockwork Active Media</a>.</p>
-<p>Together with Meghan they’re the <a href=\"https://www.geekgirlsguide.com/\">Geek Girls Guide</a>, a duo dedicated to demystifying technology for audiences everywhere through extensive public speaking, writing, and online dialogue.</p>",
+<p>Together with Meghan they're the <a href=\"https://www.geekgirlsguide.com/\">Geek Girls Guide</a>, a duo dedicated to demystifying technology for audiences everywhere through extensive public speaking, writing, and online dialogue.</p>",
     avatar: "nancy_lyons.jpg",
     twitter: "nylons",
     talk: {
@@ -141,7 +141,7 @@ SPEAKERS = {
   irishgirl: {
     name: "Meghan Wilker",
     bio: "<p>Meghan Wilker specializes in using strategy, technology, and process to bring people and products together. As VP, Managing Director at <a href=\"http://www.clockwork.net/\">Clockwork Active Media</a> she drives projects to produce engaging digital solutions.</p>
-<p>Together with Nancy they’re the <a href=\"https://www.geekgirlsguide.com/\">Geek Girls Guide</a>, a duo dedicated to demystifying technology for audiences everywhere through extensive public speaking, writing, and online dialogue.</p>",
+<p>Together with Nancy they're the <a href=\"https://www.geekgirlsguide.com/\">Geek Girls Guide</a>, a duo dedicated to demystifying technology for audiences everywhere through extensive public speaking, writing, and online dialogue.</p>",
     avatar: "meghan_wilker.jpg",
     twitter: "irishgirl"
   },
