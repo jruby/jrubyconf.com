@@ -9,19 +9,17 @@
       <h2><%= day %></h2>
       <table cellspacing="0" cellpadding="0" border="0">
         <% Object.const_get(day.upcase).each do |event| %>
-          <% crazy_id = "#{day.downcase}_#{[event[:speaker_id]].flatten.join('')}_#{event[:time].gsub(' ', '').gsub(':','')}"%>
-          <tr class="schedule_row" data-id="<%= crazy_id %>">
+          <tr class="schedule_row" data-id="<%= crazy_id(day, event) %>">
             <td class="time"><%= event[:time] %></td>
-            <td class="title"><%= event[:title] %></td>
+            <td class="title"><%= short_name(event) %><%= event[:title] %></td>
           </tr>
         <% end %>
       </table>
       <% Object.const_get(day.upcase).each do |event| %>
-        <% crazy_id = "#{day.downcase}_#{[event[:speaker_id]].flatten.join('')}_#{event[:time].gsub(' ', '').gsub(':','')}"%>
-        <div class="info_box" id="<%= crazy_id %>">
+        <div class="info_box" id="<%= crazy_id(day, event) %>">
           <div class="close">close</div>
           <div class="left">
-            <div class="name data"><%= [event[:speaker_id]].flatten.map{|s| SPEAKERS[s.to_sym] && SPEAKERS[s.to_sym][:name]}.compact.join(',<br/>') %></div>
+            <div class="name data"><%= speaker_names(event) %></div>
             <div class="twitter data"><%= event[:time] %></div>
           </div>
           <div class="right">
