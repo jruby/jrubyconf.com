@@ -217,6 +217,11 @@ em { font-family: 'BrownBold'; font-style: normal; }
   text-align : right;
 }
 
+#main_navigation .sub {
+  margin-top: -49px;
+  font-size : 0.6em;
+}
+
 #main_navigation .left a { margin-right: 25px; }
 
 #register_now_small {
@@ -231,6 +236,13 @@ em { font-family: 'BrownBold'; font-style: normal; }
 #main_nav_date {
   position : absolute;
   left     : 550px;
+}
+
+#main_nav_place {
+  position : absolute;
+  left     : 550px;
+  top      : 24px;
+  font-size: 0.6em;
 }
 
 #home_link {
