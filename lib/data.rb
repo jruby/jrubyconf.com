@@ -215,7 +215,27 @@ He also contributes to several JRuby projects including TorqueBox and Trinidad.<
 <p>This is the \"performance\" talk I wish I had seen. We explain both the architectural and operational work involved in our move and how it enabled us to hit our time-to-scalability, reliability, and feature targets. Along the way we can discourse on the surprising opportunities that spring from multi-lingual, JVM-based development and the crucial benefits of regaining \"working\" multithreading, for instance as they relate to our sub-second clustered monitoring and self-tuning capacities, or our data storage and caching strategies.</p>
 
 <p>In the end, it worked; we were able to scale an \"unscalable\" classic MRI Rails application quickly and cheaply, without a ground-up rewrite. The result was massive success for the business (see http://blog.jungroup.com/ for more).</p>"
-    },
+    }
+  },
+
+  ajuckel: {
+    name: "Anthony Juckel",
+    avatar: 'default.png',
+    twitter: 'ajuckel',
+    talk: {
+      title: "Getting Started with JRuby",
+      description: "<p>Heard about JRuby, but unsure how to dive in and start using it?  I'll take you through your first steps.  We'll handle how to install JRuby, examine some of the runtime differences between JRuby and MRI, and take a look at some of the JVM deployment and diagnostic tools at your disposal.</p>"
+    }
+  },
+
+  maxdemarzi: {
+    name: "Max De Marzi",
+    avatar: 'default.png',
+    twitter: 'maxdemarzi',
+    talk: {
+      title: "Intro to Neo4j",
+      description: "Coming soon"
+    }
   }
 }
 

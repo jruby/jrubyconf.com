@@ -44,7 +44,7 @@ module App::Helpers
     if speakers && speakers != [:jrubyconf]
       speakers.map do |speaker|
         names = ::SPEAKERS[speaker][:name].split
-        (names[1].length > 10 ? names[0] : names[1])
+        (names[1..-1].join(' ').length > 10 ? names[0] : names[1..-1].join(' '))
       end.join('/') + ': '
     else
       ''
