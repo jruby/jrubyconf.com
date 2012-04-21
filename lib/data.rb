@@ -234,7 +234,9 @@ He also contributes to several JRuby projects including TorqueBox and Trinidad.<
     twitter: 'maxdemarzi',
     talk: {
       title: "Intro to Neo4j",
-      description: "Coming soon"
+      description: "<p>Learn all about Graph Databases and how you can add Neo4j to your projects. After a quick introduction, you'll learn how to use the REST API directly from Neography to get the basics and then hands on experience with JRuby and Neo4j.rb.</p>
+
+<p>We'll cover property graphs, common use cases, domain modeling, algorithms, visualization, gremlin, cypher, deployment to heroku, graph indexing and answer all of your questions.</p>"
     }
   }
 }
