@@ -63,6 +63,10 @@ SPEAKERS = {
     avatar: "nate.jpg",
     twitter: "ntschutta",
     talk: {
+      title: "Leading Technical Change",
+      description: "<p>Technology changes, it's a fact of life. And while many developers are attracted to the challenge of change, many organizations do a particularly poor job of adapting. We've all worked on projects with, ahem, less than new technologies even though newer approaches would better serve the business. But how do we convince those holding the purse strings to pony up the cash when things are \"working\" today? At a personal, how do we keep up with the change in our industry?</p>
+
+<p>This talk will explore ways to stay sharp as a software professional. We'll talk about how a technology radar can help you stay marketable (and enjoying your career) and how we can use the same technique to help our companies keep abreast of important changes in the technology landscape. Of course it isn't enough to just be aware, we have to drive change - but how? This talk will consider ways we can influence others and lead change in our organizations.</p>"
     }
   },
 
@@ -86,7 +90,12 @@ SPEAKERS = {
     avatar: "rthomas.jpg",
     twitter: "daksis",
     talk: {
-      description: "See the dynamic duo of Tam-Randall (as I affectionately now call them) dodge and dazzle with the fury of labs full of bolts of thunder."
+      title: "Ruby Y U no GFX?",
+      description: "<p>Two words seldom heard in the same sentence are Ruby and Graphics… at least without laughter soon following. We've heard it all before: Ruby is too slow; real graphics are done in C, CplusPlus, or Assembler; there's no support for OpenGL in Rails.</p>
+
+<p>The excuses may be many, but the reasons are few.  With JRuby we have access to a tool that bridges the worlds of Java and Ruby.  With Java Native Interface (JNI) we have a bridge to the world between the low level interfaces that rule the bitmapped and bump-mapped world.  Combining the two allows us to use a language we love to tackle problems that used to be the domain of esoteric solutions in low level languages.</p>
+
+<p>This talk explores how to use our favorite scripting language and the breadth of the Java ecosystem to generate interactive visualizations with less pain and fewer segfaults than we've come to expect for using Ruby to tackle \"low level\" problems.</p>"
     }
   },
 
