@@ -13,7 +13,7 @@ SPEAKERS = {
 
   headius: {
     name: "Charles Nutter",
-    bio: "<p>Charles Oliver Nutter has been programming most of his life, as a Java developer for the past decade and as a JRuby developer for over four years. He co-leads the JRuby project, an effort to bring the beauty of Ruby and the power of the JVM together. Charles believes in open source and open standards and hopes his efforts on JRuby and other languages will ensure the JVM remains the preferred open-source managed runtime for many years to come. Charles blogs at blog.headius.com and tweets as headius on Twitter.</p>",
+    bio: "<p>Charles Oliver Nutter has been programming most of his life, as a Java developer for the past decade and as a JRuby developer for over four years. As a JRuby Architect at Engine Yard, he co-leads the JRuby project, an effort to bring the beauty of Ruby and the power of the JVM together. Charles believes in open source and open standards and hopes his efforts on JRuby and other languages will ensure the JVM remains the preferred open-source managed runtime for many years to come. Charles blogs at blog.headius.com and tweets as headius on Twitter.</p>",
     avatar: "cnutter.jpg",
     twitter: "headius"
   },
