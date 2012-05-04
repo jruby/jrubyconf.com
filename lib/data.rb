@@ -255,7 +255,7 @@ SPEAKERS[:headius][:talk] = { title: SPEAKERS[:enebo][:talk][:title], descriptio
 SPEAKERS[:tsaleh][:talk] = { title: SPEAKERS[:rthomas][:talk][:title], description: SPEAKERS[:rthomas][:talk][:description] }
 SPEAKERS[:irishgirl][:talk] = { title: SPEAKERS[:nylons][:talk][:title], description: SPEAKERS[:nylons][:talk][:description] }
 
-
+SUNDAY    = []
 MONDAY    = []
 TUESDAY   = []
 WEDNESDAY = []
