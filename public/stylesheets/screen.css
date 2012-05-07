@@ -629,6 +629,11 @@ td.title.not_talk { color: #d6876b; }
   margin: 12px;
 }
 
+/* we have enough at this level for 2 rows */
+#sponsors .level.mtka {
+  height: 240px;
+}
+
 #sponsors .sponsor {
   float: left;
   padding-right: 24px;
