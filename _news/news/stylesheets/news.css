@@ -32,13 +32,13 @@
 }
 
 #news h2 {
-    font: 2.0em 'BrownBold', helvetica, arial, sans-serif;
+    font: 1.8em 'BrownBold', helvetica, arial, sans-serif;
     text-transform: uppercase;
     margin-bottom: 0.5em;
 }
 
 #news h3 {
-    font: 1.8em 'BrownBold', helvetica, arial, sans-serif;
+    font: 1.3em 'BrownBold', helvetica, arial, sans-serif;
     text-transform: uppercase;
     margin-bottom: 0.5em;
 }
