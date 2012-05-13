@@ -1,0 +1,42 @@
+---
+---
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JRubyConf 2012: {{ page.title }}&mdash;May 21-23&mdash;Minneapolis, MN</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="stylesheet" media="all" href="/stylesheets/screen.css{% asset_revision %}">
+    <link rel="stylesheet" media="all" href="/news/stylesheets/news.css{% asset_revision %}">
+    <link rel="alternate" type="application/atom+xml" title="JRubyConf Updates" href="/atom.xml">
+    {% include ga.html %}
+  </head>
+  <body>
+    <div id="container">
+      <div id="brush_strokes"></div>
+
+      <div id="main_navigation">
+        <span id="main_nav_date">May 21-23</span>
+        <span id="main_nav_place">Minneapolis</span>
+        <a href="http://www.eventbrite.com/event/2571529514" id="register_now_small" class="red-button" target="_blank">Register Now</a>
+        <a href="/#index" id="home_link">Home</a>
+        <div class="left">
+          <a href="/#information">Information</a>
+          <a href="/#speakers">Speakers</a>
+        </div>
+        <div class="left sub">
+          <a href="/news" style="margin-right:4.5em;">News</a>
+          <a href="/#schedule">Schedule</a>
+        </div>
+      </div>
+
+      <div id="content" style="bottom:0;">
+        <div id="news">
+          <div class="left-column">
+            {{ content }}
+          </div>
+        </div>
+      </div>
+    </div> <!-- /#container -->
+  </body>
+</html>
