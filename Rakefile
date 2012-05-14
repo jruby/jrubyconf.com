@@ -19,8 +19,13 @@ file 'schedule.xml' do |t|
   write_schedule_xml(t.name)
 end
 
+file '_news/news/schedule.markdown' => 'lib/schedule.rb' do |t|
+  load './lib/data.rb'
+  write_schedule_md(t.name)
+end
+
 desc "Builds the schedule from GCal"
-task :schedule => ['schedule.xml', 'lib/schedule.rb'] do
+task :schedule => ['schedule.xml', 'lib/schedule.rb', '_news/news/schedule.markdown'] do
   if Rake.application.options.trace
     schedule_entries.sort_by {|e| e['Start'] }.each {|e| p e }
   end

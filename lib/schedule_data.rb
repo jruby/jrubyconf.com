@@ -34,6 +34,50 @@ CODE
       end
     end
 
+    def write_entry_md(f, talk)
+      f.puts "### #{talk[:title]}", ""
+
+      f.puts "- #{talk[:time]}"
+      speakers = [talk[:speaker_id]].flatten
+      if speakers.any?{|i| SPEAKERS[i.to_sym]}
+        f.puts "- #{speakers.map{|i| SPEAKERS[i.to_sym][:name] }.join(', ')}\n"
+      end
+
+      f.puts
+      f.puts talk[:description], ""
+    end
+
+    def write_schedule_md(name)
+      File.open(name, "w") do |f|
+
+        # frontmatter
+        f.puts %{---
+layout: guide
+title: Schedule
+---
+}
+        f.puts "# Schedule", ""
+
+        f.puts "## Monday", ""
+
+        MONDAY.each do |t|
+          write_entry_md(f, t)
+        end
+
+        f.puts "## Tuesday", ""
+
+        TUESDAY.each do |t|
+          write_entry_md(f, t)
+        end
+
+        f.puts "## Wednesday", ""
+
+        WEDNESDAY.each do |t|
+          write_entry_md(f, t)
+        end
+      end
+    end
+
     def write_schedule_xml(name)
       url = YAML.load(File.read('_config.yml'))['schedule_url']
       open(url) {|xml| File.open(name, "w") {|f| f.puts(Nokogiri::XML(xml)) } }
