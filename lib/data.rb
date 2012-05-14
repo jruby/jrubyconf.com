@@ -91,7 +91,7 @@ SPEAKERS = {
     twitter: "daksis",
     talk: {
       title: "Ruby Y U no GFX?",
-      description: "<p>Two words seldom heard in the same sentence are Ruby and Graphics… at least without laughter soon following. We've heard it all before: Ruby is too slow; real graphics are done in C, CplusPlus, or Assembler; there's no support for OpenGL in Rails.</p>
+      description: "<p>Two words seldom heard in the same sentence are Ruby and Graphics...at least without laughter soon following. We've heard it all before: Ruby is too slow; real graphics are done in C, CplusPlus, or Assembler; there's no support for OpenGL in Rails.</p>
 
 <p>The excuses may be many, but the reasons are few.  With JRuby we have access to a tool that bridges the worlds of Java and Ruby.  With Java Native Interface (JNI) we have a bridge to the world between the low level interfaces that rule the bitmapped and bump-mapped world.  Combining the two allows us to use a language we love to tackle problems that used to be the domain of esoteric solutions in low level languages.</p>
 
