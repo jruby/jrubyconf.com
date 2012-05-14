@@ -637,6 +637,7 @@ td.title.not_talk { color: #d6876b; }
 #sponsors .sponsor {
   float: left;
   padding-right: 24px;
+  padding-bottom: 18px;
 }
 
 #sponsors .sponsor img {

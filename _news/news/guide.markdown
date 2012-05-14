@@ -288,3 +288,30 @@ preferred watering hole.
 [Crooked Pint]: http://crookedpint.com/
 [Republic]: http://republicmn.com/
 [Town Hall]: http://www.townhallbrewery.com/
+
+# Thanks to Our Sponsors
+
+Many thanks to all the JRubyConf sponsors for helping us make this event a
+rousing success!
+
+<div id="sponsors">
+  <div class="item sponsor host"><a href="http://www.engineyard.com/" target="_blank"><img src="/images/ey.png" alt="Engine Yard"/></a></div>
+  <div class="item sponsor host"><a href="http://www.edgecase.com/" target="_blank"><img src="/images/edgecase.png" alt="EdgeCase"/></a></div>
+  <div class="item sponsor lsup"><a href="http://www.sendgrid.com/" target="_blank"><img src="/images/sendgrid.png" alt="SendGrid"/></a></div>
+  <div class="item sponsor whisky"><a href="http://www.bruichladdich.com/" target="_blank"><img src="/images/bruichladdich.png" alt="Bruichladdich: Progressive Hebridean Distillers"/></a></div>
+  <div class="item sponsor rlk"><a href="http://www.elctech.com/" target="_blank"><img src="/images/elctech.png" alt="ELC Technologies"/></a></div>
+  <div class="item sponsor rlk"><a href="http://www.zendesk.com/" target="_blank"><img src="/images/zendesk.png" alt="Zendesk"/></a></div>
+  <div class="item sponsor lunch"><a href="http://www.redhat.com/" target="_blank"><img src="/images/redhat-jboss.png" alt="Red Hat"/></a></div>
+  <div class="item sponsor mtka"><a href="http://www.newrelic.com/" target="_blank"><img src="/images/newrelic.png" alt="NewRelic"/></a></div>
+  <div class="item sponsor mtka"><a href="http://www.space150.com/" target="_blank"><img src="/images/space150.jpg" alt="SPACE150"/></a></div>
+  <div class="item sponsor mtka"><a href="http://www.coderow.com/" target="_blank"><img src="/images/coderow.png" alt=":coderow"/></a></div>
+  <div class="item sponsor mtka"><a href="http://www.refactr.com/" target="_blank"><img src="/images/refactr.png" alt="Refactr"/></a></div>
+  <div class="item sponsor mtka"><a href="http://www.gettyimages.com/" target="_blank"><img src="/images/getty_images.png" alt="Getty Images"/></a></div>
+  <div class="item sponsor travel"><a href="http://squareup.com/" target="_blank"><img src="/images/square.png" alt="Square"/></a></div>
+  <div class="item sponsor travel"><a href="http://jungroup.com/" target="_blank"><img src="/images/jun_group.jpg" alt="Jun Group"/></a></div>
+  <div class="item sponsor cal"><a href="http://www.couchbase.com/" target="_blank"><img src="/images/couchbase.png" alt="Couchbase | Simple, Fast, Elastic NoSQL Database"/></a></div>
+  <div class="item sponsor sticker"><a href="http://www.stickermule.com/" target="_blank"><img src="/images/stickermule.png" alt="StickerMule"/></a></div>
+  <div class="item sponsor lanyard"><a href="http://www.8thlight.com/" target="_blank"><img src="/images/8thlight.png" alt="8th Light"/></a></div>
+  <div class="item sponsor media"><a href="http://www.cleancoders.com/" target="_blank"><img src="/images/cleancoders.png" alt="Clean Coders"/></a></div>
+</div>
+
