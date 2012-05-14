@@ -229,7 +229,8 @@ He also contributes to several JRuby projects including TorqueBox and Trinidad.<
 
   ajuckel: {
     name: "Anthony Juckel",
-    avatar: 'default.png',
+    bio: "<p>I've been a software developer for nearly 15 years with extensive experience in Java and OSGi.  Ruby has been more of a hobby, but I've followed the JRuby project for quite some time, contributing as time permits, because I see it as a great way to utilize a language that I love (Ruby) in a corporate environment where Java is firmly entrenched.</p>",
+    avatar: 'ajuckel.jpg',
     twitter: 'ajuckel',
     talk: {
       title: "Getting Started with JRuby",
@@ -239,7 +240,8 @@ He also contributes to several JRuby projects including TorqueBox and Trinidad.<
 
   maxdemarzi: {
     name: "Max De Marzi",
-    avatar: 'default.png',
+    bio: "<p>Max is a developer who found his true calling merging ruby and graph databases. He built the Neography Ruby Gem, a rest api wrapper to the Neo4j Graph Database as well as MadCoder.Tv a Roku channel for developers.</p>",
+    avatar: 'maxdemarzi.png',
     twitter: 'maxdemarzi',
     talk: {
       title: "Intro to Neo4j",
