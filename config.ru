@@ -20,7 +20,6 @@ set :logging, true
 set :dump_errors, true
 
 use DotHtmlRewriter
-use DbConnectionManagement
 run Sinatra::Application
 
 # Local Variables:

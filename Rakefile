@@ -42,29 +42,18 @@ task :server do
   ruby *rackup_cmd
 end
 
-desc "Runs all pre-deployment tasks"
-task :deploy_hook => [:schedule, :generate, :mail_connectivity]
-
-desc "Deploys the site using the engineyard gem"
-task :deploy do
-  Bundler.with_clean_env do
-    sh "ey deploy --environment=jruby_ci --app=jrubyconf --ref=master --migrate"
-  end
-end
-
 task :environment do
   require "environment"
 end
 
 task :test_env do
   ENV['RACK_ENV'] = 'test'
-  rm_f YAML.load_file("config/database.yml")['test']['database']
 end
 
 begin
   namespace :cucumber do
     require 'cucumber/rake/task'
-    task :prereqs => [:test_env, "db:migrate", :deploy_hook]
+    task :prereqs => [:test_env]
     libs = [File.expand_path('../lib', __FILE__)]
 
     desc "Run the @wip features."
@@ -94,22 +83,4 @@ begin
   task :default => "cucumber:all"
 rescue LoadError
   warn "Cucumber not installed; skipping cucumber tasks"
-end
-
-namespace :db do
-  desc "Create/migrate the database to the latest version."
-  task :migrate => :environment do
-    ActiveRecord::Migrator.migrate("db/migrate")
-  end
-end
-
-task :mail_connectivity => :environment do
-  require 'net/smtp'
-  include App::Config
-  smtp = Net::SMTP.new(smtp_host, smtp_port)
-  smtp.enable_starttls_auto
-  smtp.start(smtp_domain, smtp_username, smtp_password, 'plain') do |smtp_obj|
-    print "=+= Checking SMTP config: "
-    smtp_obj.instance_eval { p @capabilities }
-  end
 end

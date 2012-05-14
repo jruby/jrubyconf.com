@@ -3,7 +3,6 @@
 ENV['RACK_ENV'] = 'test'
 
 require 'sinatra'
-require 'mail'
 
 require 'capybara'
 require 'capybara/cucumber'
@@ -14,15 +13,6 @@ module App
   class TestApp
     # Test application setup
     def self.setup_test_config
-      # Mail test setup
-      Mail.defaults do
-        delivery_method :test
-      end
-
-      App::Config::CONFIG['production_site'] = true # pretend we are production
-      App::Config::CONFIG['email_from']  = 'test@example.com'
-      App::Config::CONFIG['email_admin'] = 'admin@example.com'
-
       set :logging, false
       set :dump_errors, false
     end
@@ -39,7 +29,7 @@ Capybara.configure do |config|
   config.default_wait_time = 5
 
   if ENV['STAGING']
-    config.default_wait_time = 20 # higher due to synchronous mail sending
+    config.default_wait_time = 20
     config.run_server = false
     config.app_host = ENV["STAGING"]
     config.default_driver = :webkit
@@ -65,7 +55,6 @@ class Sinatra::ApplicationWorld
   include Capybara::DSL
   include RSpec::Expectations
   include RSpec::Matchers
-  include Mail::Matchers
 
   def main_nav_offscreen
     page.evaluate_script('$("#main_navigation").css("top")') =~ /^-\d+px/
@@ -74,10 +63,6 @@ end
 
 World do
   Sinatra::ApplicationWorld.new
-end
-
-Before do
-  Mail::TestMailer.deliveries.clear
 end
 
 Before('@javascript') do

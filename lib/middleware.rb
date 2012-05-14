@@ -1,18 +1,3 @@
-class DbConnectionManagement
-  def initialize(app)
-    @app = app
-  end
-
-  def call(env)
-    begin
-      @app.call(env)
-    ensure
-      ActiveRecord::Base.clear_reloadable_connections!
-      ActiveRecord::Base.clear_cache!
-    end
-  end
-end
-
 # Implement the following rules:
 # * / => /index.html
 # * RewriteRule ([^.]+)$ $1.html
