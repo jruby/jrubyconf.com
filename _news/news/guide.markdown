@@ -83,7 +83,12 @@ options for you too.
 
 **Menu**
 
-- 
+- Pulled Pork
+- Brisket
+- Mock Duck
+- Vegetarian Beans
+- Fennel slaw in a vinegar dressing
+- Kimchi
 
 ### Wednesday
 
@@ -145,7 +150,7 @@ Food (passed appetizers) will be served at the party, though you may wish to
 have a light dinner beforehand.
 
 In addition to the whisky tasting, we will be featuring tap beer from several
-Twin Cities microbreweries ([Surly][], [Harriet][], [Lucid][], as well as a
+Minneapolis-area microbreweries ([Surly][], [Harriet][], [Lucid][], as well as a
 special guest!). We will also have several enticing non-alcoholic options.
 
 - 7:00pm -- festivities begin
@@ -208,7 +213,7 @@ know where to park the bike!
 
 In addition to the places in the Wednesday lunch list, there are other
 possibilities if you have a little more time to venture out of the Mill District
-by the conference.
+area.
 
 Across the river, the [Northeast](http://www.northeastminneapolis.com/)
 neighborhood is a short walk across the Stone Arch, Third Avenue, or Hennepin
@@ -245,7 +250,7 @@ downtown and are reasonably close by car (and some by foot).
 
 ## Nightlife
 
-Bar closing time in Minneapolis is 2am, though some bars may choose to close
+Bar closing time in Minneapolis is 2 AM, though some bars may choose to close
 earlier on week day evenings. Call or check ahead of time before heading to your
 preferred watering hole.
 
