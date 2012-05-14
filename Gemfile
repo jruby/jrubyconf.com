@@ -17,6 +17,7 @@ gem 'trinidad', :platform => 'jruby'
 gem 'launchy'
 
 group :test, :development do
+  gem 'warbler'
   gem 'cucumber'
   gem 'rspec'
   gem 'cucumber-sinatra'

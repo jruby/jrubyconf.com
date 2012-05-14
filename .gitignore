@@ -9,3 +9,5 @@
 /mails/*
 /_news/_includes/footer.html
 /_config.local.yml
+/jrubyconf.com.jar
+/tmp/JarMain.class

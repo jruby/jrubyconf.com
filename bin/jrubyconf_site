@@ -6,14 +6,53 @@ require "rack"
 require "launchy"
 require "launchyfix19"
 
+if __FILE__ =~ /(.*\.jar)\!/
+  require 'jruby'
+  require 'fileutils'
+  # strip off file: and !/.* parts of jar paths
+  jar_file_name = __FILE__.sub(/file:([^!]+)!.*/, '\1')
+  # Warbler already extracts JRuby jars to a temp dir, if we extract
+  # our files there, they'll be cleaned up for us
+  extract_root = File.dirname(JRuby.runtime.instance_config.jruby_home.sub(/file:([^!]+)!.*/, '\1'))
+
+  puts "Extracting app from #{jar_file_name} to #{extract_root}/app"
+  appdir = File.join(extract_root, "app")
+  FileUtils.mkdir_p(appdir)
+
+  jar_file = java.util.jar.JarFile.new(jar_file_name)
+  jar_file.entries.each do |entry|
+    if entry.name =~ /^jrubyconf\.com/
+      entry_name = entry.name.sub('jrubyconf.com', '')
+      if entry.directory?
+        FileUtils.mkdir_p File.join(appdir, entry_name)
+      else
+        begin
+          entryio = jar_file.get_input_stream(entry).to_io
+          entry_path = File.join(appdir, entry_name)
+          FileUtils.mkdir_p File.dirname(entry_path)
+          File.open(entry_path, "w") {|f| f << entryio.read }
+        ensure
+          entryio.close rescue nil
+        end
+      end
+    end
+  end
+
+else
+  appdir = File.expand_path('../..', __FILE__)
+end
+
+
 t = Thread.new do
-  Rack::Server.start(server:      "trinidad",
-                     environment: ENV['RACK_ENV'],
-                     pid:         nil,
-                     Port:        9292,
-                     Host:        "0.0.0.0",
-                     AccessLog:   [],
-                     config:      "config.ru")
+  Dir.chdir(appdir) do
+    Rack::Server.start(server:      "trinidad",
+                       environment: ENV['RACK_ENV'],
+                       pid:         nil,
+                       Port:        9292,
+                       Host:        "0.0.0.0",
+                       AccessLog:   [],
+                       config:      "config.ru")
+  end
 end
 
 require 'socket'

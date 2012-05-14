@@ -29,6 +29,18 @@ task :test_env do
   ENV['RACK_ENV'] = 'test'
 end
 
+directory 'tmp'
+
+file 'tmp/JarMain.class' => ['tmp', 'src/JarMain.java'] do |t|
+  sh "javac -d tmp #{t.prerequisites.last}"
+end
+
+task :sitejar => 'tmp/JarMain.class' do
+  require 'warbler'
+  Warbler::Task.new
+  Rake::Task['jar'].invoke
+end
+
 begin
   namespace :cucumber do
     require 'cucumber/rake/task'
