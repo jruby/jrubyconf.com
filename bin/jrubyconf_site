@@ -1,0 +1,32 @@
+#!/usr/bin/env ruby
+
+ENV['RACK_ENV'] = 'deployment'
+
+require "rack"
+require "launchy"
+require "launchyfix19"
+
+t = Thread.new do
+  Rack::Server.start(server:      "trinidad",
+                     environment: ENV['RACK_ENV'],
+                     pid:         nil,
+                     Port:        9292,
+                     Host:        "0.0.0.0",
+                     AccessLog:   [],
+                     config:      "config.ru")
+end
+
+require 'socket'
+tries = 5
+begin
+  s = TCPSocket.new 'localhost', 9292
+rescue
+  sleep 2
+  tries -= 1
+  retry unless tries == 0
+ensure
+  s.close if s
+end
+
+Launchy.open "http://localhost:9292/news/guide.html"
+t.join

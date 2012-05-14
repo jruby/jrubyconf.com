@@ -14,11 +14,12 @@ gem 'nokogiri'
 gem 'jruby-openssl', :platform => 'jruby'
 gem 'trinidad', :platform => 'jruby'
 
+gem 'launchy'
+
 group :test, :development do
   gem 'cucumber'
   gem 'rspec'
   gem 'cucumber-sinatra'
   gem 'capybara'
   gem 'capybara-webkit'
-  gem 'launchy'
 end
