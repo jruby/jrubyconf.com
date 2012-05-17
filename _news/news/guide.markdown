@@ -39,7 +39,7 @@ the elevator on your left to level eight. If taking the lobby elevator, exit the
 elevator at level four, walk across to the other elevator, and take it to level
 eight.
 
-We also have the classrooms available on Tuesday and Wednesday for meetings,
+We will also have a classroom available on Tuesday and Wednesday for meetings,
 quiet work, or breakout sessions. They are accessible from the Dowling Studio by
 taking the stairs in the studio lobby down one level.
 
@@ -60,10 +60,18 @@ Due to our catering contract with the Guthrie, we are not allowed to bring in fo
 from outside the premises. If you want to grab a quick bite to eat, check out
 the [Level Five Express][] on (you guessed it) level five.
 
+## Registration
+
+Registration begins at 8 am on Tuesday in the main lobby as you enter the
+Guthrie from Sout 2nd Street.
+
 ## Breakfast
 
-Breakfast, coffee/drinks and snacks will be served in the Dowling Studio lobby
-on level nine.
+Breakfast on Tuesday will be served in the Level Five Cafe on level five. You
+will be directed to the cafe immediately following registration.
+
+Breakfast on Wednesday as well as coffee/drinks and snacks will be served in the
+Dowling Studio lobby on level nine.
 
 ## Lunch
 
