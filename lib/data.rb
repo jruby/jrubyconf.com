@@ -249,6 +249,16 @@ He also contributes to several JRuby projects including TorqueBox and Trinidad.<
 
 <p>We'll cover property graphs, common use cases, domain modeling, algorithms, visualization, gremlin, cypher, deployment to heroku, graph indexing and answer all of your questions.</p>"
     }
+  },
+
+  christian: {
+    name: "Christian Doten",
+    bio: "<p>Christian Doten is co-proprietor of Four Gates Physical and Energetic Culture in South Minneapolis. He is an ACE certified personal trainer, Kettlebell Concepts certified trainer, has an advanced personal training certificate and associates degree in massage therapy and postural/structural assessment from the Swedish Institute of Health Sciences. He is also a certified yoga instructor and a professional skateboarding enthusiast.</p>",
+    avatar: "christian.png",
+    talk: {
+      title: "Practical Movement for the Information Worker",
+      description: ""
+    }
   }
 }
 
