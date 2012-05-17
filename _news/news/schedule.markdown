@@ -30,9 +30,9 @@ title: Schedule
 
 ## Tuesday
 
-### Breakfast
+### Breakfast &amp; Registration
 
--  8:30am -  9:30am
+-  8:00am -  9:15am
 
 
 
@@ -71,13 +71,11 @@ Surely something JRuby-ish.
 
 
 
-### Double Rainbow testing with JRuby and rspec-given
+### TBA
 
 -  1:30pm -  2:00pm
-- Carin Meier
 
-<p>Bring happiness to your Java project and to your developers by introducing JRuby and rspec-given.</p>
-<p>JRuby testing is a easy, low stress, and fun way to expose your team to the blessings of a dynamic language with seamless Java interoperability. The rspec-given gem lets you write concise tests with a syntax that brings clarity and joy to the testing process. We will explore some practical examples of incorporating both JRuby and rspec-given into a sample project and experience the double rainbow.</p>
+
 
 ### Deploying JRuby Web Applications
 
@@ -90,27 +88,34 @@ Surely something JRuby-ish.
 
 ### Agile Business Development
 
--  3:00pm -  3:30pm
+-  2:45pm -  3:15pm
 - Sarah Allen
 
 <p>Test-driven development is mom-and-apple-pie to Rubyists, but knowing that a product will work goes well beyond bug-free code. How do you catch a design flaw early when all your tests are green?  We'll look at some techniques for vetting your go-to-market strategy and other things you should be doing *before* you start writing code.</p>
 
 ### Open (Source) Wounds
 
--  3:30pm -  4:00pm
+-  3:15pm -  3:45pm
 - Jim Remsik
 
 <p>This talk will seek to raise recognition in our community to the fact that there are real people behind Open Source Software. We'll analyze the black box retrieved from the wreckage of well-known community disagreements. Suggest how to move the conversation forward as well as discuss tools and techniques for diffusing potentially explosive situations.</p>
 
-### Break out sessions
+### Practical Movement for the Knowledge Worker
 
--  4:00pm -  5:30pm
+-  3:45pm -  4:15pm
+- Christian Doten
+
+
+
+### Break/Snacks
+
+-  4:15pm -  4:30pm
 
 
 
 ### Lightning talks
 
--  4:15pm -  5:30pm
+-  4:30pm -  5:30pm
 
 
 
@@ -175,7 +180,7 @@ Surely something JRuby-ish.
 - 11:45am - 12:15pm
 - Randall Thomas, Tammer Saleh
 
-<p>Two words seldom heard in the same sentence are Ruby and Graphics… at least without laughter soon following. We've heard it all before: Ruby is too slow; real graphics are done in C, CplusPlus, or Assembler; there's no support for OpenGL in Rails.</p>
+<p>Two words seldom heard in the same sentence are Ruby and Graphics...at least without laughter soon following. We've heard it all before: Ruby is too slow; real graphics are done in C, CplusPlus, or Assembler; there's no support for OpenGL in Rails.</p>
 
 <p>The excuses may be many, but the reasons are few.  With JRuby we have access to a tool that bridges the worlds of Java and Ruby.  With Java Native Interface (JNI) we have a bridge to the world between the low level interfaces that rule the bitmapped and bump-mapped world.  Combining the two allows us to use a language we love to tackle problems that used to be the domain of esoteric solutions in low level languages.</p>
 

@@ -70,20 +70,6 @@ SPEAKERS = {
     }
   },
 
-  carinmeier: {
-    name: "Carin Meier",
-    avatar: "carin_meier.jpg",
-    bio: "<p>Carin is a software developer at EdgeCase. She started off as a professional ballet dancer, studied Physics in college, and has been developing software for both the enterprise and entrepreneur for the past 15 years. She comes from a solid Java background, but has discovered a passion for the simplicity, power, and elegance of Ruby and Clojure. She brings fun, enthusiasm, and hot tea to all her software projects and especially enjoys participating in the Open Source community.</p>
-
-<p>She lives in Cincinnati, OH with her husband and two young children. When left to daydream, she thinks of the dynamics of flocks of birds, what the Giant Squids might really be doing down there in the deep, and maybe opening a first-rate cheese shop one day.</p>",
-    twitter: "carinmeier",
-    talk: {
-      title: "Double Rainbow testing with JRuby and rspec-given",
-      description: "<p>Bring happiness to your Java project and to your developers by introducing JRuby and rspec-given.</p>
-<p>JRuby testing is a easy, low stress, and fun way to expose your team to the blessings of a dynamic language with seamless Java interoperability. The rspec-given gem lets you write concise tests with a syntax that brings clarity and joy to the testing process. We will explore some practical examples of incorporating both JRuby and rspec-given into a sample project and experience the double rainbow.</p>"
-    }
-  },
-
   rthomas: {
     name: "Randall Thomas",
     bio: "<p>Randall Thomas is a classically trained musician that took one too many calculus classes along the way and got sucked into the sciences. Being both blessed and cursed with a strange form of technology ADD, he's worked in various industries with numerous startups covering everything from robotics, to low level telecommunications & networking to applied computing for stock trading systems.</p><p>Randall is an internationally renowned speaker on practical data mining techniques and the business of startups.</p><p>When not glued to a computer Randall is likely lost in book or on a running trail wondering if he will get to the end of either.</p>",
@@ -256,7 +242,7 @@ He also contributes to several JRuby projects including TorqueBox and Trinidad.<
     bio: "<p>Christian Doten is co-proprietor of Four Gates Physical and Energetic Culture in South Minneapolis. He is an ACE certified personal trainer, Kettlebell Concepts certified trainer, has an advanced personal training certificate and associates degree in massage therapy and postural/structural assessment from the Swedish Institute of Health Sciences. He is also a certified yoga instructor and a professional skateboarding enthusiast.</p>",
     avatar: "christian.png",
     talk: {
-      title: "Practical Movement for the Information Worker",
+      title: "Practical Movement for the Knowledge Worker",
       description: ""
     }
   }
