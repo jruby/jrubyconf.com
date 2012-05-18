@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JRubyConf 2012&mdash;May 21-23&mdash;Minneapolis, MN</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <% if development? || test? %><script src="/javascripts/jquery-1.7.1.js"></script><% else %>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script></script><% end %>
+    <script src="<%= asset_with_revision('/javascripts/jquery.dateFormat-1.0.js') %>"></script>
+    <script src="<%= asset_with_revision('/javascripts/dashboard.js') %>"></script>
+    <script src="<%= asset_with_revision('/javascripts/footer.js') %>"></script>
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="stylesheet" media="all" href="<%= asset_with_revision('/stylesheets/screen.css') %>">
+    <link rel="alternate" type="application/atom+xml" title="Atom" href="/atom.xml">
+    <% unless development? || test? %><script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-28652213-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script><% end %>
+  </head>
+  <body>
+    <div id="container">
+
+      <div id="content">
+        <%= yield %>
+      </div> <!-- /#content -->
+
+      <%= erb :footer %>
+    </div> <!-- /#container -->
+  </body>
+</html>

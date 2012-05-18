@@ -74,3 +74,7 @@ end
 get '/speakers/info' do
   erb :speaker_info
 end
+
+get '/p/dashboard' do
+  erb :dashboard, :layout => :db
+end

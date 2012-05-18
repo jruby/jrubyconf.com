@@ -1,26 +1,26 @@
 /* @license
  * MyFonts Webfont Build ID 1847809, 2012-01-05T10:00:39-0500
- * 
+ *
  * The fonts listed in this notice are subject to the End User License
- * Agreement(s) entered into by the website owner. All other parties are 
+ * Agreement(s) entered into by the website owner. All other parties are
  * explicitly restricted from using the Licensed /fonts(s).
- * 
+ *
  * You may obtain a valid license at the URLs below.
- * 
+ *
  * Webfont: Brown Bold by ShinnType
  * URL: http://www.myfonts.com/fonts/shinn/brown/bold/
- * 
+ *
  * Webfont: Brown Regular by ShinnType
  * URL: http://www.myfonts.com/fonts/shinn/brown/regular/
- * 
- * 
+ *
+ *
  * License: http://www.myfonts.com/viewlicense?type=web&buildid=1847809
  * Licensed pageviews: 20,000
  * /fonts copyright: Brown is a trademark of Shinn Type Foundry. Brown is published by Shinn Type Foundry. Copyright© 2002 by Nick Shinn.
- * 
+ *
  * © 2012 Bitstream Inc
-*/  
- @font-face {font-family: 'BrownBold';src: url('/fonts/1C3201_0_0.eot');src: url('/fonts/1C3201_0_0.eot?#iefix') format('embedded-opentype'),url('/fonts/1C3201_0_0.woff') format('woff'),url('/fonts/1C3201_0_0.ttf') format('truetype');}  
+*/
+ @font-face {font-family: 'BrownBold';src: url('/fonts/1C3201_0_0.eot');src: url('/fonts/1C3201_0_0.eot?#iefix') format('embedded-opentype'),url('/fonts/1C3201_0_0.woff') format('woff'),url('/fonts/1C3201_0_0.ttf') format('truetype');}
  @font-face {font-family: 'Brown';src: url('/fonts/1C3201_1_0.eot');src: url('/fonts/1C3201_1_0.eot?#iefix') format('embedded-opentype'),url('/fonts/1C3201_1_0.woff') format('woff'),url('/fonts/1C3201_1_0.ttf') format('truetype');}
 
 html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;margin:0;padding:0;font-weight:normal;}
@@ -311,7 +311,7 @@ em { font-family: 'BrownBold'; font-style: normal; }
   top         : 210px;
   left        : 50%;
   width       : 960px;
-  margin-left :-480px;  
+  margin-left :-480px;
 }
 
 #information .column {
@@ -371,7 +371,7 @@ em { font-family: 'BrownBold'; font-style: normal; }
   font-size   : 2.5em;
 }
 
-#speakers_listing { 
+#speakers_listing {
   position    : relative;
   padding-top : 80px;
 }
@@ -500,7 +500,7 @@ td.title.not_talk { color: #d6876b; }
   top         : 210px;
   left        : 50%;
   width       : 960px;
-  margin-left :-480px;  
+  margin-left :-480px;
 }
 
 #proposals h1 {
@@ -603,7 +603,7 @@ td.title.not_talk { color: #d6876b; }
   top         : 180px;
   left        : 50%;
   width       : 960px;
-  margin-left :-480px;  
+  margin-left :-480px;
   font-size: 1.4em;
 }
 
@@ -697,6 +697,64 @@ td.title.not_talk { color: #d6876b; }
 
 #static .content p {
   margin-bottom: 24px;
+}
+
+/* Dashboard */
+
+#dashboard .content {
+  position    : absolute;
+  top         : 100px;
+  left        : 50%;
+  width       : 960px;
+  margin-left :-480px;
+}
+
+#dashboard .content .pane {
+  background-color: #f0e9d3;
+  -moz-box-shadow: 10px 10px 5px rgba(136,136,136,0.5);
+  -webkit-box-shadow: 10px 10px 5px rgba(136,136,136,0.5);
+  box-shadow: 10px 10px 5px rgba(136,136,136,0.5);
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+#dashboard #date {
+  position: absolute;
+  top: 0px;
+  width: 200px;
+  height: 80px;
+}
+
+#dashboard #time {
+  font: 5em 'BrownBold', helvetica, arial, sans-serif;
+}
+
+#dashboard #day {
+  font-size: 2em;
+}
+
+#dashboard #nextup {
+  position: absolute;
+  top: 0px;
+  left: 260px;
+  width: 660px;
+  height: 80px;
+  font-size: 2em;
+}
+
+#dashboard #tweet {
+  position: absolute;
+  top: 140px;
+  left: 0px;
+  width: 420px;
+}
+
+#dashboard #photo {
+  position: absolute;
+  top: 140px;
+  left: 500px;
+  width: 420px;
 }
 
 /* Misc: buttons, rotations */
