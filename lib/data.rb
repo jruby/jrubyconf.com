@@ -239,11 +239,23 @@ He also contributes to several JRuby projects including TorqueBox and Trinidad.<
 
   christian: {
     name: "Christian Doten",
+    title: "Shaman at Four Gates",
     bio: "<p>Christian Doten is co-proprietor of Four Gates Physical and Energetic Culture in South Minneapolis. He is an ACE certified personal trainer, Kettlebell Concepts certified trainer, has an advanced personal training certificate and associates degree in massage therapy and postural/structural assessment from the Swedish Institute of Health Sciences. He is also a certified yoga instructor and a professional skateboarding enthusiast.</p>",
     avatar: "christian.png",
     talk: {
       title: "Practical Movement for the Knowledge Worker",
       description: ""
+    }
+  },
+
+  undees: {
+    name: "Ian Dees",
+    bio: '<p>By day, Ian Dees slings code, tests, and puns at a Portland-area test equipment manufacturer. By night, he dons a cape and keeps watch as Sidekick Man, protecting the city from closet monsters. Ian is the author of "Scripted GUI Testing With Ruby" and co-author of the upcoming "Using JRuby."</p>',
+    avatar: "undees.png",
+    twitter: "undees",
+    talk: {
+      title: "JRuby and Rubinius: Thnad's Revenge",
+      description: "<p>At last year's JRubyConf, we talked about Thnad, a fictional programming language. Thnad served as a vehicle to explore the joy of building a compiler using JRuby, BiteScript, Parslet, and other tools. Now, Thnad is back with a second runtime: Rubinius.  Come see the Rubinius environment through JRuby eyes.  Together, we'll see how to grapple with multiple instruction sets and juggle contexts without going cross-eyed.</p>"
     }
   }
 }

@@ -71,11 +71,12 @@ Surely something JRuby-ish.
 
 
 
-### TBA
+### JRuby and Rubinius: Thnad's Revenge
 
 -  1:30pm -  2:00pm
+- Ian Dees
 
-
+<p>At last year's JRubyConf, we talked about Thnad, a fictional programming language. Thnad served as a vehicle to explore the joy of building a compiler using JRuby, BiteScript, Parslet, and other tools. Now, Thnad is back with a second runtime: Rubinius.  Come see the Rubinius environment through JRuby eyes.  Together, we'll see how to grapple with multiple instruction sets and juggle contexts without going cross-eyed.</p>
 
 ### Deploying JRuby Web Applications
 
