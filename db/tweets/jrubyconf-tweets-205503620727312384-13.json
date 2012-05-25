@@ -1,0 +1,5967 @@
+{
+  "completed_in": 0.096,
+  "max_id": 205503620727312384,
+  "max_id_str": "205503620727312384",
+  "next_page": "?page=14&max_id=205503620727312384&q=jrubyconf&rpp=100&include_entities=1&result_type=recent",
+  "previous_page": "?page=12&max_id=205503620727312384&q=jrubyconf&rpp=100&include_entities=1&result_type=recent",
+  "page": 13,
+  "query": "jrubyconf",
+  "refresh_url": "?since_id=205503620727312384&q=jrubyconf&result_type=recent&include_entities=1",
+  "results": [
+    {
+      "created_at": "Mon, 21 May 2012 20:23:21 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+          {
+            "url": "http://t.co/LibXw4oZ",
+            "expanded_url": "http://www.jruby.org/download",
+            "display_url": "jruby.org/download",
+            "indices": [
+              111,
+              131
+            ]
+          }
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "jruby",
+            "name": "JRuby Dev Team",
+            "id": 16132186,
+            "id_str": "16132186",
+            "indices": [
+              3,
+              9
+            ]
+          },
+          {
+            "screen_name": "JRubyConf",
+            "name": "JRubyConf",
+            "id": 71363379,
+            "id_str": "71363379",
+            "indices": [
+              99,
+              109
+            ]
+          }
+        ]
+      },
+      "from_user": "ebarendt",
+      "from_user_id": 7909812,
+      "from_user_id_str": "7909812",
+      "from_user_name": "Eric Barendt",
+      "geo": null,
+      "id": 204668724102438914,
+      "id_str": "204668724102438914",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/1209387259/8a27208b-d1b5-4eab-b7a8-b1654ad52843_normal.png",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/1209387259/8a27208b-d1b5-4eab-b7a8-b1654ad52843_normal.png",
+      "source": "&lt;a href=&quot;http://itunes.apple.com/us/app/twitter/id409789998?mt=12&quot; rel=&quot;nofollow&quot;&gt;Twitter for Mac&lt;/a&gt;",
+      "text": "RT @jruby: JRuby 1.7.0.preview1 is out. First release with invokedynamic support! Just in time for @jrubyconf: http://t.co/LibXw4oZ",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 20:17:58 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+          {
+            "url": "http://t.co/LibXw4oZ",
+            "expanded_url": "http://www.jruby.org/download",
+            "display_url": "jruby.org/download",
+            "indices": [
+              111,
+              131
+            ]
+          }
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "jruby",
+            "name": "JRuby Dev Team",
+            "id": 16132186,
+            "id_str": "16132186",
+            "indices": [
+              3,
+              9
+            ]
+          },
+          {
+            "screen_name": "JRubyConf",
+            "name": "JRubyConf",
+            "id": 71363379,
+            "id_str": "71363379",
+            "indices": [
+              99,
+              109
+            ]
+          }
+        ]
+      },
+      "from_user": "goyox86",
+      "from_user_id": 15101903,
+      "from_user_id_str": "15101903",
+      "from_user_name": "goyox86",
+      "geo": null,
+      "id": 204667371867209728,
+      "id_str": "204667371867209728",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/1766851035/image1326999945_normal.png",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/1766851035/image1326999945_normal.png",
+      "source": "&lt;a href=&quot;http://itunes.apple.com/us/app/twitter/id409789998?mt=12&quot; rel=&quot;nofollow&quot;&gt;Twitter for Mac&lt;/a&gt;",
+      "text": "RT @jruby: JRuby 1.7.0.preview1 is out. First release with invokedynamic support! Just in time for @jrubyconf: http://t.co/LibXw4oZ",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 20:17:35 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+          {
+            "url": "http://t.co/LibXw4oZ",
+            "expanded_url": "http://www.jruby.org/download",
+            "display_url": "jruby.org/download",
+            "indices": [
+              111,
+              131
+            ]
+          }
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "jruby",
+            "name": "JRuby Dev Team",
+            "id": 16132186,
+            "id_str": "16132186",
+            "indices": [
+              3,
+              9
+            ]
+          },
+          {
+            "screen_name": "JRubyConf",
+            "name": "JRubyConf",
+            "id": 71363379,
+            "id_str": "71363379",
+            "indices": [
+              99,
+              109
+            ]
+          }
+        ]
+      },
+      "from_user": "LVRUG",
+      "from_user_id": 326622887,
+      "from_user_id_str": "326622887",
+      "from_user_name": "Las Vegas Ruby Group",
+      "geo": null,
+      "id": 204667275800879106,
+      "id_str": "204667275800879106",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/2185257069/lvrug_ruby_icon_2012_normal.png",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/2185257069/lvrug_ruby_icon_2012_normal.png",
+      "source": "&lt;a href=&quot;http://itunes.apple.com/us/app/twitter/id409789998?mt=12&quot; rel=&quot;nofollow&quot;&gt;Twitter for Mac&lt;/a&gt;",
+      "text": "RT @jruby: JRuby 1.7.0.preview1 is out. First release with invokedynamic support! Just in time for @jrubyconf: http://t.co/LibXw4oZ",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 20:15:14 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+          {
+            "url": "http://t.co/LibXw4oZ",
+            "expanded_url": "http://www.jruby.org/download",
+            "display_url": "jruby.org/download",
+            "indices": [
+              111,
+              131
+            ]
+          }
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "jruby",
+            "name": "JRuby Dev Team",
+            "id": 16132186,
+            "id_str": "16132186",
+            "indices": [
+              3,
+              9
+            ]
+          },
+          {
+            "screen_name": "JRubyConf",
+            "name": "JRubyConf",
+            "id": 71363379,
+            "id_str": "71363379",
+            "indices": [
+              99,
+              109
+            ]
+          }
+        ]
+      },
+      "from_user": "w1150n",
+      "from_user_id": 7305662,
+      "from_user_id_str": "7305662",
+      "from_user_name": "Matthew",
+      "geo": null,
+      "id": 204666683682594816,
+      "id_str": "204666683682594816",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/52881884/Photo_13_normal.jpg",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/52881884/Photo_13_normal.jpg",
+      "source": "&lt;a href=&quot;http://itunes.apple.com/us/app/twitter/id409789998?mt=12&quot; rel=&quot;nofollow&quot;&gt;Twitter for Mac&lt;/a&gt;",
+      "text": "RT @jruby: JRuby 1.7.0.preview1 is out. First release with invokedynamic support! Just in time for @jrubyconf: http://t.co/LibXw4oZ",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 20:15:11 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+          {
+            "url": "http://t.co/B0LTFt4H",
+            "expanded_url": "http://www.jruby.org/download",
+            "display_url": "jruby.org/download",
+            "indices": [
+              125,
+              145
+            ]
+          }
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "jedisct1",
+            "name": "Frank Denis",
+            "id": 17396038,
+            "id_str": "17396038",
+            "indices": [
+              3,
+              12
+            ]
+          },
+          {
+            "screen_name": "jruby",
+            "name": "JRuby Dev Team",
+            "id": 16132186,
+            "id_str": "16132186",
+            "indices": [
+              17,
+              23
+            ]
+          },
+          {
+            "screen_name": "JRubyConf",
+            "name": "JRubyConf",
+            "id": 71363379,
+            "id_str": "71363379",
+            "indices": [
+              113,
+              123
+            ]
+          }
+        ]
+      },
+      "from_user": "SwiftAlphaOne",
+      "from_user_id": 42813580,
+      "from_user_id_str": "42813580",
+      "from_user_name": "Swift",
+      "geo": null,
+      "id": 204666669161922562,
+      "id_str": "204666669161922562",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/1689583844/profilepic2_normal.jpeg",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/1689583844/profilepic2_normal.jpeg",
+      "source": "&lt;a href=&quot;http://www.echofon.com/&quot; rel=&quot;nofollow&quot;&gt;Echofon&lt;/a&gt;",
+      "text": "RT @jedisct1: RT @jruby: JRuby 1.7.0.preview1 is out. First release with invokedynamic support! Just in time for @jrubyconf: http://t.co/B0LTFt4H",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 20:10:42 +0000",
+      "entities": {
+        "hashtags": [
+          {
+            "text": "neo4j",
+            "indices": [
+              3,
+              9
+            ]
+          },
+          {
+            "text": "jrubyconf",
+            "indices": [
+              50,
+              60
+            ]
+          }
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "maxdemarzi",
+            "name": "Max De Marzi",
+            "id": 19249274,
+            "id_str": "19249274",
+            "indices": [
+              24,
+              35
+            ]
+          },
+          {
+            "screen_name": "ronge",
+            "name": "Andreas Ronge",
+            "id": 15021487,
+            "id_str": "15021487",
+            "indices": [
+              40,
+              46
+            ]
+          }
+        ]
+      },
+      "from_user": "tychobrailleur",
+      "from_user_id": 237189775,
+      "from_user_id_str": "237189775",
+      "from_user_name": "Seb Le Callonnec",
+      "geo": null,
+      "id": 204665540629889024,
+      "id_str": "204665540629889024",
+      "iso_language_code": "sv",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/1234812525/3d857e12d234c585de25ae1be1297ad0_normal.png",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/1234812525/3d857e12d234c585de25ae1be1297ad0_normal.png",
+      "source": "&lt;a href=&quot;http://hotot.org&quot; rel=&quot;nofollow&quot;&gt;Hotot&lt;/a&gt;",
+      "text": "At #neo4j workshop with @maxdemarzi and @ronge at #jrubyconf och det är jättebra!!",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 20:10:34 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+          {
+            "url": "http://t.co/B0LTFt4H",
+            "expanded_url": "http://www.jruby.org/download",
+            "display_url": "jruby.org/download",
+            "indices": [
+              111,
+              131
+            ]
+          }
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "jruby",
+            "name": "JRuby Dev Team",
+            "id": 16132186,
+            "id_str": "16132186",
+            "indices": [
+              3,
+              9
+            ]
+          },
+          {
+            "screen_name": "JRubyConf",
+            "name": "JRubyConf",
+            "id": 71363379,
+            "id_str": "71363379",
+            "indices": [
+              99,
+              109
+            ]
+          }
+        ]
+      },
+      "from_user": "jedisct1",
+      "from_user_id": 17396038,
+      "from_user_id_str": "17396038",
+      "from_user_name": "Frank Denis",
+      "geo": null,
+      "id": 204665508296007680,
+      "id_str": "204665508296007680",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/64543895/cv_normal.jpg",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/64543895/cv_normal.jpg",
+      "source": "&lt;a href=&quot;http://www.echofon.com/&quot; rel=&quot;nofollow&quot;&gt;Echofon&lt;/a&gt;",
+      "text": "RT @jruby: JRuby 1.7.0.preview1 is out. First release with invokedynamic support! Just in time for @jrubyconf: http://t.co/B0LTFt4H",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 20:09:27 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+          {
+            "url": "http://t.co/avwMYleP",
+            "expanded_url": "http://www.jruby.org/download",
+            "display_url": "jruby.org/download",
+            "indices": [
+              108,
+              128
+            ]
+          }
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "jruby",
+            "name": "JRuby Dev Team",
+            "id": 16132186,
+            "id_str": "16132186",
+            "indices": [
+              1,
+              7
+            ]
+          },
+          {
+            "screen_name": "JRubyConf",
+            "name": "JRubyConf",
+            "id": 71363379,
+            "id_str": "71363379",
+            "indices": [
+              96,
+              106
+            ]
+          }
+        ]
+      },
+      "from_user": "morksDE",
+      "from_user_id": 100727679,
+      "from_user_id_str": "100727679",
+      "from_user_name": "/\\/\\orkS",
+      "geo": null,
+      "id": 204665226812076032,
+      "id_str": "204665226812076032",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/1209507415/tux49_normal.png",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/1209507415/tux49_normal.png",
+      "source": "&lt;a href=&quot;http://levelupstudio.com/plume&quot; rel=&quot;nofollow&quot;&gt;Plume for Android&lt;/a&gt;",
+      "text": "“@jruby JRuby 1.7.0.preview1 is out. First release with invokedynamic support! Just in time for @jrubyconf: http://t.co/avwMYleP”",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 20:08:28 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+          {
+            "url": "http://t.co/LibXw4oZ",
+            "expanded_url": "http://www.jruby.org/download",
+            "display_url": "jruby.org/download",
+            "indices": [
+              111,
+              131
+            ]
+          }
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "jruby",
+            "name": "JRuby Dev Team",
+            "id": 16132186,
+            "id_str": "16132186",
+            "indices": [
+              3,
+              9
+            ]
+          },
+          {
+            "screen_name": "JRubyConf",
+            "name": "JRubyConf",
+            "id": 71363379,
+            "id_str": "71363379",
+            "indices": [
+              99,
+              109
+            ]
+          }
+        ]
+      },
+      "from_user": "marek_jelen",
+      "from_user_id": 18667883,
+      "from_user_id_str": "18667883",
+      "from_user_name": "Marek Jelen",
+      "geo": null,
+      "id": 204664980174409729,
+      "id_str": "204664980174409729",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/1605687382/fotog_normal.png",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/1605687382/fotog_normal.png",
+      "source": "&lt;a href=&quot;http://itunes.apple.com/us/app/twitter/id409789998?mt=12&quot; rel=&quot;nofollow&quot;&gt;Twitter for Mac&lt;/a&gt;",
+      "text": "RT @jruby: JRuby 1.7.0.preview1 is out. First release with invokedynamic support! Just in time for @jrubyconf: http://t.co/LibXw4oZ",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 20:08:03 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+          {
+            "url": "http://t.co/LibXw4oZ",
+            "expanded_url": "http://www.jruby.org/download",
+            "display_url": "jruby.org/download",
+            "indices": [
+              111,
+              131
+            ]
+          }
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "jruby",
+            "name": "JRuby Dev Team",
+            "id": 16132186,
+            "id_str": "16132186",
+            "indices": [
+              3,
+              9
+            ]
+          },
+          {
+            "screen_name": "JRubyConf",
+            "name": "JRubyConf",
+            "id": 71363379,
+            "id_str": "71363379",
+            "indices": [
+              99,
+              109
+            ]
+          }
+        ]
+      },
+      "from_user": "robdaemon",
+      "from_user_id": 14149400,
+      "from_user_id_str": "14149400",
+      "from_user_name": "Rob Roland",
+      "geo": null,
+      "id": 204664874050125824,
+      "id_str": "204664874050125824",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/2200890748/564275_10150737304922413_677792412_9783952_1501202313_n_normal.jpg",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/2200890748/564275_10150737304922413_677792412_9783952_1501202313_n_normal.jpg",
+      "source": "&lt;a href=&quot;http://itunes.apple.com/us/app/twitter/id409789998?mt=12&quot; rel=&quot;nofollow&quot;&gt;Twitter for Mac&lt;/a&gt;",
+      "text": "RT @jruby: JRuby 1.7.0.preview1 is out. First release with invokedynamic support! Just in time for @jrubyconf: http://t.co/LibXw4oZ",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 20:06:26 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+          {
+            "url": "http://t.co/LibXw4oZ",
+            "expanded_url": "http://www.jruby.org/download",
+            "display_url": "jruby.org/download",
+            "indices": [
+              111,
+              131
+            ]
+          }
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "jruby",
+            "name": "JRuby Dev Team",
+            "id": 16132186,
+            "id_str": "16132186",
+            "indices": [
+              3,
+              9
+            ]
+          },
+          {
+            "screen_name": "JRubyConf",
+            "name": "JRubyConf",
+            "id": 71363379,
+            "id_str": "71363379",
+            "indices": [
+              99,
+              109
+            ]
+          }
+        ]
+      },
+      "from_user": "abedra",
+      "from_user_id": 8839052,
+      "from_user_id_str": "8839052",
+      "from_user_name": "Aaron Bedra",
+      "geo": null,
+      "id": 204664470205759490,
+      "id_str": "204664470205759490",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/461635516/3592987818_69bd4b655e_b_normal.jpg",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/461635516/3592987818_69bd4b655e_b_normal.jpg",
+      "source": "&lt;a href=&quot;http://itunes.apple.com/us/app/twitter/id409789998?mt=12&quot; rel=&quot;nofollow&quot;&gt;Twitter for Mac&lt;/a&gt;",
+      "text": "RT @jruby: JRuby 1.7.0.preview1 is out. First release with invokedynamic support! Just in time for @jrubyconf: http://t.co/LibXw4oZ",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 20:06:07 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+          {
+            "url": "http://t.co/LibXw4oZ",
+            "expanded_url": "http://www.jruby.org/download",
+            "display_url": "jruby.org/download",
+            "indices": [
+              111,
+              131
+            ]
+          }
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "jruby",
+            "name": "JRuby Dev Team",
+            "id": 16132186,
+            "id_str": "16132186",
+            "indices": [
+              3,
+              9
+            ]
+          },
+          {
+            "screen_name": "JRubyConf",
+            "name": "JRubyConf",
+            "id": 71363379,
+            "id_str": "71363379",
+            "indices": [
+              99,
+              109
+            ]
+          }
+        ]
+      },
+      "from_user": "fxposter",
+      "from_user_id": 9013972,
+      "from_user_id_str": "9013972",
+      "from_user_name": "fxposter",
+      "geo": null,
+      "id": 204664391055052801,
+      "id_str": "204664391055052801",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/52902404/fxposter_normal.jpg",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/52902404/fxposter_normal.jpg",
+      "source": "&lt;a href=&quot;http://itunes.apple.com/us/app/twitter/id409789998?mt=12&quot; rel=&quot;nofollow&quot;&gt;Twitter for Mac&lt;/a&gt;",
+      "text": "RT @jruby: JRuby 1.7.0.preview1 is out. First release with invokedynamic support! Just in time for @jrubyconf: http://t.co/LibXw4oZ",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 20:05:48 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+          {
+            "url": "http://t.co/LibXw4oZ",
+            "expanded_url": "http://www.jruby.org/download",
+            "display_url": "jruby.org/download",
+            "indices": [
+              111,
+              131
+            ]
+          }
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "jruby",
+            "name": "JRuby Dev Team",
+            "id": 16132186,
+            "id_str": "16132186",
+            "indices": [
+              3,
+              9
+            ]
+          },
+          {
+            "screen_name": "JRubyConf",
+            "name": "JRubyConf",
+            "id": 71363379,
+            "id_str": "71363379",
+            "indices": [
+              99,
+              109
+            ]
+          }
+        ]
+      },
+      "from_user": "hiro_asari",
+      "from_user_id": 14284130,
+      "from_user_id_str": "14284130",
+      "from_user_name": "Hiro Asari",
+      "geo": null,
+      "id": 204664310989979649,
+      "id_str": "204664310989979649",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/1363742264/mugshot_normal.jpg",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/1363742264/mugshot_normal.jpg",
+      "source": "&lt;a href=&quot;http://itunes.apple.com/us/app/twitter/id409789998?mt=12&quot; rel=&quot;nofollow&quot;&gt;Twitter for Mac&lt;/a&gt;",
+      "text": "RT @jruby: JRuby 1.7.0.preview1 is out. First release with invokedynamic support! Just in time for @jrubyconf: http://t.co/LibXw4oZ",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 20:04:30 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+          {
+            "url": "http://t.co/LibXw4oZ",
+            "expanded_url": "http://www.jruby.org/download",
+            "display_url": "jruby.org/download",
+            "indices": [
+              111,
+              131
+            ]
+          }
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "jruby",
+            "name": "JRuby Dev Team",
+            "id": 16132186,
+            "id_str": "16132186",
+            "indices": [
+              3,
+              9
+            ]
+          },
+          {
+            "screen_name": "JRubyConf",
+            "name": "JRubyConf",
+            "id": 71363379,
+            "id_str": "71363379",
+            "indices": [
+              99,
+              109
+            ]
+          }
+        ]
+      },
+      "from_user": "takimoto3",
+      "from_user_id": 60925415,
+      "from_user_id_str": "60925415",
+      "from_user_name": "Takimoto",
+      "geo": null,
+      "id": 204663982890565633,
+      "id_str": "204663982890565633",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/sticky/default_profile_images/default_profile_5_normal.png",
+      "profile_image_url_https": "https://si0.twimg.com/sticky/default_profile_images/default_profile_5_normal.png",
+      "source": "&lt;a href=&quot;http://itunes.apple.com/us/app/twitter/id409789998?mt=12&quot; rel=&quot;nofollow&quot;&gt;Twitter for Mac&lt;/a&gt;",
+      "text": "RT @jruby: JRuby 1.7.0.preview1 is out. First release with invokedynamic support! Just in time for @jrubyconf: http://t.co/LibXw4oZ",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 20:03:20 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+          {
+            "url": "http://t.co/LibXw4oZ",
+            "expanded_url": "http://www.jruby.org/download",
+            "display_url": "jruby.org/download",
+            "indices": [
+              111,
+              131
+            ]
+          }
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "jruby",
+            "name": "JRuby Dev Team",
+            "id": 16132186,
+            "id_str": "16132186",
+            "indices": [
+              3,
+              9
+            ]
+          },
+          {
+            "screen_name": "JRubyConf",
+            "name": "JRubyConf",
+            "id": 71363379,
+            "id_str": "71363379",
+            "indices": [
+              99,
+              109
+            ]
+          }
+        ]
+      },
+      "from_user": "nahi",
+      "from_user_id": 5626592,
+      "from_user_id_str": "5626592",
+      "from_user_name": "Hiroshi Nakamura",
+      "geo": null,
+      "id": 204663688437825537,
+      "id_str": "204663688437825537",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/1377550475/DSC_7014_middle_normal.jpg",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/1377550475/DSC_7014_middle_normal.jpg",
+      "source": "&lt;a href=&quot;http://itunes.apple.com/us/app/twitter/id409789998?mt=12&quot; rel=&quot;nofollow&quot;&gt;Twitter for Mac&lt;/a&gt;",
+      "text": "RT @jruby: JRuby 1.7.0.preview1 is out. First release with invokedynamic support! Just in time for @jrubyconf: http://t.co/LibXw4oZ",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 20:02:21 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+          {
+            "url": "http://t.co/LibXw4oZ",
+            "expanded_url": "http://www.jruby.org/download",
+            "display_url": "jruby.org/download",
+            "indices": [
+              111,
+              131
+            ]
+          }
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "jruby",
+            "name": "JRuby Dev Team",
+            "id": 16132186,
+            "id_str": "16132186",
+            "indices": [
+              3,
+              9
+            ]
+          },
+          {
+            "screen_name": "JRubyConf",
+            "name": "JRubyConf",
+            "id": 71363379,
+            "id_str": "71363379",
+            "indices": [
+              99,
+              109
+            ]
+          }
+        ]
+      },
+      "from_user": "iain_nl",
+      "from_user_id": 14214888,
+      "from_user_id_str": "14214888",
+      "from_user_name": "Iain Hecker",
+      "geo": null,
+      "id": 204663440407666688,
+      "id_str": "204663440407666688",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/1353527715/2U6X6991_normal.jpg",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/1353527715/2U6X6991_normal.jpg",
+      "source": "&lt;a href=&quot;http://itunes.apple.com/us/app/twitter/id409789998?mt=12&quot; rel=&quot;nofollow&quot;&gt;Twitter for Mac&lt;/a&gt;",
+      "text": "RT @jruby: JRuby 1.7.0.preview1 is out. First release with invokedynamic support! Just in time for @jrubyconf: http://t.co/LibXw4oZ",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 20:01:39 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+          {
+            "url": "http://t.co/LibXw4oZ",
+            "expanded_url": "http://www.jruby.org/download",
+            "display_url": "jruby.org/download",
+            "indices": [
+              111,
+              131
+            ]
+          }
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "jruby",
+            "name": "JRuby Dev Team",
+            "id": 16132186,
+            "id_str": "16132186",
+            "indices": [
+              3,
+              9
+            ]
+          },
+          {
+            "screen_name": "JRubyConf",
+            "name": "JRubyConf",
+            "id": 71363379,
+            "id_str": "71363379",
+            "indices": [
+              99,
+              109
+            ]
+          }
+        ]
+      },
+      "from_user": "sebanpl",
+      "from_user_id": 175025137,
+      "from_user_id_str": "175025137",
+      "from_user_name": "Sebastian Nowak",
+      "geo": null,
+      "id": 204663263076679682,
+      "id_str": "204663263076679682",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/1216271403/ae5fae598575c3b49dd517c144cc3d2f_normal.jpeg",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/1216271403/ae5fae598575c3b49dd517c144cc3d2f_normal.jpeg",
+      "source": "&lt;a href=&quot;http://itunes.apple.com/us/app/twitter/id409789998?mt=12&quot; rel=&quot;nofollow&quot;&gt;Twitter for Mac&lt;/a&gt;",
+      "text": "RT @jruby: JRuby 1.7.0.preview1 is out. First release with invokedynamic support! Just in time for @jrubyconf: http://t.co/LibXw4oZ",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 20:01:15 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+          {
+            "url": "http://t.co/LibXw4oZ",
+            "expanded_url": "http://www.jruby.org/download",
+            "display_url": "jruby.org/download",
+            "indices": [
+              111,
+              131
+            ]
+          }
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "jruby",
+            "name": "JRuby Dev Team",
+            "id": 16132186,
+            "id_str": "16132186",
+            "indices": [
+              3,
+              9
+            ]
+          },
+          {
+            "screen_name": "JRubyConf",
+            "name": "JRubyConf",
+            "id": 71363379,
+            "id_str": "71363379",
+            "indices": [
+              99,
+              109
+            ]
+          }
+        ]
+      },
+      "from_user": "richardnystrom",
+      "from_user_id": 8103572,
+      "from_user_id_str": "8103572",
+      "from_user_name": "Richard Nyström",
+      "geo": null,
+      "id": 204663166066638848,
+      "id_str": "204663166066638848",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/1554806005/me_normal.jpg",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/1554806005/me_normal.jpg",
+      "source": "&lt;a href=&quot;http://itunes.apple.com/us/app/twitter/id409789998?mt=12&quot; rel=&quot;nofollow&quot;&gt;Twitter for Mac&lt;/a&gt;",
+      "text": "RT @jruby: JRuby 1.7.0.preview1 is out. First release with invokedynamic support! Just in time for @jrubyconf: http://t.co/LibXw4oZ",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 20:01:03 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+          {
+            "url": "http://t.co/LibXw4oZ",
+            "expanded_url": "http://www.jruby.org/download",
+            "display_url": "jruby.org/download",
+            "indices": [
+              111,
+              131
+            ]
+          }
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "jruby",
+            "name": "JRuby Dev Team",
+            "id": 16132186,
+            "id_str": "16132186",
+            "indices": [
+              3,
+              9
+            ]
+          },
+          {
+            "screen_name": "JRubyConf",
+            "name": "JRubyConf",
+            "id": 71363379,
+            "id_str": "71363379",
+            "indices": [
+              99,
+              109
+            ]
+          }
+        ]
+      },
+      "from_user": "tom_enebo",
+      "from_user_id": 14498747,
+      "from_user_id_str": "14498747",
+      "from_user_name": "tom_enebo",
+      "geo": null,
+      "id": 204663112870281217,
+      "id_str": "204663112870281217",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/53211263/Recent_1_normal.jpg",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/53211263/Recent_1_normal.jpg",
+      "source": "&lt;a href=&quot;http://itunes.apple.com/us/app/twitter/id409789998?mt=12&quot; rel=&quot;nofollow&quot;&gt;Twitter for Mac&lt;/a&gt;",
+      "text": "RT @jruby: JRuby 1.7.0.preview1 is out. First release with invokedynamic support! Just in time for @jrubyconf: http://t.co/LibXw4oZ",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 20:00:56 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+          {
+            "url": "http://t.co/LibXw4oZ",
+            "expanded_url": "http://www.jruby.org/download",
+            "display_url": "jruby.org/download",
+            "indices": [
+              111,
+              131
+            ]
+          }
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "jruby",
+            "name": "JRuby Dev Team",
+            "id": 16132186,
+            "id_str": "16132186",
+            "indices": [
+              3,
+              9
+            ]
+          },
+          {
+            "screen_name": "JRubyConf",
+            "name": "JRubyConf",
+            "id": 71363379,
+            "id_str": "71363379",
+            "indices": [
+              99,
+              109
+            ]
+          }
+        ]
+      },
+      "from_user": "headius",
+      "from_user_id": 9989362,
+      "from_user_id_str": "9989362",
+      "from_user_name": "Charles Nutter",
+      "geo": null,
+      "id": 204663082855833601,
+      "id_str": "204663082855833601",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/409585603/charles_normal.jpg",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/409585603/charles_normal.jpg",
+      "source": "&lt;a href=&quot;http://itunes.apple.com/us/app/twitter/id409789998?mt=12&quot; rel=&quot;nofollow&quot;&gt;Twitter for Mac&lt;/a&gt;",
+      "text": "RT @jruby: JRuby 1.7.0.preview1 is out. First release with invokedynamic support! Just in time for @jrubyconf: http://t.co/LibXw4oZ",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 20:00:51 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+          {
+            "url": "http://t.co/LibXw4oZ",
+            "expanded_url": "http://www.jruby.org/download",
+            "display_url": "jruby.org/download",
+            "indices": [
+              111,
+              131
+            ]
+          }
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "jruby",
+            "name": "JRuby Dev Team",
+            "id": 16132186,
+            "id_str": "16132186",
+            "indices": [
+              3,
+              9
+            ]
+          },
+          {
+            "screen_name": "JRubyConf",
+            "name": "JRubyConf",
+            "id": 71363379,
+            "id_str": "71363379",
+            "indices": [
+              99,
+              109
+            ]
+          }
+        ]
+      },
+      "from_user": "lmcalpin",
+      "from_user_id": 38200306,
+      "from_user_id_str": "38200306",
+      "from_user_name": "Lawrence McAlpin",
+      "geo": null,
+      "id": 204663064652558336,
+      "id_str": "204663064652558336",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/568693559/Lawrence_normal.png",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/568693559/Lawrence_normal.png",
+      "source": "&lt;a href=&quot;http://itunes.apple.com/us/app/twitter/id409789998?mt=12&quot; rel=&quot;nofollow&quot;&gt;Twitter for Mac&lt;/a&gt;",
+      "text": "RT @jruby: JRuby 1.7.0.preview1 is out. First release with invokedynamic support! Just in time for @jrubyconf: http://t.co/LibXw4oZ",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 20:00:42 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+          {
+            "url": "http://t.co/LibXw4oZ",
+            "expanded_url": "http://www.jruby.org/download",
+            "display_url": "jruby.org/download",
+            "indices": [
+              111,
+              131
+            ]
+          }
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "jruby",
+            "name": "JRuby Dev Team",
+            "id": 16132186,
+            "id_str": "16132186",
+            "indices": [
+              3,
+              9
+            ]
+          },
+          {
+            "screen_name": "JRubyConf",
+            "name": "JRubyConf",
+            "id": 71363379,
+            "id_str": "71363379",
+            "indices": [
+              99,
+              109
+            ]
+          }
+        ]
+      },
+      "from_user": "gkreimer",
+      "from_user_id": 18189992,
+      "from_user_id_str": "18189992",
+      "from_user_name": "Georg Kreimer",
+      "geo": null,
+      "id": 204663027054804993,
+      "id_str": "204663027054804993",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/1856774113/Photo_on_2-26-12_at_2.04_PM_normal.jpg",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/1856774113/Photo_on_2-26-12_at_2.04_PM_normal.jpg",
+      "source": "&lt;a href=&quot;http://itunes.apple.com/us/app/twitter/id409789998?mt=12&quot; rel=&quot;nofollow&quot;&gt;Twitter for Mac&lt;/a&gt;",
+      "text": "RT @jruby: JRuby 1.7.0.preview1 is out. First release with invokedynamic support! Just in time for @jrubyconf: http://t.co/LibXw4oZ",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 20:00:14 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+          {
+            "url": "http://t.co/LibXw4oZ",
+            "expanded_url": "http://www.jruby.org/download",
+            "display_url": "jruby.org/download",
+            "indices": [
+              100,
+              120
+            ]
+          }
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "JRubyConf",
+            "name": "JRubyConf",
+            "id": 71363379,
+            "id_str": "71363379",
+            "indices": [
+              88,
+              98
+            ]
+          }
+        ]
+      },
+      "from_user": "jruby",
+      "from_user_id": 16132186,
+      "from_user_id_str": "16132186",
+      "from_user_name": "JRuby Dev Team",
+      "geo": null,
+      "id": 204662907475206144,
+      "id_str": "204662907475206144",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/2159842315/jruby-logo-standard-logo-stroke-large_normal.png",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/2159842315/jruby-logo-standard-logo-stroke-large_normal.png",
+      "source": "&lt;a href=&quot;http://itunes.apple.com/us/app/twitter/id409789998?mt=12&quot; rel=&quot;nofollow&quot;&gt;Twitter for Mac&lt;/a&gt;",
+      "text": "JRuby 1.7.0.preview1 is out. First release with invokedynamic support! Just in time for @jrubyconf: http://t.co/LibXw4oZ",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 19:57:04 +0000",
+      "entities": {
+        "hashtags": [
+          {
+            "text": "jrubyconf",
+            "indices": [
+              49,
+              59
+            ]
+          }
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+
+        ]
+      },
+      "from_user": "wwilkins",
+      "from_user_id": 17650647,
+      "from_user_id_str": "17650647",
+      "from_user_name": "wwilkins",
+      "geo": null,
+      "id": 204662109559205888,
+      "id_str": "204662109559205888",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/2238457161/photo_normal.jpg",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/2238457161/photo_normal.jpg",
+      "source": "&lt;a href=&quot;http://twitter.com/#!/download/iphone&quot; rel=&quot;nofollow&quot;&gt;Twitter for iPhone&lt;/a&gt;",
+      "text": "I'm either at the coolest best buy ever built or #jrubyconf at the Guthrie",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 19:44:40 +0000",
+      "entities": {
+        "hashtags": [
+          {
+            "text": "jrubyconf",
+            "indices": [
+              67,
+              77
+            ]
+          }
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+
+        ],
+        "media": [
+          {
+            "id": 204658989777170432,
+            "id_str": "204658989777170432",
+            "indices": [
+              78,
+              98
+            ],
+            "media_url": "http://p.twimg.com/AtcYRFHCMAAztGR.jpg",
+            "media_url_https": "https://p.twimg.com/AtcYRFHCMAAztGR.jpg",
+            "url": "http://t.co/G6pZl17o",
+            "display_url": "pic.twitter.com/G6pZl17o",
+            "expanded_url": "http://twitter.com/w1150n/status/204658989772976129/photo/1",
+            "type": "photo",
+            "sizes": {
+              "large": {
+                "w": 648,
+                "h": 484,
+                "resize": "fit"
+              },
+              "small": {
+                "w": 340,
+                "h": 254,
+                "resize": "fit"
+              },
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "orig": {
+                "w": 648,
+                "h": 484,
+                "resize": "fit"
+              },
+              "medium": {
+                "w": 600,
+                "h": 448,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "from_user": "w1150n",
+      "from_user_id": 7305662,
+      "from_user_id_str": "7305662",
+      "from_user_name": "Matthew",
+      "geo": null,
+      "id": 204658989772976129,
+      "id_str": "204658989772976129",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/52881884/Photo_13_normal.jpg",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/52881884/Photo_13_normal.jpg",
+      "source": "&lt;a href=&quot;http://www.apple.com&quot; rel=&quot;nofollow&quot;&gt;Camera on iOS&lt;/a&gt;",
+      "text": "View of the Stone Bridge over the Mississippi from Guthrie Theatre #jrubyconf http://t.co/G6pZl17o",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 19:41:13 +0000",
+      "entities": {
+        "hashtags": [
+          {
+            "text": "jrubyconf",
+            "indices": [
+              19,
+              29
+            ]
+          }
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+
+        ]
+      },
+      "from_user": "headius",
+      "from_user_id": 9989362,
+      "from_user_id_str": "9989362",
+      "from_user_name": "Charles Nutter",
+      "geo": null,
+      "id": 204658122541895682,
+      "id_str": "204658122541895682",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/409585603/charles_normal.jpg",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/409585603/charles_normal.jpg",
+      "source": "&lt;a href=&quot;http://www.nambu.com/&quot; rel=&quot;nofollow&quot;&gt;Nambu&lt;/a&gt;",
+      "text": "Had to bail out of #jrubyconf for the afternoon to work on slides and last-minute preparations.",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 19:16:05 +0000",
+      "entities": {
+        "hashtags": [
+          {
+            "text": "jrubyconf",
+            "indices": [
+              5,
+              15
+            ]
+          }
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+
+        ]
+      },
+      "from_user": "al2o3cr",
+      "from_user_id": 22887428,
+      "from_user_id_str": "22887428",
+      "from_user_name": "Matt Jones",
+      "geo": {
+        "coordinates": [
+          44.978,
+          -93.2553
+        ],
+        "type": "Point"
+      },
+      "id": 204651798991089664,
+      "id_str": "204651798991089664",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/2233651624/jones_normal.jpg",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/2233651624/jones_normal.jpg",
+      "source": "&lt;a href=&quot;http://twitter.com/#!/download/iphone&quot; rel=&quot;nofollow&quot;&gt;Twitter for iPhone&lt;/a&gt;",
+      "text": "Dear #jrubyconf - either a bunch of people don't understand \"RSVP required\", or we're in the wrong room. :(",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 19:11:11 +0000",
+      "entities": {
+        "hashtags": [
+          {
+            "text": "neo4j",
+            "indices": [
+              35,
+              41
+            ]
+          },
+          {
+            "text": "jrubyconf",
+            "indices": [
+              80,
+              90
+            ]
+          }
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "tychobrailleur",
+            "name": "Seb Le Callonnec",
+            "id": 237189775,
+            "id_str": "237189775",
+            "indices": [
+              3,
+              18
+            ]
+          }
+        ]
+      },
+      "from_user": "neo4j",
+      "from_user_id": 22467617,
+      "from_user_id_str": "22467617",
+      "from_user_name": "Neo4j",
+      "geo": null,
+      "id": 204650564183797760,
+      "id_str": "204650564183797760",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/195275920/square-logo-no-text-2_normal.png",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/195275920/square-logo-no-text-2_normal.png",
+      "source": "&lt;a href=&quot;http://www.echofon.com/&quot; rel=&quot;nofollow&quot;&gt;Echofon&lt;/a&gt;",
+      "text": "RT @tychobrailleur: Will go to the #neo4j workshop with a bit of a sore head... #jrubyconf started off on a hectic pace!! (=",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 18:46:53 +0000",
+      "entities": {
+        "hashtags": [
+          {
+            "text": "jrubyconf",
+            "indices": [
+              112,
+              122
+            ]
+          }
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "KidsCodeCamp",
+            "name": "Kids Code Camp",
+            "id": 480771517,
+            "id_str": "480771517",
+            "indices": [
+              3,
+              16
+            ]
+          },
+          {
+            "screen_name": "engineyard",
+            "name": "Engine Yard",
+            "id": 7255652,
+            "id_str": "7255652",
+            "indices": [
+              31,
+              42
+            ]
+          },
+          {
+            "screen_name": "hybrid_group",
+            "name": "The Hybrid Group",
+            "id": 113121331,
+            "id_str": "113121331",
+            "indices": [
+              49,
+              62
+            ]
+          }
+        ]
+      },
+      "from_user": "headius",
+      "from_user_id": 9989362,
+      "from_user_id_str": "9989362",
+      "from_user_name": "Charles Nutter",
+      "geo": null,
+      "id": 204644451182837760,
+      "id_str": "204644451182837760",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/409585603/charles_normal.jpg",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/409585603/charles_normal.jpg",
+      "source": "&lt;a href=&quot;http://www.tweetdeck.com&quot; rel=&quot;nofollow&quot;&gt;TweetDeck&lt;/a&gt;",
+      "text": "RT @KidsCodeCamp: Thank you to @engineyard &amp; @hybrid_group for sponsoring our free kids programming camp at #jrubyconf &amp; Mill City Clinic for the venue",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 18:46:42 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+
+        ]
+      },
+      "from_user": "JRubyConf",
+      "from_user_id": 71363379,
+      "from_user_id_str": "71363379",
+      "from_user_name": "JRubyConf",
+      "geo": null,
+      "id": 204644404428935169,
+      "id_str": "204644404428935169",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/1769383911/conf_logo_normal.png",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/1769383911/conf_logo_normal.png",
+      "source": "&lt;a href=&quot;http://twitter.com/#!/download/iphone&quot; rel=&quot;nofollow&quot;&gt;Twitter for iPhone&lt;/a&gt;",
+      "text": "We're looking at options for unfettered access tomorrow, but if you plan on working you might want to rely on your mifi. Again, sorry!",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 18:45:24 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+
+        ]
+      },
+      "from_user": "JRubyConf",
+      "from_user_id": 71363379,
+      "from_user_id_str": "71363379",
+      "from_user_name": "JRubyConf",
+      "geo": null,
+      "id": 204644077994647554,
+      "id_str": "204644077994647554",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/1769383911/conf_logo_normal.png",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/1769383911/conf_logo_normal.png",
+      "source": "&lt;a href=&quot;http://twitter.com/#!/download/iphone&quot; rel=&quot;nofollow&quot;&gt;Twitter for iPhone&lt;/a&gt;",
+      "text": "Alert! The wifi network at the Guthrie does not allow outbound ssh traffic and we couldn't get them to accommodate us. Our apologies!",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 18:38:54 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "copiousfreetime",
+            "name": "Jeremy Hinegardner",
+            "id": 14601522,
+            "id_str": "14601522",
+            "indices": [
+              0,
+              16
+            ]
+          },
+          {
+            "screen_name": "WhiskyCraig",
+            "name": "Craig Johnstone",
+            "id": 62814787,
+            "id_str": "62814787",
+            "indices": [
+              17,
+              29
+            ]
+          },
+          {
+            "screen_name": "daksis",
+            "name": "Randall Thomas",
+            "id": 5437372,
+            "id_str": "5437372",
+            "indices": [
+              30,
+              37
+            ]
+          },
+          {
+            "screen_name": "nicksieger",
+            "name": "Nick Sieger [日空]",
+            "id": 5504482,
+            "id_str": "5504482",
+            "indices": [
+              38,
+              49
+            ]
+          },
+          {
+            "screen_name": "jremsikjr",
+            "name": "Jim Remsik",
+            "id": 1942,
+            "id_str": "1942",
+            "indices": [
+              50,
+              60
+            ]
+          },
+          {
+            "screen_name": "JRubyConf",
+            "name": "JRubyConf",
+            "id": 71363379,
+            "id_str": "71363379",
+            "indices": [
+              61,
+              71
+            ]
+          }
+        ]
+      },
+      "from_user": "objo",
+      "from_user_id": 1315011,
+      "from_user_id_str": "1315011",
+      "from_user_name": "Joe O'Brien",
+      "geo": null,
+      "id": 204642439930183682,
+      "id_str": "204642439930183682",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/1299406184/from_jeff_casimer_cropped_medium_normal.png",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/1299406184/from_jeff_casimer_cropped_medium_normal.png",
+      "source": "&lt;a href=&quot;http://www.echofon.com/&quot; rel=&quot;nofollow&quot;&gt;Echofon&lt;/a&gt;",
+      "text": "@copiousfreetime @WhiskyCraig @daksis @nicksieger @jremsikjr @JRubyConf On my way downtown.",
+      "to_user": "copiousfreetime",
+      "to_user_id": 14601522,
+      "to_user_id_str": "14601522",
+      "to_user_name": "Jeremy Hinegardner"
+    },
+    {
+      "created_at": "Mon, 21 May 2012 18:32:11 +0000",
+      "entities": {
+        "hashtags": [
+          {
+            "text": "JRubyConf",
+            "indices": [
+              57,
+              67
+            ]
+          }
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "SwiftAlphaOne",
+            "name": "Swift",
+            "id": 42813580,
+            "id_str": "42813580",
+            "indices": [
+              3,
+              17
+            ]
+          },
+          {
+            "screen_name": "railsbridge",
+            "name": "RailsBridge",
+            "id": 37201113,
+            "id_str": "37201113",
+            "indices": [
+              37,
+              49
+            ]
+          },
+          {
+            "screen_name": "SendGrid",
+            "name": "SendGrid",
+            "id": 42126617,
+            "id_str": "42126617",
+            "indices": [
+              77,
+              86
+            ]
+          }
+        ]
+      },
+      "from_user": "SendGrid",
+      "from_user_id": 42126617,
+      "from_user_id_str": "42126617",
+      "from_user_name": "SendGrid",
+      "geo": null,
+      "id": 204640751177580546,
+      "id_str": "204640751177580546",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/1779297739/image1327457310_normal.png",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/1779297739/image1327457310_normal.png",
+      "source": "&lt;a href=&quot;http://www.hootsuite.com&quot; rel=&quot;nofollow&quot;&gt;HootSuite&lt;/a&gt;",
+      "text": "RT @swiftalphaone: Can't deploy your @railsbridge app at #JRubyConf? Use the @SendGrid network!",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 18:31:43 +0000",
+      "entities": {
+        "hashtags": [
+          {
+            "text": "JRubyConf",
+            "indices": [
+              38,
+              48
+            ]
+          }
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "railsbridge",
+            "name": "RailsBridge",
+            "id": 37201113,
+            "id_str": "37201113",
+            "indices": [
+              18,
+              30
+            ]
+          },
+          {
+            "screen_name": "SendGrid",
+            "name": "SendGrid",
+            "id": 42126617,
+            "id_str": "42126617",
+            "indices": [
+              58,
+              67
+            ]
+          }
+        ]
+      },
+      "from_user": "SwiftAlphaOne",
+      "from_user_id": 42813580,
+      "from_user_id_str": "42813580",
+      "from_user_name": "Swift",
+      "geo": null,
+      "id": 204640632977899521,
+      "id_str": "204640632977899521",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/1689583844/profilepic2_normal.jpeg",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/1689583844/profilepic2_normal.jpeg",
+      "source": "&lt;a href=&quot;http://twitter.com/&quot;&gt;web&lt;/a&gt;",
+      "text": "Can't deploy your @railsbridge app at #JRubyConf? Use the @SendGrid network!",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 18:29:45 +0000",
+      "entities": {
+        "hashtags": [
+          {
+            "text": "jrubyconf",
+            "indices": [
+              49,
+              59
+            ]
+          }
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "ronge",
+            "name": "Andreas Ronge",
+            "id": 15021487,
+            "id_str": "15021487",
+            "indices": [
+              25,
+              31
+            ]
+          },
+          {
+            "screen_name": "maxdemarzi",
+            "name": "Max De Marzi",
+            "id": 19249274,
+            "id_str": "19249274",
+            "indices": [
+              36,
+              47
+            ]
+          }
+        ]
+      },
+      "from_user": "peterneubauer",
+      "from_user_id": 14721805,
+      "from_user_id_str": "14721805",
+      "from_user_name": "Peter Neubauer",
+      "geo": null,
+      "id": 204640137618014209,
+      "id_str": "204640137618014209",
+      "iso_language_code": "da",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/348968437/MyPicture_normal.jpg",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/348968437/MyPicture_normal.jpg",
+      "source": "&lt;a href=&quot;http://twitter.com/download/android&quot; rel=&quot;nofollow&quot;&gt;Twitter for Android&lt;/a&gt;",
+      "text": "Have fun in Minneapolis, @ronge and @maxdemarzi! #jrubyconf",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 18:12:28 +0000",
+      "entities": {
+        "hashtags": [
+          {
+            "text": "jrubyconf",
+            "indices": [
+              125,
+              135
+            ]
+          }
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "ronge",
+            "name": "Andreas Ronge",
+            "id": 15021487,
+            "id_str": "15021487",
+            "indices": [
+              20,
+              26
+            ]
+          },
+          {
+            "screen_name": "maxdemarzi",
+            "name": "Max De Marzi",
+            "id": 19249274,
+            "id_str": "19249274",
+            "indices": [
+              31,
+              42
+            ]
+          }
+        ]
+      },
+      "from_user": "SwiftAlphaOne",
+      "from_user_id": 42813580,
+      "from_user_id_str": "42813580",
+      "from_user_name": "Swift",
+      "geo": null,
+      "id": 204635789013954560,
+      "id_str": "204635789013954560",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/1689583844/profilepic2_normal.jpeg",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/1689583844/profilepic2_normal.jpeg",
+      "source": "&lt;a href=&quot;http://twitter.com/&quot;&gt;web&lt;/a&gt;",
+      "text": "Really impressed by @ronge and @maxdemarzi who volunteered to take people who didn't get tickets for their talk out to lunch #jrubyconf",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 18:10:17 +0000",
+      "entities": {
+        "hashtags": [
+          {
+            "text": "jrubyconf",
+            "indices": [
+              112,
+              122
+            ]
+          }
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "KidsCodeCamp",
+            "name": "Kids Code Camp",
+            "id": 480771517,
+            "id_str": "480771517",
+            "indices": [
+              3,
+              16
+            ]
+          },
+          {
+            "screen_name": "engineyard",
+            "name": "Engine Yard",
+            "id": 7255652,
+            "id_str": "7255652",
+            "indices": [
+              31,
+              42
+            ]
+          },
+          {
+            "screen_name": "hybrid_group",
+            "name": "The Hybrid Group",
+            "id": 113121331,
+            "id_str": "113121331",
+            "indices": [
+              49,
+              62
+            ]
+          }
+        ]
+      },
+      "from_user": "deadprogram",
+      "from_user_id": 9885222,
+      "from_user_id_str": "9885222",
+      "from_user_name": "Ron Evans",
+      "geo": null,
+      "id": 204635237391675393,
+      "id_str": "204635237391675393",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/502653952/roneye_normal.jpg",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/502653952/roneye_normal.jpg",
+      "source": "&lt;a href=&quot;http://www.tweetdeck.com&quot; rel=&quot;nofollow&quot;&gt;TweetDeck&lt;/a&gt;",
+      "text": "RT @KidsCodeCamp: Thank you to @engineyard &amp; @hybrid_group for sponsoring our free kids programming camp at #jrubyconf &amp; Mill City Clinic for the venue",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 18:10:16 +0000",
+      "entities": {
+        "hashtags": [
+          {
+            "text": "jrubyconf",
+            "indices": [
+              112,
+              122
+            ]
+          }
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "KidsCodeCamp",
+            "name": "Kids Code Camp",
+            "id": 480771517,
+            "id_str": "480771517",
+            "indices": [
+              3,
+              16
+            ]
+          },
+          {
+            "screen_name": "engineyard",
+            "name": "Engine Yard",
+            "id": 7255652,
+            "id_str": "7255652",
+            "indices": [
+              31,
+              42
+            ]
+          },
+          {
+            "screen_name": "hybrid_group",
+            "name": "The Hybrid Group",
+            "id": 113121331,
+            "id_str": "113121331",
+            "indices": [
+              49,
+              62
+            ]
+          }
+        ]
+      },
+      "from_user": "hybrid_group",
+      "from_user_id": 113121331,
+      "from_user_id_str": "113121331",
+      "from_user_name": "The Hybrid Group",
+      "geo": null,
+      "id": 204635235449716736,
+      "id_str": "204635235449716736",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/1366527024/apple-touch-icon-114x114-precomposed_normal.png",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/1366527024/apple-touch-icon-114x114-precomposed_normal.png",
+      "source": "&lt;a href=&quot;http://www.tweetdeck.com&quot; rel=&quot;nofollow&quot;&gt;TweetDeck&lt;/a&gt;",
+      "text": "RT @KidsCodeCamp: Thank you to @engineyard &amp; @hybrid_group for sponsoring our free kids programming camp at #jrubyconf &amp; Mill City Clinic for the venue",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 18:10:16 +0000",
+      "entities": {
+        "hashtags": [
+          {
+            "text": "jrubyconf",
+            "indices": [
+              112,
+              122
+            ]
+          }
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "KidsCodeCamp",
+            "name": "Kids Code Camp",
+            "id": 480771517,
+            "id_str": "480771517",
+            "indices": [
+              3,
+              16
+            ]
+          },
+          {
+            "screen_name": "engineyard",
+            "name": "Engine Yard",
+            "id": 7255652,
+            "id_str": "7255652",
+            "indices": [
+              31,
+              42
+            ]
+          },
+          {
+            "screen_name": "hybrid_group",
+            "name": "The Hybrid Group",
+            "id": 113121331,
+            "id_str": "113121331",
+            "indices": [
+              49,
+              62
+            ]
+          }
+        ]
+      },
+      "from_user": "KidsRuby",
+      "from_user_id": 238055076,
+      "from_user_id_str": "238055076",
+      "from_user_name": "Kids Ruby",
+      "geo": null,
+      "id": 204635232744374274,
+      "id_str": "204635232744374274",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/1284444045/kidsrubytwit_normal.png",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/1284444045/kidsrubytwit_normal.png",
+      "source": "&lt;a href=&quot;http://www.tweetdeck.com&quot; rel=&quot;nofollow&quot;&gt;TweetDeck&lt;/a&gt;",
+      "text": "RT @KidsCodeCamp: Thank you to @engineyard &amp; @hybrid_group for sponsoring our free kids programming camp at #jrubyconf &amp; Mill City Clinic for the venue",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 18:09:54 +0000",
+      "entities": {
+        "hashtags": [
+          {
+            "text": "jrubyconf",
+            "indices": [
+              94,
+              104
+            ]
+          }
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "engineyard",
+            "name": "Engine Yard",
+            "id": 7255652,
+            "id_str": "7255652",
+            "indices": [
+              13,
+              24
+            ]
+          },
+          {
+            "screen_name": "hybrid_group",
+            "name": "The Hybrid Group",
+            "id": 113121331,
+            "id_str": "113121331",
+            "indices": [
+              31,
+              44
+            ]
+          }
+        ]
+      },
+      "from_user": "KidsCodeCamp",
+      "from_user_id": 480771517,
+      "from_user_id_str": "480771517",
+      "from_user_name": "Kids Code Camp",
+      "geo": null,
+      "id": 204635144055832577,
+      "id_str": "204635144055832577",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/1802518153/twit-av2_normal.jpg",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/1802518153/twit-av2_normal.jpg",
+      "source": "&lt;a href=&quot;http://www.tweetdeck.com&quot; rel=&quot;nofollow&quot;&gt;TweetDeck&lt;/a&gt;",
+      "text": "Thank you to @engineyard &amp; @hybrid_group for sponsoring our free kids programming camp at #jrubyconf &amp; Mill City Clinic for the venue",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 18:08:37 +0000",
+      "entities": {
+        "hashtags": [
+          {
+            "text": "railsbridge",
+            "indices": [
+              82,
+              94
+            ]
+          },
+          {
+            "text": "jrubyconf",
+            "indices": [
+              104,
+              114
+            ]
+          }
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+
+        ]
+      },
+      "from_user": "theSociableme",
+      "from_user_id": 277046526,
+      "from_user_id_str": "277046526",
+      "from_user_name": "Mark Wagner",
+      "geo": null,
+      "id": 204634820033249281,
+      "id_str": "204634820033249281",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/2160347059/474414_3480360138361_1552034345_32954835_1573579085_o_normal.jpg",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/2160347059/474414_3480360138361_1552034345_32954835_1573579085_o_normal.jpg",
+      "source": "&lt;a href=&quot;http://twitter.com/download/android&quot; rel=&quot;nofollow&quot;&gt;Twitter for Android&lt;/a&gt;",
+      "text": "Lunch is taking rediculously long to get to the table ..  pleased excuse the late #railsbridge students #jrubyconf",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 18:04:21 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "qmx",
+            "name": "Douglas Campos",
+            "id": 16462048,
+            "id_str": "16462048",
+            "indices": [
+              33,
+              37
+            ]
+          },
+          {
+            "screen_name": "JRubyConf",
+            "name": "JRubyConf",
+            "id": 71363379,
+            "id_str": "71363379",
+            "indices": [
+              39,
+              49
+            ]
+          }
+        ],
+        "media": [
+          {
+            "id": 204566070877622272,
+            "id_str": "204566070877622272",
+            "indices": [
+              121,
+              141
+            ],
+            "media_url": "http://p.twimg.com/AtbDwfPCEAAWLE4.jpg",
+            "media_url_https": "https://p.twimg.com/AtbDwfPCEAAWLE4.jpg",
+            "url": "http://t.co/KuZUCx5j",
+            "display_url": "pic.twitter.com/KuZUCx5j",
+            "expanded_url": "http://twitter.com/qmx/status/204566070873427968/photo/1",
+            "type": "photo",
+            "sizes": {
+              "medium": {
+                "w": 600,
+                "h": 450,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 1024,
+                "h": 768,
+                "resize": "fit"
+              },
+              "small": {
+                "w": 340,
+                "h": 255,
+                "resize": "fit"
+              },
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "orig": {
+                "w": 2048,
+                "h": 1536,
+                "resize": "fit"
+              },
+              "source_status_id": 204566070873427968,
+              "source_status_id_str": "204566070873427968"
+            }
+          }
+        ]
+      },
+      "from_user": "mojavelinux",
+      "from_user_id": 14640100,
+      "from_user_id_str": "14640100",
+      "from_user_name": "Dan Allen",
+      "geo": null,
+      "id": 204633746572443648,
+      "id_str": "204633746572443648",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/2044454472/headshot-speaking-20120403_normal.jpg",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/2044454472/headshot-speaking-20120403_normal.jpg",
+      "source": "&lt;a href=&quot;http://www.hootsuite.com&quot; rel=&quot;nofollow&quot;&gt;HootSuite&lt;/a&gt;",
+      "text": "OMG! Rock stars w/ rock stars RT @qmx: @jrubyconf trip starts w/ me bumping with robert plant &amp; co at GRU airport :) http://t.co/KuZUCx5j",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 17:48:10 +0000",
+      "entities": {
+        "hashtags": [
+          {
+            "text": "jrubyconf",
+            "indices": [
+              35,
+              45
+            ]
+          }
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+
+        ]
+      },
+      "from_user": "deadprogram",
+      "from_user_id": 9885222,
+      "from_user_id_str": "9885222",
+      "from_user_name": "Ron Evans",
+      "geo": null,
+      "id": 204629673081192448,
+      "id_str": "204629673081192448",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/502653952/roneye_normal.jpg",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/502653952/roneye_normal.jpg",
+      "source": "&lt;a href=&quot;http://www.tweetdeck.com&quot; rel=&quot;nofollow&quot;&gt;TweetDeck&lt;/a&gt;",
+      "text": "Finally coming back to life... any #jrubyconf friends want to have lunch?",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 17:48:00 +0000",
+      "entities": {
+        "hashtags": [
+          {
+            "text": "jrubyconf",
+            "indices": [
+              30,
+              40
+            ]
+          }
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+
+        ]
+      },
+      "from_user": "subbu_ss",
+      "from_user_id": 7571352,
+      "from_user_id_str": "7571352",
+      "from_user_name": "subbu_ss",
+      "geo": null,
+      "id": 204629630886490113,
+      "id_str": "204629630886490113",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/sticky/default_profile_images/default_profile_5_normal.png",
+      "profile_image_url_https": "https://si0.twimg.com/sticky/default_profile_images/default_profile_5_normal.png",
+      "source": "&lt;a href=&quot;http://twitter.com/&quot;&gt;web&lt;/a&gt;",
+      "text": "Biking down to the Guthrie :) #jrubyconf",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 17:37:59 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "alttext",
+            "name": "Ben Edwards",
+            "id": 2010871,
+            "id_str": "2010871",
+            "indices": [
+              3,
+              11
+            ]
+          },
+          {
+            "screen_name": "refactr",
+            "name": "refactr",
+            "id": 14293980,
+            "id_str": "14293980",
+            "indices": [
+              14,
+              22
+            ]
+          },
+          {
+            "screen_name": "JRubyConf",
+            "name": "JRubyConf",
+            "id": 71363379,
+            "id_str": "71363379",
+            "indices": [
+              42,
+              52
+            ]
+          },
+          {
+            "screen_name": "lbredeso",
+            "name": "Luke Bredeson",
+            "id": 73539107,
+            "id_str": "73539107",
+            "indices": [
+              84,
+              93
+            ]
+          },
+          {
+            "screen_name": "adamlanners",
+            "name": "Adam Lanners",
+            "id": 562309498,
+            "id_str": "562309498",
+            "indices": [
+              100,
+              112
+            ]
+          },
+          {
+            "screen_name": "jenaedwards",
+            "name": "Jena Edwards",
+            "id": 34475427,
+            "id_str": "34475427",
+            "indices": [
+              132,
+              144
+            ]
+          }
+        ]
+      },
+      "from_user": "kevinwhinnery",
+      "from_user_id": 15739653,
+      "from_user_id_str": "15739653",
+      "from_user_name": "Kevin Whinnery",
+      "geo": null,
+      "id": 204627109526781952,
+      "id_str": "204627109526781952",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/1831485588/jsmn-small_normal.png",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/1831485588/jsmn-small_normal.png",
+      "source": "&lt;a href=&quot;http://itunes.apple.com/us/app/twitter/id409789998?mt=12&quot; rel=&quot;nofollow&quot;&gt;Twitter for Mac&lt;/a&gt;",
+      "text": "RT @alttext: “@refactr:Super excited that @JRubyConf has kicked off in Minneapolis. @lbredeso &amp; @adamlanners are representing!” @JenaEdwards's there too!",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 17:34:08 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "JRubyConf",
+            "name": "JRubyConf",
+            "id": 71363379,
+            "id_str": "71363379",
+            "indices": [
+              42,
+              52
+            ]
+          }
+        ]
+      },
+      "from_user": "bleything",
+      "from_user_id": 823615,
+      "from_user_id_str": "823615",
+      "from_user_name": "Ben Bleything",
+      "geo": null,
+      "id": 204626142798417920,
+      "id_str": "204626142798417920",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/1260090298/foo_normal.png",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/1260090298/foo_normal.png",
+      "source": "&lt;a href=&quot;http://itunes.apple.com/us/app/twitter/id409789998?mt=12&quot; rel=&quot;nofollow&quot;&gt;Twitter for Mac&lt;/a&gt;",
+      "text": "surprising no one, I really wish I was at @JRubyConf.",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 17:11:06 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "JRubyConf",
+            "name": "JRubyConf",
+            "id": 71363379,
+            "id_str": "71363379",
+            "indices": [
+              0,
+              10
+            ]
+          },
+          {
+            "screen_name": "nicksieger",
+            "name": "Nick Sieger [日空]",
+            "id": 5504482,
+            "id_str": "5504482",
+            "indices": [
+              11,
+              22
+            ]
+          }
+        ]
+      },
+      "from_user": "copiousfreetime",
+      "from_user_id": 14601522,
+      "from_user_id_str": "14601522",
+      "from_user_name": "Jeremy Hinegardner",
+      "geo": null,
+      "id": 204620344064081921,
+      "id_str": "204620344064081921",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/1259223496/jeremy-woodhat_normal.jpg",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/1259223496/jeremy-woodhat_normal.jpg",
+      "source": "&lt;a href=&quot;http://itunes.apple.com/us/app/twitter/id409789998?mt=12&quot; rel=&quot;nofollow&quot;&gt;Twitter for Mac&lt;/a&gt;",
+      "text": "@JRubyConf @nicksieger Where is the neo4j tutorial today… I don't seem to find its location in the schedule",
+      "to_user": "JRubyConf",
+      "to_user_id": 71363379,
+      "to_user_id_str": "71363379",
+      "to_user_name": "JRubyConf"
+    },
+    {
+      "created_at": "Mon, 21 May 2012 17:05:21 +0000",
+      "entities": {
+        "hashtags": [
+          {
+            "text": "jrubyconf",
+            "indices": [
+              68,
+              78
+            ]
+          }
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+
+        ]
+      },
+      "from_user": "MelissaVoegeli",
+      "from_user_id": 45771391,
+      "from_user_id_str": "45771391",
+      "from_user_name": "Melissa Voegeli",
+      "geo": null,
+      "id": 204618895863189504,
+      "id_str": "204618895863189504",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/2219445476/lawl2_normal.png",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/2219445476/lawl2_normal.png",
+      "source": "&lt;a href=&quot;http://twitter.com/#!/download/iphone&quot; rel=&quot;nofollow&quot;&gt;Twitter for iPhone&lt;/a&gt;",
+      "text": "Hrm. First workshop done and I still haven't formally checked in at #jrubyconf yet.",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 16:48:38 +0000",
+      "entities": {
+        "hashtags": [
+          {
+            "text": "JRubyConf",
+            "indices": [
+              75,
+              85
+            ]
+          }
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+
+        ]
+      },
+      "from_user": "theSociableme",
+      "from_user_id": 277046526,
+      "from_user_id_str": "277046526",
+      "from_user_name": "Mark Wagner",
+      "geo": null,
+      "id": 204614692507893760,
+      "id_str": "204614692507893760",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/2160347059/474414_3480360138361_1552034345_32954835_1573579085_o_normal.jpg",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/2160347059/474414_3480360138361_1552034345_32954835_1573579085_o_normal.jpg",
+      "source": "&lt;a href=&quot;http://itunes.apple.com/us/app/twitter/id409789998?mt=12&quot; rel=&quot;nofollow&quot;&gt;Twitter for Mac&lt;/a&gt;",
+      "text": "rescue java.lang.NullPointerException - you can rescue Java errors in ruby #JRubyConf",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 16:41:36 +0000",
+      "entities": {
+        "hashtags": [
+          {
+            "text": "JRubyConf",
+            "indices": [
+              36,
+              46
+            ]
+          }
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "jremsikjr",
+            "name": "Jim Remsik",
+            "id": 1942,
+            "id_str": "1942",
+            "indices": [
+              0,
+              10
+            ]
+          }
+        ]
+      },
+      "from_user": "theSociableme",
+      "from_user_id": 277046526,
+      "from_user_id_str": "277046526",
+      "from_user_name": "Mark Wagner",
+      "geo": null,
+      "id": 204612921278480384,
+      "id_str": "204612921278480384",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/2160347059/474414_3480360138361_1552034345_32954835_1573579085_o_normal.jpg",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/2160347059/474414_3480360138361_1552034345_32954835_1573579085_o_normal.jpg",
+      "source": "&lt;a href=&quot;http://itunes.apple.com/us/app/twitter/id409789998?mt=12&quot; rel=&quot;nofollow&quot;&gt;Twitter for Mac&lt;/a&gt;",
+      "text": "@jremsikjr Are you here right now?  #JRubyConf",
+      "to_user": "jremsikjr",
+      "to_user_id": 1942,
+      "to_user_id_str": "1942",
+      "to_user_name": "Jim Remsik",
+      "in_reply_to_status_id": 204612586665279489,
+      "in_reply_to_status_id_str": "204612586665279489"
+    },
+    {
+      "created_at": "Mon, 21 May 2012 16:40:16 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+          {
+            "url": "http://t.co/bGk9T5DX",
+            "expanded_url": "http://instagr.am/p/K5Uyd7KqAS/",
+            "display_url": "instagr.am/p/K5Uyd7KqAS/",
+            "indices": [
+              61,
+              81
+            ]
+          }
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "JRubyConf",
+            "name": "JRubyConf",
+            "id": 71363379,
+            "id_str": "71363379",
+            "indices": [
+              31,
+              41
+            ]
+          }
+        ]
+      },
+      "from_user": "jremsikjr",
+      "from_user_id": 1942,
+      "from_user_id_str": "1942",
+      "from_user_name": "Jim Remsik",
+      "geo": {
+        "coordinates": [
+          44.978,
+          -93.2553
+        ],
+        "type": "Point"
+      },
+      "id": 204612586665279489,
+      "id_str": "204612586665279489",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/725284271/big-tiger-card-square_normal.jpg",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/725284271/big-tiger-card-square_normal.jpg",
+      "source": "&lt;a href=&quot;http://instagr.am&quot; rel=&quot;nofollow&quot;&gt;instagram&lt;/a&gt;",
+      "text": "RailsBridge workshop to day at @JRubyConf  @ Guthrie Theater http://t.co/bGk9T5DX",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 16:36:55 +0000",
+      "entities": {
+        "hashtags": [
+          {
+            "text": "JRubyConf",
+            "indices": [
+              39,
+              49
+            ]
+          }
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+
+        ]
+      },
+      "from_user": "theSociableme",
+      "from_user_id": 277046526,
+      "from_user_id_str": "277046526",
+      "from_user_name": "Mark Wagner",
+      "geo": null,
+      "id": 204611742846824448,
+      "id_str": "204611742846824448",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/2160347059/474414_3480360138361_1552034345_32954835_1573579085_o_normal.jpg",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/2160347059/474414_3480360138361_1552034345_32954835_1573579085_o_normal.jpg",
+      "source": "&lt;a href=&quot;http://itunes.apple.com/us/app/twitter/id409789998?mt=12&quot; rel=&quot;nofollow&quot;&gt;Twitter for Mac&lt;/a&gt;",
+      "text": "Learning about the $CLASSPATH global @ #JRubyConf - Intro to jRuby",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 16:24:56 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "JRubyConf",
+            "name": "JRubyConf",
+            "id": 71363379,
+            "id_str": "71363379",
+            "indices": [
+              26,
+              36
+            ]
+          }
+        ]
+      },
+      "from_user": "qmx",
+      "from_user_id": 16462048,
+      "from_user_id_str": "16462048",
+      "from_user_name": "Douglas Campos",
+      "geo": null,
+      "id": 204608725955252225,
+      "id_str": "204608725955252225",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/1581653251/6208884340_b684989070_z_normal.jpg",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/1581653251/6208884340_b684989070_z_normal.jpg",
+      "source": "&lt;a href=&quot;http://www.echofon.com/&quot; rel=&quot;nofollow&quot;&gt;Echofon&lt;/a&gt;",
+      "text": "and now in-flight wifi :) @jrubyconf",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 16:22:56 +0000",
+      "entities": {
+        "hashtags": [
+          {
+            "text": "neo4j",
+            "indices": [
+              15,
+              21
+            ]
+          },
+          {
+            "text": "jrubyconf",
+            "indices": [
+              60,
+              70
+            ]
+          }
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+
+        ]
+      },
+      "from_user": "tychobrailleur",
+      "from_user_id": 237189775,
+      "from_user_id_str": "237189775",
+      "from_user_name": "Seb Le Callonnec",
+      "geo": null,
+      "id": 204608224094208000,
+      "id_str": "204608224094208000",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/1234812525/3d857e12d234c585de25ae1be1297ad0_normal.png",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/1234812525/3d857e12d234c585de25ae1be1297ad0_normal.png",
+      "source": "&lt;a href=&quot;http://www.echofon.com/&quot; rel=&quot;nofollow&quot;&gt;Echofon&lt;/a&gt;",
+      "text": "Will go to the #neo4j workshop with a bit of a sore head... #jrubyconf started off on a hectic pace!! (=",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 16:08:16 +0000",
+      "entities": {
+        "hashtags": [
+          {
+            "text": "jrubyconf",
+            "indices": [
+              46,
+              56
+            ]
+          }
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "diaffalo",
+            "name": "diaffalo",
+            "id": 14517902,
+            "id_str": "14517902",
+            "indices": [
+              3,
+              12
+            ]
+          }
+        ]
+      },
+      "from_user": "headius",
+      "from_user_id": 9989362,
+      "from_user_id_str": "9989362",
+      "from_user_name": "Charles Nutter",
+      "geo": null,
+      "id": 204604532213301250,
+      "id_str": "204604532213301250",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/409585603/charles_normal.jpg",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/409585603/charles_normal.jpg",
+      "source": "&lt;a href=&quot;http://twitter.com/#!/download/iphone&quot; rel=&quot;nofollow&quot;&gt;Twitter for iPhone&lt;/a&gt;",
+      "text": "RT @diaffalo: When does the debauchery start? #jrubyconf",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 16:07:20 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "engineyard",
+            "name": "Engine Yard",
+            "id": 7255652,
+            "id_str": "7255652",
+            "indices": [
+              3,
+              14
+            ]
+          },
+          {
+            "screen_name": "JRubyConf",
+            "name": "JRubyConf",
+            "id": 71363379,
+            "id_str": "71363379",
+            "indices": [
+              30,
+              40
+            ]
+          },
+          {
+            "screen_name": "railsbridge",
+            "name": "RailsBridge",
+            "id": 37201113,
+            "id_str": "37201113",
+            "indices": [
+              61,
+              73
+            ]
+          },
+          {
+            "screen_name": "jruby",
+            "name": "JRuby Dev Team",
+            "id": 16132186,
+            "id_str": "16132186",
+            "indices": [
+              112,
+              118
+            ]
+          }
+        ]
+      },
+      "from_user": "chrismatthieu",
+      "from_user_id": 13604142,
+      "from_user_id_str": "13604142",
+      "from_user_name": "Chris Matthieu",
+      "geo": null,
+      "id": 204604296107532288,
+      "id_str": "204604296107532288",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/918916153/SuperChrisSmall_normal.jpg",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/918916153/SuperChrisSmall_normal.jpg",
+      "source": "&lt;a href=&quot;http://twitter.com/&quot;&gt;web&lt;/a&gt;",
+      "text": "RT @engineyard: It's Day 1 of @JRubyConf! Come check out the @railsbridge workshop, or stop by Anthony Juckel's @JRuby beginners' workshop at 10:30",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 16:06:55 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "engineyard",
+            "name": "Engine Yard",
+            "id": 7255652,
+            "id_str": "7255652",
+            "indices": [
+              3,
+              14
+            ]
+          },
+          {
+            "screen_name": "JRubyConf",
+            "name": "JRubyConf",
+            "id": 71363379,
+            "id_str": "71363379",
+            "indices": [
+              30,
+              40
+            ]
+          },
+          {
+            "screen_name": "railsbridge",
+            "name": "RailsBridge",
+            "id": 37201113,
+            "id_str": "37201113",
+            "indices": [
+              61,
+              73
+            ]
+          },
+          {
+            "screen_name": "jruby",
+            "name": "JRuby Dev Team",
+            "id": 16132186,
+            "id_str": "16132186",
+            "indices": [
+              112,
+              118
+            ]
+          }
+        ]
+      },
+      "from_user": "headius",
+      "from_user_id": 9989362,
+      "from_user_id_str": "9989362",
+      "from_user_name": "Charles Nutter",
+      "geo": null,
+      "id": 204604190465601536,
+      "id_str": "204604190465601536",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/409585603/charles_normal.jpg",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/409585603/charles_normal.jpg",
+      "source": "&lt;a href=&quot;http://twitter.com/&quot;&gt;web&lt;/a&gt;",
+      "text": "RT @engineyard: It's Day 1 of @JRubyConf! Come check out the @railsbridge workshop, or stop by Anthony Juckel's @JRuby beginners' workshop at 10:30",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 16:05:05 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "copiousfreetime",
+            "name": "Jeremy Hinegardner",
+            "id": 14601522,
+            "id_str": "14601522",
+            "indices": [
+              0,
+              16
+            ]
+          },
+          {
+            "screen_name": "WhiskyCraig",
+            "name": "Craig Johnstone",
+            "id": 62814787,
+            "id_str": "62814787",
+            "indices": [
+              17,
+              29
+            ]
+          },
+          {
+            "screen_name": "daksis",
+            "name": "Randall Thomas",
+            "id": 5437372,
+            "id_str": "5437372",
+            "indices": [
+              30,
+              37
+            ]
+          },
+          {
+            "screen_name": "nicksieger",
+            "name": "Nick Sieger [日空]",
+            "id": 5504482,
+            "id_str": "5504482",
+            "indices": [
+              38,
+              49
+            ]
+          },
+          {
+            "screen_name": "jremsikjr",
+            "name": "Jim Remsik",
+            "id": 1942,
+            "id_str": "1942",
+            "indices": [
+              50,
+              60
+            ]
+          },
+          {
+            "screen_name": "JRubyConf",
+            "name": "JRubyConf",
+            "id": 71363379,
+            "id_str": "71363379",
+            "indices": [
+              105,
+              115
+            ]
+          }
+        ]
+      },
+      "from_user": "objo",
+      "from_user_id": 1315011,
+      "from_user_id_str": "1315011",
+      "from_user_name": "Joe O'Brien",
+      "geo": null,
+      "id": 204603731369660418,
+      "id_str": "204603731369660418",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/1299406184/from_jeff_casimer_cropped_medium_normal.png",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/1299406184/from_jeff_casimer_cropped_medium_normal.png",
+      "source": "&lt;a href=&quot;http://www.echofon.com/&quot; rel=&quot;nofollow&quot;&gt;Echofon&lt;/a&gt;",
+      "text": "@copiousfreetime @WhiskyCraig @daksis @nicksieger @jremsikjr ETA  1:40 + commute time. See you all soon. @JRubyConf",
+      "to_user": "copiousfreetime",
+      "to_user_id": 14601522,
+      "to_user_id_str": "14601522",
+      "to_user_name": "Jeremy Hinegardner",
+      "in_reply_to_status_id": 204305863580721152,
+      "in_reply_to_status_id_str": "204305863580721152"
+    },
+    {
+      "created_at": "Mon, 21 May 2012 16:01:43 +0000",
+      "entities": {
+        "hashtags": [
+          {
+            "text": "jrubyconf",
+            "indices": [
+              116,
+              126
+            ]
+          }
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "ajuckel",
+            "name": "ajuckel",
+            "id": 18845871,
+            "id_str": "18845871",
+            "indices": [
+              11,
+              19
+            ]
+          }
+        ]
+      },
+      "from_user": "headius",
+      "from_user_id": 9989362,
+      "from_user_id_str": "9989362",
+      "from_user_name": "Charles Nutter",
+      "geo": null,
+      "id": 204602883541434368,
+      "id_str": "204602883541434368",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/409585603/charles_normal.jpg",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/409585603/charles_normal.jpg",
+      "source": "&lt;a href=&quot;http://seesmic.com/&quot; rel=&quot;nofollow&quot;&gt;Seesmic&lt;/a&gt;",
+      "text": "Will be at @ajuckel's intro to JRuby shortly to offer any assistance you might need. Office hours nearby afterward. #jrubyconf",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 15:51:37 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "JRubyConf",
+            "name": "JRubyConf",
+            "id": 71363379,
+            "id_str": "71363379",
+            "indices": [
+              28,
+              38
+            ]
+          }
+        ]
+      },
+      "from_user": "yerhot",
+      "from_user_id": 12341642,
+      "from_user_id_str": "12341642",
+      "from_user_name": "John Yerhot",
+      "geo": {
+        "coordinates": [
+          44.8153,
+          -93.3069
+        ],
+        "type": "Point"
+      },
+      "id": 204600341554139138,
+      "id_str": "204600341554139138",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/1664558211/374135_836323241352_199110370_38704251_300874280_n_normal.jpg",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/1664558211/374135_836323241352_199110370_38704251_300874280_n_normal.jpg",
+      "source": "&lt;a href=&quot;http://tapbots.com/tweetbot&quot; rel=&quot;nofollow&quot;&gt;Tweetbot for iOS&lt;/a&gt;",
+      "text": "Working instead of being at @JRubyConf. Not cool, not cool.",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 15:40:26 +0000",
+      "entities": {
+        "hashtags": [
+          {
+            "text": "jrubyconf",
+            "indices": [
+              32,
+              42
+            ]
+          }
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+
+        ]
+      },
+      "from_user": "diaffalo",
+      "from_user_id": 14517902,
+      "from_user_id_str": "14517902",
+      "from_user_name": "diaffalo",
+      "geo": {
+        "coordinates": [
+          44.8645,
+          -93.3078
+        ],
+        "type": "Point"
+      },
+      "id": 204597529256529921,
+      "id_str": "204597529256529921",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/1787952954/twitter_normal.png",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/1787952954/twitter_normal.png",
+      "source": "&lt;a href=&quot;http://twitter.com/#!/download/iphone&quot; rel=&quot;nofollow&quot;&gt;Twitter for iPhone&lt;/a&gt;",
+      "text": "When does the debauchery start? #jrubyconf",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 15:40:08 +0000",
+      "entities": {
+        "hashtags": [
+          {
+            "text": "jrubyconf",
+            "indices": [
+              83,
+              93
+            ]
+          }
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+
+        ]
+      },
+      "from_user": "MelissaVoegeli",
+      "from_user_id": 45771391,
+      "from_user_id_str": "45771391",
+      "from_user_name": "Melissa Voegeli",
+      "geo": null,
+      "id": 204597450449760257,
+      "id_str": "204597450449760257",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/2219445476/lawl2_normal.png",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/2219445476/lawl2_normal.png",
+      "source": "&lt;a href=&quot;http://twitter.com/#!/download/iphone&quot; rel=&quot;nofollow&quot;&gt;Twitter for iPhone&lt;/a&gt;",
+      "text": "Two simple spec tests and I am already impressed with JRuby's efficiency over MRI. #jrubyconf (after a few warmups anyway..)",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 15:38:08 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "refactr",
+            "name": "refactr",
+            "id": 14293980,
+            "id_str": "14293980",
+            "indices": [
+              1,
+              9
+            ]
+          },
+          {
+            "screen_name": "JRubyConf",
+            "name": "JRubyConf",
+            "id": 71363379,
+            "id_str": "71363379",
+            "indices": [
+              29,
+              39
+            ]
+          },
+          {
+            "screen_name": "lbredeso",
+            "name": "Luke Bredeson",
+            "id": 73539107,
+            "id_str": "73539107",
+            "indices": [
+              71,
+              80
+            ]
+          },
+          {
+            "screen_name": "adamlanners",
+            "name": "Adam Lanners",
+            "id": 562309498,
+            "id_str": "562309498",
+            "indices": [
+              87,
+              99
+            ]
+          },
+          {
+            "screen_name": "jenaedwards",
+            "name": "Jena Edwards",
+            "id": 34475427,
+            "id_str": "34475427",
+            "indices": [
+              119,
+              131
+            ]
+          }
+        ]
+      },
+      "from_user": "alttext",
+      "from_user_id": 2010871,
+      "from_user_id_str": "2010871",
+      "from_user_name": "Ben Edwards",
+      "geo": null,
+      "id": 204596947674345472,
+      "id_str": "204596947674345472",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/1167540653/ben-head-avatar-flip-w-border_normal.png",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/1167540653/ben-head-avatar-flip-w-border_normal.png",
+      "source": "&lt;a href=&quot;http://itunes.apple.com/us/app/twitter/id409789998?mt=12&quot; rel=&quot;nofollow&quot;&gt;Twitter for Mac&lt;/a&gt;",
+      "text": "“@refactr:Super excited that @JRubyConf has kicked off in Minneapolis. @lbredeso &amp; @adamlanners are representing!” @JenaEdwards's there too!",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 15:31:12 +0000",
+      "entities": {
+        "hashtags": [
+          {
+            "text": "jruby",
+            "indices": [
+              91,
+              97
+            ]
+          }
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "SwiftAlphaOne",
+            "name": "Swift",
+            "id": 42813580,
+            "id_str": "42813580",
+            "indices": [
+              3,
+              17
+            ]
+          },
+          {
+            "screen_name": "JRubyConf",
+            "name": "JRubyConf",
+            "id": 71363379,
+            "id_str": "71363379",
+            "indices": [
+              35,
+              45
+            ]
+          },
+          {
+            "screen_name": "SendGrid",
+            "name": "SendGrid",
+            "id": 42126617,
+            "id_str": "42126617",
+            "indices": [
+              68,
+              77
+            ]
+          }
+        ]
+      },
+      "from_user": "SendGrid",
+      "from_user_id": 42126617,
+      "from_user_id_str": "42126617",
+      "from_user_name": "SendGrid",
+      "geo": null,
+      "id": 204595205201076225,
+      "id_str": "204595205201076225",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/1779297739/image1327457310_normal.png",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/1779297739/image1327457310_normal.png",
+      "source": "&lt;a href=&quot;http://twitter.com/&quot;&gt;web&lt;/a&gt;",
+      "text": "RT @SwiftAlphaOne: Just arrived at @JRubyConf!  Want to learn about @SendGrid or just talk #jruby? Come by and say hello!",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 15:18:47 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+          {
+            "url": "http://t.co/HXME1sAd",
+            "expanded_url": "http://instagr.am/p/K5LiD9ty4a/",
+            "display_url": "instagr.am/p/K5LiD9ty4a/",
+            "indices": [
+              55,
+              75
+            ]
+          }
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "JRubyConf",
+            "name": "JRubyConf",
+            "id": 71363379,
+            "id_str": "71363379",
+            "indices": [
+              43,
+              53
+            ]
+          }
+        ]
+      },
+      "from_user": "objo",
+      "from_user_id": 1315011,
+      "from_user_id_str": "1315011",
+      "from_user_name": "Joe O'Brien",
+      "geo": null,
+      "id": 204592081006628864,
+      "id_str": "204592081006628864",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/1299406184/from_jeff_casimer_cropped_medium_normal.png",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/1299406184/from_jeff_casimer_cropped_medium_normal.png",
+      "source": "&lt;a href=&quot;http://instagr.am&quot; rel=&quot;nofollow&quot;&gt;instagram&lt;/a&gt;",
+      "text": "A familiar sight. Excited to be heading to @jrubyconf  http://t.co/HXME1sAd",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 15:18:20 +0000",
+      "entities": {
+        "hashtags": [
+          {
+            "text": "JRubyConf",
+            "indices": [
+              42,
+              52
+            ]
+          }
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "JRubyConf",
+            "name": "JRubyConf",
+            "id": 71363379,
+            "id_str": "71363379",
+            "indices": [
+              14,
+              24
+            ]
+          }
+        ]
+      },
+      "from_user": "arunagw",
+      "from_user_id": 4612661,
+      "from_user_id_str": "4612661",
+      "from_user_name": "Arun Agrawal",
+      "geo": null,
+      "id": 204591967995305985,
+      "id_str": "204591967995305985",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/2242985689/me_normal.jpg",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/2242985689/me_normal.jpg",
+      "source": "&lt;a href=&quot;http://tapbots.com/tweetbot&quot; rel=&quot;nofollow&quot;&gt;Tweetbot for iOS&lt;/a&gt;",
+      "text": "Time to watch @JRubyConf search timeline. #JRubyConf",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 15:17:13 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "JRubyConf",
+            "name": "JRubyConf",
+            "id": 71363379,
+            "id_str": "71363379",
+            "indices": [
+              19,
+              29
+            ]
+          },
+          {
+            "screen_name": "lbredeso",
+            "name": "Luke Bredeson",
+            "id": 73539107,
+            "id_str": "73539107",
+            "indices": [
+              61,
+              70
+            ]
+          },
+          {
+            "screen_name": "adamlanners",
+            "name": "Adam Lanners",
+            "id": 562309498,
+            "id_str": "562309498",
+            "indices": [
+              75,
+              87
+            ]
+          }
+        ]
+      },
+      "from_user": "refactr",
+      "from_user_id": 14293980,
+      "from_user_id_str": "14293980",
+      "from_user_name": "refactr",
+      "geo": null,
+      "id": 204591685970296832,
+      "id_str": "204591685970296832",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/1387562486/refactr_icon_normal.png",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/1387562486/refactr_icon_normal.png",
+      "source": "&lt;a href=&quot;http://itunes.apple.com/us/app/twitter/id409789998?mt=12&quot; rel=&quot;nofollow&quot;&gt;Twitter for Mac&lt;/a&gt;",
+      "text": "Super excited that @JRubyConf has kicked off in Minneapolis. @lbredeso and @adamlanners are representing!",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 15:15:23 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "SimplyMadeApps",
+            "name": "Simply Made Apps",
+            "id": 263994311,
+            "id_str": "263994311",
+            "indices": [
+              3,
+              18
+            ]
+          },
+          {
+            "screen_name": "bmedenwald",
+            "name": "Brandon Medenwald",
+            "id": 14069686,
+            "id_str": "14069686",
+            "indices": [
+              33,
+              44
+            ]
+          }
+        ]
+      },
+      "from_user": "billburgess",
+      "from_user_id": 19620120,
+      "from_user_id_str": "19620120",
+      "from_user_name": "Bill Burgess",
+      "geo": null,
+      "id": 204591222982057984,
+      "id_str": "204591222982057984",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/1792685547/bwtwitterpic-300x232_normal.jpg",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/1792685547/bwtwitterpic-300x232_normal.jpg",
+      "source": "&lt;a href=&quot;http://twitter.com/#!/download/iphone&quot; rel=&quot;nofollow&quot;&gt;Twitter for iPhone&lt;/a&gt;",
+      "text": "RT @SimplyMadeApps: Our very own @bmedenwald will be at JRubyConf Minneapolis today thru Wed. If you'd like to talk about Simple In/Out, message him on Twitter.",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 15:12:38 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "qmx",
+            "name": "Douglas Campos",
+            "id": 16462048,
+            "id_str": "16462048",
+            "indices": [
+              3,
+              7
+            ]
+          },
+          {
+            "screen_name": "JRubyConf",
+            "name": "JRubyConf",
+            "id": 71363379,
+            "id_str": "71363379",
+            "indices": [
+              21,
+              31
+            ]
+          }
+        ],
+        "media": [
+          {
+            "id": 204566070877622272,
+            "id_str": "204566070877622272",
+            "indices": [
+              105,
+              125
+            ],
+            "media_url": "http://p.twimg.com/AtbDwfPCEAAWLE4.jpg",
+            "media_url_https": "https://p.twimg.com/AtbDwfPCEAAWLE4.jpg",
+            "url": "http://t.co/DcSxInMg",
+            "display_url": "pic.twitter.com/DcSxInMg",
+            "expanded_url": "http://twitter.com/qmx/status/204566070873427968/photo/1",
+            "type": "photo",
+            "sizes": {
+              "medium": {
+                "w": 600,
+                "h": 450,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 1024,
+                "h": 768,
+                "resize": "fit"
+              },
+              "small": {
+                "w": 340,
+                "h": 255,
+                "resize": "fit"
+              },
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "orig": {
+                "w": 2048,
+                "h": 1536,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "from_user": "arielvalentin",
+      "from_user_id": 17454755,
+      "from_user_id_str": "17454755",
+      "from_user_name": "arielvalentin",
+      "geo": null,
+      "id": 204590532691898371,
+      "id_str": "204590532691898371",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/310774020/Picture_1_normal.png",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/310774020/Picture_1_normal.png",
+      "source": "&lt;a href=&quot;http://www.echofon.com/&quot; rel=&quot;nofollow&quot;&gt;Echofon&lt;/a&gt;",
+      "text": "RT @qmx: ....and the @jrubyconf trip starts with me bumping with robert plant &amp; co at GRU airport :) http://t.co/DcSxInMg",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 15:12:24 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "engineyard",
+            "name": "Engine Yard",
+            "id": 7255652,
+            "id_str": "7255652",
+            "indices": [
+              3,
+              14
+            ]
+          },
+          {
+            "screen_name": "JRubyConf",
+            "name": "JRubyConf",
+            "id": 71363379,
+            "id_str": "71363379",
+            "indices": [
+              30,
+              40
+            ]
+          },
+          {
+            "screen_name": "railsbridge",
+            "name": "RailsBridge",
+            "id": 37201113,
+            "id_str": "37201113",
+            "indices": [
+              61,
+              73
+            ]
+          },
+          {
+            "screen_name": "jruby",
+            "name": "JRuby Dev Team",
+            "id": 16132186,
+            "id_str": "16132186",
+            "indices": [
+              112,
+              118
+            ]
+          }
+        ]
+      },
+      "from_user": "lkateley",
+      "from_user_id": 14786051,
+      "from_user_id_str": "14786051",
+      "from_user_name": "lindakateley",
+      "geo": null,
+      "id": 204590472956616705,
+      "id_str": "204590472956616705",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/149002909/linda_normal.jpg",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/149002909/linda_normal.jpg",
+      "source": "&lt;a href=&quot;http://www.hootsuite.com&quot; rel=&quot;nofollow&quot;&gt;HootSuite&lt;/a&gt;",
+      "text": "RT @engineyard: It's Day 1 of @JRubyConf! Come check out the @railsbridge workshop, or stop by Anthony Juckel's @jruby beginners'...",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 15:06:47 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "bmedenwald",
+            "name": "Brandon Medenwald",
+            "id": 14069686,
+            "id_str": "14069686",
+            "indices": [
+              13,
+              24
+            ]
+          }
+        ]
+      },
+      "from_user": "SimplyMadeApps",
+      "from_user_id": 263994311,
+      "from_user_id_str": "263994311",
+      "from_user_name": "Simply Made Apps",
+      "geo": null,
+      "id": 204589057509048320,
+      "id_str": "204589057509048320",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/1688068669/512x512_normal.png",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/1688068669/512x512_normal.png",
+      "source": "&lt;a href=&quot;http://twitter.com/#!/download/iphone&quot; rel=&quot;nofollow&quot;&gt;Twitter for iPhone&lt;/a&gt;",
+      "text": "Our very own @bmedenwald will be at JRubyConf Minneapolis today thru Wed. If you'd like to talk about Simple In/Out, message him on Twitter.",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 14:53:41 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "engineyard",
+            "name": "Engine Yard",
+            "id": 7255652,
+            "id_str": "7255652",
+            "indices": [
+              3,
+              14
+            ]
+          },
+          {
+            "screen_name": "JRubyConf",
+            "name": "JRubyConf",
+            "id": 71363379,
+            "id_str": "71363379",
+            "indices": [
+              30,
+              40
+            ]
+          },
+          {
+            "screen_name": "railsbridge",
+            "name": "RailsBridge",
+            "id": 37201113,
+            "id_str": "37201113",
+            "indices": [
+              61,
+              73
+            ]
+          },
+          {
+            "screen_name": "jruby",
+            "name": "JRuby Dev Team",
+            "id": 16132186,
+            "id_str": "16132186",
+            "indices": [
+              112,
+              118
+            ]
+          }
+        ]
+      },
+      "from_user": "tychobrailleur",
+      "from_user_id": 237189775,
+      "from_user_id_str": "237189775",
+      "from_user_name": "Seb Le Callonnec",
+      "geo": null,
+      "id": 204585762216357889,
+      "id_str": "204585762216357889",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/1234812525/3d857e12d234c585de25ae1be1297ad0_normal.png",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/1234812525/3d857e12d234c585de25ae1be1297ad0_normal.png",
+      "source": "&lt;a href=&quot;http://twitter.com/&quot;&gt;web&lt;/a&gt;",
+      "text": "RT @engineyard: It's Day 1 of @JRubyConf! Come check out the @railsbridge workshop, or stop by Anthony Juckel's @JRuby beginners' workshop at 10:30",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 14:52:01 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "JRubyConf",
+            "name": "JRubyConf",
+            "id": 71363379,
+            "id_str": "71363379",
+            "indices": [
+              23,
+              33
+            ]
+          }
+        ]
+      },
+      "from_user": "gfmurphy",
+      "from_user_id": 14417019,
+      "from_user_id_str": "14417019",
+      "from_user_name": "George Murphy",
+      "geo": null,
+      "id": 204585344484646912,
+      "id_str": "204585344484646912",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/sticky/default_profile_images/default_profile_1_normal.png",
+      "profile_image_url_https": "https://si0.twimg.com/sticky/default_profile_images/default_profile_1_normal.png",
+      "source": "&lt;a href=&quot;http://twitter.com/&quot;&gt;web&lt;/a&gt;",
+      "text": "Sad i'm not in MSP for @JRubyConf :(",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 14:51:56 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+          {
+            "url": "http://t.co/WOehRC0b",
+            "expanded_url": "http://ow.ly/i/DMnp",
+            "display_url": "ow.ly/i/DMnp",
+            "indices": [
+              49,
+              69
+            ]
+          }
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "JRubyConf",
+            "name": "JRubyConf",
+            "id": 71363379,
+            "id_str": "71363379",
+            "indices": [
+              18,
+              28
+            ]
+          },
+          {
+            "screen_name": "ultrasaurus",
+            "name": "Sarah Allen",
+            "id": 13368452,
+            "id_str": "13368452",
+            "indices": [
+              34,
+              46
+            ]
+          }
+        ]
+      },
+      "from_user": "JakeGoulding",
+      "from_user_id": 197769225,
+      "from_user_id_str": "197769225",
+      "from_user_name": "Jake Goulding",
+      "geo": null,
+      "id": 204585324284882945,
+      "id_str": "204585324284882945",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/1183552005/Kirby_Standing_128x128_normal.png",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/1183552005/Kirby_Standing_128x128_normal.png",
+      "source": "&lt;a href=&quot;http://www.hootsuite.com&quot; rel=&quot;nofollow&quot;&gt;HootSuite&lt;/a&gt;",
+      "text": "At RailsBridge at @JRubyConf with @ultrasaurus.  http://t.co/WOehRC0b",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 14:51:40 +0000",
+      "entities": {
+        "hashtags": [
+          {
+            "text": "jrubyconf",
+            "indices": [
+              65,
+              75
+            ]
+          },
+          {
+            "text": "labzero",
+            "indices": [
+              76,
+              84
+            ]
+          }
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+
+        ]
+      },
+      "from_user": "w1150n",
+      "from_user_id": 7305662,
+      "from_user_id_str": "7305662",
+      "from_user_name": "Matthew",
+      "geo": null,
+      "id": 204585253594087424,
+      "id_str": "204585253594087424",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/52881884/Photo_13_normal.jpg",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/52881884/Photo_13_normal.jpg",
+      "source": "&lt;a href=&quot;http://twitter.com/#!/download/iphone&quot; rel=&quot;nofollow&quot;&gt;Twitter for iPhone&lt;/a&gt;",
+      "text": "The breakfast menu at Hell's Kitchen in Minneapolis is amazing!  #jrubyconf #labzero",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 14:51:39 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "qmx",
+            "name": "Douglas Campos",
+            "id": 16462048,
+            "id_str": "16462048",
+            "indices": [
+              17,
+              21
+            ]
+          },
+          {
+            "screen_name": "JRubyConf",
+            "name": "JRubyConf",
+            "id": 71363379,
+            "id_str": "71363379",
+            "indices": [
+              35,
+              45
+            ]
+          }
+        ],
+        "media": [
+          {
+            "id": 204566070877622272,
+            "id_str": "204566070877622272",
+            "indices": [
+              119,
+              139
+            ],
+            "media_url": "http://p.twimg.com/AtbDwfPCEAAWLE4.jpg",
+            "media_url_https": "https://p.twimg.com/AtbDwfPCEAAWLE4.jpg",
+            "url": "http://t.co/DtjZpW57",
+            "display_url": "pic.twitter.com/DtjZpW57",
+            "expanded_url": "http://twitter.com/qmx/status/204566070873427968/photo/1",
+            "type": "photo",
+            "sizes": {
+              "medium": {
+                "w": 600,
+                "h": 450,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 1024,
+                "h": 768,
+                "resize": "fit"
+              },
+              "small": {
+                "w": 340,
+                "h": 255,
+                "resize": "fit"
+              },
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "orig": {
+                "w": 2048,
+                "h": 1536,
+                "resize": "fit"
+              },
+              "source_status_id": 204566070873427968,
+              "source_status_id_str": "204566070873427968"
+            }
+          }
+        ]
+      },
+      "from_user": "noteu",
+      "from_user_id": 63487125,
+      "from_user_id_str": "63487125",
+      "from_user_name": "João",
+      "geo": null,
+      "id": 204585250150551552,
+      "id_str": "204585250150551552",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/354392480/Image081_crop_160w_normal.jpg",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/354392480/Image081_crop_160w_normal.jpg",
+      "source": "&lt;a href=&quot;http://sites.google.com/site/yorufukurou/&quot; rel=&quot;nofollow&quot;&gt;YoruFukurou&lt;/a&gt;",
+      "text": "OMG! awesome! RT @qmx: ....and the @jrubyconf trip starts with me bumping with robert plant &amp; co at GRU airport :) http://t.co/DtjZpW57",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 14:48:10 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "JRubyConf",
+            "name": "JRubyConf",
+            "id": 71363379,
+            "id_str": "71363379",
+            "indices": [
+              14,
+              24
+            ]
+          },
+          {
+            "screen_name": "railsbridge",
+            "name": "RailsBridge",
+            "id": 37201113,
+            "id_str": "37201113",
+            "indices": [
+              45,
+              57
+            ]
+          },
+          {
+            "screen_name": "jruby",
+            "name": "JRuby Dev Team",
+            "id": 16132186,
+            "id_str": "16132186",
+            "indices": [
+              96,
+              102
+            ]
+          }
+        ]
+      },
+      "from_user": "engineyard",
+      "from_user_id": 7255652,
+      "from_user_id_str": "7255652",
+      "from_user_name": "Engine Yard",
+      "geo": null,
+      "id": 204584374610575360,
+      "id_str": "204584374610575360",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/1410157959/engine-yard-twitter_normal.jpg",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/1410157959/engine-yard-twitter_normal.jpg",
+      "source": "&lt;a href=&quot;http://twitter.com/&quot;&gt;web&lt;/a&gt;",
+      "text": "It's Day 1 of @JRubyConf! Come check out the @railsbridge workshop, or stop by Anthony Juckel's @JRuby beginners' workshop at 10:30",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 14:35:11 +0000",
+      "entities": {
+        "hashtags": [
+          {
+            "text": "guthrie",
+            "indices": [
+              0,
+              8
+            ]
+          },
+          {
+            "text": "jrubyconf",
+            "indices": [
+              9,
+              19
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "url": "http://t.co/Bw4Dmbbj",
+            "expanded_url": "http://instagr.am/p/K5GWJ_xhF8/",
+            "display_url": "instagr.am/p/K5GWJ_xhF8/",
+            "indices": [
+              20,
+              40
+            ]
+          }
+        ],
+        "user_mentions": [
+
+        ]
+      },
+      "from_user": "MelissaVoegeli",
+      "from_user_id": 45771391,
+      "from_user_id_str": "45771391",
+      "from_user_name": "Melissa Voegeli",
+      "geo": null,
+      "id": 204581106215948289,
+      "id_str": "204581106215948289",
+      "iso_language_code": "de",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/2219445476/lawl2_normal.png",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/2219445476/lawl2_normal.png",
+      "source": "&lt;a href=&quot;http://instagr.am&quot; rel=&quot;nofollow&quot;&gt;instagram&lt;/a&gt;",
+      "text": "#guthrie #jrubyconf http://t.co/Bw4Dmbbj",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 14:34:31 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+
+        ]
+      },
+      "from_user": "johnnicholastx",
+      "from_user_id": 227080342,
+      "from_user_id_str": "227080342",
+      "from_user_name": "John Nicholas",
+      "geo": null,
+      "id": 204580938678669313,
+      "id_str": "204580938678669313",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/1908927137/JohnNicholas225x300_normal.jpg",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/1908927137/JohnNicholas225x300_normal.jpg",
+      "source": "&lt;a href=&quot;http://twitter.com/&quot;&gt;web&lt;/a&gt;",
+      "text": "Couldn't make it to JRubyConf but hoping that JRuby 1.7 is announced at it.",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 14:32:40 +0000",
+      "entities": {
+        "hashtags": [
+          {
+            "text": "jruby",
+            "indices": [
+              91,
+              97
+            ]
+          }
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "SwiftAlphaOne",
+            "name": "Swift",
+            "id": 42813580,
+            "id_str": "42813580",
+            "indices": [
+              3,
+              17
+            ]
+          },
+          {
+            "screen_name": "JRubyConf",
+            "name": "JRubyConf",
+            "id": 71363379,
+            "id_str": "71363379",
+            "indices": [
+              35,
+              45
+            ]
+          },
+          {
+            "screen_name": "SendGrid",
+            "name": "SendGrid",
+            "id": 42126617,
+            "id_str": "42126617",
+            "indices": [
+              68,
+              77
+            ]
+          }
+        ]
+      },
+      "from_user": "SendGrid",
+      "from_user_id": 42126617,
+      "from_user_id_str": "42126617",
+      "from_user_name": "SendGrid",
+      "geo": null,
+      "id": 204580475208085506,
+      "id_str": "204580475208085506",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/1779297739/image1327457310_normal.png",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/1779297739/image1327457310_normal.png",
+      "source": "&lt;a href=&quot;http://www.hootsuite.com&quot; rel=&quot;nofollow&quot;&gt;HootSuite&lt;/a&gt;",
+      "text": "RT @swiftalphaone: Just arrived at @JRubyConf!  Want to learn about @SendGrid or just talk #jruby? Come by and say hello!",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 14:31:54 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "JRubyConf",
+            "name": "JRubyConf",
+            "id": 71363379,
+            "id_str": "71363379",
+            "indices": [
+              42,
+              52
+            ]
+          }
+        ]
+      },
+      "from_user": "bbrowning",
+      "from_user_id": 14614572,
+      "from_user_id_str": "14614572",
+      "from_user_name": "bbrowning",
+      "geo": null,
+      "id": 204580281825509378,
+      "id_str": "204580281825509378",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/1631316813/IMG_1958_normal.jpg",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/1631316813/IMG_1958_normal.jpg",
+      "source": "&lt;a href=&quot;http://twitter.com/#!/download/iphone&quot; rel=&quot;nofollow&quot;&gt;Twitter for iPhone&lt;/a&gt;",
+      "text": "Delta Sky Club then first class flight to @JRubyConf - whiskey tasting starting early for me",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 14:27:33 +0000",
+      "entities": {
+        "hashtags": [
+          {
+            "text": "jruby",
+            "indices": [
+              72,
+              78
+            ]
+          }
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "JRubyConf",
+            "name": "JRubyConf",
+            "id": 71363379,
+            "id_str": "71363379",
+            "indices": [
+              16,
+              26
+            ]
+          },
+          {
+            "screen_name": "SendGrid",
+            "name": "SendGrid",
+            "id": 42126617,
+            "id_str": "42126617",
+            "indices": [
+              49,
+              58
+            ]
+          }
+        ]
+      },
+      "from_user": "SwiftAlphaOne",
+      "from_user_id": 42813580,
+      "from_user_id_str": "42813580",
+      "from_user_name": "Swift",
+      "geo": null,
+      "id": 204579184838836224,
+      "id_str": "204579184838836224",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/1689583844/profilepic2_normal.jpeg",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/1689583844/profilepic2_normal.jpeg",
+      "source": "&lt;a href=&quot;http://twitter.com/&quot;&gt;web&lt;/a&gt;",
+      "text": "Just arrived at @JRubyConf!  Want to learn about @SendGrid or just talk #jruby? Come by and say hello!",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 14:22:44 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+          {
+            "url": "http://t.co/iPiB3Dvs",
+            "expanded_url": "http://4sq.com/JiB8NN",
+            "display_url": "4sq.com/JiB8NN",
+            "indices": [
+              35,
+              55
+            ]
+          }
+        ],
+        "user_mentions": [
+
+        ]
+      },
+      "from_user": "theSociableme",
+      "from_user_id": 277046526,
+      "from_user_id_str": "277046526",
+      "from_user_name": "Mark Wagner",
+      "geo": null,
+      "id": 204577974366896131,
+      "id_str": "204577974366896131",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/2160347059/474414_3480360138361_1552034345_32954835_1573579085_o_normal.jpg",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/2160347059/474414_3480360138361_1552034345_32954835_1573579085_o_normal.jpg",
+      "source": "&lt;a href=&quot;http://foursquare.com&quot; rel=&quot;nofollow&quot;&gt;foursquare&lt;/a&gt;",
+      "text": "I'm at jRubyConf (Minneapolis, mn) http://t.co/iPiB3Dvs",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 14:07:20 +0000",
+      "entities": {
+        "hashtags": [
+          {
+            "text": "jrubyconf",
+            "indices": [
+              30,
+              40
+            ]
+          }
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+
+        ]
+      },
+      "from_user": "MelissaVoegeli",
+      "from_user_id": 45771391,
+      "from_user_id_str": "45771391",
+      "from_user_name": "Melissa Voegeli",
+      "geo": null,
+      "id": 204574098465107968,
+      "id_str": "204574098465107968",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/2219445476/lawl2_normal.png",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/2219445476/lawl2_normal.png",
+      "source": "&lt;a href=&quot;http://twitter.com/#!/download/iphone&quot; rel=&quot;nofollow&quot;&gt;Twitter for iPhone&lt;/a&gt;",
+      "text": "On a train to the Guthrie for #jrubyconf !",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 14:04:36 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "JRubyConf",
+            "name": "JRubyConf",
+            "id": 71363379,
+            "id_str": "71363379",
+            "indices": [
+              33,
+              43
+            ]
+          },
+          {
+            "screen_name": "MplsFlannery",
+            "name": "Flannery Dolan",
+            "id": 411270867,
+            "id_str": "411270867",
+            "indices": [
+              45,
+              58
+            ]
+          },
+          {
+            "screen_name": "nicksieger",
+            "name": "Nick Sieger [日空]",
+            "id": 5504482,
+            "id_str": "5504482",
+            "indices": [
+              63,
+              74
+            ]
+          }
+        ]
+      },
+      "from_user": "kelseyschimm",
+      "from_user_id": 217219577,
+      "from_user_id_str": "217219577",
+      "from_user_name": "Kelsey Schimmelman",
+      "geo": null,
+      "id": 204573410406313984,
+      "id_str": "204573410406313984",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/1228527491/4848_normal.jpg",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/1228527491/4848_normal.jpg",
+      "source": "&lt;a href=&quot;http://twitter.com/&quot;&gt;web&lt;/a&gt;",
+      "text": "Excited to be in Minneapolis for @JRubyConf. @MplsFlannery and @nicksieger have been working so hard, I can't wait to see the results.",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 14:01:49 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "qmx",
+            "name": "Douglas Campos",
+            "id": 16462048,
+            "id_str": "16462048",
+            "indices": [
+              9,
+              13
+            ]
+          },
+          {
+            "screen_name": "JRubyConf",
+            "name": "JRubyConf",
+            "id": 71363379,
+            "id_str": "71363379",
+            "indices": [
+              27,
+              37
+            ]
+          }
+        ],
+        "media": [
+          {
+            "id": 204566070877622272,
+            "id_str": "204566070877622272",
+            "indices": [
+              111,
+              131
+            ],
+            "media_url": "http://p.twimg.com/AtbDwfPCEAAWLE4.jpg",
+            "media_url_https": "https://p.twimg.com/AtbDwfPCEAAWLE4.jpg",
+            "url": "http://t.co/cWLxSBAt",
+            "display_url": "pic.twitter.com/cWLxSBAt",
+            "expanded_url": "http://twitter.com/qmx/status/204566070873427968/photo/1",
+            "type": "photo",
+            "sizes": {
+              "medium": {
+                "w": 600,
+                "h": 450,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 1024,
+                "h": 768,
+                "resize": "fit"
+              },
+              "small": {
+                "w": 340,
+                "h": 255,
+                "resize": "fit"
+              },
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "orig": {
+                "w": 2048,
+                "h": 1536,
+                "resize": "fit"
+              },
+              "source_status_id": 204566070873427968,
+              "source_status_id_str": "204566070873427968"
+            }
+          }
+        ]
+      },
+      "from_user": "scalone",
+      "from_user_id": 29039503,
+      "from_user_id_str": "29039503",
+      "from_user_name": "Thiago Scalone",
+      "geo": null,
+      "id": 204572709164822528,
+      "id_str": "204572709164822528",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/725911066/IMG_0452_normal.jpg",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/725911066/IMG_0452_normal.jpg",
+      "source": "&lt;a href=&quot;http://www.echofon.com/&quot; rel=&quot;nofollow&quot;&gt;Echofon&lt;/a&gt;",
+      "text": "Nuuuu RT @qmx: ....and the @jrubyconf trip starts with me bumping with robert plant &amp; co at GRU airport :) http://t.co/cWLxSBAt",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 13:55:45 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "qmx",
+            "name": "Douglas Campos",
+            "id": 16462048,
+            "id_str": "16462048",
+            "indices": [
+              3,
+              7
+            ]
+          },
+          {
+            "screen_name": "JRubyConf",
+            "name": "JRubyConf",
+            "id": 71363379,
+            "id_str": "71363379",
+            "indices": [
+              21,
+              31
+            ]
+          }
+        ],
+        "media": [
+          {
+            "id": 204566070877622272,
+            "id_str": "204566070877622272",
+            "indices": [
+              105,
+              125
+            ],
+            "media_url": "http://p.twimg.com/AtbDwfPCEAAWLE4.jpg",
+            "media_url_https": "https://p.twimg.com/AtbDwfPCEAAWLE4.jpg",
+            "url": "http://t.co/DcSxInMg",
+            "display_url": "pic.twitter.com/DcSxInMg",
+            "expanded_url": "http://twitter.com/qmx/status/204566070873427968/photo/1",
+            "type": "photo",
+            "sizes": {
+              "medium": {
+                "w": 600,
+                "h": 450,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 1024,
+                "h": 768,
+                "resize": "fit"
+              },
+              "small": {
+                "w": 340,
+                "h": 255,
+                "resize": "fit"
+              },
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "orig": {
+                "w": 2048,
+                "h": 1536,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "from_user": "headius",
+      "from_user_id": 9989362,
+      "from_user_id_str": "9989362",
+      "from_user_name": "Charles Nutter",
+      "geo": null,
+      "id": 204571182907924480,
+      "id_str": "204571182907924480",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/409585603/charles_normal.jpg",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/409585603/charles_normal.jpg",
+      "source": "&lt;a href=&quot;http://www.echofon.com/&quot; rel=&quot;nofollow&quot;&gt;Echofon&lt;/a&gt;",
+      "text": "RT @qmx: ....and the @jrubyconf trip starts with me bumping with robert plant &amp; co at GRU airport :) http://t.co/DcSxInMg",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 13:55:41 +0000",
+      "entities": {
+        "hashtags": [
+          {
+            "text": "jrubyconf",
+            "indices": [
+              83,
+              93
+            ]
+          }
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "lanceball",
+            "name": "Lance Ball",
+            "id": 12687912,
+            "id_str": "12687912",
+            "indices": [
+              48,
+              58
+            ]
+          }
+        ]
+      },
+      "from_user": "jcrossley3",
+      "from_user_id": 11573212,
+      "from_user_id_str": "11573212",
+      "from_user_name": "Jim Crossley",
+      "geo": null,
+      "id": 204571168575987712,
+      "id_str": "204571168575987712",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/1756011886/jim_normal.png",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/1756011886/jim_normal.png",
+      "source": "&lt;a href=&quot;http://www.tweetdeck.com&quot; rel=&quot;nofollow&quot;&gt;TweetDeck&lt;/a&gt;",
+      "text": "On marta, headed to airport. Can't wait to give @lanceball a big firm handshake at #jrubyconf ;-)",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 13:55:03 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "ejgreenberg",
+            "name": "Elaine Greenberg",
+            "id": 21726443,
+            "id_str": "21726443",
+            "indices": [
+              0,
+              12
+            ]
+          }
+        ]
+      },
+      "from_user": "timlittlemore",
+      "from_user_id": 29689585,
+      "from_user_id_str": "29689585",
+      "from_user_name": "Tim Littlemore",
+      "geo": null,
+      "id": 204571007745404928,
+      "id_str": "204571007745404928",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/1121219521/IMG_0042_normal.JPG",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/1121219521/IMG_0042_normal.JPG",
+      "source": "&lt;a href=&quot;http://itunes.apple.com/us/app/twitter/id409789998?mt=12&quot; rel=&quot;nofollow&quot;&gt;Twitter for Mac&lt;/a&gt;",
+      "text": "@ejgreenberg is that the jrubyconf slogan? If not, perhaps it should be...",
+      "to_user": "ejgreenberg",
+      "to_user_id": 21726443,
+      "to_user_id_str": "21726443",
+      "to_user_name": "Elaine Greenberg",
+      "in_reply_to_status_id": 204560001048641536,
+      "in_reply_to_status_id_str": "204560001048641536"
+    },
+    {
+      "created_at": "Mon, 21 May 2012 13:53:34 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "railsbridge",
+            "name": "RailsBridge",
+            "id": 37201113,
+            "id_str": "37201113",
+            "indices": [
+              15,
+              27
+            ]
+          },
+          {
+            "screen_name": "JRubyConf",
+            "name": "JRubyConf",
+            "id": 71363379,
+            "id_str": "71363379",
+            "indices": [
+              31,
+              41
+            ]
+          }
+        ]
+      },
+      "from_user": "gigglegirl4e",
+      "from_user_id": 133486420,
+      "from_user_id_str": "133486420",
+      "from_user_name": "Renée D.",
+      "geo": null,
+      "id": 204570633898696704,
+      "id_str": "204570633898696704",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/1436982058/ReneeHeadShot_normal.jpg",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/1436982058/ReneeHeadShot_normal.jpg",
+      "source": "&lt;a href=&quot;http://www.echofon.com/&quot; rel=&quot;nofollow&quot;&gt;Echofon&lt;/a&gt;",
+      "text": "Heading to the @railsbridge at @JRubyConf !",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 13:47:08 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "qmx",
+            "name": "Douglas Campos",
+            "id": 16462048,
+            "id_str": "16462048",
+            "indices": [
+              3,
+              7
+            ]
+          },
+          {
+            "screen_name": "JRubyConf",
+            "name": "JRubyConf",
+            "id": 71363379,
+            "id_str": "71363379",
+            "indices": [
+              21,
+              31
+            ]
+          }
+        ],
+        "media": [
+          {
+            "id": 204566070877622272,
+            "id_str": "204566070877622272",
+            "indices": [
+              105,
+              125
+            ],
+            "media_url": "http://p.twimg.com/AtbDwfPCEAAWLE4.jpg",
+            "media_url_https": "https://p.twimg.com/AtbDwfPCEAAWLE4.jpg",
+            "url": "http://t.co/DcSxInMg",
+            "display_url": "pic.twitter.com/DcSxInMg",
+            "expanded_url": "http://twitter.com/qmx/status/204566070873427968/photo/1",
+            "type": "photo",
+            "sizes": {
+              "medium": {
+                "w": 600,
+                "h": 450,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 1024,
+                "h": 768,
+                "resize": "fit"
+              },
+              "small": {
+                "w": 340,
+                "h": 255,
+                "resize": "fit"
+              },
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "orig": {
+                "w": 2048,
+                "h": 1536,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "from_user": "quindin",
+      "from_user_id": 257721987,
+      "from_user_id_str": "257721987",
+      "from_user_name": "Pedro Neto",
+      "geo": null,
+      "id": 204569015975280640,
+      "id_str": "204569015975280640",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/1255284437/pn2_normal.jpg",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/1255284437/pn2_normal.jpg",
+      "source": "&lt;a href=&quot;http://www.echofon.com/&quot; rel=&quot;nofollow&quot;&gt;Echofon&lt;/a&gt;",
+      "text": "RT @qmx: ....and the @jrubyconf trip starts with me bumping with robert plant &amp; co at GRU airport :) http://t.co/DcSxInMg",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 13:42:10 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "qmx",
+            "name": "Douglas Campos",
+            "id": 16462048,
+            "id_str": "16462048",
+            "indices": [
+              0,
+              4
+            ]
+          },
+          {
+            "screen_name": "JRubyConf",
+            "name": "JRubyConf",
+            "id": 71363379,
+            "id_str": "71363379",
+            "indices": [
+              5,
+              15
+            ]
+          }
+        ]
+      },
+      "from_user": "mauriciojr",
+      "from_user_id": 18018665,
+      "from_user_id_str": "18018665",
+      "from_user_name": "Maurício Linhares",
+      "geo": null,
+      "id": 204567765036707840,
+      "id_str": "204567765036707840",
+      "iso_language_code": "fi",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/1436961531/954144044421eda622690a48e64e7c92_normal.jpeg",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/1436961531/954144044421eda622690a48e64e7c92_normal.jpeg",
+      "source": "&lt;a href=&quot;http://itunes.apple.com/us/app/twitter/id409789998?mt=12&quot; rel=&quot;nofollow&quot;&gt;Twitter for Mac&lt;/a&gt;",
+      "text": "@qmx @jrubyconf OMG",
+      "to_user": "qmx",
+      "to_user_id": 16462048,
+      "to_user_id_str": "16462048",
+      "to_user_name": "Douglas Campos",
+      "in_reply_to_status_id": 204566070873427968,
+      "in_reply_to_status_id_str": "204566070873427968"
+    },
+    {
+      "created_at": "Mon, 21 May 2012 13:42:06 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "qmx",
+            "name": "Douglas Campos",
+            "id": 16462048,
+            "id_str": "16462048",
+            "indices": [
+              3,
+              7
+            ]
+          },
+          {
+            "screen_name": "JRubyConf",
+            "name": "JRubyConf",
+            "id": 71363379,
+            "id_str": "71363379",
+            "indices": [
+              21,
+              31
+            ]
+          }
+        ],
+        "media": [
+          {
+            "id": 204566070877622272,
+            "id_str": "204566070877622272",
+            "indices": [
+              105,
+              125
+            ],
+            "media_url": "http://p.twimg.com/AtbDwfPCEAAWLE4.jpg",
+            "media_url_https": "https://p.twimg.com/AtbDwfPCEAAWLE4.jpg",
+            "url": "http://t.co/DcSxInMg",
+            "display_url": "pic.twitter.com/DcSxInMg",
+            "expanded_url": "http://twitter.com/qmx/status/204566070873427968/photo/1",
+            "type": "photo",
+            "sizes": {
+              "medium": {
+                "w": 600,
+                "h": 450,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 1024,
+                "h": 768,
+                "resize": "fit"
+              },
+              "small": {
+                "w": 340,
+                "h": 255,
+                "resize": "fit"
+              },
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "orig": {
+                "w": 2048,
+                "h": 1536,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "from_user": "mauriciojr",
+      "from_user_id": 18018665,
+      "from_user_id_str": "18018665",
+      "from_user_name": "Maurício Linhares",
+      "geo": null,
+      "id": 204567746682425344,
+      "id_str": "204567746682425344",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/1436961531/954144044421eda622690a48e64e7c92_normal.jpeg",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/1436961531/954144044421eda622690a48e64e7c92_normal.jpeg",
+      "source": "&lt;a href=&quot;http://www.echofon.com/&quot; rel=&quot;nofollow&quot;&gt;Echofon&lt;/a&gt;",
+      "text": "RT @qmx: ....and the @jrubyconf trip starts with me bumping with robert plant &amp; co at GRU airport :) http://t.co/DcSxInMg",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 13:41:11 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "qmx",
+            "name": "Douglas Campos",
+            "id": 16462048,
+            "id_str": "16462048",
+            "indices": [
+              11,
+              15
+            ]
+          },
+          {
+            "screen_name": "JRubyConf",
+            "name": "JRubyConf",
+            "id": 71363379,
+            "id_str": "71363379",
+            "indices": [
+              29,
+              39
+            ]
+          }
+        ],
+        "media": [
+          {
+            "id": 204566070877622272,
+            "id_str": "204566070877622272",
+            "indices": [
+              113,
+              133
+            ],
+            "media_url": "http://p.twimg.com/AtbDwfPCEAAWLE4.jpg",
+            "media_url_https": "https://p.twimg.com/AtbDwfPCEAAWLE4.jpg",
+            "url": "http://t.co/1qpHC97u",
+            "display_url": "pic.twitter.com/1qpHC97u",
+            "expanded_url": "http://twitter.com/qmx/status/204566070873427968/photo/1",
+            "type": "photo",
+            "sizes": {
+              "medium": {
+                "w": 600,
+                "h": 450,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 1024,
+                "h": 768,
+                "resize": "fit"
+              },
+              "small": {
+                "w": 340,
+                "h": 255,
+                "resize": "fit"
+              },
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "orig": {
+                "w": 2048,
+                "h": 1536,
+                "resize": "fit"
+              },
+              "source_status_id": 204566070873427968,
+              "source_status_id_str": "204566070873427968"
+            }
+          }
+        ]
+      },
+      "from_user": "porcelli",
+      "from_user_id": 18147779,
+      "from_user_id_str": "18147779",
+      "from_user_name": "Alexandre Porcelli",
+      "geo": null,
+      "id": 204567517396606976,
+      "id_str": "204567517396606976",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/1130589863/avatar_normal.png",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/1130589863/avatar_normal.png",
+      "source": "&lt;a href=&quot;http://itunes.apple.com/us/app/twitter/id409789998?mt=12&quot; rel=&quot;nofollow&quot;&gt;Twitter for Mac&lt;/a&gt;",
+      "text": "envy :( RT @qmx: ....and the @jrubyconf trip starts with me bumping with robert plant &amp; co at GRU airport :) http://t.co/1qpHC97u",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 13:38:41 +0000",
+      "entities": {
+        "hashtags": [
+          {
+            "text": "win",
+            "indices": [
+              0,
+              4
+            ]
+          }
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "qmx",
+            "name": "Douglas Campos",
+            "id": 16462048,
+            "id_str": "16462048",
+            "indices": [
+              8,
+              12
+            ]
+          },
+          {
+            "screen_name": "JRubyConf",
+            "name": "JRubyConf",
+            "id": 71363379,
+            "id_str": "71363379",
+            "indices": [
+              26,
+              36
+            ]
+          }
+        ],
+        "media": [
+          {
+            "id": 204566070877622272,
+            "id_str": "204566070877622272",
+            "indices": [
+              114,
+              134
+            ],
+            "media_url": "http://p.twimg.com/AtbDwfPCEAAWLE4.jpg",
+            "media_url_https": "https://p.twimg.com/AtbDwfPCEAAWLE4.jpg",
+            "url": "http://t.co/eHHGnVTH",
+            "display_url": "pic.twitter.com/eHHGnVTH",
+            "expanded_url": "http://twitter.com/qmx/status/204566070873427968/photo/1",
+            "type": "photo",
+            "sizes": {
+              "medium": {
+                "w": 600,
+                "h": 450,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 1024,
+                "h": 768,
+                "resize": "fit"
+              },
+              "small": {
+                "w": 340,
+                "h": 255,
+                "resize": "fit"
+              },
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "orig": {
+                "w": 2048,
+                "h": 1536,
+                "resize": "fit"
+              },
+              "source_status_id": 204566070873427968,
+              "source_status_id_str": "204566070873427968"
+            }
+          }
+        ]
+      },
+      "from_user": "p_balduino",
+      "from_user_id": 202320528,
+      "from_user_id_str": "202320528",
+      "from_user_name": "Plínio Balduino",
+      "geo": null,
+      "id": 204566889073086464,
+      "id_str": "204566889073086464",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/2207188957/gustavo-moustache_normal.png",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/2207188957/gustavo-moustache_normal.png",
+      "source": "&lt;a href=&quot;https://chrome.google.com/extensions/detail/encaiiljifbdbjlphpgpiimidegddhic&quot; rel=&quot;nofollow&quot;&gt;Silver Bird&lt;/a&gt;",
+      "text": "#win RT @qmx: ....and the @JRubyConf trip starts with me bumping with robert plant &amp;amp; co at GRU airport :) http://t.co/eHHGnVTH",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 13:35:27 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "JRubyConf",
+            "name": "JRubyConf",
+            "id": 71363379,
+            "id_str": "71363379",
+            "indices": [
+              12,
+              22
+            ]
+          }
+        ],
+        "media": [
+          {
+            "id": 204566070877622272,
+            "id_str": "204566070877622272",
+            "indices": [
+              96,
+              116
+            ],
+            "media_url": "http://p.twimg.com/AtbDwfPCEAAWLE4.jpg",
+            "media_url_https": "https://p.twimg.com/AtbDwfPCEAAWLE4.jpg",
+            "url": "http://t.co/DcSxInMg",
+            "display_url": "pic.twitter.com/DcSxInMg",
+            "expanded_url": "http://twitter.com/qmx/status/204566070873427968/photo/1",
+            "type": "photo",
+            "sizes": {
+              "medium": {
+                "w": 600,
+                "h": 450,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 1024,
+                "h": 768,
+                "resize": "fit"
+              },
+              "small": {
+                "w": 340,
+                "h": 255,
+                "resize": "fit"
+              },
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "orig": {
+                "w": 2048,
+                "h": 1536,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "from_user": "qmx",
+      "from_user_id": 16462048,
+      "from_user_id_str": "16462048",
+      "from_user_name": "Douglas Campos",
+      "geo": null,
+      "id": 204566070873427968,
+      "id_str": "204566070873427968",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/1581653251/6208884340_b684989070_z_normal.jpg",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/1581653251/6208884340_b684989070_z_normal.jpg",
+      "source": "&lt;a href=&quot;http://www.echofon.com/&quot; rel=&quot;nofollow&quot;&gt;Echofon&lt;/a&gt;",
+      "text": "....and the @jrubyconf trip starts with me bumping with robert plant &amp; co at GRU airport :) http://t.co/DcSxInMg",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 13:34:55 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "JRubyConf",
+            "name": "JRubyConf",
+            "id": 71363379,
+            "id_str": "71363379",
+            "indices": [
+              54,
+              64
+            ]
+          }
+        ]
+      },
+      "from_user": "kattrali",
+      "from_user_id": 40614452,
+      "from_user_id_str": "40614452",
+      "from_user_name": "Delisa",
+      "geo": null,
+      "id": 204565939956625410,
+      "id_str": "204565939956625410",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/1252981881/Screenshot_normal.png",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/1252981881/Screenshot_normal.png",
+      "source": "&lt;a href=&quot;http://icebirdapp.com/&quot; rel=&quot;nofollow&quot;&gt;Icebird for iPhone&lt;/a&gt;",
+      "text": "What are folks not attending workshops doing today at @JRubyConf?",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 13:29:04 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "JRubyConf",
+            "name": "JRubyConf",
+            "id": 71363379,
+            "id_str": "71363379",
+            "indices": [
+              21,
+              31
+            ]
+          }
+        ]
+      },
+      "from_user": "sweetpeasoft",
+      "from_user_id": 111979816,
+      "from_user_id_str": "111979816",
+      "from_user_name": "Larry Staton Jr.",
+      "geo": null,
+      "id": 204564469794357249,
+      "id_str": "204564469794357249",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/1740580970/me-4_normal.png",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/1740580970/me-4_normal.png",
+      "source": "&lt;a href=&quot;http://twitterrific.com&quot; rel=&quot;nofollow&quot;&gt;Twitterrific for Mac&lt;/a&gt;",
+      "text": "So sad to be missing @JRubyConf. I blame myself for not planning better.",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Mon, 21 May 2012 13:26:33 +0000",
+      "entities": {
+        "hashtags": [
+          {
+            "text": "jrubyconf",
+            "indices": [
+              115,
+              125
+            ]
+          },
+          {
+            "text": "railsbridge",
+            "indices": [
+              126,
+              138
+            ]
+          }
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "JRubyConf",
+            "name": "JRubyConf",
+            "id": 71363379,
+            "id_str": "71363379",
+            "indices": [
+              0,
+              10
+            ]
+          }
+        ]
+      },
+      "from_user": "theSociableme",
+      "from_user_id": 277046526,
+      "from_user_id_str": "277046526",
+      "from_user_name": "Mark Wagner",
+      "geo": null,
+      "id": 204563836643188737,
+      "id_str": "204563836643188737",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/2160347059/474414_3480360138361_1552034345_32954835_1573579085_o_normal.jpg",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/2160347059/474414_3480360138361_1552034345_32954835_1573579085_o_normal.jpg",
+      "source": "&lt;a href=&quot;http://twitter.com/download/android&quot; rel=&quot;nofollow&quot;&gt;Twitter for Android&lt;/a&gt;",
+      "text": "@JRubyConf do you still have parking passes? Do they work for today? Where should the railsbridge ppl park today?  #jrubyconf #railsbridge",
+      "to_user": "JRubyConf",
+      "to_user_id": 71363379,
+      "to_user_id_str": "71363379",
+      "to_user_name": "JRubyConf"
+    },
+    {
+      "created_at": "Mon, 21 May 2012 13:14:09 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "JRubyConf",
+            "name": "JRubyConf",
+            "id": 71363379,
+            "id_str": "71363379",
+            "indices": [
+              23,
+              33
+            ]
+          }
+        ]
+      },
+      "from_user": "headius",
+      "from_user_id": 9989362,
+      "from_user_id_str": "9989362",
+      "from_user_name": "Charles Nutter",
+      "geo": null,
+      "id": 204560715854512129,
+      "id_str": "204560715854512129",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/409585603/charles_normal.jpg",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/409585603/charles_normal.jpg",
+      "source": "&lt;a href=&quot;http://seesmic.com/&quot; rel=&quot;nofollow&quot;&gt;Seesmic&lt;/a&gt;",
+      "text": "I'll be hanging out at @JRubyConf tutorials today to see how things are going and to work on slides for tomorrow's talk.",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    }
+  ],
+  "results_per_page": 100,
+  "since_id": 0,
+  "since_id_str": "0"
+}
