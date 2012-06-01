@@ -6,7 +6,7 @@ require 'net/http'
 require 'json'
 
 base_url = URI.parse "http://search.twitter.com/search.json"
-since_id = "206010393146032128"
+since_id = "208564557638152193"
 query = "?q=jrubyconf&result_type=recent&include_entities=1&rpp=100"
 
 1.upto(15) do |page|
