@@ -1,0 +1,1188 @@
+{
+  "completed_in": 0.125,
+  "max_id": 210460223809400833,
+  "max_id_str": "210460223809400833",
+  "page": 1,
+  "query": "jrubyconf",
+  "refresh_url": "?since_id=210460223809400833&q=jrubyconf&result_type=recent&include_entities=1",
+  "results": [
+    {
+      "created_at": "Wed, 06 Jun 2012 19:56:42 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "JRubyConf",
+            "name": "JRubyConf",
+            "id": 71363379,
+            "id_str": "71363379",
+            "indices": [
+              26,
+              36
+            ]
+          }
+        ]
+      },
+      "from_user": "carinmeier",
+      "from_user_id": 115557940,
+      "from_user_id_str": "115557940",
+      "from_user_name": "Carin Meier",
+      "geo": null,
+      "id": 210460223809400833,
+      "id_str": "210460223809400833",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/1343371142/carinAvatarMay_normal.jpg",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/1343371142/carinAvatarMay_normal.jpg",
+      "source": "&lt;a href=&quot;http://twitter.com/#!/download/iphone&quot; rel=&quot;nofollow&quot;&gt;Twitter for iPhone&lt;/a&gt;",
+      "text": "A wonderful gift box from @JRubyConf arrived to brighten my day. Thanks!",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Wed, 06 Jun 2012 04:27:06 +0000",
+      "entities": {
+        "hashtags": [
+          {
+            "text": "Ruby",
+            "indices": [
+              59,
+              64
+            ]
+          },
+          {
+            "text": "jrubyconf",
+            "indices": [
+              126,
+              136
+            ]
+          }
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "cczona",
+            "name": "Carina C. Zona",
+            "id": 39617149,
+            "id_str": "39617149",
+            "indices": [
+              3,
+              10
+            ]
+          },
+          {
+            "screen_name": "Amingee",
+            "name": "Amingee",
+            "id": 18752410,
+            "id_str": "18752410",
+            "indices": [
+              16,
+              24
+            ]
+          },
+          {
+            "screen_name": "railsbridge",
+            "name": "RailsBridge",
+            "id": 37201113,
+            "id_str": "37201113",
+            "indices": [
+              76,
+              88
+            ]
+          },
+          {
+            "screen_name": "ultrasaurus",
+            "name": "Sarah Allen",
+            "id": 13368452,
+            "id_str": "13368452",
+            "indices": [
+              137,
+              149
+            ]
+          }
+        ]
+      },
+      "from_user": "ultrasaurus",
+      "from_user_id": 13368452,
+      "from_user_id_str": "13368452",
+      "from_user_name": "Sarah Allen",
+      "geo": null,
+      "id": 210226283731369985,
+      "id_str": "210226283731369985",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/363859501/SarahAllen_normal.jpg",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/363859501/SarahAllen_normal.jpg",
+      "source": "&lt;a href=&quot;http://itunes.apple.com/us/app/twitter/id409789998?mt=12&quot; rel=&quot;nofollow&quot;&gt;Twitter for Mac&lt;/a&gt;",
+      "text": "RT @cczona: MT “@Amingee: Where ever you are check out the #Ruby community. @Railsbridge was amazing. Ruby programmers rock.” #jrubyconf @ultrasaurus",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Wed, 06 Jun 2012 04:26:08 +0000",
+      "entities": {
+        "hashtags": [
+          {
+            "text": "Ruby",
+            "indices": [
+              47,
+              52
+            ]
+          },
+          {
+            "text": "jrubyconf",
+            "indices": [
+              114,
+              124
+            ]
+          }
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "Amingee",
+            "name": "Amingee",
+            "id": 18752410,
+            "id_str": "18752410",
+            "indices": [
+              4,
+              12
+            ]
+          },
+          {
+            "screen_name": "railsbridge",
+            "name": "RailsBridge",
+            "id": 37201113,
+            "id_str": "37201113",
+            "indices": [
+              64,
+              76
+            ]
+          },
+          {
+            "screen_name": "ultrasaurus",
+            "name": "Sarah Allen",
+            "id": 13368452,
+            "id_str": "13368452",
+            "indices": [
+              125,
+              137
+            ]
+          }
+        ]
+      },
+      "from_user": "cczona",
+      "from_user_id": 39617149,
+      "from_user_id_str": "39617149",
+      "from_user_name": "Carina C. Zona",
+      "geo": null,
+      "id": 210226039635447808,
+      "id_str": "210226039635447808",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/2104733865/avatar_normal.jpg",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/2104733865/avatar_normal.jpg",
+      "source": "&lt;a href=&quot;http://itunes.apple.com/us/app/twitter/id409789998?mt=12&quot; rel=&quot;nofollow&quot;&gt;Twitter for Mac&lt;/a&gt;",
+      "text": "MT “@Amingee: Where ever you are check out the #Ruby community. @Railsbridge was amazing. Ruby programmers rock.” #jrubyconf @ultrasaurus",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Sun, 03 Jun 2012 17:00:41 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+          {
+            "url": "http://t.co/XqZ4YqrJ",
+            "expanded_url": "http://timelessrepo.com/abstraction-creep",
+            "display_url": "timelessrepo.com/abstraction-cr…",
+            "indices": [
+              90,
+              110
+            ]
+          }
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "bphogan",
+            "name": "Brian P. Hogan",
+            "id": 11374142,
+            "id_str": "11374142",
+            "indices": [
+              3,
+              11
+            ]
+          },
+          {
+            "screen_name": "ultrasaurus",
+            "name": "Sarah Allen",
+            "id": 13368452,
+            "id_str": "13368452",
+            "indices": [
+              13,
+              25
+            ]
+          }
+        ]
+      },
+      "from_user": "seancorfield",
+      "from_user_id": 808096,
+      "from_user_id_str": "808096",
+      "from_user_name": "Sean Corfield",
+      "geo": null,
+      "id": 209328767083085824,
+      "id_str": "209328767083085824",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/1639359985/conference_photo_245x245_normal.jpg",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/1639359985/conference_photo_245x245_normal.jpg",
+      "source": "&lt;a href=&quot;http://itunes.apple.com/us/app/twitter/id409789998?mt=12&quot; rel=&quot;nofollow&quot;&gt;Twitter for Mac&lt;/a&gt;",
+      "text": "RT @bphogan: @ultrasaurus Remember our convo at jrubyconf about complexity? Have you read http://t.co/XqZ4YqrJ - Sums up my feelings nicely.",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null,
+      "in_reply_to_status_id": 208390226534596608,
+      "in_reply_to_status_id_str": "208390226534596608"
+    },
+    {
+      "created_at": "Sat, 02 Jun 2012 06:50:02 +0000",
+      "entities": {
+        "hashtags": [
+          {
+            "text": "JRubyConf",
+            "indices": [
+              26,
+              36
+            ]
+          }
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "mirouhh",
+            "name": "Bjorn Jensen",
+            "id": 27831254,
+            "id_str": "27831254",
+            "indices": [
+              0,
+              8
+            ]
+          },
+          {
+            "screen_name": "torquebox",
+            "name": "TorqueBox Team",
+            "id": 39003585,
+            "id_str": "39003585",
+            "indices": [
+              55,
+              65
+            ]
+          }
+        ]
+      },
+      "from_user": "headius",
+      "from_user_id": 9989362,
+      "from_user_id_str": "9989362",
+      "from_user_name": "Charles Nutter",
+      "geo": null,
+      "id": 208812704171958273,
+      "id_str": "208812704171958273",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/409585603/charles_normal.jpg",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/409585603/charles_normal.jpg",
+      "source": "&lt;a href=&quot;http://www.nambu.com/&quot; rel=&quot;nofollow&quot;&gt;Nambu&lt;/a&gt;",
+      "text": "@mirouhh I only have some #JRubyConf beer coasters and @torquebox stickers with me this time.",
+      "to_user": "mirouhh",
+      "to_user_id": 27831254,
+      "to_user_id_str": "27831254",
+      "to_user_name": "Bjorn Jensen",
+      "in_reply_to_status_id": 208812285748195328,
+      "in_reply_to_status_id_str": "208812285748195328"
+    },
+    {
+      "created_at": "Fri, 01 Jun 2012 21:04:06 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+          {
+            "url": "http://t.co/UGGcdxIf",
+            "expanded_url": "http://bit.ly/N3TZ0e",
+            "display_url": "bit.ly/N3TZ0e",
+            "indices": [
+              43,
+              63
+            ]
+          }
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "refactr",
+            "name": "refactr",
+            "id": 14293980,
+            "id_str": "14293980",
+            "indices": [
+              3,
+              11
+            ]
+          },
+          {
+            "screen_name": "lbredeso",
+            "name": "Luke Bredeson",
+            "id": 73539107,
+            "id_str": "73539107",
+            "indices": [
+              13,
+              22
+            ]
+          },
+          {
+            "screen_name": "JRubyConf",
+            "name": "JRubyConf",
+            "id": 71363379,
+            "id_str": "71363379",
+            "indices": [
+              32,
+              42
+            ]
+          }
+        ]
+      },
+      "from_user": "SwiftAlphaOne",
+      "from_user_id": 42813580,
+      "from_user_id_str": "42813580",
+      "from_user_name": "Swift",
+      "geo": null,
+      "id": 208665245948977152,
+      "id_str": "208665245948977152",
+      "iso_language_code": "in",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/1689583844/profilepic2_normal.jpeg",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/1689583844/profilepic2_normal.jpeg",
+      "source": "&lt;a href=&quot;http://bufferapp.com&quot; rel=&quot;nofollow&quot;&gt;Buffer&lt;/a&gt;",
+      "text": "RT @refactr: @lbredeso recap of @JRubyConf http://t.co/UGGcdxIf",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Fri, 01 Jun 2012 19:44:29 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "srsmoot",
+            "name": "Sam",
+            "id": 228811555,
+            "id_str": "228811555",
+            "indices": [
+              0,
+              8
+            ]
+          },
+          {
+            "screen_name": "headius",
+            "name": "Charles Nutter",
+            "id": 9989362,
+            "id_str": "9989362",
+            "indices": [
+              9,
+              17
+            ]
+          },
+          {
+            "screen_name": "torquebox",
+            "name": "TorqueBox Team",
+            "id": 39003585,
+            "id_str": "39003585",
+            "indices": [
+              18,
+              28
+            ]
+          }
+        ]
+      },
+      "from_user": "bbrowning",
+      "from_user_id": 14614572,
+      "from_user_id_str": "14614572",
+      "from_user_name": "bbrowning",
+      "geo": null,
+      "id": 208645211302281216,
+      "id_str": "208645211302281216",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/1631316813/IMG_1958_normal.jpg",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/1631316813/IMG_1958_normal.jpg",
+      "source": "&lt;a href=&quot;http://www.tweetdeck.com&quot; rel=&quot;nofollow&quot;&gt;TweetDeck&lt;/a&gt;",
+      "text": "@srsmoot @headius @torquebox We discussed a plan to do exactly that at JRubyConf - it will take some time to get there though :)",
+      "to_user": "srsmoot",
+      "to_user_id": 228811555,
+      "to_user_id_str": "228811555",
+      "to_user_name": "Sam",
+      "in_reply_to_status_id": 208644988848979969,
+      "in_reply_to_status_id_str": "208644988848979969"
+    },
+    {
+      "created_at": "Fri, 01 Jun 2012 19:19:18 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+
+        ]
+      },
+      "from_user": "headius",
+      "from_user_id": 9989362,
+      "from_user_id_str": "9989362",
+      "from_user_name": "Charles Nutter",
+      "geo": null,
+      "id": 208638874266767360,
+      "id_str": "208638874266767360",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/409585603/charles_normal.jpg",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/409585603/charles_normal.jpg",
+      "source": "&lt;a href=&quot;http://www.nambu.com/&quot; rel=&quot;nofollow&quot;&gt;Nambu&lt;/a&gt;",
+      "text": "Apologies to anyone attempting to email me the past couple weeks. JRubyConf, JRuby 1.7, job change, Euruko have me way underwater.",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Fri, 01 Jun 2012 18:55:04 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+          {
+            "url": "http://t.co/AfJN6dIO",
+            "expanded_url": "http://bit.ly/JXInHH",
+            "display_url": "bit.ly/JXInHH",
+            "indices": [
+              43,
+              63
+            ]
+          }
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "refactr",
+            "name": "refactr",
+            "id": 14293980,
+            "id_str": "14293980",
+            "indices": [
+              3,
+              11
+            ]
+          },
+          {
+            "screen_name": "lbredeso",
+            "name": "Luke Bredeson",
+            "id": 73539107,
+            "id_str": "73539107",
+            "indices": [
+              13,
+              22
+            ]
+          },
+          {
+            "screen_name": "JRubyConf",
+            "name": "JRubyConf",
+            "id": 71363379,
+            "id_str": "71363379",
+            "indices": [
+              32,
+              42
+            ]
+          }
+        ]
+      },
+      "from_user": "baroquebobcat",
+      "from_user_id": 14247442,
+      "from_user_id_str": "14247442",
+      "from_user_name": "Nick howard",
+      "geo": null,
+      "id": 208632774687596544,
+      "id_str": "208632774687596544",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/2244313016/photobooth_normal.jpg",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/2244313016/photobooth_normal.jpg",
+      "source": "&lt;a href=&quot;http://sproutsocial.com&quot; rel=&quot;nofollow&quot;&gt;Sprout Social&lt;/a&gt;",
+      "text": "RT @refactr: @lbredeso recap of @JRubyConf http://t.co/AfJN6dIO",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Fri, 01 Jun 2012 18:29:09 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+          {
+            "url": "http://t.co/AfJN6dIO",
+            "expanded_url": "http://bit.ly/JXInHH",
+            "display_url": "bit.ly/JXInHH",
+            "indices": [
+              43,
+              63
+            ]
+          }
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "refactr",
+            "name": "refactr",
+            "id": 14293980,
+            "id_str": "14293980",
+            "indices": [
+              3,
+              11
+            ]
+          },
+          {
+            "screen_name": "lbredeso",
+            "name": "Luke Bredeson",
+            "id": 73539107,
+            "id_str": "73539107",
+            "indices": [
+              13,
+              22
+            ]
+          },
+          {
+            "screen_name": "JRubyConf",
+            "name": "JRubyConf",
+            "id": 71363379,
+            "id_str": "71363379",
+            "indices": [
+              32,
+              42
+            ]
+          }
+        ]
+      },
+      "from_user": "alttext",
+      "from_user_id": 2010871,
+      "from_user_id_str": "2010871",
+      "from_user_name": "Ben Edwards",
+      "geo": null,
+      "id": 208626251714404352,
+      "id_str": "208626251714404352",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/1167540653/ben-head-avatar-flip-w-border_normal.png",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/1167540653/ben-head-avatar-flip-w-border_normal.png",
+      "source": "&lt;a href=&quot;http://sproutsocial.com&quot; rel=&quot;nofollow&quot;&gt;Sprout Social&lt;/a&gt;",
+      "text": "RT @refactr: @lbredeso recap of @JRubyConf http://t.co/AfJN6dIO",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Fri, 01 Jun 2012 18:25:03 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+          {
+            "url": "http://t.co/AfJN6dIO",
+            "expanded_url": "http://bit.ly/JXInHH",
+            "display_url": "bit.ly/JXInHH",
+            "indices": [
+              43,
+              63
+            ]
+          }
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "refactr",
+            "name": "refactr",
+            "id": 14293980,
+            "id_str": "14293980",
+            "indices": [
+              3,
+              11
+            ]
+          },
+          {
+            "screen_name": "lbredeso",
+            "name": "Luke Bredeson",
+            "id": 73539107,
+            "id_str": "73539107",
+            "indices": [
+              13,
+              22
+            ]
+          },
+          {
+            "screen_name": "JRubyConf",
+            "name": "JRubyConf",
+            "id": 71363379,
+            "id_str": "71363379",
+            "indices": [
+              32,
+              42
+            ]
+          }
+        ]
+      },
+      "from_user": "headius",
+      "from_user_id": 9989362,
+      "from_user_id_str": "9989362",
+      "from_user_name": "Charles Nutter",
+      "geo": null,
+      "id": 208625223182991362,
+      "id_str": "208625223182991362",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/409585603/charles_normal.jpg",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/409585603/charles_normal.jpg",
+      "source": "&lt;a href=&quot;http://sproutsocial.com&quot; rel=&quot;nofollow&quot;&gt;Sprout Social&lt;/a&gt;",
+      "text": "RT @refactr: @lbredeso recap of @JRubyConf http://t.co/AfJN6dIO",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Fri, 01 Jun 2012 16:53:28 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+          {
+            "url": "http://t.co/AfJN6dIO",
+            "expanded_url": "http://bit.ly/JXInHH",
+            "display_url": "bit.ly/JXInHH",
+            "indices": [
+              43,
+              63
+            ]
+          }
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "refactr",
+            "name": "refactr",
+            "id": 14293980,
+            "id_str": "14293980",
+            "indices": [
+              3,
+              11
+            ]
+          },
+          {
+            "screen_name": "lbredeso",
+            "name": "Luke Bredeson",
+            "id": 73539107,
+            "id_str": "73539107",
+            "indices": [
+              13,
+              22
+            ]
+          },
+          {
+            "screen_name": "JRubyConf",
+            "name": "JRubyConf",
+            "id": 71363379,
+            "id_str": "71363379",
+            "indices": [
+              32,
+              42
+            ]
+          }
+        ]
+      },
+      "from_user": "nicksieger",
+      "from_user_id": 5504482,
+      "from_user_id_str": "5504482",
+      "from_user_name": "Nick Sieger [日空]",
+      "geo": null,
+      "id": 208602175314731008,
+      "id_str": "208602175314731008",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/77367265/nick-square_normal.jpg",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/77367265/nick-square_normal.jpg",
+      "source": "&lt;a href=&quot;http://sproutsocial.com&quot; rel=&quot;nofollow&quot;&gt;Sprout Social&lt;/a&gt;",
+      "text": "RT @refactr: @lbredeso recap of @JRubyConf http://t.co/AfJN6dIO",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Fri, 01 Jun 2012 16:53:13 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "refactr",
+            "name": "refactr",
+            "id": 14293980,
+            "id_str": "14293980",
+            "indices": [
+              0,
+              8
+            ]
+          },
+          {
+            "screen_name": "lbredeso",
+            "name": "Luke Bredeson",
+            "id": 73539107,
+            "id_str": "73539107",
+            "indices": [
+              9,
+              18
+            ]
+          }
+        ]
+      },
+      "from_user": "JRubyConf",
+      "from_user_id": 71363379,
+      "from_user_id_str": "71363379",
+      "from_user_name": "JRubyConf",
+      "geo": null,
+      "id": 208602109921345537,
+      "id_str": "208602109921345537",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/1769383911/conf_logo_normal.png",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/1769383911/conf_logo_normal.png",
+      "source": "&lt;a href=&quot;http://itunes.apple.com/us/app/twitter/id409789998?mt=12&quot; rel=&quot;nofollow&quot;&gt;Twitter for Mac&lt;/a&gt;",
+      "text": "@refactr @lbredeso thanks so much for the kind words!",
+      "to_user": "refactr",
+      "to_user_id": 14293980,
+      "to_user_id_str": "14293980",
+      "to_user_name": "refactr",
+      "in_reply_to_status_id": 208589977532104704,
+      "in_reply_to_status_id_str": "208589977532104704"
+    },
+    {
+      "created_at": "Fri, 01 Jun 2012 16:52:59 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+          {
+            "url": "http://t.co/AfJN6dIO",
+            "expanded_url": "http://bit.ly/JXInHH",
+            "display_url": "bit.ly/JXInHH",
+            "indices": [
+              43,
+              63
+            ]
+          }
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "refactr",
+            "name": "refactr",
+            "id": 14293980,
+            "id_str": "14293980",
+            "indices": [
+              3,
+              11
+            ]
+          },
+          {
+            "screen_name": "lbredeso",
+            "name": "Luke Bredeson",
+            "id": 73539107,
+            "id_str": "73539107",
+            "indices": [
+              13,
+              22
+            ]
+          },
+          {
+            "screen_name": "JRubyConf",
+            "name": "JRubyConf",
+            "id": 71363379,
+            "id_str": "71363379",
+            "indices": [
+              32,
+              42
+            ]
+          }
+        ]
+      },
+      "from_user": "JRubyConf",
+      "from_user_id": 71363379,
+      "from_user_id_str": "71363379",
+      "from_user_name": "JRubyConf",
+      "geo": null,
+      "id": 208602051985420288,
+      "id_str": "208602051985420288",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/1769383911/conf_logo_normal.png",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/1769383911/conf_logo_normal.png",
+      "source": "&lt;a href=&quot;http://sproutsocial.com&quot; rel=&quot;nofollow&quot;&gt;Sprout Social&lt;/a&gt;",
+      "text": "RT @refactr: @lbredeso recap of @JRubyConf http://t.co/AfJN6dIO",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Fri, 01 Jun 2012 16:10:43 +0000",
+      "entities": {
+        "hashtags": [
+          {
+            "text": "in",
+            "indices": [
+              98,
+              101
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "url": "http://t.co/HLpNs5sc",
+            "expanded_url": "http://bit.ly/JXInHH",
+            "display_url": "bit.ly/JXInHH",
+            "indices": [
+              44,
+              64
+            ]
+          }
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "refactr",
+            "name": "refactr",
+            "id": 14293980,
+            "id_str": "14293980",
+            "indices": [
+              4,
+              12
+            ]
+          },
+          {
+            "screen_name": "lbredeso",
+            "name": "Luke Bredeson",
+            "id": 73539107,
+            "id_str": "73539107",
+            "indices": [
+              14,
+              23
+            ]
+          },
+          {
+            "screen_name": "JRubyConf",
+            "name": "JRubyConf",
+            "id": 71363379,
+            "id_str": "71363379",
+            "indices": [
+              33,
+              43
+            ]
+          },
+          {
+            "screen_name": "adamlanners",
+            "name": "Adam Lanners",
+            "id": 562309498,
+            "id_str": "562309498",
+            "indices": [
+              85,
+              97
+            ]
+          }
+        ]
+      },
+      "from_user": "mattsbjornson",
+      "from_user_id": 9711712,
+      "from_user_id_str": "9711712",
+      "from_user_name": "Matt Bjornson",
+      "geo": null,
+      "id": 208591416945946626,
+      "id_str": "208591416945946626",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/1764145697/qr-matt_normal.png",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/1764145697/qr-matt_normal.png",
+      "source": "&lt;a href=&quot;http://www.tweetdeck.com&quot; rel=&quot;nofollow&quot;&gt;TweetDeck&lt;/a&gt;",
+      "text": "RT \"@refactr: @lbredeso recap of @JRubyConf http://t.co/HLpNs5sc\" Nice post Luke and @adamlanners #in",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    },
+    {
+      "created_at": "Fri, 01 Jun 2012 16:05:00 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+          {
+            "url": "http://t.co/AfJN6dIO",
+            "expanded_url": "http://bit.ly/JXInHH",
+            "display_url": "bit.ly/JXInHH",
+            "indices": [
+              30,
+              50
+            ]
+          }
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "lbredeso",
+            "name": "Luke Bredeson",
+            "id": 73539107,
+            "id_str": "73539107",
+            "indices": [
+              0,
+              9
+            ]
+          },
+          {
+            "screen_name": "JRubyConf",
+            "name": "JRubyConf",
+            "id": 71363379,
+            "id_str": "71363379",
+            "indices": [
+              19,
+              29
+            ]
+          }
+        ]
+      },
+      "from_user": "refactr",
+      "from_user_id": 14293980,
+      "from_user_id_str": "14293980",
+      "from_user_name": "refactr",
+      "geo": null,
+      "id": 208589977532104704,
+      "id_str": "208589977532104704",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/1387562486/refactr_icon_normal.png",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/1387562486/refactr_icon_normal.png",
+      "source": "&lt;a href=&quot;http://sproutsocial.com&quot; rel=&quot;nofollow&quot;&gt;Sprout Social&lt;/a&gt;",
+      "text": "@lbredeso recap of @JRubyConf http://t.co/AfJN6dIO",
+      "to_user": "lbredeso",
+      "to_user_id": 73539107,
+      "to_user_id_str": "73539107",
+      "to_user_name": "Luke Bredeson"
+    },
+    {
+      "created_at": "Fri, 01 Jun 2012 15:15:05 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "diaffalo",
+            "name": "diaffalo",
+            "id": 14517902,
+            "id_str": "14517902",
+            "indices": [
+              0,
+              9
+            ]
+          },
+          {
+            "screen_name": "JRubyConf",
+            "name": "JRubyConf",
+            "id": 71363379,
+            "id_str": "71363379",
+            "indices": [
+              10,
+              20
+            ]
+          },
+          {
+            "screen_name": "hiro_asari",
+            "name": "Hiro Asari",
+            "id": 14284130,
+            "id_str": "14284130",
+            "indices": [
+              21,
+              32
+            ]
+          }
+        ]
+      },
+      "from_user": "headius",
+      "from_user_id": 9989362,
+      "from_user_id_str": "9989362",
+      "from_user_name": "Charles Nutter",
+      "geo": null,
+      "id": 208577416338210817,
+      "id_str": "208577416338210817",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/409585603/charles_normal.jpg",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/409585603/charles_normal.jpg",
+      "source": "&lt;a href=&quot;http://seesmic.com/&quot; rel=&quot;nofollow&quot;&gt;Seesmic&lt;/a&gt;",
+      "text": "@diaffalo @JRubyConf @hiro_asari Only the best quality excretions for our minions!",
+      "to_user": "diaffalo",
+      "to_user_id": 14517902,
+      "to_user_id_str": "14517902",
+      "to_user_name": "diaffalo",
+      "in_reply_to_status_id": 208561656656179200,
+      "in_reply_to_status_id_str": "208561656656179200"
+    },
+    {
+      "created_at": "Fri, 01 Jun 2012 15:08:30 +0000",
+      "entities": {
+        "hashtags": [
+
+        ],
+        "urls": [
+          {
+            "url": "http://t.co/ixH9OBwo",
+            "expanded_url": "http://twitpic.com/9rmqjc",
+            "display_url": "twitpic.com/9rmqjc",
+            "indices": [
+              87,
+              107
+            ]
+          }
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "JRubyConf",
+            "name": "JRubyConf",
+            "id": 71363379,
+            "id_str": "71363379",
+            "indices": [
+              35,
+              45
+            ]
+          },
+          {
+            "screen_name": "nicksieger",
+            "name": "Nick Sieger [日空]",
+            "id": 5504482,
+            "id_str": "5504482",
+            "indices": [
+              46,
+              57
+            ]
+          },
+          {
+            "screen_name": "MplsFlannery",
+            "name": "Flannery Dolan",
+            "id": 411270867,
+            "id_str": "411270867",
+            "indices": [
+              63,
+              76
+            ]
+          }
+        ]
+      },
+      "from_user": "daksis",
+      "from_user_id": 5437372,
+      "from_user_id_str": "5437372",
+      "from_user_name": "Randall Thomas",
+      "geo": null,
+      "id": 208575760011771904,
+      "id_str": "208575760011771904",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/54341976/285px-Domo_kun_toy_normal.jpg",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/54341976/285px-Domo_kun_toy_normal.jpg",
+      "source": "&lt;a href=&quot;http://tapbots.com/tweetbot&quot; rel=&quot;nofollow&quot;&gt;Tweetbot for iOS&lt;/a&gt;",
+      "text": "Alertness this morning courtesy of @JRubyConf @nicksieger  and @MplsFlannery - thanks! http://t.co/ixH9OBwo",
+      "to_user": null,
+      "to_user_id": 0,
+      "to_user_id_str": "0",
+      "to_user_name": null
+    }
+  ],
+  "results_per_page": 100,
+  "since_id": 208564557638152193,
+  "since_id_str": "208564557638152193"
+}
